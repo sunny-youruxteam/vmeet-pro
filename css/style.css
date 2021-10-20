@@ -3164,9 +3164,7 @@ div#Agenda {
 
 
 /*  */
-.side_notes_sectin {
-    z-index: 99999;
-}
+
 div#userprofileModal {
     z-index: 999999999;
 }
@@ -3175,9 +3173,6 @@ div#chats_details {
     z-index: 99999999999 !important;
 }
 
-.halls_agenda {
-	z-index: 99999;
-}
    
 div#Agenda {
    z-index: 99999999;

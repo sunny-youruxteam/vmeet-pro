@@ -1,6 +1,14 @@
 <?php include("header.php") ?>
 <?php include("Header-Menu.php") ?>
     <div class="speakers_main padding_head">
+		<div class="speakers_group_popup">
+			<a href="#." data-mdb-toggle="modal" data-mdb-target="#speakers_group_popup">
+				<svg width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+					<circle cx="24" cy="24" r="24" fill="#F27B7B"/>
+					<path d="M33 18H31V27H18V29C18 29.55 18.45 30 19 30H30L34 34V19C34 18.45 33.55 18 33 18ZM29 24V15C29 14.45 28.55 14 28 14H15C14.45 14 14 14.45 14 15V29L18 25H28C28.55 25 29 24.55 29 24Z" fill="white"/>
+				</svg>
+			</a>	
+		</div>
         <div class="wrapper">
             <div class="speakers_section">
 	            <div class="speakers_top_nav pt-10 pb-30">
@@ -48,1497 +56,1651 @@
 	            		</div>
 	            	</div>
 	            </div>
-	            <div class="speakers_content_box">
-	            	<div class="tab-content" id="ex1-content">
-						<div class="tab-pane fade show active" id="ex1-tabs-1" role="tabpanel" aria-labelledby="ex1-tab-1">
-							<div class="row info_row">
-			            		<div class="col-md-6">
-			            			<div class="speakers_box">
-			            				<a href="#." class="speakers_box_inr d-flex flex-wrap" data-mdb-toggle="modal" data-mdb-target="#exampleModal">
-			            					<div class="speakers_img">
-			            						<img src="img/speakers_zone1.png" alt="">
-			            					</div>
-			            					<div class="speakers_text_box">
-			            						<div class="speakers_title d-flex justify-content-between align-items-center">
-			            							<h3>Brooklyn Simmons</h3>
-			            							<div class="arrow_icon_speakers">
-				            							<svg width="8" height="11" viewBox="0 0 8 11" fill="none" xmlns="http://www.w3.org/2000/svg">
-															<path d="M1 1L6 5.5L1 10" stroke="#DB604B" stroke-width="1.5"/>
-														</svg>
+				 <!-- Tabs navs -->
+				 <div class="speakers_group_tabbing_nav participants_tabs_box">
+					<ul class="tabs_nav_box nav nav-tabs mb-3" id="ex1-speakers" role="tablist">
+						<li class="nav-item" role="presentation">
+							<a class="nav-link active" id="ex1-tab-1-speakers" data-mdb-toggle="tab" href="#ex1-tabs-1-speakers" role="tab" aria-controls="ex1-tabs-1-speakers" aria-selected="true">Speakers</a>
+						</li>
+						<li class="nav-item" role="presentation">
+							<a class="nav-link" id="ex1-tab-2-speakers" data-mdb-toggle="tab" href="#ex1-tabs-2-speakers" role="tab" aria-controls="ex1-tabs-2-speakers" aria-selected="false">Group Chat</a>
+						</li>
+					</ul>
+				</div>
+				<!-- Tabs navs -->
+				<div class="tab-content" id="ex1-content-speakers">
+					<div class="tab-pane fade show active" id="ex1-tabs-1-speakers" role="tabpanel" aria-labelledby="ex1-tab-1-speakers" >
+						<div class="speakers_content_box">
+							<div class="tab-content" id="ex1-content">
+								<div class="tab-pane fade show active" id="ex1-tabs-1" role="tabpanel" aria-labelledby="ex1-tab-1">
+									<div class="row info_row">
+										<div class="col-md-6">
+											<div class="speakers_box">
+												<a href="#." class="speakers_box_inr d-flex flex-wrap" data-mdb-toggle="modal" data-mdb-target="#exampleModal">
+													<div class="speakers_img">
+														<img src="img/speakers_zone1.png" alt="">
 													</div>
-			            						</div>
-			            						<small>Sr. Partner Systems</small>
-			            						<small>Dell Systmes</small>
-			            						<div class="city_social_media">
-			            							<p>New York City</p>
-			            						</div>	
-			            					</div>
-			            				</a>
-			            				<div class="social_menu d-flex align-items-center">
-			            					<a href="#." class="videos_call_icon" data-mdb-toggle="modal" data-mdb-target="#exampleModal">
-			            						<svg width="19" height="19" viewBox="0 0 19 19" fill="none" xmlns="http://www.w3.org/2000/svg">
-												<g clip-path="url(#clip0)">
-												<path d="M18.6783 4.85086C18.4783 4.72716 18.2285 4.71587 18.0181 4.821L13.5714 7.04466V5.42829C13.5714 4.304 12.66 3.39258 11.5357 3.39258H2.03571C0.911419 3.39258 0 4.304 0 5.42829V13.5711C0 14.6954 0.911419 15.6069 2.03571 15.6069H11.5357C12.66 15.6069 13.5714 14.6954 13.5714 13.5711V11.9548L18.0181 14.1819C18.3533 14.3494 18.7609 14.2134 18.9284 13.8782C18.9761 13.7829 19.0006 13.6777 19 13.5711V5.42829C19.0001 5.19307 18.8784 4.97459 18.6783 4.85086ZM12.2143 13.5711C12.2143 13.9459 11.9105 14.2497 11.5357 14.2497H2.03571C1.66093 14.2497 1.35713 13.9459 1.35713 13.5711V5.42829C1.35713 5.05351 1.66093 4.74971 2.03571 4.74971H11.5357C11.9105 4.74971 12.2143 5.05351 12.2143 5.42829V13.5711ZM17.6428 12.4732L13.5714 10.4375V8.56198L17.6428 6.52626V12.4732V12.4732Z" fill="#E9724D"/>
-												<path d="M6.78583 6.78516C5.28676 6.78516 4.07153 8.00038 4.07153 9.49945C4.07153 10.9985 5.28676 12.2137 6.78583 12.2137C8.2849 12.2137 9.50013 10.9985 9.50013 9.49945C9.50013 8.00038 8.28486 6.78516 6.78583 6.78516ZM6.78583 10.8566C6.03631 10.8566 5.4287 10.249 5.4287 9.49945C5.4287 8.74994 6.03631 8.14232 6.78583 8.14232C7.53535 8.14232 8.14296 8.74994 8.14296 9.49945C8.14296 10.249 7.53535 10.8566 6.78583 10.8566Z" fill="#E9724D"/>
-												</g>
-												<defs>
-												<clipPath id="clip0">
-												<rect width="19" height="19" fill="white"/>
-												</clipPath>
-												</defs>
-												</svg>
-
-			            					</a>
-			            					<a href="#." class="chat_icon" data-mdb-toggle="modal" data-mdb-target="#exampleModal">
-			            						<svg width="15" height="15" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg">
-													<path d="M7.5 0C3.35495 0 0 3.35438 0 7.5C0 8.8155 0.343094 10.1003 0.994606 11.2335L0.0282669 14.2344C-0.0391388 14.4436 0.0162506 14.6729 0.171661 14.8283C0.325584 14.9823 0.554352 15.0397 0.76561 14.9717L3.76648 14.0054C4.89967 14.6569 6.1845 15 7.5 15C11.6451 15 15 11.6456 15 7.5C15 3.35495 11.6456 0 7.5 0ZM7.5 13.8281C6.31176 13.8281 5.1535 13.4966 4.15043 12.8693C4.00612 12.7792 3.8269 12.7548 3.66016 12.8085L1.49391 13.5061L2.19154 11.3398C2.24442 11.1755 2.2221 10.9961 2.13055 10.8496C1.50341 9.8465 1.17188 8.68824 1.17188 7.5C1.17188 4.0107 4.0107 1.17188 7.5 1.17188C10.9893 1.17188 13.8281 4.0107 13.8281 7.5C13.8281 10.9893 10.9893 13.8281 7.5 13.8281ZM8.23242 7.5C8.23242 7.90443 7.90455 8.23242 7.5 8.23242C7.09545 8.23242 6.76758 7.90443 6.76758 7.5C6.76758 7.09545 7.09545 6.76758 7.5 6.76758C7.90455 6.76758 8.23242 7.09545 8.23242 7.5ZM11.1621 7.5C11.1621 7.90443 10.8342 8.23242 10.4297 8.23242C10.0251 8.23242 9.69727 7.90443 9.69727 7.5C9.69727 7.09545 10.0251 6.76758 10.4297 6.76758C10.8342 6.76758 11.1621 7.09545 11.1621 7.5ZM5.30273 7.5C5.30273 7.90443 4.97486 8.23242 4.57031 8.23242C4.16588 8.23242 3.83789 7.90443 3.83789 7.5C3.83789 7.09545 4.16588 6.76758 4.57031 6.76758C4.97486 6.76758 5.30273 7.09545 5.30273 7.5Z" fill="#E9724D"/>
-												</svg>
-			            					</a>
-			            					<div class="dropdown">
-												<button class="dropdown-toggle" type="button" id="dropdownMenuButton" data-mdb-toggle="dropdown" aria-expanded="false"> 
-													<svg width="18" height="13" viewBox="0 0 18 13" fill="none" xmlns="http://www.w3.org/2000/svg">
-														<path d="M16.0312 0.3125H1.96875C0.883195 0.3125 0 1.1957 0 2.28125V10.7188C0 11.8043 0.883195 12.6875 1.96875 12.6875H16.0312C17.1168 12.6875 18 11.8043 18 10.7188V2.28125C18 1.1957 17.1168 0.3125 16.0312 0.3125ZM1.96875 1.4375H16.0312C16.4965 1.4375 16.875 1.81603 16.875 2.28125V3.40625H1.125V2.28125C1.125 1.81603 1.50353 1.4375 1.96875 1.4375ZM16.0312 11.5625H1.96875C1.50353 11.5625 1.125 11.184 1.125 10.7188V4.53125H16.875V10.7188C16.875 11.184 16.4965 11.5625 16.0312 11.5625Z" fill="#E9724D"/>
-														<path d="M3.9375 9.875H3.375C3.06436 9.875 2.8125 9.62314 2.8125 9.3125V8.75C2.8125 8.43936 3.06436 8.1875 3.375 8.1875H3.9375C4.24814 8.1875 4.5 8.43936 4.5 8.75V9.3125C4.5 9.62314 4.24814 9.875 3.9375 9.875Z" fill="#E9724D"/>
-													</svg>
-												</button>
-												<ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-												    <li><a class="dropdown-item" href="#">Pick</a></li>
-												    <li><a class="dropdown-item" href="#">Drop</a></li>
-												</ul>
-											</div>
-			            				</div>
-			            			</div>
-			            		</div>
-			            		<div class="col-md-6">
-			            			<div class="speakers_box">
-			            				<a href="#." class="speakers_box_inr d-flex flex-wrap" data-mdb-toggle="modal" data-mdb-target="#exampleModal">
-			            					<div class="speakers_img">
-			            						<img src="img/speakers_zone2.jpg" alt="">
-			            					</div>
-			            					<div class="speakers_text_box">
-			            						<div class="speakers_title d-flex justify-content-between align-items-center">
-			            							<h3>Brooklyn Simmons</h3>
-			            							<div class="arrow_icon_speakers">
-				            							<svg width="8" height="11" viewBox="0 0 8 11" fill="none" xmlns="http://www.w3.org/2000/svg">
-															<path d="M1 1L6 5.5L1 10" stroke="#DB604B" stroke-width="1.5"/>
-														</svg>
-													</div>
-			            						</div>
-			            						<small>Sr. Partner Systems</small>
-			            						<small>Dell Systmes</small>
-			            						<div class="city_social_media">
-			            							<p>New York City</p>
-			            						</div>	
-			            					</div>
-			            				</a>
-			            				<div class="social_menu d-flex align-items-center">
-			            					<a href="#." class="videos_call_icon" data-mdb-toggle="modal" data-mdb-target="#exampleModal">
-			            						<svg width="19" height="19" viewBox="0 0 19 19" fill="none" xmlns="http://www.w3.org/2000/svg">
-												<g clip-path="url(#clip0)">
-												<path d="M18.6783 4.85086C18.4783 4.72716 18.2285 4.71587 18.0181 4.821L13.5714 7.04466V5.42829C13.5714 4.304 12.66 3.39258 11.5357 3.39258H2.03571C0.911419 3.39258 0 4.304 0 5.42829V13.5711C0 14.6954 0.911419 15.6069 2.03571 15.6069H11.5357C12.66 15.6069 13.5714 14.6954 13.5714 13.5711V11.9548L18.0181 14.1819C18.3533 14.3494 18.7609 14.2134 18.9284 13.8782C18.9761 13.7829 19.0006 13.6777 19 13.5711V5.42829C19.0001 5.19307 18.8784 4.97459 18.6783 4.85086ZM12.2143 13.5711C12.2143 13.9459 11.9105 14.2497 11.5357 14.2497H2.03571C1.66093 14.2497 1.35713 13.9459 1.35713 13.5711V5.42829C1.35713 5.05351 1.66093 4.74971 2.03571 4.74971H11.5357C11.9105 4.74971 12.2143 5.05351 12.2143 5.42829V13.5711ZM17.6428 12.4732L13.5714 10.4375V8.56198L17.6428 6.52626V12.4732V12.4732Z" fill="#E9724D"/>
-												<path d="M6.78583 6.78516C5.28676 6.78516 4.07153 8.00038 4.07153 9.49945C4.07153 10.9985 5.28676 12.2137 6.78583 12.2137C8.2849 12.2137 9.50013 10.9985 9.50013 9.49945C9.50013 8.00038 8.28486 6.78516 6.78583 6.78516ZM6.78583 10.8566C6.03631 10.8566 5.4287 10.249 5.4287 9.49945C5.4287 8.74994 6.03631 8.14232 6.78583 8.14232C7.53535 8.14232 8.14296 8.74994 8.14296 9.49945C8.14296 10.249 7.53535 10.8566 6.78583 10.8566Z" fill="#E9724D"/>
-												</g>
-												<defs>
-												<clipPath id="clip0">
-												<rect width="19" height="19" fill="white"/>
-												</clipPath>
-												</defs>
-												</svg>
-
-			            					</a>
-			            					<a href="#." class="chat_icon" data-mdb-toggle="modal" data-mdb-target="#exampleModal">
-			            						<svg width="15" height="15" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg">
-													<path d="M7.5 0C3.35495 0 0 3.35438 0 7.5C0 8.8155 0.343094 10.1003 0.994606 11.2335L0.0282669 14.2344C-0.0391388 14.4436 0.0162506 14.6729 0.171661 14.8283C0.325584 14.9823 0.554352 15.0397 0.76561 14.9717L3.76648 14.0054C4.89967 14.6569 6.1845 15 7.5 15C11.6451 15 15 11.6456 15 7.5C15 3.35495 11.6456 0 7.5 0ZM7.5 13.8281C6.31176 13.8281 5.1535 13.4966 4.15043 12.8693C4.00612 12.7792 3.8269 12.7548 3.66016 12.8085L1.49391 13.5061L2.19154 11.3398C2.24442 11.1755 2.2221 10.9961 2.13055 10.8496C1.50341 9.8465 1.17188 8.68824 1.17188 7.5C1.17188 4.0107 4.0107 1.17188 7.5 1.17188C10.9893 1.17188 13.8281 4.0107 13.8281 7.5C13.8281 10.9893 10.9893 13.8281 7.5 13.8281ZM8.23242 7.5C8.23242 7.90443 7.90455 8.23242 7.5 8.23242C7.09545 8.23242 6.76758 7.90443 6.76758 7.5C6.76758 7.09545 7.09545 6.76758 7.5 6.76758C7.90455 6.76758 8.23242 7.09545 8.23242 7.5ZM11.1621 7.5C11.1621 7.90443 10.8342 8.23242 10.4297 8.23242C10.0251 8.23242 9.69727 7.90443 9.69727 7.5C9.69727 7.09545 10.0251 6.76758 10.4297 6.76758C10.8342 6.76758 11.1621 7.09545 11.1621 7.5ZM5.30273 7.5C5.30273 7.90443 4.97486 8.23242 4.57031 8.23242C4.16588 8.23242 3.83789 7.90443 3.83789 7.5C3.83789 7.09545 4.16588 6.76758 4.57031 6.76758C4.97486 6.76758 5.30273 7.09545 5.30273 7.5Z" fill="#E9724D"/>
-												</svg>
-			            					</a>
-			            					<div class="dropdown">
-												<button class="dropdown-toggle" type="button" id="dropdownMenuButton" data-mdb-toggle="dropdown" aria-expanded="false"> 
-													<svg width="18" height="13" viewBox="0 0 18 13" fill="none" xmlns="http://www.w3.org/2000/svg">
-														<path d="M16.0312 0.3125H1.96875C0.883195 0.3125 0 1.1957 0 2.28125V10.7188C0 11.8043 0.883195 12.6875 1.96875 12.6875H16.0312C17.1168 12.6875 18 11.8043 18 10.7188V2.28125C18 1.1957 17.1168 0.3125 16.0312 0.3125ZM1.96875 1.4375H16.0312C16.4965 1.4375 16.875 1.81603 16.875 2.28125V3.40625H1.125V2.28125C1.125 1.81603 1.50353 1.4375 1.96875 1.4375ZM16.0312 11.5625H1.96875C1.50353 11.5625 1.125 11.184 1.125 10.7188V4.53125H16.875V10.7188C16.875 11.184 16.4965 11.5625 16.0312 11.5625Z" fill="#E9724D"/>
-														<path d="M3.9375 9.875H3.375C3.06436 9.875 2.8125 9.62314 2.8125 9.3125V8.75C2.8125 8.43936 3.06436 8.1875 3.375 8.1875H3.9375C4.24814 8.1875 4.5 8.43936 4.5 8.75V9.3125C4.5 9.62314 4.24814 9.875 3.9375 9.875Z" fill="#E9724D"/>
-													</svg>
-												</button>
-												<ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-												    <li>
-												    	<a class="dropdown-item" href="#">
-												    		<div class="OpeNnotificationTextBox">
-															<svg width="77" height="76" viewBox="0 0 77 76" fill="none" xmlns="http://www.w3.org/2000/svg">
-																<circle opacity="0.3" cx="23.7501" cy="33.751" r="10.0147" stroke="#2DCA73"/>
-																<circle opacity="0.1" cx="23.75" cy="33.75" r="13.25" stroke="#2DCA73"/>
-																<g filter="url(#filter0_d)">
-																<circle cx="23.75" cy="33.7505" r="8.49265" fill="#2DCA73"/>
-																</g>
-																<path d="M19.5037 34.1618L22.0661 36.783L27.9963 30.7168" stroke="white" stroke-width="2" stroke-linecap="round"/>
-																<defs>
-																<filter id="filter0_d" x="-28.7427" y="-18.7422" width="104.985" height="104.985" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
-																<feFlood flood-opacity="0" result="BackgroundImageFix"/>
-																<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"/>
-																<feOffset/>
-																<feGaussianBlur stdDeviation="22"/>
-																<feColorMatrix type="matrix" values="0 0 0 0 0.720729 0 0 0 0 0.925 0 0 0 0 0.863719 0 0 0 1 0"/>
-																<feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow"/>
-																<feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow" result="shape"/>
-																</filter>
-																</defs>
-															</svg>
-															<span>
-																You Picked <br>the Card
-															</span>
+													<div class="speakers_text_box">
+														<div class="speakers_title d-flex justify-content-between align-items-center">
+															<h3>Brooklyn Simmons</h3>
+															<div class="arrow_icon_speakers">
+																<svg width="8" height="11" viewBox="0 0 8 11" fill="none" xmlns="http://www.w3.org/2000/svg">
+																	<path d="M1 1L6 5.5L1 10" stroke="#DB604B" stroke-width="1.5"/>
+																</svg>
+															</div>
 														</div>
-												    	</a>
-													</li>
-												</ul>
-											</div>
-			            				</div>
-			            			</div>
-			            		</div>
-			            		<div class="col-md-6">
-			            			<div class="speakers_box">
-			            				<a href="#." class="speakers_box_inr d-flex flex-wrap" data-mdb-toggle="modal" data-mdb-target="#exampleModal">
-			            					<div class="speakers_img">
-			            						<img src="img/speakers_zone3.png" alt="">
-			            					</div>
-			            					<div class="speakers_text_box">
-			            						<div class="speakers_title d-flex justify-content-between align-items-center">
-			            							<h3>Brooklyn Simmons</h3>
-			            							<div class="arrow_icon_speakers">
-				            							<svg width="8" height="11" viewBox="0 0 8 11" fill="none" xmlns="http://www.w3.org/2000/svg">
-															<path d="M1 1L6 5.5L1 10" stroke="#DB604B" stroke-width="1.5"/>
-														</svg>
+														<small>Sr. Partner Systems</small>
+														<small>Dell Systmes</small>
+														<div class="city_social_media">
+															<p>New York City</p>
+														</div>	
 													</div>
-			            						</div>
-			            						<small>Sr. Partner Systems</small>
-			            						<small>Dell Systmes</small>
-			            						<div class="city_social_media">
-			            							<p>New York City</p>
-			            						</div>	
-			            					</div>
-			            				</a>
-			            				<div class="social_menu d-flex align-items-center">
-			            					<a href="#." class="videos_call_icon" data-mdb-toggle="modal" data-mdb-target="#exampleModal">
-			            						<svg width="19" height="19" viewBox="0 0 19 19" fill="none" xmlns="http://www.w3.org/2000/svg">
-												<g clip-path="url(#clip0)">
-												<path d="M18.6783 4.85086C18.4783 4.72716 18.2285 4.71587 18.0181 4.821L13.5714 7.04466V5.42829C13.5714 4.304 12.66 3.39258 11.5357 3.39258H2.03571C0.911419 3.39258 0 4.304 0 5.42829V13.5711C0 14.6954 0.911419 15.6069 2.03571 15.6069H11.5357C12.66 15.6069 13.5714 14.6954 13.5714 13.5711V11.9548L18.0181 14.1819C18.3533 14.3494 18.7609 14.2134 18.9284 13.8782C18.9761 13.7829 19.0006 13.6777 19 13.5711V5.42829C19.0001 5.19307 18.8784 4.97459 18.6783 4.85086ZM12.2143 13.5711C12.2143 13.9459 11.9105 14.2497 11.5357 14.2497H2.03571C1.66093 14.2497 1.35713 13.9459 1.35713 13.5711V5.42829C1.35713 5.05351 1.66093 4.74971 2.03571 4.74971H11.5357C11.9105 4.74971 12.2143 5.05351 12.2143 5.42829V13.5711ZM17.6428 12.4732L13.5714 10.4375V8.56198L17.6428 6.52626V12.4732V12.4732Z" fill="#E9724D"/>
-												<path d="M6.78583 6.78516C5.28676 6.78516 4.07153 8.00038 4.07153 9.49945C4.07153 10.9985 5.28676 12.2137 6.78583 12.2137C8.2849 12.2137 9.50013 10.9985 9.50013 9.49945C9.50013 8.00038 8.28486 6.78516 6.78583 6.78516ZM6.78583 10.8566C6.03631 10.8566 5.4287 10.249 5.4287 9.49945C5.4287 8.74994 6.03631 8.14232 6.78583 8.14232C7.53535 8.14232 8.14296 8.74994 8.14296 9.49945C8.14296 10.249 7.53535 10.8566 6.78583 10.8566Z" fill="#E9724D"/>
-												</g>
-												<defs>
-												<clipPath id="clip0">
-												<rect width="19" height="19" fill="white"/>
-												</clipPath>
-												</defs>
-												</svg>
-
-			            					</a>
-			            					<a href="#." class="chat_icon" data-mdb-toggle="modal" data-mdb-target="#exampleModal">
-			            						<svg width="15" height="15" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg">
-													<path d="M7.5 0C3.35495 0 0 3.35438 0 7.5C0 8.8155 0.343094 10.1003 0.994606 11.2335L0.0282669 14.2344C-0.0391388 14.4436 0.0162506 14.6729 0.171661 14.8283C0.325584 14.9823 0.554352 15.0397 0.76561 14.9717L3.76648 14.0054C4.89967 14.6569 6.1845 15 7.5 15C11.6451 15 15 11.6456 15 7.5C15 3.35495 11.6456 0 7.5 0ZM7.5 13.8281C6.31176 13.8281 5.1535 13.4966 4.15043 12.8693C4.00612 12.7792 3.8269 12.7548 3.66016 12.8085L1.49391 13.5061L2.19154 11.3398C2.24442 11.1755 2.2221 10.9961 2.13055 10.8496C1.50341 9.8465 1.17188 8.68824 1.17188 7.5C1.17188 4.0107 4.0107 1.17188 7.5 1.17188C10.9893 1.17188 13.8281 4.0107 13.8281 7.5C13.8281 10.9893 10.9893 13.8281 7.5 13.8281ZM8.23242 7.5C8.23242 7.90443 7.90455 8.23242 7.5 8.23242C7.09545 8.23242 6.76758 7.90443 6.76758 7.5C6.76758 7.09545 7.09545 6.76758 7.5 6.76758C7.90455 6.76758 8.23242 7.09545 8.23242 7.5ZM11.1621 7.5C11.1621 7.90443 10.8342 8.23242 10.4297 8.23242C10.0251 8.23242 9.69727 7.90443 9.69727 7.5C9.69727 7.09545 10.0251 6.76758 10.4297 6.76758C10.8342 6.76758 11.1621 7.09545 11.1621 7.5ZM5.30273 7.5C5.30273 7.90443 4.97486 8.23242 4.57031 8.23242C4.16588 8.23242 3.83789 7.90443 3.83789 7.5C3.83789 7.09545 4.16588 6.76758 4.57031 6.76758C4.97486 6.76758 5.30273 7.09545 5.30273 7.5Z" fill="#E9724D"/>
-												</svg>
-			            					</a>
-			            					<div class="dropdown">
-												<button class="dropdown-toggle" type="button" id="dropdownMenuButton" data-mdb-toggle="dropdown" aria-expanded="false"> 
-													<svg width="18" height="13" viewBox="0 0 18 13" fill="none" xmlns="http://www.w3.org/2000/svg">
-														<path d="M16.0312 0.3125H1.96875C0.883195 0.3125 0 1.1957 0 2.28125V10.7188C0 11.8043 0.883195 12.6875 1.96875 12.6875H16.0312C17.1168 12.6875 18 11.8043 18 10.7188V2.28125C18 1.1957 17.1168 0.3125 16.0312 0.3125ZM1.96875 1.4375H16.0312C16.4965 1.4375 16.875 1.81603 16.875 2.28125V3.40625H1.125V2.28125C1.125 1.81603 1.50353 1.4375 1.96875 1.4375ZM16.0312 11.5625H1.96875C1.50353 11.5625 1.125 11.184 1.125 10.7188V4.53125H16.875V10.7188C16.875 11.184 16.4965 11.5625 16.0312 11.5625Z" fill="#E9724D"/>
-														<path d="M3.9375 9.875H3.375C3.06436 9.875 2.8125 9.62314 2.8125 9.3125V8.75C2.8125 8.43936 3.06436 8.1875 3.375 8.1875H3.9375C4.24814 8.1875 4.5 8.43936 4.5 8.75V9.3125C4.5 9.62314 4.24814 9.875 3.9375 9.875Z" fill="#E9724D"/>
-													</svg>
-												</button>
-												<ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-												    <li><a class="dropdown-item" href="#">Pick</a></li>
-												    <li><a class="dropdown-item" href="#">Drop</a></li>
-												</ul>
-											</div>
-			            				</div>
-			            			</div>
-			            		</div>
-			            		<div class="col-md-6">
-			            			<div class="speakers_box">
-			            				<a href="#." class="speakers_box_inr d-flex flex-wrap" data-mdb-toggle="modal" data-mdb-target="#exampleModal">
-			            					<div class="speakers_img">
-			            						<img src="img/speakers_zone4.png" alt="">
-			            					</div>
-			            					<div class="speakers_text_box">
-			            						<div class="speakers_title d-flex justify-content-between align-items-center">
-			            							<h3>Brooklyn Simmons</h3>
-			            							<div class="arrow_icon_speakers">
-				            							<svg width="8" height="11" viewBox="0 0 8 11" fill="none" xmlns="http://www.w3.org/2000/svg">
-															<path d="M1 1L6 5.5L1 10" stroke="#DB604B" stroke-width="1.5"/>
+												</a>
+												<div class="social_menu d-flex align-items-center">
+													<a href="#." class="videos_call_icon" data-mdb-toggle="modal" data-mdb-target="#exampleModal">
+														<svg width="19" height="19" viewBox="0 0 19 19" fill="none" xmlns="http://www.w3.org/2000/svg">
+														<g clip-path="url(#clip0)">
+														<path d="M18.6783 4.85086C18.4783 4.72716 18.2285 4.71587 18.0181 4.821L13.5714 7.04466V5.42829C13.5714 4.304 12.66 3.39258 11.5357 3.39258H2.03571C0.911419 3.39258 0 4.304 0 5.42829V13.5711C0 14.6954 0.911419 15.6069 2.03571 15.6069H11.5357C12.66 15.6069 13.5714 14.6954 13.5714 13.5711V11.9548L18.0181 14.1819C18.3533 14.3494 18.7609 14.2134 18.9284 13.8782C18.9761 13.7829 19.0006 13.6777 19 13.5711V5.42829C19.0001 5.19307 18.8784 4.97459 18.6783 4.85086ZM12.2143 13.5711C12.2143 13.9459 11.9105 14.2497 11.5357 14.2497H2.03571C1.66093 14.2497 1.35713 13.9459 1.35713 13.5711V5.42829C1.35713 5.05351 1.66093 4.74971 2.03571 4.74971H11.5357C11.9105 4.74971 12.2143 5.05351 12.2143 5.42829V13.5711ZM17.6428 12.4732L13.5714 10.4375V8.56198L17.6428 6.52626V12.4732V12.4732Z" fill="#E9724D"/>
+														<path d="M6.78583 6.78516C5.28676 6.78516 4.07153 8.00038 4.07153 9.49945C4.07153 10.9985 5.28676 12.2137 6.78583 12.2137C8.2849 12.2137 9.50013 10.9985 9.50013 9.49945C9.50013 8.00038 8.28486 6.78516 6.78583 6.78516ZM6.78583 10.8566C6.03631 10.8566 5.4287 10.249 5.4287 9.49945C5.4287 8.74994 6.03631 8.14232 6.78583 8.14232C7.53535 8.14232 8.14296 8.74994 8.14296 9.49945C8.14296 10.249 7.53535 10.8566 6.78583 10.8566Z" fill="#E9724D"/>
+														</g>
+														<defs>
+														<clipPath id="clip0">
+														<rect width="19" height="19" fill="white"/>
+														</clipPath>
+														</defs>
 														</svg>
-													</div>
-			            						</div>
-			            						<small>Sr. Partner Systems</small>
-			            						<small>Dell Systmes</small>
-			            						<div class="city_social_media">
-			            							<p>New York City</p>
-			            						</div>	
-			            					</div>
-			            				</a>
-			            				<div class="social_menu d-flex align-items-center">
-			            					<a href="#." class="videos_call_icon" data-mdb-toggle="modal" data-mdb-target="#exampleModal">
-			            						<svg width="19" height="19" viewBox="0 0 19 19" fill="none" xmlns="http://www.w3.org/2000/svg">
-												<g clip-path="url(#clip0)">
-												<path d="M18.6783 4.85086C18.4783 4.72716 18.2285 4.71587 18.0181 4.821L13.5714 7.04466V5.42829C13.5714 4.304 12.66 3.39258 11.5357 3.39258H2.03571C0.911419 3.39258 0 4.304 0 5.42829V13.5711C0 14.6954 0.911419 15.6069 2.03571 15.6069H11.5357C12.66 15.6069 13.5714 14.6954 13.5714 13.5711V11.9548L18.0181 14.1819C18.3533 14.3494 18.7609 14.2134 18.9284 13.8782C18.9761 13.7829 19.0006 13.6777 19 13.5711V5.42829C19.0001 5.19307 18.8784 4.97459 18.6783 4.85086ZM12.2143 13.5711C12.2143 13.9459 11.9105 14.2497 11.5357 14.2497H2.03571C1.66093 14.2497 1.35713 13.9459 1.35713 13.5711V5.42829C1.35713 5.05351 1.66093 4.74971 2.03571 4.74971H11.5357C11.9105 4.74971 12.2143 5.05351 12.2143 5.42829V13.5711ZM17.6428 12.4732L13.5714 10.4375V8.56198L17.6428 6.52626V12.4732V12.4732Z" fill="#E9724D"/>
-												<path d="M6.78583 6.78516C5.28676 6.78516 4.07153 8.00038 4.07153 9.49945C4.07153 10.9985 5.28676 12.2137 6.78583 12.2137C8.2849 12.2137 9.50013 10.9985 9.50013 9.49945C9.50013 8.00038 8.28486 6.78516 6.78583 6.78516ZM6.78583 10.8566C6.03631 10.8566 5.4287 10.249 5.4287 9.49945C5.4287 8.74994 6.03631 8.14232 6.78583 8.14232C7.53535 8.14232 8.14296 8.74994 8.14296 9.49945C8.14296 10.249 7.53535 10.8566 6.78583 10.8566Z" fill="#E9724D"/>
-												</g>
-												<defs>
-												<clipPath id="clip0">
-												<rect width="19" height="19" fill="white"/>
-												</clipPath>
-												</defs>
-												</svg>
 
-			            					</a>
-			            					<a href="#." class="chat_icon" data-mdb-toggle="modal" data-mdb-target="#exampleModal">
-			            						<svg width="15" height="15" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg">
-													<path d="M7.5 0C3.35495 0 0 3.35438 0 7.5C0 8.8155 0.343094 10.1003 0.994606 11.2335L0.0282669 14.2344C-0.0391388 14.4436 0.0162506 14.6729 0.171661 14.8283C0.325584 14.9823 0.554352 15.0397 0.76561 14.9717L3.76648 14.0054C4.89967 14.6569 6.1845 15 7.5 15C11.6451 15 15 11.6456 15 7.5C15 3.35495 11.6456 0 7.5 0ZM7.5 13.8281C6.31176 13.8281 5.1535 13.4966 4.15043 12.8693C4.00612 12.7792 3.8269 12.7548 3.66016 12.8085L1.49391 13.5061L2.19154 11.3398C2.24442 11.1755 2.2221 10.9961 2.13055 10.8496C1.50341 9.8465 1.17188 8.68824 1.17188 7.5C1.17188 4.0107 4.0107 1.17188 7.5 1.17188C10.9893 1.17188 13.8281 4.0107 13.8281 7.5C13.8281 10.9893 10.9893 13.8281 7.5 13.8281ZM8.23242 7.5C8.23242 7.90443 7.90455 8.23242 7.5 8.23242C7.09545 8.23242 6.76758 7.90443 6.76758 7.5C6.76758 7.09545 7.09545 6.76758 7.5 6.76758C7.90455 6.76758 8.23242 7.09545 8.23242 7.5ZM11.1621 7.5C11.1621 7.90443 10.8342 8.23242 10.4297 8.23242C10.0251 8.23242 9.69727 7.90443 9.69727 7.5C9.69727 7.09545 10.0251 6.76758 10.4297 6.76758C10.8342 6.76758 11.1621 7.09545 11.1621 7.5ZM5.30273 7.5C5.30273 7.90443 4.97486 8.23242 4.57031 8.23242C4.16588 8.23242 3.83789 7.90443 3.83789 7.5C3.83789 7.09545 4.16588 6.76758 4.57031 6.76758C4.97486 6.76758 5.30273 7.09545 5.30273 7.5Z" fill="#E9724D"/>
-												</svg>
-			            					</a>
-			            					<div class="dropdown">
-												<button class="dropdown-toggle" type="button" id="dropdownMenuButton" data-mdb-toggle="dropdown" aria-expanded="false"> 
-													<svg width="18" height="13" viewBox="0 0 18 13" fill="none" xmlns="http://www.w3.org/2000/svg">
-														<path d="M16.0312 0.3125H1.96875C0.883195 0.3125 0 1.1957 0 2.28125V10.7188C0 11.8043 0.883195 12.6875 1.96875 12.6875H16.0312C17.1168 12.6875 18 11.8043 18 10.7188V2.28125C18 1.1957 17.1168 0.3125 16.0312 0.3125ZM1.96875 1.4375H16.0312C16.4965 1.4375 16.875 1.81603 16.875 2.28125V3.40625H1.125V2.28125C1.125 1.81603 1.50353 1.4375 1.96875 1.4375ZM16.0312 11.5625H1.96875C1.50353 11.5625 1.125 11.184 1.125 10.7188V4.53125H16.875V10.7188C16.875 11.184 16.4965 11.5625 16.0312 11.5625Z" fill="#E9724D"/>
-														<path d="M3.9375 9.875H3.375C3.06436 9.875 2.8125 9.62314 2.8125 9.3125V8.75C2.8125 8.43936 3.06436 8.1875 3.375 8.1875H3.9375C4.24814 8.1875 4.5 8.43936 4.5 8.75V9.3125C4.5 9.62314 4.24814 9.875 3.9375 9.875Z" fill="#E9724D"/>
-													</svg>
-												</button>
-												<ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-												    <li><a class="dropdown-item" href="#">Pick</a></li>
-												    <li><a class="dropdown-item" href="#">Drop</a></li>
-												</ul>
-											</div>
-			            				</div>
-			            			</div>
-			            		</div>
-			            		<div class="col-md-6">
-			            			<div class="speakers_box">
-			            				<a href="#." class="speakers_box_inr d-flex flex-wrap" data-mdb-toggle="modal" data-mdb-target="#exampleModal">
-			            					<div class="speakers_img">
-			            						<img src="img/speakers_zone5.png" alt="">
-			            					</div>
-			            					<div class="speakers_text_box">
-			            						<div class="speakers_title d-flex justify-content-between align-items-center">
-			            							<h3>Brooklyn Simmons</h3>
-			            							<div class="arrow_icon_speakers">
-				            							<svg width="8" height="11" viewBox="0 0 8 11" fill="none" xmlns="http://www.w3.org/2000/svg">
-															<path d="M1 1L6 5.5L1 10" stroke="#DB604B" stroke-width="1.5"/>
+													</a>
+													<a href="#." class="chat_icon" data-mdb-toggle="modal" data-mdb-target="#exampleModal">
+														<svg width="15" height="15" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+															<path d="M7.5 0C3.35495 0 0 3.35438 0 7.5C0 8.8155 0.343094 10.1003 0.994606 11.2335L0.0282669 14.2344C-0.0391388 14.4436 0.0162506 14.6729 0.171661 14.8283C0.325584 14.9823 0.554352 15.0397 0.76561 14.9717L3.76648 14.0054C4.89967 14.6569 6.1845 15 7.5 15C11.6451 15 15 11.6456 15 7.5C15 3.35495 11.6456 0 7.5 0ZM7.5 13.8281C6.31176 13.8281 5.1535 13.4966 4.15043 12.8693C4.00612 12.7792 3.8269 12.7548 3.66016 12.8085L1.49391 13.5061L2.19154 11.3398C2.24442 11.1755 2.2221 10.9961 2.13055 10.8496C1.50341 9.8465 1.17188 8.68824 1.17188 7.5C1.17188 4.0107 4.0107 1.17188 7.5 1.17188C10.9893 1.17188 13.8281 4.0107 13.8281 7.5C13.8281 10.9893 10.9893 13.8281 7.5 13.8281ZM8.23242 7.5C8.23242 7.90443 7.90455 8.23242 7.5 8.23242C7.09545 8.23242 6.76758 7.90443 6.76758 7.5C6.76758 7.09545 7.09545 6.76758 7.5 6.76758C7.90455 6.76758 8.23242 7.09545 8.23242 7.5ZM11.1621 7.5C11.1621 7.90443 10.8342 8.23242 10.4297 8.23242C10.0251 8.23242 9.69727 7.90443 9.69727 7.5C9.69727 7.09545 10.0251 6.76758 10.4297 6.76758C10.8342 6.76758 11.1621 7.09545 11.1621 7.5ZM5.30273 7.5C5.30273 7.90443 4.97486 8.23242 4.57031 8.23242C4.16588 8.23242 3.83789 7.90443 3.83789 7.5C3.83789 7.09545 4.16588 6.76758 4.57031 6.76758C4.97486 6.76758 5.30273 7.09545 5.30273 7.5Z" fill="#E9724D"/>
 														</svg>
-													</div>
-			            						</div>
-			            						<small>Sr. Partner Systems</small>
-			            						<small>Dell Systmes</small>
-			            						<div class="city_social_media">
-			            							<p>New York City</p>
-			            						</div>	
-			            					</div>
-			            				</a>
-			            				<div class="social_menu d-flex align-items-center">
-			            					<a href="#." class="videos_call_icon" data-mdb-toggle="modal" data-mdb-target="#exampleModal">
-			            						<svg width="19" height="19" viewBox="0 0 19 19" fill="none" xmlns="http://www.w3.org/2000/svg">
-												<g clip-path="url(#clip0)">
-												<path d="M18.6783 4.85086C18.4783 4.72716 18.2285 4.71587 18.0181 4.821L13.5714 7.04466V5.42829C13.5714 4.304 12.66 3.39258 11.5357 3.39258H2.03571C0.911419 3.39258 0 4.304 0 5.42829V13.5711C0 14.6954 0.911419 15.6069 2.03571 15.6069H11.5357C12.66 15.6069 13.5714 14.6954 13.5714 13.5711V11.9548L18.0181 14.1819C18.3533 14.3494 18.7609 14.2134 18.9284 13.8782C18.9761 13.7829 19.0006 13.6777 19 13.5711V5.42829C19.0001 5.19307 18.8784 4.97459 18.6783 4.85086ZM12.2143 13.5711C12.2143 13.9459 11.9105 14.2497 11.5357 14.2497H2.03571C1.66093 14.2497 1.35713 13.9459 1.35713 13.5711V5.42829C1.35713 5.05351 1.66093 4.74971 2.03571 4.74971H11.5357C11.9105 4.74971 12.2143 5.05351 12.2143 5.42829V13.5711ZM17.6428 12.4732L13.5714 10.4375V8.56198L17.6428 6.52626V12.4732V12.4732Z" fill="#E9724D"/>
-												<path d="M6.78583 6.78516C5.28676 6.78516 4.07153 8.00038 4.07153 9.49945C4.07153 10.9985 5.28676 12.2137 6.78583 12.2137C8.2849 12.2137 9.50013 10.9985 9.50013 9.49945C9.50013 8.00038 8.28486 6.78516 6.78583 6.78516ZM6.78583 10.8566C6.03631 10.8566 5.4287 10.249 5.4287 9.49945C5.4287 8.74994 6.03631 8.14232 6.78583 8.14232C7.53535 8.14232 8.14296 8.74994 8.14296 9.49945C8.14296 10.249 7.53535 10.8566 6.78583 10.8566Z" fill="#E9724D"/>
-												</g>
-												<defs>
-												<clipPath id="clip0">
-												<rect width="19" height="19" fill="white"/>
-												</clipPath>
-												</defs>
-												</svg>
-
-			            					</a>
-			            					<a href="#." class="chat_icon" data-mdb-toggle="modal" data-mdb-target="#exampleModal">
-			            						<svg width="15" height="15" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg">
-													<path d="M7.5 0C3.35495 0 0 3.35438 0 7.5C0 8.8155 0.343094 10.1003 0.994606 11.2335L0.0282669 14.2344C-0.0391388 14.4436 0.0162506 14.6729 0.171661 14.8283C0.325584 14.9823 0.554352 15.0397 0.76561 14.9717L3.76648 14.0054C4.89967 14.6569 6.1845 15 7.5 15C11.6451 15 15 11.6456 15 7.5C15 3.35495 11.6456 0 7.5 0ZM7.5 13.8281C6.31176 13.8281 5.1535 13.4966 4.15043 12.8693C4.00612 12.7792 3.8269 12.7548 3.66016 12.8085L1.49391 13.5061L2.19154 11.3398C2.24442 11.1755 2.2221 10.9961 2.13055 10.8496C1.50341 9.8465 1.17188 8.68824 1.17188 7.5C1.17188 4.0107 4.0107 1.17188 7.5 1.17188C10.9893 1.17188 13.8281 4.0107 13.8281 7.5C13.8281 10.9893 10.9893 13.8281 7.5 13.8281ZM8.23242 7.5C8.23242 7.90443 7.90455 8.23242 7.5 8.23242C7.09545 8.23242 6.76758 7.90443 6.76758 7.5C6.76758 7.09545 7.09545 6.76758 7.5 6.76758C7.90455 6.76758 8.23242 7.09545 8.23242 7.5ZM11.1621 7.5C11.1621 7.90443 10.8342 8.23242 10.4297 8.23242C10.0251 8.23242 9.69727 7.90443 9.69727 7.5C9.69727 7.09545 10.0251 6.76758 10.4297 6.76758C10.8342 6.76758 11.1621 7.09545 11.1621 7.5ZM5.30273 7.5C5.30273 7.90443 4.97486 8.23242 4.57031 8.23242C4.16588 8.23242 3.83789 7.90443 3.83789 7.5C3.83789 7.09545 4.16588 6.76758 4.57031 6.76758C4.97486 6.76758 5.30273 7.09545 5.30273 7.5Z" fill="#E9724D"/>
-												</svg>
-			            					</a>
-			            					<div class="dropdown">
-												<button class="dropdown-toggle" type="button" id="dropdownMenuButton" data-mdb-toggle="dropdown" aria-expanded="false"> 
-													<svg width="18" height="13" viewBox="0 0 18 13" fill="none" xmlns="http://www.w3.org/2000/svg">
-														<path d="M16.0312 0.3125H1.96875C0.883195 0.3125 0 1.1957 0 2.28125V10.7188C0 11.8043 0.883195 12.6875 1.96875 12.6875H16.0312C17.1168 12.6875 18 11.8043 18 10.7188V2.28125C18 1.1957 17.1168 0.3125 16.0312 0.3125ZM1.96875 1.4375H16.0312C16.4965 1.4375 16.875 1.81603 16.875 2.28125V3.40625H1.125V2.28125C1.125 1.81603 1.50353 1.4375 1.96875 1.4375ZM16.0312 11.5625H1.96875C1.50353 11.5625 1.125 11.184 1.125 10.7188V4.53125H16.875V10.7188C16.875 11.184 16.4965 11.5625 16.0312 11.5625Z" fill="#E9724D"/>
-														<path d="M3.9375 9.875H3.375C3.06436 9.875 2.8125 9.62314 2.8125 9.3125V8.75C2.8125 8.43936 3.06436 8.1875 3.375 8.1875H3.9375C4.24814 8.1875 4.5 8.43936 4.5 8.75V9.3125C4.5 9.62314 4.24814 9.875 3.9375 9.875Z" fill="#E9724D"/>
-													</svg>
-												</button>
-												<ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-												    <li><a class="dropdown-item" href="#">Pick</a></li>
-												    <li><a class="dropdown-item" href="#">Drop</a></li>
-												</ul>
-											</div>
-			            				</div>
-			            			</div>
-			            		</div>
-			            		<div class="col-md-6">
-			            			<div class="speakers_box">
-			            				<a href="#." class="speakers_box_inr d-flex flex-wrap" data-mdb-toggle="modal" data-mdb-target="#exampleModal">
-			            					<div class="speakers_img">
-			            						<img src="img/speakers_zone6.png" alt="">
-			            					</div>
-			            					<div class="speakers_text_box">
-			            						<div class="speakers_title d-flex justify-content-between align-items-center">
-			            							<h3>Brooklyn Simmons</h3>
-			            							<div class="arrow_icon_speakers">
-				            							<svg width="8" height="11" viewBox="0 0 8 11" fill="none" xmlns="http://www.w3.org/2000/svg">
-															<path d="M1 1L6 5.5L1 10" stroke="#DB604B" stroke-width="1.5"/>
-														</svg>
-													</div>
-			            						</div>
-			            						<small>Sr. Partner Systems</small>
-			            						<small>Dell Systmes</small>
-			            						<div class="city_social_media">
-			            							<p>New York City</p>
-			            						</div>	
-			            					</div>
-			            				</a>
-			            				<div class="social_menu d-flex align-items-center">
-			            					<a href="#." class="videos_call_icon" data-mdb-toggle="modal" data-mdb-target="#exampleModal">
-			            						<svg width="19" height="19" viewBox="0 0 19 19" fill="none" xmlns="http://www.w3.org/2000/svg">
-												<g clip-path="url(#clip0)">
-												<path d="M18.6783 4.85086C18.4783 4.72716 18.2285 4.71587 18.0181 4.821L13.5714 7.04466V5.42829C13.5714 4.304 12.66 3.39258 11.5357 3.39258H2.03571C0.911419 3.39258 0 4.304 0 5.42829V13.5711C0 14.6954 0.911419 15.6069 2.03571 15.6069H11.5357C12.66 15.6069 13.5714 14.6954 13.5714 13.5711V11.9548L18.0181 14.1819C18.3533 14.3494 18.7609 14.2134 18.9284 13.8782C18.9761 13.7829 19.0006 13.6777 19 13.5711V5.42829C19.0001 5.19307 18.8784 4.97459 18.6783 4.85086ZM12.2143 13.5711C12.2143 13.9459 11.9105 14.2497 11.5357 14.2497H2.03571C1.66093 14.2497 1.35713 13.9459 1.35713 13.5711V5.42829C1.35713 5.05351 1.66093 4.74971 2.03571 4.74971H11.5357C11.9105 4.74971 12.2143 5.05351 12.2143 5.42829V13.5711ZM17.6428 12.4732L13.5714 10.4375V8.56198L17.6428 6.52626V12.4732V12.4732Z" fill="#E9724D"/>
-												<path d="M6.78583 6.78516C5.28676 6.78516 4.07153 8.00038 4.07153 9.49945C4.07153 10.9985 5.28676 12.2137 6.78583 12.2137C8.2849 12.2137 9.50013 10.9985 9.50013 9.49945C9.50013 8.00038 8.28486 6.78516 6.78583 6.78516ZM6.78583 10.8566C6.03631 10.8566 5.4287 10.249 5.4287 9.49945C5.4287 8.74994 6.03631 8.14232 6.78583 8.14232C7.53535 8.14232 8.14296 8.74994 8.14296 9.49945C8.14296 10.249 7.53535 10.8566 6.78583 10.8566Z" fill="#E9724D"/>
-												</g>
-												<defs>
-												<clipPath id="clip0">
-												<rect width="19" height="19" fill="white"/>
-												</clipPath>
-												</defs>
-												</svg>
-
-			            					</a>
-			            					<a href="#." class="chat_icon" data-mdb-toggle="modal" data-mdb-target="#exampleModal">
-			            						<svg width="15" height="15" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg">
-													<path d="M7.5 0C3.35495 0 0 3.35438 0 7.5C0 8.8155 0.343094 10.1003 0.994606 11.2335L0.0282669 14.2344C-0.0391388 14.4436 0.0162506 14.6729 0.171661 14.8283C0.325584 14.9823 0.554352 15.0397 0.76561 14.9717L3.76648 14.0054C4.89967 14.6569 6.1845 15 7.5 15C11.6451 15 15 11.6456 15 7.5C15 3.35495 11.6456 0 7.5 0ZM7.5 13.8281C6.31176 13.8281 5.1535 13.4966 4.15043 12.8693C4.00612 12.7792 3.8269 12.7548 3.66016 12.8085L1.49391 13.5061L2.19154 11.3398C2.24442 11.1755 2.2221 10.9961 2.13055 10.8496C1.50341 9.8465 1.17188 8.68824 1.17188 7.5C1.17188 4.0107 4.0107 1.17188 7.5 1.17188C10.9893 1.17188 13.8281 4.0107 13.8281 7.5C13.8281 10.9893 10.9893 13.8281 7.5 13.8281ZM8.23242 7.5C8.23242 7.90443 7.90455 8.23242 7.5 8.23242C7.09545 8.23242 6.76758 7.90443 6.76758 7.5C6.76758 7.09545 7.09545 6.76758 7.5 6.76758C7.90455 6.76758 8.23242 7.09545 8.23242 7.5ZM11.1621 7.5C11.1621 7.90443 10.8342 8.23242 10.4297 8.23242C10.0251 8.23242 9.69727 7.90443 9.69727 7.5C9.69727 7.09545 10.0251 6.76758 10.4297 6.76758C10.8342 6.76758 11.1621 7.09545 11.1621 7.5ZM5.30273 7.5C5.30273 7.90443 4.97486 8.23242 4.57031 8.23242C4.16588 8.23242 3.83789 7.90443 3.83789 7.5C3.83789 7.09545 4.16588 6.76758 4.57031 6.76758C4.97486 6.76758 5.30273 7.09545 5.30273 7.5Z" fill="#E9724D"/>
-												</svg>
-			            					</a>
-			            					<div class="dropdown">
-												<button class="dropdown-toggle" type="button" id="dropdownMenuButton" data-mdb-toggle="dropdown" aria-expanded="false"> 
-													<svg width="18" height="13" viewBox="0 0 18 13" fill="none" xmlns="http://www.w3.org/2000/svg">
-														<path d="M16.0312 0.3125H1.96875C0.883195 0.3125 0 1.1957 0 2.28125V10.7188C0 11.8043 0.883195 12.6875 1.96875 12.6875H16.0312C17.1168 12.6875 18 11.8043 18 10.7188V2.28125C18 1.1957 17.1168 0.3125 16.0312 0.3125ZM1.96875 1.4375H16.0312C16.4965 1.4375 16.875 1.81603 16.875 2.28125V3.40625H1.125V2.28125C1.125 1.81603 1.50353 1.4375 1.96875 1.4375ZM16.0312 11.5625H1.96875C1.50353 11.5625 1.125 11.184 1.125 10.7188V4.53125H16.875V10.7188C16.875 11.184 16.4965 11.5625 16.0312 11.5625Z" fill="#E9724D"/>
-														<path d="M3.9375 9.875H3.375C3.06436 9.875 2.8125 9.62314 2.8125 9.3125V8.75C2.8125 8.43936 3.06436 8.1875 3.375 8.1875H3.9375C4.24814 8.1875 4.5 8.43936 4.5 8.75V9.3125C4.5 9.62314 4.24814 9.875 3.9375 9.875Z" fill="#E9724D"/>
-													</svg>
-												</button>
-												<ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-												    <li><a class="dropdown-item" href="#">Pick</a></li>
-												    <li><a class="dropdown-item" href="#">Drop</a></li>
-												</ul>
-											</div>
-			            				</div>
-			            			</div>
-			            		</div>
-			            		<div class="col-md-6">
-			            			<div class="speakers_box">
-			            				<a href="#." class="speakers_box_inr d-flex flex-wrap" data-mdb-toggle="modal" data-mdb-target="#exampleModal">
-			            					<div class="speakers_img">
-			            						<img src="img/speakers_zone1.png" alt="">
-			            					</div>
-			            					<div class="speakers_text_box">
-			            						<div class="speakers_title d-flex justify-content-between align-items-center">
-			            							<h3>Brooklyn Simmons</h3>
-			            							<div class="arrow_icon_speakers">
-				            							<svg width="8" height="11" viewBox="0 0 8 11" fill="none" xmlns="http://www.w3.org/2000/svg">
-															<path d="M1 1L6 5.5L1 10" stroke="#DB604B" stroke-width="1.5"/>
-														</svg>
-													</div>
-			            						</div>
-			            						<small>Sr. Partner Systems</small>
-			            						<small>Dell Systmes</small>
-			            						<div class="city_social_media">
-			            							<p>New York City</p>
-			            						</div>	
-			            					</div>
-			            				</a>
-			            				<div class="social_menu d-flex align-items-center">
-			            					<a href="#." class="videos_call_icon" data-mdb-toggle="modal" data-mdb-target="#exampleModal">
-			            						<svg width="19" height="19" viewBox="0 0 19 19" fill="none" xmlns="http://www.w3.org/2000/svg">
-												<g clip-path="url(#clip0)">
-												<path d="M18.6783 4.85086C18.4783 4.72716 18.2285 4.71587 18.0181 4.821L13.5714 7.04466V5.42829C13.5714 4.304 12.66 3.39258 11.5357 3.39258H2.03571C0.911419 3.39258 0 4.304 0 5.42829V13.5711C0 14.6954 0.911419 15.6069 2.03571 15.6069H11.5357C12.66 15.6069 13.5714 14.6954 13.5714 13.5711V11.9548L18.0181 14.1819C18.3533 14.3494 18.7609 14.2134 18.9284 13.8782C18.9761 13.7829 19.0006 13.6777 19 13.5711V5.42829C19.0001 5.19307 18.8784 4.97459 18.6783 4.85086ZM12.2143 13.5711C12.2143 13.9459 11.9105 14.2497 11.5357 14.2497H2.03571C1.66093 14.2497 1.35713 13.9459 1.35713 13.5711V5.42829C1.35713 5.05351 1.66093 4.74971 2.03571 4.74971H11.5357C11.9105 4.74971 12.2143 5.05351 12.2143 5.42829V13.5711ZM17.6428 12.4732L13.5714 10.4375V8.56198L17.6428 6.52626V12.4732V12.4732Z" fill="#E9724D"/>
-												<path d="M6.78583 6.78516C5.28676 6.78516 4.07153 8.00038 4.07153 9.49945C4.07153 10.9985 5.28676 12.2137 6.78583 12.2137C8.2849 12.2137 9.50013 10.9985 9.50013 9.49945C9.50013 8.00038 8.28486 6.78516 6.78583 6.78516ZM6.78583 10.8566C6.03631 10.8566 5.4287 10.249 5.4287 9.49945C5.4287 8.74994 6.03631 8.14232 6.78583 8.14232C7.53535 8.14232 8.14296 8.74994 8.14296 9.49945C8.14296 10.249 7.53535 10.8566 6.78583 10.8566Z" fill="#E9724D"/>
-												</g>
-												<defs>
-												<clipPath id="clip0">
-												<rect width="19" height="19" fill="white"/>
-												</clipPath>
-												</defs>
-												</svg>
-
-			            					</a>
-			            					<a href="#." class="chat_icon" data-mdb-toggle="modal" data-mdb-target="#exampleModal">
-			            						<svg width="15" height="15" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg">
-													<path d="M7.5 0C3.35495 0 0 3.35438 0 7.5C0 8.8155 0.343094 10.1003 0.994606 11.2335L0.0282669 14.2344C-0.0391388 14.4436 0.0162506 14.6729 0.171661 14.8283C0.325584 14.9823 0.554352 15.0397 0.76561 14.9717L3.76648 14.0054C4.89967 14.6569 6.1845 15 7.5 15C11.6451 15 15 11.6456 15 7.5C15 3.35495 11.6456 0 7.5 0ZM7.5 13.8281C6.31176 13.8281 5.1535 13.4966 4.15043 12.8693C4.00612 12.7792 3.8269 12.7548 3.66016 12.8085L1.49391 13.5061L2.19154 11.3398C2.24442 11.1755 2.2221 10.9961 2.13055 10.8496C1.50341 9.8465 1.17188 8.68824 1.17188 7.5C1.17188 4.0107 4.0107 1.17188 7.5 1.17188C10.9893 1.17188 13.8281 4.0107 13.8281 7.5C13.8281 10.9893 10.9893 13.8281 7.5 13.8281ZM8.23242 7.5C8.23242 7.90443 7.90455 8.23242 7.5 8.23242C7.09545 8.23242 6.76758 7.90443 6.76758 7.5C6.76758 7.09545 7.09545 6.76758 7.5 6.76758C7.90455 6.76758 8.23242 7.09545 8.23242 7.5ZM11.1621 7.5C11.1621 7.90443 10.8342 8.23242 10.4297 8.23242C10.0251 8.23242 9.69727 7.90443 9.69727 7.5C9.69727 7.09545 10.0251 6.76758 10.4297 6.76758C10.8342 6.76758 11.1621 7.09545 11.1621 7.5ZM5.30273 7.5C5.30273 7.90443 4.97486 8.23242 4.57031 8.23242C4.16588 8.23242 3.83789 7.90443 3.83789 7.5C3.83789 7.09545 4.16588 6.76758 4.57031 6.76758C4.97486 6.76758 5.30273 7.09545 5.30273 7.5Z" fill="#E9724D"/>
-												</svg>
-			            					</a>
-			            					<div class="dropdown">
-												<button class="dropdown-toggle" type="button" id="dropdownMenuButton" data-mdb-toggle="dropdown" aria-expanded="false"> 
-													<svg width="18" height="13" viewBox="0 0 18 13" fill="none" xmlns="http://www.w3.org/2000/svg">
-														<path d="M16.0312 0.3125H1.96875C0.883195 0.3125 0 1.1957 0 2.28125V10.7188C0 11.8043 0.883195 12.6875 1.96875 12.6875H16.0312C17.1168 12.6875 18 11.8043 18 10.7188V2.28125C18 1.1957 17.1168 0.3125 16.0312 0.3125ZM1.96875 1.4375H16.0312C16.4965 1.4375 16.875 1.81603 16.875 2.28125V3.40625H1.125V2.28125C1.125 1.81603 1.50353 1.4375 1.96875 1.4375ZM16.0312 11.5625H1.96875C1.50353 11.5625 1.125 11.184 1.125 10.7188V4.53125H16.875V10.7188C16.875 11.184 16.4965 11.5625 16.0312 11.5625Z" fill="#E9724D"/>
-														<path d="M3.9375 9.875H3.375C3.06436 9.875 2.8125 9.62314 2.8125 9.3125V8.75C2.8125 8.43936 3.06436 8.1875 3.375 8.1875H3.9375C4.24814 8.1875 4.5 8.43936 4.5 8.75V9.3125C4.5 9.62314 4.24814 9.875 3.9375 9.875Z" fill="#E9724D"/>
-													</svg>
-												</button>
-												<ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-												    <li><a class="dropdown-item" href="#">Pick</a></li>
-												    <li><a class="dropdown-item" href="#">Drop</a></li>
-												</ul>
-											</div>
-			            				</div>
-			            			</div>
-			            		</div>
-			            		<div class="col-md-6">
-			            			<div class="speakers_box">
-			            				<a href="#." class="speakers_box_inr d-flex flex-wrap" data-mdb-toggle="modal" data-mdb-target="#exampleModal">
-			            					<div class="speakers_img">
-			            						<img src="img/speakers_zone2.jpg" alt="">
-			            					</div>
-			            					<div class="speakers_text_box">
-			            						<div class="speakers_title d-flex justify-content-between align-items-center">
-			            							<h3>Brooklyn Simmons</h3>
-			            							<div class="arrow_icon_speakers">
-				            							<svg width="8" height="11" viewBox="0 0 8 11" fill="none" xmlns="http://www.w3.org/2000/svg">
-															<path d="M1 1L6 5.5L1 10" stroke="#DB604B" stroke-width="1.5"/>
-														</svg>
-													</div>
-			            						</div>
-			            						<small>Sr. Partner Systems</small>
-			            						<small>Dell Systmes</small>
-			            						<div class="city_social_media">
-			            							<p>New York City</p>
-			            						</div>	
-			            					</div>
-			            				</a>
-			            				<div class="social_menu d-flex align-items-center">
-			            					<a href="#." class="videos_call_icon" data-mdb-toggle="modal" data-mdb-target="#exampleModal">
-			            						<svg width="19" height="19" viewBox="0 0 19 19" fill="none" xmlns="http://www.w3.org/2000/svg">
-												<g clip-path="url(#clip0)">
-												<path d="M18.6783 4.85086C18.4783 4.72716 18.2285 4.71587 18.0181 4.821L13.5714 7.04466V5.42829C13.5714 4.304 12.66 3.39258 11.5357 3.39258H2.03571C0.911419 3.39258 0 4.304 0 5.42829V13.5711C0 14.6954 0.911419 15.6069 2.03571 15.6069H11.5357C12.66 15.6069 13.5714 14.6954 13.5714 13.5711V11.9548L18.0181 14.1819C18.3533 14.3494 18.7609 14.2134 18.9284 13.8782C18.9761 13.7829 19.0006 13.6777 19 13.5711V5.42829C19.0001 5.19307 18.8784 4.97459 18.6783 4.85086ZM12.2143 13.5711C12.2143 13.9459 11.9105 14.2497 11.5357 14.2497H2.03571C1.66093 14.2497 1.35713 13.9459 1.35713 13.5711V5.42829C1.35713 5.05351 1.66093 4.74971 2.03571 4.74971H11.5357C11.9105 4.74971 12.2143 5.05351 12.2143 5.42829V13.5711ZM17.6428 12.4732L13.5714 10.4375V8.56198L17.6428 6.52626V12.4732V12.4732Z" fill="#E9724D"/>
-												<path d="M6.78583 6.78516C5.28676 6.78516 4.07153 8.00038 4.07153 9.49945C4.07153 10.9985 5.28676 12.2137 6.78583 12.2137C8.2849 12.2137 9.50013 10.9985 9.50013 9.49945C9.50013 8.00038 8.28486 6.78516 6.78583 6.78516ZM6.78583 10.8566C6.03631 10.8566 5.4287 10.249 5.4287 9.49945C5.4287 8.74994 6.03631 8.14232 6.78583 8.14232C7.53535 8.14232 8.14296 8.74994 8.14296 9.49945C8.14296 10.249 7.53535 10.8566 6.78583 10.8566Z" fill="#E9724D"/>
-												</g>
-												<defs>
-												<clipPath id="clip0">
-												<rect width="19" height="19" fill="white"/>
-												</clipPath>
-												</defs>
-												</svg>
-
-			            					</a>
-			            					<a href="#." class="chat_icon" data-mdb-toggle="modal" data-mdb-target="#exampleModal">
-			            						<svg width="15" height="15" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg">
-													<path d="M7.5 0C3.35495 0 0 3.35438 0 7.5C0 8.8155 0.343094 10.1003 0.994606 11.2335L0.0282669 14.2344C-0.0391388 14.4436 0.0162506 14.6729 0.171661 14.8283C0.325584 14.9823 0.554352 15.0397 0.76561 14.9717L3.76648 14.0054C4.89967 14.6569 6.1845 15 7.5 15C11.6451 15 15 11.6456 15 7.5C15 3.35495 11.6456 0 7.5 0ZM7.5 13.8281C6.31176 13.8281 5.1535 13.4966 4.15043 12.8693C4.00612 12.7792 3.8269 12.7548 3.66016 12.8085L1.49391 13.5061L2.19154 11.3398C2.24442 11.1755 2.2221 10.9961 2.13055 10.8496C1.50341 9.8465 1.17188 8.68824 1.17188 7.5C1.17188 4.0107 4.0107 1.17188 7.5 1.17188C10.9893 1.17188 13.8281 4.0107 13.8281 7.5C13.8281 10.9893 10.9893 13.8281 7.5 13.8281ZM8.23242 7.5C8.23242 7.90443 7.90455 8.23242 7.5 8.23242C7.09545 8.23242 6.76758 7.90443 6.76758 7.5C6.76758 7.09545 7.09545 6.76758 7.5 6.76758C7.90455 6.76758 8.23242 7.09545 8.23242 7.5ZM11.1621 7.5C11.1621 7.90443 10.8342 8.23242 10.4297 8.23242C10.0251 8.23242 9.69727 7.90443 9.69727 7.5C9.69727 7.09545 10.0251 6.76758 10.4297 6.76758C10.8342 6.76758 11.1621 7.09545 11.1621 7.5ZM5.30273 7.5C5.30273 7.90443 4.97486 8.23242 4.57031 8.23242C4.16588 8.23242 3.83789 7.90443 3.83789 7.5C3.83789 7.09545 4.16588 6.76758 4.57031 6.76758C4.97486 6.76758 5.30273 7.09545 5.30273 7.5Z" fill="#E9724D"/>
-												</svg>
-			            					</a>
-			            					<div class="dropdown">
-												<button class="dropdown-toggle" type="button" id="dropdownMenuButton" data-mdb-toggle="dropdown" aria-expanded="false"> 
-													<svg width="18" height="13" viewBox="0 0 18 13" fill="none" xmlns="http://www.w3.org/2000/svg">
-														<path d="M16.0312 0.3125H1.96875C0.883195 0.3125 0 1.1957 0 2.28125V10.7188C0 11.8043 0.883195 12.6875 1.96875 12.6875H16.0312C17.1168 12.6875 18 11.8043 18 10.7188V2.28125C18 1.1957 17.1168 0.3125 16.0312 0.3125ZM1.96875 1.4375H16.0312C16.4965 1.4375 16.875 1.81603 16.875 2.28125V3.40625H1.125V2.28125C1.125 1.81603 1.50353 1.4375 1.96875 1.4375ZM16.0312 11.5625H1.96875C1.50353 11.5625 1.125 11.184 1.125 10.7188V4.53125H16.875V10.7188C16.875 11.184 16.4965 11.5625 16.0312 11.5625Z" fill="#E9724D"/>
-														<path d="M3.9375 9.875H3.375C3.06436 9.875 2.8125 9.62314 2.8125 9.3125V8.75C2.8125 8.43936 3.06436 8.1875 3.375 8.1875H3.9375C4.24814 8.1875 4.5 8.43936 4.5 8.75V9.3125C4.5 9.62314 4.24814 9.875 3.9375 9.875Z" fill="#E9724D"/>
-													</svg>
-												</button>
-												<ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-												    <li>
-												    	<a class="dropdown-item" href="#">
-												    		<div class="OpeNnotificationTextBox">
-															<svg width="77" height="76" viewBox="0 0 77 76" fill="none" xmlns="http://www.w3.org/2000/svg">
-																<circle opacity="0.3" cx="23.7501" cy="33.751" r="10.0147" stroke="#2DCA73"/>
-																<circle opacity="0.1" cx="23.75" cy="33.75" r="13.25" stroke="#2DCA73"/>
-																<g filter="url(#filter0_d)">
-																<circle cx="23.75" cy="33.7505" r="8.49265" fill="#2DCA73"/>
-																</g>
-																<path d="M19.5037 34.1618L22.0661 36.783L27.9963 30.7168" stroke="white" stroke-width="2" stroke-linecap="round"/>
-																<defs>
-																<filter id="filter0_d" x="-28.7427" y="-18.7422" width="104.985" height="104.985" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
-																<feFlood flood-opacity="0" result="BackgroundImageFix"/>
-																<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"/>
-																<feOffset/>
-																<feGaussianBlur stdDeviation="22"/>
-																<feColorMatrix type="matrix" values="0 0 0 0 0.720729 0 0 0 0 0.925 0 0 0 0 0.863719 0 0 0 1 0"/>
-																<feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow"/>
-																<feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow" result="shape"/>
-																</filter>
-																</defs>
+													</a>
+													<div class="dropdown">
+														<button class="dropdown-toggle" type="button" id="dropdownMenuButton" data-mdb-toggle="dropdown" aria-expanded="false"> 
+															<svg width="18" height="13" viewBox="0 0 18 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+																<path d="M16.0312 0.3125H1.96875C0.883195 0.3125 0 1.1957 0 2.28125V10.7188C0 11.8043 0.883195 12.6875 1.96875 12.6875H16.0312C17.1168 12.6875 18 11.8043 18 10.7188V2.28125C18 1.1957 17.1168 0.3125 16.0312 0.3125ZM1.96875 1.4375H16.0312C16.4965 1.4375 16.875 1.81603 16.875 2.28125V3.40625H1.125V2.28125C1.125 1.81603 1.50353 1.4375 1.96875 1.4375ZM16.0312 11.5625H1.96875C1.50353 11.5625 1.125 11.184 1.125 10.7188V4.53125H16.875V10.7188C16.875 11.184 16.4965 11.5625 16.0312 11.5625Z" fill="#E9724D"/>
+																<path d="M3.9375 9.875H3.375C3.06436 9.875 2.8125 9.62314 2.8125 9.3125V8.75C2.8125 8.43936 3.06436 8.1875 3.375 8.1875H3.9375C4.24814 8.1875 4.5 8.43936 4.5 8.75V9.3125C4.5 9.62314 4.24814 9.875 3.9375 9.875Z" fill="#E9724D"/>
 															</svg>
-															<span>
-																You Picked <br>the Card
-															</span>
-														</div>
-												    	</a>
-													</li>
-												</ul>
-											</div>
-			            				</div>
-			            			</div>
-			            		</div>
-			            	</div>	
-						</div>
-						<div class="tab-pane fade" id="ex1-tabs-2" role="tabpanel" aria-labelledby="ex1-tab-2">
-							<div class="row info_row">
-			            		<div class="col-md-6">
-			            			<div class="speakers_box">
-			            				<a href="#." class="speakers_box_inr d-flex flex-wrap" data-mdb-toggle="modal" data-mdb-target="#exampleModal">
-			            					<div class="speakers_img">
-			            						<img src="img/speakers_zone1.png" alt="">
-			            					</div>
-			            					<div class="speakers_text_box">
-			            						<div class="speakers_title d-flex justify-content-between align-items-center">
-			            							<h3>Brooklyn Simmons</h3>
-			            							<div class="arrow_icon_speakers">
-				            							<svg width="8" height="11" viewBox="0 0 8 11" fill="none" xmlns="http://www.w3.org/2000/svg">
-															<path d="M1 1L6 5.5L1 10" stroke="#DB604B" stroke-width="1.5"/>
-														</svg>
+														</button>
+														<ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+															<li><a class="dropdown-item" href="#">Pick</a></li>
+															<li><a class="dropdown-item" href="#">Drop</a></li>
+														</ul>
 													</div>
-			            						</div>
-			            						<small>Sr. Partner Systems</small>
-			            						<small>Dell Systmes</small>
-			            						<div class="city_social_media">
-			            							<p>New York City</p>
-			            						</div>	
-			            					</div>
-			            				</a>
-			            				<div class="social_menu d-flex align-items-center">
-			            					<a href="#." class="videos_call_icon" data-mdb-toggle="modal" data-mdb-target="#exampleModal">
-			            						<svg width="19" height="19" viewBox="0 0 19 19" fill="none" xmlns="http://www.w3.org/2000/svg">
-												<g clip-path="url(#clip0)">
-												<path d="M18.6783 4.85086C18.4783 4.72716 18.2285 4.71587 18.0181 4.821L13.5714 7.04466V5.42829C13.5714 4.304 12.66 3.39258 11.5357 3.39258H2.03571C0.911419 3.39258 0 4.304 0 5.42829V13.5711C0 14.6954 0.911419 15.6069 2.03571 15.6069H11.5357C12.66 15.6069 13.5714 14.6954 13.5714 13.5711V11.9548L18.0181 14.1819C18.3533 14.3494 18.7609 14.2134 18.9284 13.8782C18.9761 13.7829 19.0006 13.6777 19 13.5711V5.42829C19.0001 5.19307 18.8784 4.97459 18.6783 4.85086ZM12.2143 13.5711C12.2143 13.9459 11.9105 14.2497 11.5357 14.2497H2.03571C1.66093 14.2497 1.35713 13.9459 1.35713 13.5711V5.42829C1.35713 5.05351 1.66093 4.74971 2.03571 4.74971H11.5357C11.9105 4.74971 12.2143 5.05351 12.2143 5.42829V13.5711ZM17.6428 12.4732L13.5714 10.4375V8.56198L17.6428 6.52626V12.4732V12.4732Z" fill="#E9724D"/>
-												<path d="M6.78583 6.78516C5.28676 6.78516 4.07153 8.00038 4.07153 9.49945C4.07153 10.9985 5.28676 12.2137 6.78583 12.2137C8.2849 12.2137 9.50013 10.9985 9.50013 9.49945C9.50013 8.00038 8.28486 6.78516 6.78583 6.78516ZM6.78583 10.8566C6.03631 10.8566 5.4287 10.249 5.4287 9.49945C5.4287 8.74994 6.03631 8.14232 6.78583 8.14232C7.53535 8.14232 8.14296 8.74994 8.14296 9.49945C8.14296 10.249 7.53535 10.8566 6.78583 10.8566Z" fill="#E9724D"/>
-												</g>
-												<defs>
-												<clipPath id="clip0">
-												<rect width="19" height="19" fill="white"/>
-												</clipPath>
-												</defs>
-												</svg>
-
-			            					</a>
-			            					<a href="#." class="chat_icon" data-mdb-toggle="modal" data-mdb-target="#exampleModal">
-			            						<svg width="15" height="15" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg">
-													<path d="M7.5 0C3.35495 0 0 3.35438 0 7.5C0 8.8155 0.343094 10.1003 0.994606 11.2335L0.0282669 14.2344C-0.0391388 14.4436 0.0162506 14.6729 0.171661 14.8283C0.325584 14.9823 0.554352 15.0397 0.76561 14.9717L3.76648 14.0054C4.89967 14.6569 6.1845 15 7.5 15C11.6451 15 15 11.6456 15 7.5C15 3.35495 11.6456 0 7.5 0ZM7.5 13.8281C6.31176 13.8281 5.1535 13.4966 4.15043 12.8693C4.00612 12.7792 3.8269 12.7548 3.66016 12.8085L1.49391 13.5061L2.19154 11.3398C2.24442 11.1755 2.2221 10.9961 2.13055 10.8496C1.50341 9.8465 1.17188 8.68824 1.17188 7.5C1.17188 4.0107 4.0107 1.17188 7.5 1.17188C10.9893 1.17188 13.8281 4.0107 13.8281 7.5C13.8281 10.9893 10.9893 13.8281 7.5 13.8281ZM8.23242 7.5C8.23242 7.90443 7.90455 8.23242 7.5 8.23242C7.09545 8.23242 6.76758 7.90443 6.76758 7.5C6.76758 7.09545 7.09545 6.76758 7.5 6.76758C7.90455 6.76758 8.23242 7.09545 8.23242 7.5ZM11.1621 7.5C11.1621 7.90443 10.8342 8.23242 10.4297 8.23242C10.0251 8.23242 9.69727 7.90443 9.69727 7.5C9.69727 7.09545 10.0251 6.76758 10.4297 6.76758C10.8342 6.76758 11.1621 7.09545 11.1621 7.5ZM5.30273 7.5C5.30273 7.90443 4.97486 8.23242 4.57031 8.23242C4.16588 8.23242 3.83789 7.90443 3.83789 7.5C3.83789 7.09545 4.16588 6.76758 4.57031 6.76758C4.97486 6.76758 5.30273 7.09545 5.30273 7.5Z" fill="#E9724D"/>
-												</svg>
-			            					</a>
-			            					<div class="dropdown">
-												<button class="dropdown-toggle" type="button" id="dropdownMenuButton" data-mdb-toggle="dropdown" aria-expanded="false"> 
-													<svg width="18" height="13" viewBox="0 0 18 13" fill="none" xmlns="http://www.w3.org/2000/svg">
-														<path d="M16.0312 0.3125H1.96875C0.883195 0.3125 0 1.1957 0 2.28125V10.7188C0 11.8043 0.883195 12.6875 1.96875 12.6875H16.0312C17.1168 12.6875 18 11.8043 18 10.7188V2.28125C18 1.1957 17.1168 0.3125 16.0312 0.3125ZM1.96875 1.4375H16.0312C16.4965 1.4375 16.875 1.81603 16.875 2.28125V3.40625H1.125V2.28125C1.125 1.81603 1.50353 1.4375 1.96875 1.4375ZM16.0312 11.5625H1.96875C1.50353 11.5625 1.125 11.184 1.125 10.7188V4.53125H16.875V10.7188C16.875 11.184 16.4965 11.5625 16.0312 11.5625Z" fill="#E9724D"/>
-														<path d="M3.9375 9.875H3.375C3.06436 9.875 2.8125 9.62314 2.8125 9.3125V8.75C2.8125 8.43936 3.06436 8.1875 3.375 8.1875H3.9375C4.24814 8.1875 4.5 8.43936 4.5 8.75V9.3125C4.5 9.62314 4.24814 9.875 3.9375 9.875Z" fill="#E9724D"/>
-													</svg>
-												</button>
-												<ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-												    <li><a class="dropdown-item" href="#">Pick</a></li>
-												    <li><a class="dropdown-item" href="#">Drop</a></li>
-												</ul>
-											</div>
-			            				</div>
-			            			</div>
-			            		</div>
-			            		<div class="col-md-6">
-			            			<div class="speakers_box">
-			            				<a href="#." class="speakers_box_inr d-flex flex-wrap" data-mdb-toggle="modal" data-mdb-target="#exampleModal">
-			            					<div class="speakers_img">
-			            						<img src="img/speakers_zone2.jpg" alt="">
-			            					</div>
-			            					<div class="speakers_text_box">
-			            						<div class="speakers_title d-flex justify-content-between align-items-center">
-			            							<h3>Brooklyn Simmons</h3>
-			            							<div class="arrow_icon_speakers">
-				            							<svg width="8" height="11" viewBox="0 0 8 11" fill="none" xmlns="http://www.w3.org/2000/svg">
-															<path d="M1 1L6 5.5L1 10" stroke="#DB604B" stroke-width="1.5"/>
-														</svg>
-													</div>
-			            						</div>
-			            						<small>Sr. Partner Systems</small>
-			            						<small>Dell Systmes</small>
-			            						<div class="city_social_media">
-			            							<p>New York City</p>
-			            						</div>	
-			            					</div>
-			            				</a>
-			            				<div class="social_menu d-flex align-items-center">
-			            					<a href="#." class="videos_call_icon" data-mdb-toggle="modal" data-mdb-target="#exampleModal">
-			            						<svg width="19" height="19" viewBox="0 0 19 19" fill="none" xmlns="http://www.w3.org/2000/svg">
-												<g clip-path="url(#clip0)">
-												<path d="M18.6783 4.85086C18.4783 4.72716 18.2285 4.71587 18.0181 4.821L13.5714 7.04466V5.42829C13.5714 4.304 12.66 3.39258 11.5357 3.39258H2.03571C0.911419 3.39258 0 4.304 0 5.42829V13.5711C0 14.6954 0.911419 15.6069 2.03571 15.6069H11.5357C12.66 15.6069 13.5714 14.6954 13.5714 13.5711V11.9548L18.0181 14.1819C18.3533 14.3494 18.7609 14.2134 18.9284 13.8782C18.9761 13.7829 19.0006 13.6777 19 13.5711V5.42829C19.0001 5.19307 18.8784 4.97459 18.6783 4.85086ZM12.2143 13.5711C12.2143 13.9459 11.9105 14.2497 11.5357 14.2497H2.03571C1.66093 14.2497 1.35713 13.9459 1.35713 13.5711V5.42829C1.35713 5.05351 1.66093 4.74971 2.03571 4.74971H11.5357C11.9105 4.74971 12.2143 5.05351 12.2143 5.42829V13.5711ZM17.6428 12.4732L13.5714 10.4375V8.56198L17.6428 6.52626V12.4732V12.4732Z" fill="#E9724D"/>
-												<path d="M6.78583 6.78516C5.28676 6.78516 4.07153 8.00038 4.07153 9.49945C4.07153 10.9985 5.28676 12.2137 6.78583 12.2137C8.2849 12.2137 9.50013 10.9985 9.50013 9.49945C9.50013 8.00038 8.28486 6.78516 6.78583 6.78516ZM6.78583 10.8566C6.03631 10.8566 5.4287 10.249 5.4287 9.49945C5.4287 8.74994 6.03631 8.14232 6.78583 8.14232C7.53535 8.14232 8.14296 8.74994 8.14296 9.49945C8.14296 10.249 7.53535 10.8566 6.78583 10.8566Z" fill="#E9724D"/>
-												</g>
-												<defs>
-												<clipPath id="clip0">
-												<rect width="19" height="19" fill="white"/>
-												</clipPath>
-												</defs>
-												</svg>
-
-			            					</a>
-			            					<a href="#." class="chat_icon" data-mdb-toggle="modal" data-mdb-target="#exampleModal">
-			            						<svg width="15" height="15" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg">
-													<path d="M7.5 0C3.35495 0 0 3.35438 0 7.5C0 8.8155 0.343094 10.1003 0.994606 11.2335L0.0282669 14.2344C-0.0391388 14.4436 0.0162506 14.6729 0.171661 14.8283C0.325584 14.9823 0.554352 15.0397 0.76561 14.9717L3.76648 14.0054C4.89967 14.6569 6.1845 15 7.5 15C11.6451 15 15 11.6456 15 7.5C15 3.35495 11.6456 0 7.5 0ZM7.5 13.8281C6.31176 13.8281 5.1535 13.4966 4.15043 12.8693C4.00612 12.7792 3.8269 12.7548 3.66016 12.8085L1.49391 13.5061L2.19154 11.3398C2.24442 11.1755 2.2221 10.9961 2.13055 10.8496C1.50341 9.8465 1.17188 8.68824 1.17188 7.5C1.17188 4.0107 4.0107 1.17188 7.5 1.17188C10.9893 1.17188 13.8281 4.0107 13.8281 7.5C13.8281 10.9893 10.9893 13.8281 7.5 13.8281ZM8.23242 7.5C8.23242 7.90443 7.90455 8.23242 7.5 8.23242C7.09545 8.23242 6.76758 7.90443 6.76758 7.5C6.76758 7.09545 7.09545 6.76758 7.5 6.76758C7.90455 6.76758 8.23242 7.09545 8.23242 7.5ZM11.1621 7.5C11.1621 7.90443 10.8342 8.23242 10.4297 8.23242C10.0251 8.23242 9.69727 7.90443 9.69727 7.5C9.69727 7.09545 10.0251 6.76758 10.4297 6.76758C10.8342 6.76758 11.1621 7.09545 11.1621 7.5ZM5.30273 7.5C5.30273 7.90443 4.97486 8.23242 4.57031 8.23242C4.16588 8.23242 3.83789 7.90443 3.83789 7.5C3.83789 7.09545 4.16588 6.76758 4.57031 6.76758C4.97486 6.76758 5.30273 7.09545 5.30273 7.5Z" fill="#E9724D"/>
-												</svg>
-			            					</a>
-			            					<div class="dropdown">
-												<button class="dropdown-toggle" type="button" id="dropdownMenuButton" data-mdb-toggle="dropdown" aria-expanded="false"> 
-													<svg width="18" height="13" viewBox="0 0 18 13" fill="none" xmlns="http://www.w3.org/2000/svg">
-														<path d="M16.0312 0.3125H1.96875C0.883195 0.3125 0 1.1957 0 2.28125V10.7188C0 11.8043 0.883195 12.6875 1.96875 12.6875H16.0312C17.1168 12.6875 18 11.8043 18 10.7188V2.28125C18 1.1957 17.1168 0.3125 16.0312 0.3125ZM1.96875 1.4375H16.0312C16.4965 1.4375 16.875 1.81603 16.875 2.28125V3.40625H1.125V2.28125C1.125 1.81603 1.50353 1.4375 1.96875 1.4375ZM16.0312 11.5625H1.96875C1.50353 11.5625 1.125 11.184 1.125 10.7188V4.53125H16.875V10.7188C16.875 11.184 16.4965 11.5625 16.0312 11.5625Z" fill="#E9724D"/>
-														<path d="M3.9375 9.875H3.375C3.06436 9.875 2.8125 9.62314 2.8125 9.3125V8.75C2.8125 8.43936 3.06436 8.1875 3.375 8.1875H3.9375C4.24814 8.1875 4.5 8.43936 4.5 8.75V9.3125C4.5 9.62314 4.24814 9.875 3.9375 9.875Z" fill="#E9724D"/>
-													</svg>
-												</button>
-												<ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-												    <li><a class="dropdown-item" href="#">Pick</a></li>
-												    <li><a class="dropdown-item" href="#">Drop</a></li>
-												</ul>
-											</div>
-			            				</div>
-			            			</div>
-			            		</div>
-			            		<div class="col-md-6">
-			            			<div class="speakers_box">
-			            				<a href="#." class="speakers_box_inr d-flex flex-wrap" data-mdb-toggle="modal" data-mdb-target="#exampleModal">
-			            					<div class="speakers_img">
-			            						<img src="img/speakers_zone3.png" alt="">
-			            					</div>
-			            					<div class="speakers_text_box">
-			            						<div class="speakers_title d-flex justify-content-between align-items-center">
-			            							<h3>Brooklyn Simmons</h3>
-			            							<div class="arrow_icon_speakers">
-				            							<svg width="8" height="11" viewBox="0 0 8 11" fill="none" xmlns="http://www.w3.org/2000/svg">
-															<path d="M1 1L6 5.5L1 10" stroke="#DB604B" stroke-width="1.5"/>
-														</svg>
-													</div>
-			            						</div>
-			            						<small>Sr. Partner Systems</small>
-			            						<small>Dell Systmes</small>
-			            						<div class="city_social_media">
-			            							<p>New York City</p>
-			            						</div>	
-			            					</div>
-			            				</a>
-			            				<div class="social_menu d-flex align-items-center">
-			            					<a href="#." class="videos_call_icon" data-mdb-toggle="modal" data-mdb-target="#exampleModal">
-			            						<svg width="19" height="19" viewBox="0 0 19 19" fill="none" xmlns="http://www.w3.org/2000/svg">
-												<g clip-path="url(#clip0)">
-												<path d="M18.6783 4.85086C18.4783 4.72716 18.2285 4.71587 18.0181 4.821L13.5714 7.04466V5.42829C13.5714 4.304 12.66 3.39258 11.5357 3.39258H2.03571C0.911419 3.39258 0 4.304 0 5.42829V13.5711C0 14.6954 0.911419 15.6069 2.03571 15.6069H11.5357C12.66 15.6069 13.5714 14.6954 13.5714 13.5711V11.9548L18.0181 14.1819C18.3533 14.3494 18.7609 14.2134 18.9284 13.8782C18.9761 13.7829 19.0006 13.6777 19 13.5711V5.42829C19.0001 5.19307 18.8784 4.97459 18.6783 4.85086ZM12.2143 13.5711C12.2143 13.9459 11.9105 14.2497 11.5357 14.2497H2.03571C1.66093 14.2497 1.35713 13.9459 1.35713 13.5711V5.42829C1.35713 5.05351 1.66093 4.74971 2.03571 4.74971H11.5357C11.9105 4.74971 12.2143 5.05351 12.2143 5.42829V13.5711ZM17.6428 12.4732L13.5714 10.4375V8.56198L17.6428 6.52626V12.4732V12.4732Z" fill="#E9724D"/>
-												<path d="M6.78583 6.78516C5.28676 6.78516 4.07153 8.00038 4.07153 9.49945C4.07153 10.9985 5.28676 12.2137 6.78583 12.2137C8.2849 12.2137 9.50013 10.9985 9.50013 9.49945C9.50013 8.00038 8.28486 6.78516 6.78583 6.78516ZM6.78583 10.8566C6.03631 10.8566 5.4287 10.249 5.4287 9.49945C5.4287 8.74994 6.03631 8.14232 6.78583 8.14232C7.53535 8.14232 8.14296 8.74994 8.14296 9.49945C8.14296 10.249 7.53535 10.8566 6.78583 10.8566Z" fill="#E9724D"/>
-												</g>
-												<defs>
-												<clipPath id="clip0">
-												<rect width="19" height="19" fill="white"/>
-												</clipPath>
-												</defs>
-												</svg>
-
-			            					</a>
-			            					<a href="#." class="chat_icon" data-mdb-toggle="modal" data-mdb-target="#exampleModal">
-			            						<svg width="15" height="15" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg">
-													<path d="M7.5 0C3.35495 0 0 3.35438 0 7.5C0 8.8155 0.343094 10.1003 0.994606 11.2335L0.0282669 14.2344C-0.0391388 14.4436 0.0162506 14.6729 0.171661 14.8283C0.325584 14.9823 0.554352 15.0397 0.76561 14.9717L3.76648 14.0054C4.89967 14.6569 6.1845 15 7.5 15C11.6451 15 15 11.6456 15 7.5C15 3.35495 11.6456 0 7.5 0ZM7.5 13.8281C6.31176 13.8281 5.1535 13.4966 4.15043 12.8693C4.00612 12.7792 3.8269 12.7548 3.66016 12.8085L1.49391 13.5061L2.19154 11.3398C2.24442 11.1755 2.2221 10.9961 2.13055 10.8496C1.50341 9.8465 1.17188 8.68824 1.17188 7.5C1.17188 4.0107 4.0107 1.17188 7.5 1.17188C10.9893 1.17188 13.8281 4.0107 13.8281 7.5C13.8281 10.9893 10.9893 13.8281 7.5 13.8281ZM8.23242 7.5C8.23242 7.90443 7.90455 8.23242 7.5 8.23242C7.09545 8.23242 6.76758 7.90443 6.76758 7.5C6.76758 7.09545 7.09545 6.76758 7.5 6.76758C7.90455 6.76758 8.23242 7.09545 8.23242 7.5ZM11.1621 7.5C11.1621 7.90443 10.8342 8.23242 10.4297 8.23242C10.0251 8.23242 9.69727 7.90443 9.69727 7.5C9.69727 7.09545 10.0251 6.76758 10.4297 6.76758C10.8342 6.76758 11.1621 7.09545 11.1621 7.5ZM5.30273 7.5C5.30273 7.90443 4.97486 8.23242 4.57031 8.23242C4.16588 8.23242 3.83789 7.90443 3.83789 7.5C3.83789 7.09545 4.16588 6.76758 4.57031 6.76758C4.97486 6.76758 5.30273 7.09545 5.30273 7.5Z" fill="#E9724D"/>
-												</svg>
-			            					</a>
-			            					<div class="dropdown">
-												<button class="dropdown-toggle" type="button" id="dropdownMenuButton" data-mdb-toggle="dropdown" aria-expanded="false"> 
-													<svg width="18" height="13" viewBox="0 0 18 13" fill="none" xmlns="http://www.w3.org/2000/svg">
-														<path d="M16.0312 0.3125H1.96875C0.883195 0.3125 0 1.1957 0 2.28125V10.7188C0 11.8043 0.883195 12.6875 1.96875 12.6875H16.0312C17.1168 12.6875 18 11.8043 18 10.7188V2.28125C18 1.1957 17.1168 0.3125 16.0312 0.3125ZM1.96875 1.4375H16.0312C16.4965 1.4375 16.875 1.81603 16.875 2.28125V3.40625H1.125V2.28125C1.125 1.81603 1.50353 1.4375 1.96875 1.4375ZM16.0312 11.5625H1.96875C1.50353 11.5625 1.125 11.184 1.125 10.7188V4.53125H16.875V10.7188C16.875 11.184 16.4965 11.5625 16.0312 11.5625Z" fill="#E9724D"/>
-														<path d="M3.9375 9.875H3.375C3.06436 9.875 2.8125 9.62314 2.8125 9.3125V8.75C2.8125 8.43936 3.06436 8.1875 3.375 8.1875H3.9375C4.24814 8.1875 4.5 8.43936 4.5 8.75V9.3125C4.5 9.62314 4.24814 9.875 3.9375 9.875Z" fill="#E9724D"/>
-													</svg>
-												</button>
-												<ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-												    <li><a class="dropdown-item" href="#">Pick</a></li>
-												    <li><a class="dropdown-item" href="#">Drop</a></li>
-												</ul>
-											</div>
-			            				</div>
-			            			</div>
-			            		</div>
-			            		<div class="col-md-6">
-			            			<div class="speakers_box">
-			            				<a href="#." class="speakers_box_inr d-flex flex-wrap" data-mdb-toggle="modal" data-mdb-target="#exampleModal">
-			            					<div class="speakers_img">
-			            						<img src="img/speakers_zone4.png" alt="">
-			            					</div>
-			            					<div class="speakers_text_box">
-			            						<div class="speakers_title d-flex justify-content-between align-items-center">
-			            							<h3>Brooklyn Simmons</h3>
-			            							<div class="arrow_icon_speakers">
-				            							<svg width="8" height="11" viewBox="0 0 8 11" fill="none" xmlns="http://www.w3.org/2000/svg">
-															<path d="M1 1L6 5.5L1 10" stroke="#DB604B" stroke-width="1.5"/>
-														</svg>
-													</div>
-			            						</div>
-			            						<small>Sr. Partner Systems</small>
-			            						<small>Dell Systmes</small>
-			            						<div class="city_social_media">
-			            							<p>New York City</p>
-			            						</div>	
-			            					</div>
-			            				</a>
-			            				<div class="social_menu d-flex align-items-center">
-			            					<a href="#." class="videos_call_icon" data-mdb-toggle="modal" data-mdb-target="#exampleModal">
-			            						<svg width="19" height="19" viewBox="0 0 19 19" fill="none" xmlns="http://www.w3.org/2000/svg">
-												<g clip-path="url(#clip0)">
-												<path d="M18.6783 4.85086C18.4783 4.72716 18.2285 4.71587 18.0181 4.821L13.5714 7.04466V5.42829C13.5714 4.304 12.66 3.39258 11.5357 3.39258H2.03571C0.911419 3.39258 0 4.304 0 5.42829V13.5711C0 14.6954 0.911419 15.6069 2.03571 15.6069H11.5357C12.66 15.6069 13.5714 14.6954 13.5714 13.5711V11.9548L18.0181 14.1819C18.3533 14.3494 18.7609 14.2134 18.9284 13.8782C18.9761 13.7829 19.0006 13.6777 19 13.5711V5.42829C19.0001 5.19307 18.8784 4.97459 18.6783 4.85086ZM12.2143 13.5711C12.2143 13.9459 11.9105 14.2497 11.5357 14.2497H2.03571C1.66093 14.2497 1.35713 13.9459 1.35713 13.5711V5.42829C1.35713 5.05351 1.66093 4.74971 2.03571 4.74971H11.5357C11.9105 4.74971 12.2143 5.05351 12.2143 5.42829V13.5711ZM17.6428 12.4732L13.5714 10.4375V8.56198L17.6428 6.52626V12.4732V12.4732Z" fill="#E9724D"/>
-												<path d="M6.78583 6.78516C5.28676 6.78516 4.07153 8.00038 4.07153 9.49945C4.07153 10.9985 5.28676 12.2137 6.78583 12.2137C8.2849 12.2137 9.50013 10.9985 9.50013 9.49945C9.50013 8.00038 8.28486 6.78516 6.78583 6.78516ZM6.78583 10.8566C6.03631 10.8566 5.4287 10.249 5.4287 9.49945C5.4287 8.74994 6.03631 8.14232 6.78583 8.14232C7.53535 8.14232 8.14296 8.74994 8.14296 9.49945C8.14296 10.249 7.53535 10.8566 6.78583 10.8566Z" fill="#E9724D"/>
-												</g>
-												<defs>
-												<clipPath id="clip0">
-												<rect width="19" height="19" fill="white"/>
-												</clipPath>
-												</defs>
-												</svg>
-
-			            					</a>
-			            					<a href="#." class="chat_icon" data-mdb-toggle="modal" data-mdb-target="#exampleModal">
-			            						<svg width="15" height="15" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg">
-													<path d="M7.5 0C3.35495 0 0 3.35438 0 7.5C0 8.8155 0.343094 10.1003 0.994606 11.2335L0.0282669 14.2344C-0.0391388 14.4436 0.0162506 14.6729 0.171661 14.8283C0.325584 14.9823 0.554352 15.0397 0.76561 14.9717L3.76648 14.0054C4.89967 14.6569 6.1845 15 7.5 15C11.6451 15 15 11.6456 15 7.5C15 3.35495 11.6456 0 7.5 0ZM7.5 13.8281C6.31176 13.8281 5.1535 13.4966 4.15043 12.8693C4.00612 12.7792 3.8269 12.7548 3.66016 12.8085L1.49391 13.5061L2.19154 11.3398C2.24442 11.1755 2.2221 10.9961 2.13055 10.8496C1.50341 9.8465 1.17188 8.68824 1.17188 7.5C1.17188 4.0107 4.0107 1.17188 7.5 1.17188C10.9893 1.17188 13.8281 4.0107 13.8281 7.5C13.8281 10.9893 10.9893 13.8281 7.5 13.8281ZM8.23242 7.5C8.23242 7.90443 7.90455 8.23242 7.5 8.23242C7.09545 8.23242 6.76758 7.90443 6.76758 7.5C6.76758 7.09545 7.09545 6.76758 7.5 6.76758C7.90455 6.76758 8.23242 7.09545 8.23242 7.5ZM11.1621 7.5C11.1621 7.90443 10.8342 8.23242 10.4297 8.23242C10.0251 8.23242 9.69727 7.90443 9.69727 7.5C9.69727 7.09545 10.0251 6.76758 10.4297 6.76758C10.8342 6.76758 11.1621 7.09545 11.1621 7.5ZM5.30273 7.5C5.30273 7.90443 4.97486 8.23242 4.57031 8.23242C4.16588 8.23242 3.83789 7.90443 3.83789 7.5C3.83789 7.09545 4.16588 6.76758 4.57031 6.76758C4.97486 6.76758 5.30273 7.09545 5.30273 7.5Z" fill="#E9724D"/>
-												</svg>
-			            					</a>
-			            					<div class="dropdown">
-												<button class="dropdown-toggle" type="button" id="dropdownMenuButton" data-mdb-toggle="dropdown" aria-expanded="false"> 
-													<svg width="18" height="13" viewBox="0 0 18 13" fill="none" xmlns="http://www.w3.org/2000/svg">
-														<path d="M16.0312 0.3125H1.96875C0.883195 0.3125 0 1.1957 0 2.28125V10.7188C0 11.8043 0.883195 12.6875 1.96875 12.6875H16.0312C17.1168 12.6875 18 11.8043 18 10.7188V2.28125C18 1.1957 17.1168 0.3125 16.0312 0.3125ZM1.96875 1.4375H16.0312C16.4965 1.4375 16.875 1.81603 16.875 2.28125V3.40625H1.125V2.28125C1.125 1.81603 1.50353 1.4375 1.96875 1.4375ZM16.0312 11.5625H1.96875C1.50353 11.5625 1.125 11.184 1.125 10.7188V4.53125H16.875V10.7188C16.875 11.184 16.4965 11.5625 16.0312 11.5625Z" fill="#E9724D"/>
-														<path d="M3.9375 9.875H3.375C3.06436 9.875 2.8125 9.62314 2.8125 9.3125V8.75C2.8125 8.43936 3.06436 8.1875 3.375 8.1875H3.9375C4.24814 8.1875 4.5 8.43936 4.5 8.75V9.3125C4.5 9.62314 4.24814 9.875 3.9375 9.875Z" fill="#E9724D"/>
-													</svg>
-												</button>
-												<ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-												    <li><a class="dropdown-item" href="#">Pick</a></li>
-												    <li><a class="dropdown-item" href="#">Drop</a></li>
-												</ul>
-											</div>
-			            				</div>
-			            			</div>
-			            		</div>
-			            		<div class="col-md-6">
-			            			<div class="speakers_box">
-			            				<a href="#." class="speakers_box_inr d-flex flex-wrap" data-mdb-toggle="modal" data-mdb-target="#exampleModal">
-			            					<div class="speakers_img">
-			            						<img src="img/speakers_zone5.png" alt="">
-			            					</div>
-			            					<div class="speakers_text_box">
-			            						<div class="speakers_title d-flex justify-content-between align-items-center">
-			            							<h3>Brooklyn Simmons</h3>
-			            							<div class="arrow_icon_speakers">
-				            							<svg width="8" height="11" viewBox="0 0 8 11" fill="none" xmlns="http://www.w3.org/2000/svg">
-															<path d="M1 1L6 5.5L1 10" stroke="#DB604B" stroke-width="1.5"/>
-														</svg>
-													</div>
-			            						</div>
-			            						<small>Sr. Partner Systems</small>
-			            						<small>Dell Systmes</small>
-			            						<div class="city_social_media">
-			            							<p>New York City</p>
-			            						</div>	
-			            					</div>
-			            				</a>
-			            				<div class="social_menu d-flex align-items-center">
-			            					<a href="#." class="videos_call_icon" data-mdb-toggle="modal" data-mdb-target="#exampleModal">
-			            						<svg width="19" height="19" viewBox="0 0 19 19" fill="none" xmlns="http://www.w3.org/2000/svg">
-												<g clip-path="url(#clip0)">
-												<path d="M18.6783 4.85086C18.4783 4.72716 18.2285 4.71587 18.0181 4.821L13.5714 7.04466V5.42829C13.5714 4.304 12.66 3.39258 11.5357 3.39258H2.03571C0.911419 3.39258 0 4.304 0 5.42829V13.5711C0 14.6954 0.911419 15.6069 2.03571 15.6069H11.5357C12.66 15.6069 13.5714 14.6954 13.5714 13.5711V11.9548L18.0181 14.1819C18.3533 14.3494 18.7609 14.2134 18.9284 13.8782C18.9761 13.7829 19.0006 13.6777 19 13.5711V5.42829C19.0001 5.19307 18.8784 4.97459 18.6783 4.85086ZM12.2143 13.5711C12.2143 13.9459 11.9105 14.2497 11.5357 14.2497H2.03571C1.66093 14.2497 1.35713 13.9459 1.35713 13.5711V5.42829C1.35713 5.05351 1.66093 4.74971 2.03571 4.74971H11.5357C11.9105 4.74971 12.2143 5.05351 12.2143 5.42829V13.5711ZM17.6428 12.4732L13.5714 10.4375V8.56198L17.6428 6.52626V12.4732V12.4732Z" fill="#E9724D"/>
-												<path d="M6.78583 6.78516C5.28676 6.78516 4.07153 8.00038 4.07153 9.49945C4.07153 10.9985 5.28676 12.2137 6.78583 12.2137C8.2849 12.2137 9.50013 10.9985 9.50013 9.49945C9.50013 8.00038 8.28486 6.78516 6.78583 6.78516ZM6.78583 10.8566C6.03631 10.8566 5.4287 10.249 5.4287 9.49945C5.4287 8.74994 6.03631 8.14232 6.78583 8.14232C7.53535 8.14232 8.14296 8.74994 8.14296 9.49945C8.14296 10.249 7.53535 10.8566 6.78583 10.8566Z" fill="#E9724D"/>
-												</g>
-												<defs>
-												<clipPath id="clip0">
-												<rect width="19" height="19" fill="white"/>
-												</clipPath>
-												</defs>
-												</svg>
-
-			            					</a>
-			            					<a href="#." class="chat_icon" data-mdb-toggle="modal" data-mdb-target="#exampleModal">
-			            						<svg width="15" height="15" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg">
-													<path d="M7.5 0C3.35495 0 0 3.35438 0 7.5C0 8.8155 0.343094 10.1003 0.994606 11.2335L0.0282669 14.2344C-0.0391388 14.4436 0.0162506 14.6729 0.171661 14.8283C0.325584 14.9823 0.554352 15.0397 0.76561 14.9717L3.76648 14.0054C4.89967 14.6569 6.1845 15 7.5 15C11.6451 15 15 11.6456 15 7.5C15 3.35495 11.6456 0 7.5 0ZM7.5 13.8281C6.31176 13.8281 5.1535 13.4966 4.15043 12.8693C4.00612 12.7792 3.8269 12.7548 3.66016 12.8085L1.49391 13.5061L2.19154 11.3398C2.24442 11.1755 2.2221 10.9961 2.13055 10.8496C1.50341 9.8465 1.17188 8.68824 1.17188 7.5C1.17188 4.0107 4.0107 1.17188 7.5 1.17188C10.9893 1.17188 13.8281 4.0107 13.8281 7.5C13.8281 10.9893 10.9893 13.8281 7.5 13.8281ZM8.23242 7.5C8.23242 7.90443 7.90455 8.23242 7.5 8.23242C7.09545 8.23242 6.76758 7.90443 6.76758 7.5C6.76758 7.09545 7.09545 6.76758 7.5 6.76758C7.90455 6.76758 8.23242 7.09545 8.23242 7.5ZM11.1621 7.5C11.1621 7.90443 10.8342 8.23242 10.4297 8.23242C10.0251 8.23242 9.69727 7.90443 9.69727 7.5C9.69727 7.09545 10.0251 6.76758 10.4297 6.76758C10.8342 6.76758 11.1621 7.09545 11.1621 7.5ZM5.30273 7.5C5.30273 7.90443 4.97486 8.23242 4.57031 8.23242C4.16588 8.23242 3.83789 7.90443 3.83789 7.5C3.83789 7.09545 4.16588 6.76758 4.57031 6.76758C4.97486 6.76758 5.30273 7.09545 5.30273 7.5Z" fill="#E9724D"/>
-												</svg>
-			            					</a>
-			            					<div class="dropdown">
-												<button class="dropdown-toggle" type="button" id="dropdownMenuButton" data-mdb-toggle="dropdown" aria-expanded="false"> 
-													<svg width="18" height="13" viewBox="0 0 18 13" fill="none" xmlns="http://www.w3.org/2000/svg">
-														<path d="M16.0312 0.3125H1.96875C0.883195 0.3125 0 1.1957 0 2.28125V10.7188C0 11.8043 0.883195 12.6875 1.96875 12.6875H16.0312C17.1168 12.6875 18 11.8043 18 10.7188V2.28125C18 1.1957 17.1168 0.3125 16.0312 0.3125ZM1.96875 1.4375H16.0312C16.4965 1.4375 16.875 1.81603 16.875 2.28125V3.40625H1.125V2.28125C1.125 1.81603 1.50353 1.4375 1.96875 1.4375ZM16.0312 11.5625H1.96875C1.50353 11.5625 1.125 11.184 1.125 10.7188V4.53125H16.875V10.7188C16.875 11.184 16.4965 11.5625 16.0312 11.5625Z" fill="#E9724D"/>
-														<path d="M3.9375 9.875H3.375C3.06436 9.875 2.8125 9.62314 2.8125 9.3125V8.75C2.8125 8.43936 3.06436 8.1875 3.375 8.1875H3.9375C4.24814 8.1875 4.5 8.43936 4.5 8.75V9.3125C4.5 9.62314 4.24814 9.875 3.9375 9.875Z" fill="#E9724D"/>
-													</svg>
-												</button>
-												<ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-												    <li><a class="dropdown-item" href="#">Pick</a></li>
-												    <li><a class="dropdown-item" href="#">Drop</a></li>
-												</ul>
-											</div>
-			            				</div>
-			            			</div>
-			            		</div>
-			            		<div class="col-md-6">
-			            			<div class="speakers_box">
-			            				<a href="#." class="speakers_box_inr d-flex flex-wrap" data-mdb-toggle="modal" data-mdb-target="#exampleModal">
-			            					<div class="speakers_img">
-			            						<img src="img/speakers_zone6.png" alt="">
-			            					</div>
-			            					<div class="speakers_text_box">
-			            						<div class="speakers_title d-flex justify-content-between align-items-center">
-			            							<h3>Brooklyn Simmons</h3>
-			            							<div class="arrow_icon_speakers">
-				            							<svg width="8" height="11" viewBox="0 0 8 11" fill="none" xmlns="http://www.w3.org/2000/svg">
-															<path d="M1 1L6 5.5L1 10" stroke="#DB604B" stroke-width="1.5"/>
-														</svg>
-													</div>
-			            						</div>
-			            						<small>Sr. Partner Systems</small>
-			            						<small>Dell Systmes</small>
-			            						<div class="city_social_media">
-			            							<p>New York City</p>
-			            						</div>	
-			            					</div>
-			            				</a>
-			            				<div class="social_menu d-flex align-items-center">
-			            					<a href="#." class="videos_call_icon" data-mdb-toggle="modal" data-mdb-target="#exampleModal">
-			            						<svg width="19" height="19" viewBox="0 0 19 19" fill="none" xmlns="http://www.w3.org/2000/svg">
-												<g clip-path="url(#clip0)">
-												<path d="M18.6783 4.85086C18.4783 4.72716 18.2285 4.71587 18.0181 4.821L13.5714 7.04466V5.42829C13.5714 4.304 12.66 3.39258 11.5357 3.39258H2.03571C0.911419 3.39258 0 4.304 0 5.42829V13.5711C0 14.6954 0.911419 15.6069 2.03571 15.6069H11.5357C12.66 15.6069 13.5714 14.6954 13.5714 13.5711V11.9548L18.0181 14.1819C18.3533 14.3494 18.7609 14.2134 18.9284 13.8782C18.9761 13.7829 19.0006 13.6777 19 13.5711V5.42829C19.0001 5.19307 18.8784 4.97459 18.6783 4.85086ZM12.2143 13.5711C12.2143 13.9459 11.9105 14.2497 11.5357 14.2497H2.03571C1.66093 14.2497 1.35713 13.9459 1.35713 13.5711V5.42829C1.35713 5.05351 1.66093 4.74971 2.03571 4.74971H11.5357C11.9105 4.74971 12.2143 5.05351 12.2143 5.42829V13.5711ZM17.6428 12.4732L13.5714 10.4375V8.56198L17.6428 6.52626V12.4732V12.4732Z" fill="#E9724D"/>
-												<path d="M6.78583 6.78516C5.28676 6.78516 4.07153 8.00038 4.07153 9.49945C4.07153 10.9985 5.28676 12.2137 6.78583 12.2137C8.2849 12.2137 9.50013 10.9985 9.50013 9.49945C9.50013 8.00038 8.28486 6.78516 6.78583 6.78516ZM6.78583 10.8566C6.03631 10.8566 5.4287 10.249 5.4287 9.49945C5.4287 8.74994 6.03631 8.14232 6.78583 8.14232C7.53535 8.14232 8.14296 8.74994 8.14296 9.49945C8.14296 10.249 7.53535 10.8566 6.78583 10.8566Z" fill="#E9724D"/>
-												</g>
-												<defs>
-												<clipPath id="clip0">
-												<rect width="19" height="19" fill="white"/>
-												</clipPath>
-												</defs>
-												</svg>
-
-			            					</a>
-			            					<a href="#." class="chat_icon" data-mdb-toggle="modal" data-mdb-target="#exampleModal">
-			            						<svg width="15" height="15" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg">
-													<path d="M7.5 0C3.35495 0 0 3.35438 0 7.5C0 8.8155 0.343094 10.1003 0.994606 11.2335L0.0282669 14.2344C-0.0391388 14.4436 0.0162506 14.6729 0.171661 14.8283C0.325584 14.9823 0.554352 15.0397 0.76561 14.9717L3.76648 14.0054C4.89967 14.6569 6.1845 15 7.5 15C11.6451 15 15 11.6456 15 7.5C15 3.35495 11.6456 0 7.5 0ZM7.5 13.8281C6.31176 13.8281 5.1535 13.4966 4.15043 12.8693C4.00612 12.7792 3.8269 12.7548 3.66016 12.8085L1.49391 13.5061L2.19154 11.3398C2.24442 11.1755 2.2221 10.9961 2.13055 10.8496C1.50341 9.8465 1.17188 8.68824 1.17188 7.5C1.17188 4.0107 4.0107 1.17188 7.5 1.17188C10.9893 1.17188 13.8281 4.0107 13.8281 7.5C13.8281 10.9893 10.9893 13.8281 7.5 13.8281ZM8.23242 7.5C8.23242 7.90443 7.90455 8.23242 7.5 8.23242C7.09545 8.23242 6.76758 7.90443 6.76758 7.5C6.76758 7.09545 7.09545 6.76758 7.5 6.76758C7.90455 6.76758 8.23242 7.09545 8.23242 7.5ZM11.1621 7.5C11.1621 7.90443 10.8342 8.23242 10.4297 8.23242C10.0251 8.23242 9.69727 7.90443 9.69727 7.5C9.69727 7.09545 10.0251 6.76758 10.4297 6.76758C10.8342 6.76758 11.1621 7.09545 11.1621 7.5ZM5.30273 7.5C5.30273 7.90443 4.97486 8.23242 4.57031 8.23242C4.16588 8.23242 3.83789 7.90443 3.83789 7.5C3.83789 7.09545 4.16588 6.76758 4.57031 6.76758C4.97486 6.76758 5.30273 7.09545 5.30273 7.5Z" fill="#E9724D"/>
-												</svg>
-			            					</a>
-			            					<div class="dropdown">
-												<button class="dropdown-toggle" type="button" id="dropdownMenuButton" data-mdb-toggle="dropdown" aria-expanded="false"> 
-													<svg width="18" height="13" viewBox="0 0 18 13" fill="none" xmlns="http://www.w3.org/2000/svg">
-														<path d="M16.0312 0.3125H1.96875C0.883195 0.3125 0 1.1957 0 2.28125V10.7188C0 11.8043 0.883195 12.6875 1.96875 12.6875H16.0312C17.1168 12.6875 18 11.8043 18 10.7188V2.28125C18 1.1957 17.1168 0.3125 16.0312 0.3125ZM1.96875 1.4375H16.0312C16.4965 1.4375 16.875 1.81603 16.875 2.28125V3.40625H1.125V2.28125C1.125 1.81603 1.50353 1.4375 1.96875 1.4375ZM16.0312 11.5625H1.96875C1.50353 11.5625 1.125 11.184 1.125 10.7188V4.53125H16.875V10.7188C16.875 11.184 16.4965 11.5625 16.0312 11.5625Z" fill="#E9724D"/>
-														<path d="M3.9375 9.875H3.375C3.06436 9.875 2.8125 9.62314 2.8125 9.3125V8.75C2.8125 8.43936 3.06436 8.1875 3.375 8.1875H3.9375C4.24814 8.1875 4.5 8.43936 4.5 8.75V9.3125C4.5 9.62314 4.24814 9.875 3.9375 9.875Z" fill="#E9724D"/>
-													</svg>
-												</button>
-												<ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-												    <li>
-												    	<a id="OpeNnotification" class="dropdown-item" href="#">
-												    		Pick
-												    	</a>
-												    </li>
-												    <li><a class="dropdown-item" href="#">Drop</a></li>
-												</ul>
-											</div>
-			            				</div>
-			            			</div>
-			            		</div>
-			            		<div class="col-md-6">
-			            			<div class="speakers_box">
-			            				<a href="#." class="speakers_box_inr d-flex flex-wrap" data-mdb-toggle="modal" data-mdb-target="#exampleModal">
-			            					<div class="speakers_img">
-			            						<img src="img/speakers_zone1.png" alt="">
-			            					</div>
-			            					<div class="speakers_text_box">
-			            						<div class="speakers_title d-flex justify-content-between align-items-center">
-			            							<h3>Brooklyn Simmons</h3>
-			            							<div class="arrow_icon_speakers">
-				            							<svg width="8" height="11" viewBox="0 0 8 11" fill="none" xmlns="http://www.w3.org/2000/svg">
-															<path d="M1 1L6 5.5L1 10" stroke="#DB604B" stroke-width="1.5"/>
-														</svg>
-													</div>
-			            						</div>
-			            						<small>Sr. Partner Systems</small>
-			            						<small>Dell Systmes</small>
-			            						<div class="city_social_media">
-			            							<p>New York City</p>
-			            						</div>	
-			            					</div>
-			            				</a>
-			            				<div class="social_menu d-flex align-items-center">
-			            					<a href="#." class="videos_call_icon" data-mdb-toggle="modal" data-mdb-target="#exampleModal">
-			            						<svg width="19" height="19" viewBox="0 0 19 19" fill="none" xmlns="http://www.w3.org/2000/svg">
-												<g clip-path="url(#clip0)">
-												<path d="M18.6783 4.85086C18.4783 4.72716 18.2285 4.71587 18.0181 4.821L13.5714 7.04466V5.42829C13.5714 4.304 12.66 3.39258 11.5357 3.39258H2.03571C0.911419 3.39258 0 4.304 0 5.42829V13.5711C0 14.6954 0.911419 15.6069 2.03571 15.6069H11.5357C12.66 15.6069 13.5714 14.6954 13.5714 13.5711V11.9548L18.0181 14.1819C18.3533 14.3494 18.7609 14.2134 18.9284 13.8782C18.9761 13.7829 19.0006 13.6777 19 13.5711V5.42829C19.0001 5.19307 18.8784 4.97459 18.6783 4.85086ZM12.2143 13.5711C12.2143 13.9459 11.9105 14.2497 11.5357 14.2497H2.03571C1.66093 14.2497 1.35713 13.9459 1.35713 13.5711V5.42829C1.35713 5.05351 1.66093 4.74971 2.03571 4.74971H11.5357C11.9105 4.74971 12.2143 5.05351 12.2143 5.42829V13.5711ZM17.6428 12.4732L13.5714 10.4375V8.56198L17.6428 6.52626V12.4732V12.4732Z" fill="#E9724D"/>
-												<path d="M6.78583 6.78516C5.28676 6.78516 4.07153 8.00038 4.07153 9.49945C4.07153 10.9985 5.28676 12.2137 6.78583 12.2137C8.2849 12.2137 9.50013 10.9985 9.50013 9.49945C9.50013 8.00038 8.28486 6.78516 6.78583 6.78516ZM6.78583 10.8566C6.03631 10.8566 5.4287 10.249 5.4287 9.49945C5.4287 8.74994 6.03631 8.14232 6.78583 8.14232C7.53535 8.14232 8.14296 8.74994 8.14296 9.49945C8.14296 10.249 7.53535 10.8566 6.78583 10.8566Z" fill="#E9724D"/>
-												</g>
-												<defs>
-												<clipPath id="clip0">
-												<rect width="19" height="19" fill="white"/>
-												</clipPath>
-												</defs>
-												</svg>
-
-			            					</a>
-			            					<a href="#." class="chat_icon" data-mdb-toggle="modal" data-mdb-target="#exampleModal">
-			            						<svg width="15" height="15" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg">
-													<path d="M7.5 0C3.35495 0 0 3.35438 0 7.5C0 8.8155 0.343094 10.1003 0.994606 11.2335L0.0282669 14.2344C-0.0391388 14.4436 0.0162506 14.6729 0.171661 14.8283C0.325584 14.9823 0.554352 15.0397 0.76561 14.9717L3.76648 14.0054C4.89967 14.6569 6.1845 15 7.5 15C11.6451 15 15 11.6456 15 7.5C15 3.35495 11.6456 0 7.5 0ZM7.5 13.8281C6.31176 13.8281 5.1535 13.4966 4.15043 12.8693C4.00612 12.7792 3.8269 12.7548 3.66016 12.8085L1.49391 13.5061L2.19154 11.3398C2.24442 11.1755 2.2221 10.9961 2.13055 10.8496C1.50341 9.8465 1.17188 8.68824 1.17188 7.5C1.17188 4.0107 4.0107 1.17188 7.5 1.17188C10.9893 1.17188 13.8281 4.0107 13.8281 7.5C13.8281 10.9893 10.9893 13.8281 7.5 13.8281ZM8.23242 7.5C8.23242 7.90443 7.90455 8.23242 7.5 8.23242C7.09545 8.23242 6.76758 7.90443 6.76758 7.5C6.76758 7.09545 7.09545 6.76758 7.5 6.76758C7.90455 6.76758 8.23242 7.09545 8.23242 7.5ZM11.1621 7.5C11.1621 7.90443 10.8342 8.23242 10.4297 8.23242C10.0251 8.23242 9.69727 7.90443 9.69727 7.5C9.69727 7.09545 10.0251 6.76758 10.4297 6.76758C10.8342 6.76758 11.1621 7.09545 11.1621 7.5ZM5.30273 7.5C5.30273 7.90443 4.97486 8.23242 4.57031 8.23242C4.16588 8.23242 3.83789 7.90443 3.83789 7.5C3.83789 7.09545 4.16588 6.76758 4.57031 6.76758C4.97486 6.76758 5.30273 7.09545 5.30273 7.5Z" fill="#E9724D"/>
-												</svg>
-			            					</a>
-			            					<div class="dropdown">
-												<button class="dropdown-toggle" type="button" id="dropdownMenuButton" data-mdb-toggle="dropdown" aria-expanded="false"> 
-													<svg width="18" height="13" viewBox="0 0 18 13" fill="none" xmlns="http://www.w3.org/2000/svg">
-														<path d="M16.0312 0.3125H1.96875C0.883195 0.3125 0 1.1957 0 2.28125V10.7188C0 11.8043 0.883195 12.6875 1.96875 12.6875H16.0312C17.1168 12.6875 18 11.8043 18 10.7188V2.28125C18 1.1957 17.1168 0.3125 16.0312 0.3125ZM1.96875 1.4375H16.0312C16.4965 1.4375 16.875 1.81603 16.875 2.28125V3.40625H1.125V2.28125C1.125 1.81603 1.50353 1.4375 1.96875 1.4375ZM16.0312 11.5625H1.96875C1.50353 11.5625 1.125 11.184 1.125 10.7188V4.53125H16.875V10.7188C16.875 11.184 16.4965 11.5625 16.0312 11.5625Z" fill="#E9724D"/>
-														<path d="M3.9375 9.875H3.375C3.06436 9.875 2.8125 9.62314 2.8125 9.3125V8.75C2.8125 8.43936 3.06436 8.1875 3.375 8.1875H3.9375C4.24814 8.1875 4.5 8.43936 4.5 8.75V9.3125C4.5 9.62314 4.24814 9.875 3.9375 9.875Z" fill="#E9724D"/>
-													</svg>
-												</button>
-												<ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-												    <li><a class="dropdown-item" href="#">Pick</a></li>
-												    <li><a class="dropdown-item" href="#">Drop</a></li>
-												</ul>
-											</div>
-			            				</div>
-			            			</div>
-			            		</div>
-			            		<div class="col-md-6">
-			            			<div class="speakers_box">
-			            				<a href="#." class="speakers_box_inr d-flex flex-wrap" data-mdb-toggle="modal" data-mdb-target="#exampleModal">
-			            					<div class="speakers_img">
-			            						<img src="img/speakers_zone2.jpg" alt="">
-			            					</div>
-			            					<div class="speakers_text_box">
-			            						<div class="speakers_title d-flex justify-content-between align-items-center">
-			            							<h3>Brooklyn Simmons</h3>
-			            							<div class="arrow_icon_speakers">
-				            							<svg width="8" height="11" viewBox="0 0 8 11" fill="none" xmlns="http://www.w3.org/2000/svg">
-															<path d="M1 1L6 5.5L1 10" stroke="#DB604B" stroke-width="1.5"/>
-														</svg>
-													</div>
-			            						</div>
-			            						<small>Sr. Partner Systems</small>
-			            						<small>Dell Systmes</small>
-			            						<div class="city_social_media">
-			            							<p>New York City</p>
-			            						</div>	
-			            					</div>
-			            				</a>
-			            				<div class="social_menu d-flex align-items-center">
-			            					<a href="#." class="videos_call_icon" data-mdb-toggle="modal" data-mdb-target="#exampleModal">
-			            						<svg width="19" height="19" viewBox="0 0 19 19" fill="none" xmlns="http://www.w3.org/2000/svg">
-												<g clip-path="url(#clip0)">
-												<path d="M18.6783 4.85086C18.4783 4.72716 18.2285 4.71587 18.0181 4.821L13.5714 7.04466V5.42829C13.5714 4.304 12.66 3.39258 11.5357 3.39258H2.03571C0.911419 3.39258 0 4.304 0 5.42829V13.5711C0 14.6954 0.911419 15.6069 2.03571 15.6069H11.5357C12.66 15.6069 13.5714 14.6954 13.5714 13.5711V11.9548L18.0181 14.1819C18.3533 14.3494 18.7609 14.2134 18.9284 13.8782C18.9761 13.7829 19.0006 13.6777 19 13.5711V5.42829C19.0001 5.19307 18.8784 4.97459 18.6783 4.85086ZM12.2143 13.5711C12.2143 13.9459 11.9105 14.2497 11.5357 14.2497H2.03571C1.66093 14.2497 1.35713 13.9459 1.35713 13.5711V5.42829C1.35713 5.05351 1.66093 4.74971 2.03571 4.74971H11.5357C11.9105 4.74971 12.2143 5.05351 12.2143 5.42829V13.5711ZM17.6428 12.4732L13.5714 10.4375V8.56198L17.6428 6.52626V12.4732V12.4732Z" fill="#E9724D"/>
-												<path d="M6.78583 6.78516C5.28676 6.78516 4.07153 8.00038 4.07153 9.49945C4.07153 10.9985 5.28676 12.2137 6.78583 12.2137C8.2849 12.2137 9.50013 10.9985 9.50013 9.49945C9.50013 8.00038 8.28486 6.78516 6.78583 6.78516ZM6.78583 10.8566C6.03631 10.8566 5.4287 10.249 5.4287 9.49945C5.4287 8.74994 6.03631 8.14232 6.78583 8.14232C7.53535 8.14232 8.14296 8.74994 8.14296 9.49945C8.14296 10.249 7.53535 10.8566 6.78583 10.8566Z" fill="#E9724D"/>
-												</g>
-												<defs>
-												<clipPath id="clip0">
-												<rect width="19" height="19" fill="white"/>
-												</clipPath>
-												</defs>
-												</svg>
-
-			            					</a>
-			            					<a href="#." class="chat_icon" data-mdb-toggle="modal" data-mdb-target="#exampleModal">
-			            						<svg width="15" height="15" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg">
-													<path d="M7.5 0C3.35495 0 0 3.35438 0 7.5C0 8.8155 0.343094 10.1003 0.994606 11.2335L0.0282669 14.2344C-0.0391388 14.4436 0.0162506 14.6729 0.171661 14.8283C0.325584 14.9823 0.554352 15.0397 0.76561 14.9717L3.76648 14.0054C4.89967 14.6569 6.1845 15 7.5 15C11.6451 15 15 11.6456 15 7.5C15 3.35495 11.6456 0 7.5 0ZM7.5 13.8281C6.31176 13.8281 5.1535 13.4966 4.15043 12.8693C4.00612 12.7792 3.8269 12.7548 3.66016 12.8085L1.49391 13.5061L2.19154 11.3398C2.24442 11.1755 2.2221 10.9961 2.13055 10.8496C1.50341 9.8465 1.17188 8.68824 1.17188 7.5C1.17188 4.0107 4.0107 1.17188 7.5 1.17188C10.9893 1.17188 13.8281 4.0107 13.8281 7.5C13.8281 10.9893 10.9893 13.8281 7.5 13.8281ZM8.23242 7.5C8.23242 7.90443 7.90455 8.23242 7.5 8.23242C7.09545 8.23242 6.76758 7.90443 6.76758 7.5C6.76758 7.09545 7.09545 6.76758 7.5 6.76758C7.90455 6.76758 8.23242 7.09545 8.23242 7.5ZM11.1621 7.5C11.1621 7.90443 10.8342 8.23242 10.4297 8.23242C10.0251 8.23242 9.69727 7.90443 9.69727 7.5C9.69727 7.09545 10.0251 6.76758 10.4297 6.76758C10.8342 6.76758 11.1621 7.09545 11.1621 7.5ZM5.30273 7.5C5.30273 7.90443 4.97486 8.23242 4.57031 8.23242C4.16588 8.23242 3.83789 7.90443 3.83789 7.5C3.83789 7.09545 4.16588 6.76758 4.57031 6.76758C4.97486 6.76758 5.30273 7.09545 5.30273 7.5Z" fill="#E9724D"/>
-												</svg>
-			            					</a>
-			            					<div class="dropdown">
-												<button class="dropdown-toggle" type="button" id="dropdownMenuButton" data-mdb-toggle="dropdown" aria-expanded="false"> 
-													<svg width="18" height="13" viewBox="0 0 18 13" fill="none" xmlns="http://www.w3.org/2000/svg">
-														<path d="M16.0312 0.3125H1.96875C0.883195 0.3125 0 1.1957 0 2.28125V10.7188C0 11.8043 0.883195 12.6875 1.96875 12.6875H16.0312C17.1168 12.6875 18 11.8043 18 10.7188V2.28125C18 1.1957 17.1168 0.3125 16.0312 0.3125ZM1.96875 1.4375H16.0312C16.4965 1.4375 16.875 1.81603 16.875 2.28125V3.40625H1.125V2.28125C1.125 1.81603 1.50353 1.4375 1.96875 1.4375ZM16.0312 11.5625H1.96875C1.50353 11.5625 1.125 11.184 1.125 10.7188V4.53125H16.875V10.7188C16.875 11.184 16.4965 11.5625 16.0312 11.5625Z" fill="#E9724D"/>
-														<path d="M3.9375 9.875H3.375C3.06436 9.875 2.8125 9.62314 2.8125 9.3125V8.75C2.8125 8.43936 3.06436 8.1875 3.375 8.1875H3.9375C4.24814 8.1875 4.5 8.43936 4.5 8.75V9.3125C4.5 9.62314 4.24814 9.875 3.9375 9.875Z" fill="#E9724D"/>
-													</svg>
-												</button>
-												<ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-												    <li>
-												    	<a class="dropdown-item" href="#">
-												    		<div class="OpeNnotificationTextBox">
-															<svg width="77" height="76" viewBox="0 0 77 76" fill="none" xmlns="http://www.w3.org/2000/svg">
-																<circle opacity="0.3" cx="23.7501" cy="33.751" r="10.0147" stroke="#2DCA73"/>
-																<circle opacity="0.1" cx="23.75" cy="33.75" r="13.25" stroke="#2DCA73"/>
-																<g filter="url(#filter0_d)">
-																<circle cx="23.75" cy="33.7505" r="8.49265" fill="#2DCA73"/>
-																</g>
-																<path d="M19.5037 34.1618L22.0661 36.783L27.9963 30.7168" stroke="white" stroke-width="2" stroke-linecap="round"/>
-																<defs>
-																<filter id="filter0_d" x="-28.7427" y="-18.7422" width="104.985" height="104.985" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
-																<feFlood flood-opacity="0" result="BackgroundImageFix"/>
-																<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"/>
-																<feOffset/>
-																<feGaussianBlur stdDeviation="22"/>
-																<feColorMatrix type="matrix" values="0 0 0 0 0.720729 0 0 0 0 0.925 0 0 0 0 0.863719 0 0 0 1 0"/>
-																<feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow"/>
-																<feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow" result="shape"/>
-																</filter>
-																</defs>
-															</svg>
-															<span>
-																You Picked <br>the Card
-															</span>
-														</div>
-												    	</a>
-													</li>
-												</ul>
-											</div>
-			            				</div>
-			            			</div>
-			            		</div>
-			            	</div>	
-						</div>
-						<div class="tab-pane fade" id="ex1-tabs-3" role="tabpanel" aria-labelledby="ex1-tab-3">
-							<div class="row info_row">
-			            		<div class="col-md-6">
-			            			<div class="speakers_box">
-			            				<a href="#." class="speakers_box_inr d-flex flex-wrap" data-mdb-toggle="modal" data-mdb-target="#exampleModal">
-			            					<div class="speakers_img">
-			            						<img src="img/speakers_zone1.png" alt="">
-			            					</div>
-			            					<div class="speakers_text_box">
-			            						<div class="speakers_title d-flex justify-content-between align-items-center">
-			            							<h3>Brooklyn Simmons</h3>
-			            							<div class="arrow_icon_speakers">
-				            							<svg width="8" height="11" viewBox="0 0 8 11" fill="none" xmlns="http://www.w3.org/2000/svg">
-															<path d="M1 1L6 5.5L1 10" stroke="#DB604B" stroke-width="1.5"/>
-														</svg>
-													</div>
-			            						</div>
-			            						<small>Sr. Partner Systems</small>
-			            						<small>Dell Systmes</small>
-			            						<div class="city_social_media">
-			            							<p>New York City</p>
-			            						</div>	
-			            					</div>
-			            				</a>
-			            				<div class="social_menu d-flex align-items-center">
-			            					<a href="#." class="videos_call_icon" data-mdb-toggle="modal" data-mdb-target="#exampleModal">
-			            						<svg width="19" height="19" viewBox="0 0 19 19" fill="none" xmlns="http://www.w3.org/2000/svg">
-												<g clip-path="url(#clip0)">
-												<path d="M18.6783 4.85086C18.4783 4.72716 18.2285 4.71587 18.0181 4.821L13.5714 7.04466V5.42829C13.5714 4.304 12.66 3.39258 11.5357 3.39258H2.03571C0.911419 3.39258 0 4.304 0 5.42829V13.5711C0 14.6954 0.911419 15.6069 2.03571 15.6069H11.5357C12.66 15.6069 13.5714 14.6954 13.5714 13.5711V11.9548L18.0181 14.1819C18.3533 14.3494 18.7609 14.2134 18.9284 13.8782C18.9761 13.7829 19.0006 13.6777 19 13.5711V5.42829C19.0001 5.19307 18.8784 4.97459 18.6783 4.85086ZM12.2143 13.5711C12.2143 13.9459 11.9105 14.2497 11.5357 14.2497H2.03571C1.66093 14.2497 1.35713 13.9459 1.35713 13.5711V5.42829C1.35713 5.05351 1.66093 4.74971 2.03571 4.74971H11.5357C11.9105 4.74971 12.2143 5.05351 12.2143 5.42829V13.5711ZM17.6428 12.4732L13.5714 10.4375V8.56198L17.6428 6.52626V12.4732V12.4732Z" fill="#E9724D"/>
-												<path d="M6.78583 6.78516C5.28676 6.78516 4.07153 8.00038 4.07153 9.49945C4.07153 10.9985 5.28676 12.2137 6.78583 12.2137C8.2849 12.2137 9.50013 10.9985 9.50013 9.49945C9.50013 8.00038 8.28486 6.78516 6.78583 6.78516ZM6.78583 10.8566C6.03631 10.8566 5.4287 10.249 5.4287 9.49945C5.4287 8.74994 6.03631 8.14232 6.78583 8.14232C7.53535 8.14232 8.14296 8.74994 8.14296 9.49945C8.14296 10.249 7.53535 10.8566 6.78583 10.8566Z" fill="#E9724D"/>
-												</g>
-												<defs>
-												<clipPath id="clip0">
-												<rect width="19" height="19" fill="white"/>
-												</clipPath>
-												</defs>
-												</svg>
-
-			            					</a>
-			            					<a href="#." class="chat_icon" data-mdb-toggle="modal" data-mdb-target="#exampleModal">
-			            						<svg width="15" height="15" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg">
-													<path d="M7.5 0C3.35495 0 0 3.35438 0 7.5C0 8.8155 0.343094 10.1003 0.994606 11.2335L0.0282669 14.2344C-0.0391388 14.4436 0.0162506 14.6729 0.171661 14.8283C0.325584 14.9823 0.554352 15.0397 0.76561 14.9717L3.76648 14.0054C4.89967 14.6569 6.1845 15 7.5 15C11.6451 15 15 11.6456 15 7.5C15 3.35495 11.6456 0 7.5 0ZM7.5 13.8281C6.31176 13.8281 5.1535 13.4966 4.15043 12.8693C4.00612 12.7792 3.8269 12.7548 3.66016 12.8085L1.49391 13.5061L2.19154 11.3398C2.24442 11.1755 2.2221 10.9961 2.13055 10.8496C1.50341 9.8465 1.17188 8.68824 1.17188 7.5C1.17188 4.0107 4.0107 1.17188 7.5 1.17188C10.9893 1.17188 13.8281 4.0107 13.8281 7.5C13.8281 10.9893 10.9893 13.8281 7.5 13.8281ZM8.23242 7.5C8.23242 7.90443 7.90455 8.23242 7.5 8.23242C7.09545 8.23242 6.76758 7.90443 6.76758 7.5C6.76758 7.09545 7.09545 6.76758 7.5 6.76758C7.90455 6.76758 8.23242 7.09545 8.23242 7.5ZM11.1621 7.5C11.1621 7.90443 10.8342 8.23242 10.4297 8.23242C10.0251 8.23242 9.69727 7.90443 9.69727 7.5C9.69727 7.09545 10.0251 6.76758 10.4297 6.76758C10.8342 6.76758 11.1621 7.09545 11.1621 7.5ZM5.30273 7.5C5.30273 7.90443 4.97486 8.23242 4.57031 8.23242C4.16588 8.23242 3.83789 7.90443 3.83789 7.5C3.83789 7.09545 4.16588 6.76758 4.57031 6.76758C4.97486 6.76758 5.30273 7.09545 5.30273 7.5Z" fill="#E9724D"/>
-												</svg>
-			            					</a>
-			            					<div class="dropdown">
-												<button class="dropdown-toggle" type="button" id="dropdownMenuButton" data-mdb-toggle="dropdown" aria-expanded="false"> 
-													<svg width="18" height="13" viewBox="0 0 18 13" fill="none" xmlns="http://www.w3.org/2000/svg">
-														<path d="M16.0312 0.3125H1.96875C0.883195 0.3125 0 1.1957 0 2.28125V10.7188C0 11.8043 0.883195 12.6875 1.96875 12.6875H16.0312C17.1168 12.6875 18 11.8043 18 10.7188V2.28125C18 1.1957 17.1168 0.3125 16.0312 0.3125ZM1.96875 1.4375H16.0312C16.4965 1.4375 16.875 1.81603 16.875 2.28125V3.40625H1.125V2.28125C1.125 1.81603 1.50353 1.4375 1.96875 1.4375ZM16.0312 11.5625H1.96875C1.50353 11.5625 1.125 11.184 1.125 10.7188V4.53125H16.875V10.7188C16.875 11.184 16.4965 11.5625 16.0312 11.5625Z" fill="#E9724D"/>
-														<path d="M3.9375 9.875H3.375C3.06436 9.875 2.8125 9.62314 2.8125 9.3125V8.75C2.8125 8.43936 3.06436 8.1875 3.375 8.1875H3.9375C4.24814 8.1875 4.5 8.43936 4.5 8.75V9.3125C4.5 9.62314 4.24814 9.875 3.9375 9.875Z" fill="#E9724D"/>
-													</svg>
-												</button>
-												<ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-												    <li><a class="dropdown-item" href="#">Pick</a></li>
-												    <li><a class="dropdown-item" href="#">Drop</a></li>
-												</ul>
-											</div>
-			            				</div>
-			            			</div>
-			            		</div>
-			            		<div class="col-md-6">
-			            			<div class="speakers_box">
-			            				<a href="#." class="speakers_box_inr d-flex flex-wrap" data-mdb-toggle="modal" data-mdb-target="#exampleModal">
-			            					<div class="speakers_img">
-			            						<img src="img/speakers_zone2.jpg" alt="">
-			            					</div>
-			            					<div class="speakers_text_box">
-			            						<div class="speakers_title d-flex justify-content-between align-items-center">
-			            							<h3>Brooklyn Simmons</h3>
-			            							<div class="arrow_icon_speakers">
-				            							<svg width="8" height="11" viewBox="0 0 8 11" fill="none" xmlns="http://www.w3.org/2000/svg">
-															<path d="M1 1L6 5.5L1 10" stroke="#DB604B" stroke-width="1.5"/>
-														</svg>
-													</div>
-			            						</div>
-			            						<small>Sr. Partner Systems</small>
-			            						<small>Dell Systmes</small>
-			            						<div class="city_social_media">
-			            							<p>New York City</p>
-			            						</div>	
-			            					</div>
-			            				</a>
-			            				<div class="social_menu d-flex align-items-center">
-			            					<a href="#." class="videos_call_icon" data-mdb-toggle="modal" data-mdb-target="#exampleModal">
-			            						<svg width="19" height="19" viewBox="0 0 19 19" fill="none" xmlns="http://www.w3.org/2000/svg">
-												<g clip-path="url(#clip0)">
-												<path d="M18.6783 4.85086C18.4783 4.72716 18.2285 4.71587 18.0181 4.821L13.5714 7.04466V5.42829C13.5714 4.304 12.66 3.39258 11.5357 3.39258H2.03571C0.911419 3.39258 0 4.304 0 5.42829V13.5711C0 14.6954 0.911419 15.6069 2.03571 15.6069H11.5357C12.66 15.6069 13.5714 14.6954 13.5714 13.5711V11.9548L18.0181 14.1819C18.3533 14.3494 18.7609 14.2134 18.9284 13.8782C18.9761 13.7829 19.0006 13.6777 19 13.5711V5.42829C19.0001 5.19307 18.8784 4.97459 18.6783 4.85086ZM12.2143 13.5711C12.2143 13.9459 11.9105 14.2497 11.5357 14.2497H2.03571C1.66093 14.2497 1.35713 13.9459 1.35713 13.5711V5.42829C1.35713 5.05351 1.66093 4.74971 2.03571 4.74971H11.5357C11.9105 4.74971 12.2143 5.05351 12.2143 5.42829V13.5711ZM17.6428 12.4732L13.5714 10.4375V8.56198L17.6428 6.52626V12.4732V12.4732Z" fill="#E9724D"/>
-												<path d="M6.78583 6.78516C5.28676 6.78516 4.07153 8.00038 4.07153 9.49945C4.07153 10.9985 5.28676 12.2137 6.78583 12.2137C8.2849 12.2137 9.50013 10.9985 9.50013 9.49945C9.50013 8.00038 8.28486 6.78516 6.78583 6.78516ZM6.78583 10.8566C6.03631 10.8566 5.4287 10.249 5.4287 9.49945C5.4287 8.74994 6.03631 8.14232 6.78583 8.14232C7.53535 8.14232 8.14296 8.74994 8.14296 9.49945C8.14296 10.249 7.53535 10.8566 6.78583 10.8566Z" fill="#E9724D"/>
-												</g>
-												<defs>
-												<clipPath id="clip0">
-												<rect width="19" height="19" fill="white"/>
-												</clipPath>
-												</defs>
-												</svg>
-
-			            					</a>
-			            					<a href="#." class="chat_icon" data-mdb-toggle="modal" data-mdb-target="#exampleModal">
-			            						<svg width="15" height="15" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg">
-													<path d="M7.5 0C3.35495 0 0 3.35438 0 7.5C0 8.8155 0.343094 10.1003 0.994606 11.2335L0.0282669 14.2344C-0.0391388 14.4436 0.0162506 14.6729 0.171661 14.8283C0.325584 14.9823 0.554352 15.0397 0.76561 14.9717L3.76648 14.0054C4.89967 14.6569 6.1845 15 7.5 15C11.6451 15 15 11.6456 15 7.5C15 3.35495 11.6456 0 7.5 0ZM7.5 13.8281C6.31176 13.8281 5.1535 13.4966 4.15043 12.8693C4.00612 12.7792 3.8269 12.7548 3.66016 12.8085L1.49391 13.5061L2.19154 11.3398C2.24442 11.1755 2.2221 10.9961 2.13055 10.8496C1.50341 9.8465 1.17188 8.68824 1.17188 7.5C1.17188 4.0107 4.0107 1.17188 7.5 1.17188C10.9893 1.17188 13.8281 4.0107 13.8281 7.5C13.8281 10.9893 10.9893 13.8281 7.5 13.8281ZM8.23242 7.5C8.23242 7.90443 7.90455 8.23242 7.5 8.23242C7.09545 8.23242 6.76758 7.90443 6.76758 7.5C6.76758 7.09545 7.09545 6.76758 7.5 6.76758C7.90455 6.76758 8.23242 7.09545 8.23242 7.5ZM11.1621 7.5C11.1621 7.90443 10.8342 8.23242 10.4297 8.23242C10.0251 8.23242 9.69727 7.90443 9.69727 7.5C9.69727 7.09545 10.0251 6.76758 10.4297 6.76758C10.8342 6.76758 11.1621 7.09545 11.1621 7.5ZM5.30273 7.5C5.30273 7.90443 4.97486 8.23242 4.57031 8.23242C4.16588 8.23242 3.83789 7.90443 3.83789 7.5C3.83789 7.09545 4.16588 6.76758 4.57031 6.76758C4.97486 6.76758 5.30273 7.09545 5.30273 7.5Z" fill="#E9724D"/>
-												</svg>
-			            					</a>
-			            					<div class="dropdown">
-												<button class="dropdown-toggle" type="button" id="dropdownMenuButton" data-mdb-toggle="dropdown" aria-expanded="false"> 
-													<svg width="18" height="13" viewBox="0 0 18 13" fill="none" xmlns="http://www.w3.org/2000/svg">
-														<path d="M16.0312 0.3125H1.96875C0.883195 0.3125 0 1.1957 0 2.28125V10.7188C0 11.8043 0.883195 12.6875 1.96875 12.6875H16.0312C17.1168 12.6875 18 11.8043 18 10.7188V2.28125C18 1.1957 17.1168 0.3125 16.0312 0.3125ZM1.96875 1.4375H16.0312C16.4965 1.4375 16.875 1.81603 16.875 2.28125V3.40625H1.125V2.28125C1.125 1.81603 1.50353 1.4375 1.96875 1.4375ZM16.0312 11.5625H1.96875C1.50353 11.5625 1.125 11.184 1.125 10.7188V4.53125H16.875V10.7188C16.875 11.184 16.4965 11.5625 16.0312 11.5625Z" fill="#E9724D"/>
-														<path d="M3.9375 9.875H3.375C3.06436 9.875 2.8125 9.62314 2.8125 9.3125V8.75C2.8125 8.43936 3.06436 8.1875 3.375 8.1875H3.9375C4.24814 8.1875 4.5 8.43936 4.5 8.75V9.3125C4.5 9.62314 4.24814 9.875 3.9375 9.875Z" fill="#E9724D"/>
-													</svg>
-												</button>
-												<ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-												    <li><a class="dropdown-item" href="#">Pick</a></li>
-												    <li><a class="dropdown-item" href="#">Drop</a></li>
-												</ul>
-											</div>
-			            				</div>
-			            			</div>
-			            		</div>
-			            		<div class="col-md-6">
-			            			<div class="speakers_box">
-			            				<a href="#." class="speakers_box_inr d-flex flex-wrap" data-mdb-toggle="modal" data-mdb-target="#exampleModal">
-			            					<div class="speakers_img">
-			            						<img src="img/speakers_zone3.png" alt="">
-			            					</div>
-			            					<div class="speakers_text_box">
-			            						<div class="speakers_title d-flex justify-content-between align-items-center">
-			            							<h3>Brooklyn Simmons</h3>
-			            							<div class="arrow_icon_speakers">
-				            							<svg width="8" height="11" viewBox="0 0 8 11" fill="none" xmlns="http://www.w3.org/2000/svg">
-															<path d="M1 1L6 5.5L1 10" stroke="#DB604B" stroke-width="1.5"/>
-														</svg>
-													</div>
-			            						</div>
-			            						<small>Sr. Partner Systems</small>
-			            						<small>Dell Systmes</small>
-			            						<div class="city_social_media">
-			            							<p>New York City</p>
-			            						</div>	
-			            					</div>
-			            				</a>
-			            				<div class="social_menu d-flex align-items-center">
-			            					<a href="#." class="videos_call_icon" data-mdb-toggle="modal" data-mdb-target="#exampleModal">
-			            						<svg width="19" height="19" viewBox="0 0 19 19" fill="none" xmlns="http://www.w3.org/2000/svg">
-												<g clip-path="url(#clip0)">
-												<path d="M18.6783 4.85086C18.4783 4.72716 18.2285 4.71587 18.0181 4.821L13.5714 7.04466V5.42829C13.5714 4.304 12.66 3.39258 11.5357 3.39258H2.03571C0.911419 3.39258 0 4.304 0 5.42829V13.5711C0 14.6954 0.911419 15.6069 2.03571 15.6069H11.5357C12.66 15.6069 13.5714 14.6954 13.5714 13.5711V11.9548L18.0181 14.1819C18.3533 14.3494 18.7609 14.2134 18.9284 13.8782C18.9761 13.7829 19.0006 13.6777 19 13.5711V5.42829C19.0001 5.19307 18.8784 4.97459 18.6783 4.85086ZM12.2143 13.5711C12.2143 13.9459 11.9105 14.2497 11.5357 14.2497H2.03571C1.66093 14.2497 1.35713 13.9459 1.35713 13.5711V5.42829C1.35713 5.05351 1.66093 4.74971 2.03571 4.74971H11.5357C11.9105 4.74971 12.2143 5.05351 12.2143 5.42829V13.5711ZM17.6428 12.4732L13.5714 10.4375V8.56198L17.6428 6.52626V12.4732V12.4732Z" fill="#E9724D"/>
-												<path d="M6.78583 6.78516C5.28676 6.78516 4.07153 8.00038 4.07153 9.49945C4.07153 10.9985 5.28676 12.2137 6.78583 12.2137C8.2849 12.2137 9.50013 10.9985 9.50013 9.49945C9.50013 8.00038 8.28486 6.78516 6.78583 6.78516ZM6.78583 10.8566C6.03631 10.8566 5.4287 10.249 5.4287 9.49945C5.4287 8.74994 6.03631 8.14232 6.78583 8.14232C7.53535 8.14232 8.14296 8.74994 8.14296 9.49945C8.14296 10.249 7.53535 10.8566 6.78583 10.8566Z" fill="#E9724D"/>
-												</g>
-												<defs>
-												<clipPath id="clip0">
-												<rect width="19" height="19" fill="white"/>
-												</clipPath>
-												</defs>
-												</svg>
-
-			            					</a>
-			            					<a href="#." class="chat_icon" data-mdb-toggle="modal" data-mdb-target="#exampleModal">
-			            						<svg width="15" height="15" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg">
-													<path d="M7.5 0C3.35495 0 0 3.35438 0 7.5C0 8.8155 0.343094 10.1003 0.994606 11.2335L0.0282669 14.2344C-0.0391388 14.4436 0.0162506 14.6729 0.171661 14.8283C0.325584 14.9823 0.554352 15.0397 0.76561 14.9717L3.76648 14.0054C4.89967 14.6569 6.1845 15 7.5 15C11.6451 15 15 11.6456 15 7.5C15 3.35495 11.6456 0 7.5 0ZM7.5 13.8281C6.31176 13.8281 5.1535 13.4966 4.15043 12.8693C4.00612 12.7792 3.8269 12.7548 3.66016 12.8085L1.49391 13.5061L2.19154 11.3398C2.24442 11.1755 2.2221 10.9961 2.13055 10.8496C1.50341 9.8465 1.17188 8.68824 1.17188 7.5C1.17188 4.0107 4.0107 1.17188 7.5 1.17188C10.9893 1.17188 13.8281 4.0107 13.8281 7.5C13.8281 10.9893 10.9893 13.8281 7.5 13.8281ZM8.23242 7.5C8.23242 7.90443 7.90455 8.23242 7.5 8.23242C7.09545 8.23242 6.76758 7.90443 6.76758 7.5C6.76758 7.09545 7.09545 6.76758 7.5 6.76758C7.90455 6.76758 8.23242 7.09545 8.23242 7.5ZM11.1621 7.5C11.1621 7.90443 10.8342 8.23242 10.4297 8.23242C10.0251 8.23242 9.69727 7.90443 9.69727 7.5C9.69727 7.09545 10.0251 6.76758 10.4297 6.76758C10.8342 6.76758 11.1621 7.09545 11.1621 7.5ZM5.30273 7.5C5.30273 7.90443 4.97486 8.23242 4.57031 8.23242C4.16588 8.23242 3.83789 7.90443 3.83789 7.5C3.83789 7.09545 4.16588 6.76758 4.57031 6.76758C4.97486 6.76758 5.30273 7.09545 5.30273 7.5Z" fill="#E9724D"/>
-												</svg>
-			            					</a>
-			            					<div class="dropdown">
-												<button class="dropdown-toggle" type="button" id="dropdownMenuButton" data-mdb-toggle="dropdown" aria-expanded="false"> 
-													<svg width="18" height="13" viewBox="0 0 18 13" fill="none" xmlns="http://www.w3.org/2000/svg">
-														<path d="M16.0312 0.3125H1.96875C0.883195 0.3125 0 1.1957 0 2.28125V10.7188C0 11.8043 0.883195 12.6875 1.96875 12.6875H16.0312C17.1168 12.6875 18 11.8043 18 10.7188V2.28125C18 1.1957 17.1168 0.3125 16.0312 0.3125ZM1.96875 1.4375H16.0312C16.4965 1.4375 16.875 1.81603 16.875 2.28125V3.40625H1.125V2.28125C1.125 1.81603 1.50353 1.4375 1.96875 1.4375ZM16.0312 11.5625H1.96875C1.50353 11.5625 1.125 11.184 1.125 10.7188V4.53125H16.875V10.7188C16.875 11.184 16.4965 11.5625 16.0312 11.5625Z" fill="#E9724D"/>
-														<path d="M3.9375 9.875H3.375C3.06436 9.875 2.8125 9.62314 2.8125 9.3125V8.75C2.8125 8.43936 3.06436 8.1875 3.375 8.1875H3.9375C4.24814 8.1875 4.5 8.43936 4.5 8.75V9.3125C4.5 9.62314 4.24814 9.875 3.9375 9.875Z" fill="#E9724D"/>
-													</svg>
-												</button>
-												<ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-												    <li><a class="dropdown-item" href="#">Pick</a></li>
-												    <li><a class="dropdown-item" href="#">Drop</a></li>
-												</ul>
-											</div>
-			            				</div>
-			            			</div>
-			            		</div>
-			            		<div class="col-md-6">
-			            			<div class="speakers_box">
-			            				<a href="#." class="speakers_box_inr d-flex flex-wrap" data-mdb-toggle="modal" data-mdb-target="#exampleModal">
-			            					<div class="speakers_img">
-			            						<img src="img/speakers_zone4.png" alt="">
-			            					</div>
-			            					<div class="speakers_text_box">
-			            						<div class="speakers_title d-flex justify-content-between align-items-center">
-			            							<h3>Brooklyn Simmons</h3>
-			            							<div class="arrow_icon_speakers">
-				            							<svg width="8" height="11" viewBox="0 0 8 11" fill="none" xmlns="http://www.w3.org/2000/svg">
-															<path d="M1 1L6 5.5L1 10" stroke="#DB604B" stroke-width="1.5"/>
-														</svg>
-													</div>
-			            						</div>
-			            						<small>Sr. Partner Systems</small>
-			            						<small>Dell Systmes</small>
-			            						<div class="city_social_media">
-			            							<p>New York City</p>
-			            						</div>	
-			            					</div>
-			            				</a>
-			            				<div class="social_menu d-flex align-items-center">
-			            					<a href="#." class="videos_call_icon" data-mdb-toggle="modal" data-mdb-target="#exampleModal">
-			            						<svg width="19" height="19" viewBox="0 0 19 19" fill="none" xmlns="http://www.w3.org/2000/svg">
-												<g clip-path="url(#clip0)">
-												<path d="M18.6783 4.85086C18.4783 4.72716 18.2285 4.71587 18.0181 4.821L13.5714 7.04466V5.42829C13.5714 4.304 12.66 3.39258 11.5357 3.39258H2.03571C0.911419 3.39258 0 4.304 0 5.42829V13.5711C0 14.6954 0.911419 15.6069 2.03571 15.6069H11.5357C12.66 15.6069 13.5714 14.6954 13.5714 13.5711V11.9548L18.0181 14.1819C18.3533 14.3494 18.7609 14.2134 18.9284 13.8782C18.9761 13.7829 19.0006 13.6777 19 13.5711V5.42829C19.0001 5.19307 18.8784 4.97459 18.6783 4.85086ZM12.2143 13.5711C12.2143 13.9459 11.9105 14.2497 11.5357 14.2497H2.03571C1.66093 14.2497 1.35713 13.9459 1.35713 13.5711V5.42829C1.35713 5.05351 1.66093 4.74971 2.03571 4.74971H11.5357C11.9105 4.74971 12.2143 5.05351 12.2143 5.42829V13.5711ZM17.6428 12.4732L13.5714 10.4375V8.56198L17.6428 6.52626V12.4732V12.4732Z" fill="#E9724D"/>
-												<path d="M6.78583 6.78516C5.28676 6.78516 4.07153 8.00038 4.07153 9.49945C4.07153 10.9985 5.28676 12.2137 6.78583 12.2137C8.2849 12.2137 9.50013 10.9985 9.50013 9.49945C9.50013 8.00038 8.28486 6.78516 6.78583 6.78516ZM6.78583 10.8566C6.03631 10.8566 5.4287 10.249 5.4287 9.49945C5.4287 8.74994 6.03631 8.14232 6.78583 8.14232C7.53535 8.14232 8.14296 8.74994 8.14296 9.49945C8.14296 10.249 7.53535 10.8566 6.78583 10.8566Z" fill="#E9724D"/>
-												</g>
-												<defs>
-												<clipPath id="clip0">
-												<rect width="19" height="19" fill="white"/>
-												</clipPath>
-												</defs>
-												</svg>
-
-			            					</a>
-			            					<a href="#." class="chat_icon" data-mdb-toggle="modal" data-mdb-target="#exampleModal">
-			            						<svg width="15" height="15" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg">
-													<path d="M7.5 0C3.35495 0 0 3.35438 0 7.5C0 8.8155 0.343094 10.1003 0.994606 11.2335L0.0282669 14.2344C-0.0391388 14.4436 0.0162506 14.6729 0.171661 14.8283C0.325584 14.9823 0.554352 15.0397 0.76561 14.9717L3.76648 14.0054C4.89967 14.6569 6.1845 15 7.5 15C11.6451 15 15 11.6456 15 7.5C15 3.35495 11.6456 0 7.5 0ZM7.5 13.8281C6.31176 13.8281 5.1535 13.4966 4.15043 12.8693C4.00612 12.7792 3.8269 12.7548 3.66016 12.8085L1.49391 13.5061L2.19154 11.3398C2.24442 11.1755 2.2221 10.9961 2.13055 10.8496C1.50341 9.8465 1.17188 8.68824 1.17188 7.5C1.17188 4.0107 4.0107 1.17188 7.5 1.17188C10.9893 1.17188 13.8281 4.0107 13.8281 7.5C13.8281 10.9893 10.9893 13.8281 7.5 13.8281ZM8.23242 7.5C8.23242 7.90443 7.90455 8.23242 7.5 8.23242C7.09545 8.23242 6.76758 7.90443 6.76758 7.5C6.76758 7.09545 7.09545 6.76758 7.5 6.76758C7.90455 6.76758 8.23242 7.09545 8.23242 7.5ZM11.1621 7.5C11.1621 7.90443 10.8342 8.23242 10.4297 8.23242C10.0251 8.23242 9.69727 7.90443 9.69727 7.5C9.69727 7.09545 10.0251 6.76758 10.4297 6.76758C10.8342 6.76758 11.1621 7.09545 11.1621 7.5ZM5.30273 7.5C5.30273 7.90443 4.97486 8.23242 4.57031 8.23242C4.16588 8.23242 3.83789 7.90443 3.83789 7.5C3.83789 7.09545 4.16588 6.76758 4.57031 6.76758C4.97486 6.76758 5.30273 7.09545 5.30273 7.5Z" fill="#E9724D"/>
-												</svg>
-			            					</a>
-			            					<div class="dropdown">
-												<button class="dropdown-toggle" type="button" id="dropdownMenuButton" data-mdb-toggle="dropdown" aria-expanded="false"> 
-													<svg width="18" height="13" viewBox="0 0 18 13" fill="none" xmlns="http://www.w3.org/2000/svg">
-														<path d="M16.0312 0.3125H1.96875C0.883195 0.3125 0 1.1957 0 2.28125V10.7188C0 11.8043 0.883195 12.6875 1.96875 12.6875H16.0312C17.1168 12.6875 18 11.8043 18 10.7188V2.28125C18 1.1957 17.1168 0.3125 16.0312 0.3125ZM1.96875 1.4375H16.0312C16.4965 1.4375 16.875 1.81603 16.875 2.28125V3.40625H1.125V2.28125C1.125 1.81603 1.50353 1.4375 1.96875 1.4375ZM16.0312 11.5625H1.96875C1.50353 11.5625 1.125 11.184 1.125 10.7188V4.53125H16.875V10.7188C16.875 11.184 16.4965 11.5625 16.0312 11.5625Z" fill="#E9724D"/>
-														<path d="M3.9375 9.875H3.375C3.06436 9.875 2.8125 9.62314 2.8125 9.3125V8.75C2.8125 8.43936 3.06436 8.1875 3.375 8.1875H3.9375C4.24814 8.1875 4.5 8.43936 4.5 8.75V9.3125C4.5 9.62314 4.24814 9.875 3.9375 9.875Z" fill="#E9724D"/>
-													</svg>
-												</button>
-												<ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-												    <li><a class="dropdown-item" href="#">Pick</a></li>
-												    <li><a class="dropdown-item" href="#">Drop</a></li>
-												</ul>
-											</div>
-			            				</div>
-			            			</div>
-			            		</div>
-			            		<div class="col-md-6">
-			            			<div class="speakers_box">
-			            				<a href="#." class="speakers_box_inr d-flex flex-wrap" data-mdb-toggle="modal" data-mdb-target="#exampleModal">
-			            					<div class="speakers_img">
-			            						<img src="img/speakers_zone5.png" alt="">
-			            					</div>
-			            					<div class="speakers_text_box">
-			            						<div class="speakers_title d-flex justify-content-between align-items-center">
-			            							<h3>Brooklyn Simmons</h3>
-			            							<div class="arrow_icon_speakers">
-				            							<svg width="8" height="11" viewBox="0 0 8 11" fill="none" xmlns="http://www.w3.org/2000/svg">
-															<path d="M1 1L6 5.5L1 10" stroke="#DB604B" stroke-width="1.5"/>
-														</svg>
-													</div>
-			            						</div>
-			            						<small>Sr. Partner Systems</small>
-			            						<small>Dell Systmes</small>
-			            						<div class="city_social_media">
-			            							<p>New York City</p>
-			            						</div>	
-			            					</div>
-			            				</a>
-			            				<div class="social_menu d-flex align-items-center">
-			            					<a href="#." class="videos_call_icon" data-mdb-toggle="modal" data-mdb-target="#exampleModal">
-			            						<svg width="19" height="19" viewBox="0 0 19 19" fill="none" xmlns="http://www.w3.org/2000/svg">
-												<g clip-path="url(#clip0)">
-												<path d="M18.6783 4.85086C18.4783 4.72716 18.2285 4.71587 18.0181 4.821L13.5714 7.04466V5.42829C13.5714 4.304 12.66 3.39258 11.5357 3.39258H2.03571C0.911419 3.39258 0 4.304 0 5.42829V13.5711C0 14.6954 0.911419 15.6069 2.03571 15.6069H11.5357C12.66 15.6069 13.5714 14.6954 13.5714 13.5711V11.9548L18.0181 14.1819C18.3533 14.3494 18.7609 14.2134 18.9284 13.8782C18.9761 13.7829 19.0006 13.6777 19 13.5711V5.42829C19.0001 5.19307 18.8784 4.97459 18.6783 4.85086ZM12.2143 13.5711C12.2143 13.9459 11.9105 14.2497 11.5357 14.2497H2.03571C1.66093 14.2497 1.35713 13.9459 1.35713 13.5711V5.42829C1.35713 5.05351 1.66093 4.74971 2.03571 4.74971H11.5357C11.9105 4.74971 12.2143 5.05351 12.2143 5.42829V13.5711ZM17.6428 12.4732L13.5714 10.4375V8.56198L17.6428 6.52626V12.4732V12.4732Z" fill="#E9724D"/>
-												<path d="M6.78583 6.78516C5.28676 6.78516 4.07153 8.00038 4.07153 9.49945C4.07153 10.9985 5.28676 12.2137 6.78583 12.2137C8.2849 12.2137 9.50013 10.9985 9.50013 9.49945C9.50013 8.00038 8.28486 6.78516 6.78583 6.78516ZM6.78583 10.8566C6.03631 10.8566 5.4287 10.249 5.4287 9.49945C5.4287 8.74994 6.03631 8.14232 6.78583 8.14232C7.53535 8.14232 8.14296 8.74994 8.14296 9.49945C8.14296 10.249 7.53535 10.8566 6.78583 10.8566Z" fill="#E9724D"/>
-												</g>
-												<defs>
-												<clipPath id="clip0">
-												<rect width="19" height="19" fill="white"/>
-												</clipPath>
-												</defs>
-												</svg>
-
-				            					</a>
-				            					<a href="#." class="chat_icon" data-mdb-toggle="modal" data-mdb-target="#exampleModal">
-				            						<svg width="15" height="15" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg">
-														<path d="M7.5 0C3.35495 0 0 3.35438 0 7.5C0 8.8155 0.343094 10.1003 0.994606 11.2335L0.0282669 14.2344C-0.0391388 14.4436 0.0162506 14.6729 0.171661 14.8283C0.325584 14.9823 0.554352 15.0397 0.76561 14.9717L3.76648 14.0054C4.89967 14.6569 6.1845 15 7.5 15C11.6451 15 15 11.6456 15 7.5C15 3.35495 11.6456 0 7.5 0ZM7.5 13.8281C6.31176 13.8281 5.1535 13.4966 4.15043 12.8693C4.00612 12.7792 3.8269 12.7548 3.66016 12.8085L1.49391 13.5061L2.19154 11.3398C2.24442 11.1755 2.2221 10.9961 2.13055 10.8496C1.50341 9.8465 1.17188 8.68824 1.17188 7.5C1.17188 4.0107 4.0107 1.17188 7.5 1.17188C10.9893 1.17188 13.8281 4.0107 13.8281 7.5C13.8281 10.9893 10.9893 13.8281 7.5 13.8281ZM8.23242 7.5C8.23242 7.90443 7.90455 8.23242 7.5 8.23242C7.09545 8.23242 6.76758 7.90443 6.76758 7.5C6.76758 7.09545 7.09545 6.76758 7.5 6.76758C7.90455 6.76758 8.23242 7.09545 8.23242 7.5ZM11.1621 7.5C11.1621 7.90443 10.8342 8.23242 10.4297 8.23242C10.0251 8.23242 9.69727 7.90443 9.69727 7.5C9.69727 7.09545 10.0251 6.76758 10.4297 6.76758C10.8342 6.76758 11.1621 7.09545 11.1621 7.5ZM5.30273 7.5C5.30273 7.90443 4.97486 8.23242 4.57031 8.23242C4.16588 8.23242 3.83789 7.90443 3.83789 7.5C3.83789 7.09545 4.16588 6.76758 4.57031 6.76758C4.97486 6.76758 5.30273 7.09545 5.30273 7.5Z" fill="#E9724D"/>
-													</svg>
-				            					</a>
-				            					<div class="dropdown">
-													<button class="dropdown-toggle" type="button" id="dropdownMenuButton" data-mdb-toggle="dropdown" aria-expanded="false"> 
-														<svg width="18" height="13" viewBox="0 0 18 13" fill="none" xmlns="http://www.w3.org/2000/svg">
-															
-														</svg>
-													</button>
-													<ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-													    <li><a class="dropdown-item" href="#">Pick</a></li>
-													    <li><a class="dropdown-item" href="#">Drop</a></li>
-													</ul>
 												</div>
-				            				</div>
-				            			</div>
-				            		</div>
-				            		<div class="col-md-6">
-				            			<div class="speakers_box">
-				            				<a href="#." class="speakers_box_inr d-flex flex-wrap" data-mdb-toggle="modal" data-mdb-target="#exampleModal">
-				            					<div class="speakers_img">
-				            						<img src="img/speakers_zone6.png" alt="">
-				            					</div>
-				            					<div class="speakers_text_box">
-				            						<div class="speakers_title d-flex justify-content-between align-items-center">
-				            							<h3>Brooklyn Simmons</h3>
-				            							<div class="arrow_icon_speakers">
-					            							<svg width="8" height="11" viewBox="0 0 8 11" fill="none" xmlns="http://www.w3.org/2000/svg">
-																<path d="M1 1L6 5.5L1 10" stroke="#DB604B" stroke-width="1.5"/>
-															</svg>
-														</div>
-				            						</div>
-				            						<small>Sr. Partner Systems</small>
-				            						<small>Dell Systmes</small>
-				            						<div class="city_social_media">
-				            							<p>New York City</p>
-				            						</div>	
-				            					</div>
-				            				</a>
-				            				<div class="social_menu d-flex align-items-center">
-				            					<a href="#." class="videos_call_icon" data-mdb-toggle="modal" data-mdb-target="#exampleModal">
-				            						<svg width="19" height="19" viewBox="0 0 19 19" fill="none" xmlns="http://www.w3.org/2000/svg">
-												<g clip-path="url(#clip0)">
-												<path d="M18.6783 4.85086C18.4783 4.72716 18.2285 4.71587 18.0181 4.821L13.5714 7.04466V5.42829C13.5714 4.304 12.66 3.39258 11.5357 3.39258H2.03571C0.911419 3.39258 0 4.304 0 5.42829V13.5711C0 14.6954 0.911419 15.6069 2.03571 15.6069H11.5357C12.66 15.6069 13.5714 14.6954 13.5714 13.5711V11.9548L18.0181 14.1819C18.3533 14.3494 18.7609 14.2134 18.9284 13.8782C18.9761 13.7829 19.0006 13.6777 19 13.5711V5.42829C19.0001 5.19307 18.8784 4.97459 18.6783 4.85086ZM12.2143 13.5711C12.2143 13.9459 11.9105 14.2497 11.5357 14.2497H2.03571C1.66093 14.2497 1.35713 13.9459 1.35713 13.5711V5.42829C1.35713 5.05351 1.66093 4.74971 2.03571 4.74971H11.5357C11.9105 4.74971 12.2143 5.05351 12.2143 5.42829V13.5711ZM17.6428 12.4732L13.5714 10.4375V8.56198L17.6428 6.52626V12.4732V12.4732Z" fill="#E9724D"/>
-												<path d="M6.78583 6.78516C5.28676 6.78516 4.07153 8.00038 4.07153 9.49945C4.07153 10.9985 5.28676 12.2137 6.78583 12.2137C8.2849 12.2137 9.50013 10.9985 9.50013 9.49945C9.50013 8.00038 8.28486 6.78516 6.78583 6.78516ZM6.78583 10.8566C6.03631 10.8566 5.4287 10.249 5.4287 9.49945C5.4287 8.74994 6.03631 8.14232 6.78583 8.14232C7.53535 8.14232 8.14296 8.74994 8.14296 9.49945C8.14296 10.249 7.53535 10.8566 6.78583 10.8566Z" fill="#E9724D"/>
-												</g>
-												<defs>
-												<clipPath id="clip0">
-												<rect width="19" height="19" fill="white"/>
-												</clipPath>
-												</defs>
-												</svg>
-
-			            					</a>
-			            					<a href="#." class="chat_icon" data-mdb-toggle="modal" data-mdb-target="#exampleModal">
-			            						<svg width="15" height="15" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg">
-													<path d="M7.5 0C3.35495 0 0 3.35438 0 7.5C0 8.8155 0.343094 10.1003 0.994606 11.2335L0.0282669 14.2344C-0.0391388 14.4436 0.0162506 14.6729 0.171661 14.8283C0.325584 14.9823 0.554352 15.0397 0.76561 14.9717L3.76648 14.0054C4.89967 14.6569 6.1845 15 7.5 15C11.6451 15 15 11.6456 15 7.5C15 3.35495 11.6456 0 7.5 0ZM7.5 13.8281C6.31176 13.8281 5.1535 13.4966 4.15043 12.8693C4.00612 12.7792 3.8269 12.7548 3.66016 12.8085L1.49391 13.5061L2.19154 11.3398C2.24442 11.1755 2.2221 10.9961 2.13055 10.8496C1.50341 9.8465 1.17188 8.68824 1.17188 7.5C1.17188 4.0107 4.0107 1.17188 7.5 1.17188C10.9893 1.17188 13.8281 4.0107 13.8281 7.5C13.8281 10.9893 10.9893 13.8281 7.5 13.8281ZM8.23242 7.5C8.23242 7.90443 7.90455 8.23242 7.5 8.23242C7.09545 8.23242 6.76758 7.90443 6.76758 7.5C6.76758 7.09545 7.09545 6.76758 7.5 6.76758C7.90455 6.76758 8.23242 7.09545 8.23242 7.5ZM11.1621 7.5C11.1621 7.90443 10.8342 8.23242 10.4297 8.23242C10.0251 8.23242 9.69727 7.90443 9.69727 7.5C9.69727 7.09545 10.0251 6.76758 10.4297 6.76758C10.8342 6.76758 11.1621 7.09545 11.1621 7.5ZM5.30273 7.5C5.30273 7.90443 4.97486 8.23242 4.57031 8.23242C4.16588 8.23242 3.83789 7.90443 3.83789 7.5C3.83789 7.09545 4.16588 6.76758 4.57031 6.76758C4.97486 6.76758 5.30273 7.09545 5.30273 7.5Z" fill="#E9724D"/>
-												</svg>
-			            					</a>
-			            					<div class="dropdown">
-												<button class="dropdown-toggle" type="button" id="dropdownMenuButton" data-mdb-toggle="dropdown" aria-expanded="false"> 
-													<svg width="18" height="13" viewBox="0 0 18 13" fill="none" xmlns="http://www.w3.org/2000/svg">
-														<path d="M16.0312 0.3125H1.96875C0.883195 0.3125 0 1.1957 0 2.28125V10.7188C0 11.8043 0.883195 12.6875 1.96875 12.6875H16.0312C17.1168 12.6875 18 11.8043 18 10.7188V2.28125C18 1.1957 17.1168 0.3125 16.0312 0.3125ZM1.96875 1.4375H16.0312C16.4965 1.4375 16.875 1.81603 16.875 2.28125V3.40625H1.125V2.28125C1.125 1.81603 1.50353 1.4375 1.96875 1.4375ZM16.0312 11.5625H1.96875C1.50353 11.5625 1.125 11.184 1.125 10.7188V4.53125H16.875V10.7188C16.875 11.184 16.4965 11.5625 16.0312 11.5625Z" fill="#E9724D"/>
-														<path d="M3.9375 9.875H3.375C3.06436 9.875 2.8125 9.62314 2.8125 9.3125V8.75C2.8125 8.43936 3.06436 8.1875 3.375 8.1875H3.9375C4.24814 8.1875 4.5 8.43936 4.5 8.75V9.3125C4.5 9.62314 4.24814 9.875 3.9375 9.875Z" fill="#E9724D"/>
-													</svg>
-												</button>
-												<ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-												    <li><a class="dropdown-item" href="#">Pick</a></li>
-												    <li><a class="dropdown-item" href="#">Drop</a></li>
-												</ul>
 											</div>
-			            				</div>
-			            			</div>
-			            		</div>
-			            		<div class="col-md-6">
-			            			<div class="speakers_box">
-			            				<a href="#." class="speakers_box_inr d-flex flex-wrap" data-mdb-toggle="modal" data-mdb-target="#exampleModal">
-			            					<div class="speakers_img">
-			            						<img src="img/speakers_zone1.png" alt="">
-			            					</div>
-			            					<div class="speakers_text_box">
-			            						<div class="speakers_title d-flex justify-content-between align-items-center">
-			            							<h3>Brooklyn Simmons</h3>
-			            							<div class="arrow_icon_speakers">
-				            							<svg width="8" height="11" viewBox="0 0 8 11" fill="none" xmlns="http://www.w3.org/2000/svg">
-															<path d="M1 1L6 5.5L1 10" stroke="#DB604B" stroke-width="1.5"/>
-														</svg>
+										</div>
+										<div class="col-md-6">
+											<div class="speakers_box">
+												<a href="#." class="speakers_box_inr d-flex flex-wrap" data-mdb-toggle="modal" data-mdb-target="#exampleModal">
+													<div class="speakers_img">
+														<img src="img/speakers_zone2.jpg" alt="">
 													</div>
-			            						</div>
-			            						<small>Sr. Partner Systems</small>
-			            						<small>Dell Systmes</small>
-			            						<div class="city_social_media">
-			            							<p>New York City</p>
-			            						</div>	
-			            					</div>
-			            				</a>
-			            				<div class="social_menu d-flex align-items-center">
-			            					<a href="#." class="videos_call_icon" data-mdb-toggle="modal" data-mdb-target="#exampleModal">
-			            						<svg width="19" height="19" viewBox="0 0 19 19" fill="none" xmlns="http://www.w3.org/2000/svg">
-												<g clip-path="url(#clip0)">
-												<path d="M18.6783 4.85086C18.4783 4.72716 18.2285 4.71587 18.0181 4.821L13.5714 7.04466V5.42829C13.5714 4.304 12.66 3.39258 11.5357 3.39258H2.03571C0.911419 3.39258 0 4.304 0 5.42829V13.5711C0 14.6954 0.911419 15.6069 2.03571 15.6069H11.5357C12.66 15.6069 13.5714 14.6954 13.5714 13.5711V11.9548L18.0181 14.1819C18.3533 14.3494 18.7609 14.2134 18.9284 13.8782C18.9761 13.7829 19.0006 13.6777 19 13.5711V5.42829C19.0001 5.19307 18.8784 4.97459 18.6783 4.85086ZM12.2143 13.5711C12.2143 13.9459 11.9105 14.2497 11.5357 14.2497H2.03571C1.66093 14.2497 1.35713 13.9459 1.35713 13.5711V5.42829C1.35713 5.05351 1.66093 4.74971 2.03571 4.74971H11.5357C11.9105 4.74971 12.2143 5.05351 12.2143 5.42829V13.5711ZM17.6428 12.4732L13.5714 10.4375V8.56198L17.6428 6.52626V12.4732V12.4732Z" fill="#E9724D"/>
-												<path d="M6.78583 6.78516C5.28676 6.78516 4.07153 8.00038 4.07153 9.49945C4.07153 10.9985 5.28676 12.2137 6.78583 12.2137C8.2849 12.2137 9.50013 10.9985 9.50013 9.49945C9.50013 8.00038 8.28486 6.78516 6.78583 6.78516ZM6.78583 10.8566C6.03631 10.8566 5.4287 10.249 5.4287 9.49945C5.4287 8.74994 6.03631 8.14232 6.78583 8.14232C7.53535 8.14232 8.14296 8.74994 8.14296 9.49945C8.14296 10.249 7.53535 10.8566 6.78583 10.8566Z" fill="#E9724D"/>
-												</g>
-												<defs>
-												<clipPath id="clip0">
-												<rect width="19" height="19" fill="white"/>
-												</clipPath>
-												</defs>
-												</svg>
-
-			            					</a>
-			            					<a href="#." class="chat_icon" data-mdb-toggle="modal" data-mdb-target="#exampleModal">
-			            						<svg width="15" height="15" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg">
-													<path d="M7.5 0C3.35495 0 0 3.35438 0 7.5C0 8.8155 0.343094 10.1003 0.994606 11.2335L0.0282669 14.2344C-0.0391388 14.4436 0.0162506 14.6729 0.171661 14.8283C0.325584 14.9823 0.554352 15.0397 0.76561 14.9717L3.76648 14.0054C4.89967 14.6569 6.1845 15 7.5 15C11.6451 15 15 11.6456 15 7.5C15 3.35495 11.6456 0 7.5 0ZM7.5 13.8281C6.31176 13.8281 5.1535 13.4966 4.15043 12.8693C4.00612 12.7792 3.8269 12.7548 3.66016 12.8085L1.49391 13.5061L2.19154 11.3398C2.24442 11.1755 2.2221 10.9961 2.13055 10.8496C1.50341 9.8465 1.17188 8.68824 1.17188 7.5C1.17188 4.0107 4.0107 1.17188 7.5 1.17188C10.9893 1.17188 13.8281 4.0107 13.8281 7.5C13.8281 10.9893 10.9893 13.8281 7.5 13.8281ZM8.23242 7.5C8.23242 7.90443 7.90455 8.23242 7.5 8.23242C7.09545 8.23242 6.76758 7.90443 6.76758 7.5C6.76758 7.09545 7.09545 6.76758 7.5 6.76758C7.90455 6.76758 8.23242 7.09545 8.23242 7.5ZM11.1621 7.5C11.1621 7.90443 10.8342 8.23242 10.4297 8.23242C10.0251 8.23242 9.69727 7.90443 9.69727 7.5C9.69727 7.09545 10.0251 6.76758 10.4297 6.76758C10.8342 6.76758 11.1621 7.09545 11.1621 7.5ZM5.30273 7.5C5.30273 7.90443 4.97486 8.23242 4.57031 8.23242C4.16588 8.23242 3.83789 7.90443 3.83789 7.5C3.83789 7.09545 4.16588 6.76758 4.57031 6.76758C4.97486 6.76758 5.30273 7.09545 5.30273 7.5Z" fill="#E9724D"/>
-												</svg>
-			            					</a>
-			            					<div class="dropdown">
-												<button class="dropdown-toggle" type="button" id="dropdownMenuButton" data-mdb-toggle="dropdown" aria-expanded="false"> 
-													<svg width="18" height="13" viewBox="0 0 18 13" fill="none" xmlns="http://www.w3.org/2000/svg">
-														<path d="M16.0312 0.3125H1.96875C0.883195 0.3125 0 1.1957 0 2.28125V10.7188C0 11.8043 0.883195 12.6875 1.96875 12.6875H16.0312C17.1168 12.6875 18 11.8043 18 10.7188V2.28125C18 1.1957 17.1168 0.3125 16.0312 0.3125ZM1.96875 1.4375H16.0312C16.4965 1.4375 16.875 1.81603 16.875 2.28125V3.40625H1.125V2.28125C1.125 1.81603 1.50353 1.4375 1.96875 1.4375ZM16.0312 11.5625H1.96875C1.50353 11.5625 1.125 11.184 1.125 10.7188V4.53125H16.875V10.7188C16.875 11.184 16.4965 11.5625 16.0312 11.5625Z" fill="#E9724D"/>
-														<path d="M3.9375 9.875H3.375C3.06436 9.875 2.8125 9.62314 2.8125 9.3125V8.75C2.8125 8.43936 3.06436 8.1875 3.375 8.1875H3.9375C4.24814 8.1875 4.5 8.43936 4.5 8.75V9.3125C4.5 9.62314 4.24814 9.875 3.9375 9.875Z" fill="#E9724D"/>
-													</svg>
-												</button>
-												<ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-												    <li><a class="dropdown-item" href="#">Pick</a></li>
-												    <li><a class="dropdown-item" href="#">Drop</a></li>
-												</ul>
-											</div>
-			            				</div>
-			            			</div>
-			            		</div>
-			            		<div class="col-md-6">
-			            			<div class="speakers_box">
-			            				<a href="#." class="speakers_box_inr d-flex flex-wrap" data-mdb-toggle="modal" data-mdb-target="#exampleModal">
-			            					<div class="speakers_img">
-			            						<img src="img/speakers_zone2.jpg" alt="">
-			            					</div>
-			            					<div class="speakers_text_box">
-			            						<div class="speakers_title d-flex justify-content-between align-items-center">
-			            							<h3>Brooklyn Simmons</h3>
-			            							<div class="arrow_icon_speakers">
-				            							<svg width="8" height="11" viewBox="0 0 8 11" fill="none" xmlns="http://www.w3.org/2000/svg">
-															<path d="M1 1L6 5.5L1 10" stroke="#DB604B" stroke-width="1.5"/>
-														</svg>
-													</div>
-			            						</div>
-			            						<small>Sr. Partner Systems</small>
-			            						<small>Dell Systmes</small>
-			            						<div class="city_social_media">
-			            							<p>New York City</p>
-			            						</div>	
-			            					</div>
-			            				</a>
-			            				<div class="social_menu d-flex align-items-center">
-			            					<a href="#." class="videos_call_icon" data-mdb-toggle="modal" data-mdb-target="#exampleModal">
-			            						<svg width="19" height="19" viewBox="0 0 19 19" fill="none" xmlns="http://www.w3.org/2000/svg">
-												<g clip-path="url(#clip0)">
-												<path d="M18.6783 4.85086C18.4783 4.72716 18.2285 4.71587 18.0181 4.821L13.5714 7.04466V5.42829C13.5714 4.304 12.66 3.39258 11.5357 3.39258H2.03571C0.911419 3.39258 0 4.304 0 5.42829V13.5711C0 14.6954 0.911419 15.6069 2.03571 15.6069H11.5357C12.66 15.6069 13.5714 14.6954 13.5714 13.5711V11.9548L18.0181 14.1819C18.3533 14.3494 18.7609 14.2134 18.9284 13.8782C18.9761 13.7829 19.0006 13.6777 19 13.5711V5.42829C19.0001 5.19307 18.8784 4.97459 18.6783 4.85086ZM12.2143 13.5711C12.2143 13.9459 11.9105 14.2497 11.5357 14.2497H2.03571C1.66093 14.2497 1.35713 13.9459 1.35713 13.5711V5.42829C1.35713 5.05351 1.66093 4.74971 2.03571 4.74971H11.5357C11.9105 4.74971 12.2143 5.05351 12.2143 5.42829V13.5711ZM17.6428 12.4732L13.5714 10.4375V8.56198L17.6428 6.52626V12.4732V12.4732Z" fill="#E9724D"/>
-												<path d="M6.78583 6.78516C5.28676 6.78516 4.07153 8.00038 4.07153 9.49945C4.07153 10.9985 5.28676 12.2137 6.78583 12.2137C8.2849 12.2137 9.50013 10.9985 9.50013 9.49945C9.50013 8.00038 8.28486 6.78516 6.78583 6.78516ZM6.78583 10.8566C6.03631 10.8566 5.4287 10.249 5.4287 9.49945C5.4287 8.74994 6.03631 8.14232 6.78583 8.14232C7.53535 8.14232 8.14296 8.74994 8.14296 9.49945C8.14296 10.249 7.53535 10.8566 6.78583 10.8566Z" fill="#E9724D"/>
-												</g>
-												<defs>
-												<clipPath id="clip0">
-												<rect width="19" height="19" fill="white"/>
-												</clipPath>
-												</defs>
-												</svg>
-
-			            					</a>
-			            					<a href="#." class="chat_icon" data-mdb-toggle="modal" data-mdb-target="#exampleModal">
-			            						<svg width="15" height="15" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg">
-													<path d="M7.5 0C3.35495 0 0 3.35438 0 7.5C0 8.8155 0.343094 10.1003 0.994606 11.2335L0.0282669 14.2344C-0.0391388 14.4436 0.0162506 14.6729 0.171661 14.8283C0.325584 14.9823 0.554352 15.0397 0.76561 14.9717L3.76648 14.0054C4.89967 14.6569 6.1845 15 7.5 15C11.6451 15 15 11.6456 15 7.5C15 3.35495 11.6456 0 7.5 0ZM7.5 13.8281C6.31176 13.8281 5.1535 13.4966 4.15043 12.8693C4.00612 12.7792 3.8269 12.7548 3.66016 12.8085L1.49391 13.5061L2.19154 11.3398C2.24442 11.1755 2.2221 10.9961 2.13055 10.8496C1.50341 9.8465 1.17188 8.68824 1.17188 7.5C1.17188 4.0107 4.0107 1.17188 7.5 1.17188C10.9893 1.17188 13.8281 4.0107 13.8281 7.5C13.8281 10.9893 10.9893 13.8281 7.5 13.8281ZM8.23242 7.5C8.23242 7.90443 7.90455 8.23242 7.5 8.23242C7.09545 8.23242 6.76758 7.90443 6.76758 7.5C6.76758 7.09545 7.09545 6.76758 7.5 6.76758C7.90455 6.76758 8.23242 7.09545 8.23242 7.5ZM11.1621 7.5C11.1621 7.90443 10.8342 8.23242 10.4297 8.23242C10.0251 8.23242 9.69727 7.90443 9.69727 7.5C9.69727 7.09545 10.0251 6.76758 10.4297 6.76758C10.8342 6.76758 11.1621 7.09545 11.1621 7.5ZM5.30273 7.5C5.30273 7.90443 4.97486 8.23242 4.57031 8.23242C4.16588 8.23242 3.83789 7.90443 3.83789 7.5C3.83789 7.09545 4.16588 6.76758 4.57031 6.76758C4.97486 6.76758 5.30273 7.09545 5.30273 7.5Z" fill="#E9724D"/>
-												</svg>
-			            					</a>
-			            					<div class="dropdown">
-												<button class="dropdown-toggle" type="button" id="dropdownMenuButton" data-mdb-toggle="dropdown" aria-expanded="false"> 
-													<svg width="18" height="13" viewBox="0 0 18 13" fill="none" xmlns="http://www.w3.org/2000/svg">
-														<path d="M16.0312 0.3125H1.96875C0.883195 0.3125 0 1.1957 0 2.28125V10.7188C0 11.8043 0.883195 12.6875 1.96875 12.6875H16.0312C17.1168 12.6875 18 11.8043 18 10.7188V2.28125C18 1.1957 17.1168 0.3125 16.0312 0.3125ZM1.96875 1.4375H16.0312C16.4965 1.4375 16.875 1.81603 16.875 2.28125V3.40625H1.125V2.28125C1.125 1.81603 1.50353 1.4375 1.96875 1.4375ZM16.0312 11.5625H1.96875C1.50353 11.5625 1.125 11.184 1.125 10.7188V4.53125H16.875V10.7188C16.875 11.184 16.4965 11.5625 16.0312 11.5625Z" fill="#E9724D"/>
-														<path d="M3.9375 9.875H3.375C3.06436 9.875 2.8125 9.62314 2.8125 9.3125V8.75C2.8125 8.43936 3.06436 8.1875 3.375 8.1875H3.9375C4.24814 8.1875 4.5 8.43936 4.5 8.75V9.3125C4.5 9.62314 4.24814 9.875 3.9375 9.875Z" fill="#E9724D"/>
-													</svg>
-												</button>
-												<ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-												    <li>
-												    	<a class="dropdown-item" href="#">
-												    		<div class="OpeNnotificationTextBox">
-															<svg width="77" height="76" viewBox="0 0 77 76" fill="none" xmlns="http://www.w3.org/2000/svg">
-																<circle opacity="0.3" cx="23.7501" cy="33.751" r="10.0147" stroke="#2DCA73"/>
-																<circle opacity="0.1" cx="23.75" cy="33.75" r="13.25" stroke="#2DCA73"/>
-																<g filter="url(#filter0_d)">
-																<circle cx="23.75" cy="33.7505" r="8.49265" fill="#2DCA73"/>
-																</g>
-																<path d="M19.5037 34.1618L22.0661 36.783L27.9963 30.7168" stroke="white" stroke-width="2" stroke-linecap="round"/>
-																<defs>
-																<filter id="filter0_d" x="-28.7427" y="-18.7422" width="104.985" height="104.985" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
-																<feFlood flood-opacity="0" result="BackgroundImageFix"/>
-																<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"/>
-																<feOffset/>
-																<feGaussianBlur stdDeviation="22"/>
-																<feColorMatrix type="matrix" values="0 0 0 0 0.720729 0 0 0 0 0.925 0 0 0 0 0.863719 0 0 0 1 0"/>
-																<feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow"/>
-																<feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow" result="shape"/>
-																</filter>
-																</defs>
-															</svg>
-															<span>
-																You Picked <br>the Card
-															</span>
+													<div class="speakers_text_box">
+														<div class="speakers_title d-flex justify-content-between align-items-center">
+															<h3>Brooklyn Simmons</h3>
+															<div class="arrow_icon_speakers">
+																<svg width="8" height="11" viewBox="0 0 8 11" fill="none" xmlns="http://www.w3.org/2000/svg">
+																	<path d="M1 1L6 5.5L1 10" stroke="#DB604B" stroke-width="1.5"/>
+																</svg>
+															</div>
 														</div>
-												    	</a>
-													</li>
-												</ul>
+														<small>Sr. Partner Systems</small>
+														<small>Dell Systmes</small>
+														<div class="city_social_media">
+															<p>New York City</p>
+														</div>	
+													</div>
+												</a>
+												<div class="social_menu d-flex align-items-center">
+													<a href="#." class="videos_call_icon" data-mdb-toggle="modal" data-mdb-target="#exampleModal">
+														<svg width="19" height="19" viewBox="0 0 19 19" fill="none" xmlns="http://www.w3.org/2000/svg">
+														<g clip-path="url(#clip0)">
+														<path d="M18.6783 4.85086C18.4783 4.72716 18.2285 4.71587 18.0181 4.821L13.5714 7.04466V5.42829C13.5714 4.304 12.66 3.39258 11.5357 3.39258H2.03571C0.911419 3.39258 0 4.304 0 5.42829V13.5711C0 14.6954 0.911419 15.6069 2.03571 15.6069H11.5357C12.66 15.6069 13.5714 14.6954 13.5714 13.5711V11.9548L18.0181 14.1819C18.3533 14.3494 18.7609 14.2134 18.9284 13.8782C18.9761 13.7829 19.0006 13.6777 19 13.5711V5.42829C19.0001 5.19307 18.8784 4.97459 18.6783 4.85086ZM12.2143 13.5711C12.2143 13.9459 11.9105 14.2497 11.5357 14.2497H2.03571C1.66093 14.2497 1.35713 13.9459 1.35713 13.5711V5.42829C1.35713 5.05351 1.66093 4.74971 2.03571 4.74971H11.5357C11.9105 4.74971 12.2143 5.05351 12.2143 5.42829V13.5711ZM17.6428 12.4732L13.5714 10.4375V8.56198L17.6428 6.52626V12.4732V12.4732Z" fill="#E9724D"/>
+														<path d="M6.78583 6.78516C5.28676 6.78516 4.07153 8.00038 4.07153 9.49945C4.07153 10.9985 5.28676 12.2137 6.78583 12.2137C8.2849 12.2137 9.50013 10.9985 9.50013 9.49945C9.50013 8.00038 8.28486 6.78516 6.78583 6.78516ZM6.78583 10.8566C6.03631 10.8566 5.4287 10.249 5.4287 9.49945C5.4287 8.74994 6.03631 8.14232 6.78583 8.14232C7.53535 8.14232 8.14296 8.74994 8.14296 9.49945C8.14296 10.249 7.53535 10.8566 6.78583 10.8566Z" fill="#E9724D"/>
+														</g>
+														<defs>
+														<clipPath id="clip0">
+														<rect width="19" height="19" fill="white"/>
+														</clipPath>
+														</defs>
+														</svg>
+
+													</a>
+													<a href="#." class="chat_icon" data-mdb-toggle="modal" data-mdb-target="#exampleModal">
+														<svg width="15" height="15" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+															<path d="M7.5 0C3.35495 0 0 3.35438 0 7.5C0 8.8155 0.343094 10.1003 0.994606 11.2335L0.0282669 14.2344C-0.0391388 14.4436 0.0162506 14.6729 0.171661 14.8283C0.325584 14.9823 0.554352 15.0397 0.76561 14.9717L3.76648 14.0054C4.89967 14.6569 6.1845 15 7.5 15C11.6451 15 15 11.6456 15 7.5C15 3.35495 11.6456 0 7.5 0ZM7.5 13.8281C6.31176 13.8281 5.1535 13.4966 4.15043 12.8693C4.00612 12.7792 3.8269 12.7548 3.66016 12.8085L1.49391 13.5061L2.19154 11.3398C2.24442 11.1755 2.2221 10.9961 2.13055 10.8496C1.50341 9.8465 1.17188 8.68824 1.17188 7.5C1.17188 4.0107 4.0107 1.17188 7.5 1.17188C10.9893 1.17188 13.8281 4.0107 13.8281 7.5C13.8281 10.9893 10.9893 13.8281 7.5 13.8281ZM8.23242 7.5C8.23242 7.90443 7.90455 8.23242 7.5 8.23242C7.09545 8.23242 6.76758 7.90443 6.76758 7.5C6.76758 7.09545 7.09545 6.76758 7.5 6.76758C7.90455 6.76758 8.23242 7.09545 8.23242 7.5ZM11.1621 7.5C11.1621 7.90443 10.8342 8.23242 10.4297 8.23242C10.0251 8.23242 9.69727 7.90443 9.69727 7.5C9.69727 7.09545 10.0251 6.76758 10.4297 6.76758C10.8342 6.76758 11.1621 7.09545 11.1621 7.5ZM5.30273 7.5C5.30273 7.90443 4.97486 8.23242 4.57031 8.23242C4.16588 8.23242 3.83789 7.90443 3.83789 7.5C3.83789 7.09545 4.16588 6.76758 4.57031 6.76758C4.97486 6.76758 5.30273 7.09545 5.30273 7.5Z" fill="#E9724D"/>
+														</svg>
+													</a>
+													<div class="dropdown">
+														<button class="dropdown-toggle" type="button" id="dropdownMenuButton" data-mdb-toggle="dropdown" aria-expanded="false"> 
+															<svg width="18" height="13" viewBox="0 0 18 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+																<path d="M16.0312 0.3125H1.96875C0.883195 0.3125 0 1.1957 0 2.28125V10.7188C0 11.8043 0.883195 12.6875 1.96875 12.6875H16.0312C17.1168 12.6875 18 11.8043 18 10.7188V2.28125C18 1.1957 17.1168 0.3125 16.0312 0.3125ZM1.96875 1.4375H16.0312C16.4965 1.4375 16.875 1.81603 16.875 2.28125V3.40625H1.125V2.28125C1.125 1.81603 1.50353 1.4375 1.96875 1.4375ZM16.0312 11.5625H1.96875C1.50353 11.5625 1.125 11.184 1.125 10.7188V4.53125H16.875V10.7188C16.875 11.184 16.4965 11.5625 16.0312 11.5625Z" fill="#E9724D"/>
+																<path d="M3.9375 9.875H3.375C3.06436 9.875 2.8125 9.62314 2.8125 9.3125V8.75C2.8125 8.43936 3.06436 8.1875 3.375 8.1875H3.9375C4.24814 8.1875 4.5 8.43936 4.5 8.75V9.3125C4.5 9.62314 4.24814 9.875 3.9375 9.875Z" fill="#E9724D"/>
+															</svg>
+														</button>
+														<ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+															<li>
+																<a class="dropdown-item" href="#">
+																	<div class="OpeNnotificationTextBox">
+																	<svg width="77" height="76" viewBox="0 0 77 76" fill="none" xmlns="http://www.w3.org/2000/svg">
+																		<circle opacity="0.3" cx="23.7501" cy="33.751" r="10.0147" stroke="#2DCA73"/>
+																		<circle opacity="0.1" cx="23.75" cy="33.75" r="13.25" stroke="#2DCA73"/>
+																		<g filter="url(#filter0_d)">
+																		<circle cx="23.75" cy="33.7505" r="8.49265" fill="#2DCA73"/>
+																		</g>
+																		<path d="M19.5037 34.1618L22.0661 36.783L27.9963 30.7168" stroke="white" stroke-width="2" stroke-linecap="round"/>
+																		<defs>
+																		<filter id="filter0_d" x="-28.7427" y="-18.7422" width="104.985" height="104.985" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+																		<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+																		<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"/>
+																		<feOffset/>
+																		<feGaussianBlur stdDeviation="22"/>
+																		<feColorMatrix type="matrix" values="0 0 0 0 0.720729 0 0 0 0 0.925 0 0 0 0 0.863719 0 0 0 1 0"/>
+																		<feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow"/>
+																		<feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow" result="shape"/>
+																		</filter>
+																		</defs>
+																	</svg>
+																	<span>
+																		You Picked <br>the Card
+																	</span>
+																</div>
+																</a>
+															</li>
+														</ul>
+													</div>
+												</div>
 											</div>
-			            				</div>
-			            			</div>
-			            		</div>
-			            	</div>	
+										</div>
+										<div class="col-md-6">
+											<div class="speakers_box">
+												<a href="#." class="speakers_box_inr d-flex flex-wrap" data-mdb-toggle="modal" data-mdb-target="#exampleModal">
+													<div class="speakers_img">
+														<img src="img/speakers_zone3.png" alt="">
+													</div>
+													<div class="speakers_text_box">
+														<div class="speakers_title d-flex justify-content-between align-items-center">
+															<h3>Brooklyn Simmons</h3>
+															<div class="arrow_icon_speakers">
+																<svg width="8" height="11" viewBox="0 0 8 11" fill="none" xmlns="http://www.w3.org/2000/svg">
+																	<path d="M1 1L6 5.5L1 10" stroke="#DB604B" stroke-width="1.5"/>
+																</svg>
+															</div>
+														</div>
+														<small>Sr. Partner Systems</small>
+														<small>Dell Systmes</small>
+														<div class="city_social_media">
+															<p>New York City</p>
+														</div>	
+													</div>
+												</a>
+												<div class="social_menu d-flex align-items-center">
+													<a href="#." class="videos_call_icon" data-mdb-toggle="modal" data-mdb-target="#exampleModal">
+														<svg width="19" height="19" viewBox="0 0 19 19" fill="none" xmlns="http://www.w3.org/2000/svg">
+														<g clip-path="url(#clip0)">
+														<path d="M18.6783 4.85086C18.4783 4.72716 18.2285 4.71587 18.0181 4.821L13.5714 7.04466V5.42829C13.5714 4.304 12.66 3.39258 11.5357 3.39258H2.03571C0.911419 3.39258 0 4.304 0 5.42829V13.5711C0 14.6954 0.911419 15.6069 2.03571 15.6069H11.5357C12.66 15.6069 13.5714 14.6954 13.5714 13.5711V11.9548L18.0181 14.1819C18.3533 14.3494 18.7609 14.2134 18.9284 13.8782C18.9761 13.7829 19.0006 13.6777 19 13.5711V5.42829C19.0001 5.19307 18.8784 4.97459 18.6783 4.85086ZM12.2143 13.5711C12.2143 13.9459 11.9105 14.2497 11.5357 14.2497H2.03571C1.66093 14.2497 1.35713 13.9459 1.35713 13.5711V5.42829C1.35713 5.05351 1.66093 4.74971 2.03571 4.74971H11.5357C11.9105 4.74971 12.2143 5.05351 12.2143 5.42829V13.5711ZM17.6428 12.4732L13.5714 10.4375V8.56198L17.6428 6.52626V12.4732V12.4732Z" fill="#E9724D"/>
+														<path d="M6.78583 6.78516C5.28676 6.78516 4.07153 8.00038 4.07153 9.49945C4.07153 10.9985 5.28676 12.2137 6.78583 12.2137C8.2849 12.2137 9.50013 10.9985 9.50013 9.49945C9.50013 8.00038 8.28486 6.78516 6.78583 6.78516ZM6.78583 10.8566C6.03631 10.8566 5.4287 10.249 5.4287 9.49945C5.4287 8.74994 6.03631 8.14232 6.78583 8.14232C7.53535 8.14232 8.14296 8.74994 8.14296 9.49945C8.14296 10.249 7.53535 10.8566 6.78583 10.8566Z" fill="#E9724D"/>
+														</g>
+														<defs>
+														<clipPath id="clip0">
+														<rect width="19" height="19" fill="white"/>
+														</clipPath>
+														</defs>
+														</svg>
+
+													</a>
+													<a href="#." class="chat_icon" data-mdb-toggle="modal" data-mdb-target="#exampleModal">
+														<svg width="15" height="15" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+															<path d="M7.5 0C3.35495 0 0 3.35438 0 7.5C0 8.8155 0.343094 10.1003 0.994606 11.2335L0.0282669 14.2344C-0.0391388 14.4436 0.0162506 14.6729 0.171661 14.8283C0.325584 14.9823 0.554352 15.0397 0.76561 14.9717L3.76648 14.0054C4.89967 14.6569 6.1845 15 7.5 15C11.6451 15 15 11.6456 15 7.5C15 3.35495 11.6456 0 7.5 0ZM7.5 13.8281C6.31176 13.8281 5.1535 13.4966 4.15043 12.8693C4.00612 12.7792 3.8269 12.7548 3.66016 12.8085L1.49391 13.5061L2.19154 11.3398C2.24442 11.1755 2.2221 10.9961 2.13055 10.8496C1.50341 9.8465 1.17188 8.68824 1.17188 7.5C1.17188 4.0107 4.0107 1.17188 7.5 1.17188C10.9893 1.17188 13.8281 4.0107 13.8281 7.5C13.8281 10.9893 10.9893 13.8281 7.5 13.8281ZM8.23242 7.5C8.23242 7.90443 7.90455 8.23242 7.5 8.23242C7.09545 8.23242 6.76758 7.90443 6.76758 7.5C6.76758 7.09545 7.09545 6.76758 7.5 6.76758C7.90455 6.76758 8.23242 7.09545 8.23242 7.5ZM11.1621 7.5C11.1621 7.90443 10.8342 8.23242 10.4297 8.23242C10.0251 8.23242 9.69727 7.90443 9.69727 7.5C9.69727 7.09545 10.0251 6.76758 10.4297 6.76758C10.8342 6.76758 11.1621 7.09545 11.1621 7.5ZM5.30273 7.5C5.30273 7.90443 4.97486 8.23242 4.57031 8.23242C4.16588 8.23242 3.83789 7.90443 3.83789 7.5C3.83789 7.09545 4.16588 6.76758 4.57031 6.76758C4.97486 6.76758 5.30273 7.09545 5.30273 7.5Z" fill="#E9724D"/>
+														</svg>
+													</a>
+													<div class="dropdown">
+														<button class="dropdown-toggle" type="button" id="dropdownMenuButton" data-mdb-toggle="dropdown" aria-expanded="false"> 
+															<svg width="18" height="13" viewBox="0 0 18 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+																<path d="M16.0312 0.3125H1.96875C0.883195 0.3125 0 1.1957 0 2.28125V10.7188C0 11.8043 0.883195 12.6875 1.96875 12.6875H16.0312C17.1168 12.6875 18 11.8043 18 10.7188V2.28125C18 1.1957 17.1168 0.3125 16.0312 0.3125ZM1.96875 1.4375H16.0312C16.4965 1.4375 16.875 1.81603 16.875 2.28125V3.40625H1.125V2.28125C1.125 1.81603 1.50353 1.4375 1.96875 1.4375ZM16.0312 11.5625H1.96875C1.50353 11.5625 1.125 11.184 1.125 10.7188V4.53125H16.875V10.7188C16.875 11.184 16.4965 11.5625 16.0312 11.5625Z" fill="#E9724D"/>
+																<path d="M3.9375 9.875H3.375C3.06436 9.875 2.8125 9.62314 2.8125 9.3125V8.75C2.8125 8.43936 3.06436 8.1875 3.375 8.1875H3.9375C4.24814 8.1875 4.5 8.43936 4.5 8.75V9.3125C4.5 9.62314 4.24814 9.875 3.9375 9.875Z" fill="#E9724D"/>
+															</svg>
+														</button>
+														<ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+															<li><a class="dropdown-item" href="#">Pick</a></li>
+															<li><a class="dropdown-item" href="#">Drop</a></li>
+														</ul>
+													</div>
+												</div>
+											</div>
+										</div>
+										<div class="col-md-6">
+											<div class="speakers_box">
+												<a href="#." class="speakers_box_inr d-flex flex-wrap" data-mdb-toggle="modal" data-mdb-target="#exampleModal">
+													<div class="speakers_img">
+														<img src="img/speakers_zone4.png" alt="">
+													</div>
+													<div class="speakers_text_box">
+														<div class="speakers_title d-flex justify-content-between align-items-center">
+															<h3>Brooklyn Simmons</h3>
+															<div class="arrow_icon_speakers">
+																<svg width="8" height="11" viewBox="0 0 8 11" fill="none" xmlns="http://www.w3.org/2000/svg">
+																	<path d="M1 1L6 5.5L1 10" stroke="#DB604B" stroke-width="1.5"/>
+																</svg>
+															</div>
+														</div>
+														<small>Sr. Partner Systems</small>
+														<small>Dell Systmes</small>
+														<div class="city_social_media">
+															<p>New York City</p>
+														</div>	
+													</div>
+												</a>
+												<div class="social_menu d-flex align-items-center">
+													<a href="#." class="videos_call_icon" data-mdb-toggle="modal" data-mdb-target="#exampleModal">
+														<svg width="19" height="19" viewBox="0 0 19 19" fill="none" xmlns="http://www.w3.org/2000/svg">
+														<g clip-path="url(#clip0)">
+														<path d="M18.6783 4.85086C18.4783 4.72716 18.2285 4.71587 18.0181 4.821L13.5714 7.04466V5.42829C13.5714 4.304 12.66 3.39258 11.5357 3.39258H2.03571C0.911419 3.39258 0 4.304 0 5.42829V13.5711C0 14.6954 0.911419 15.6069 2.03571 15.6069H11.5357C12.66 15.6069 13.5714 14.6954 13.5714 13.5711V11.9548L18.0181 14.1819C18.3533 14.3494 18.7609 14.2134 18.9284 13.8782C18.9761 13.7829 19.0006 13.6777 19 13.5711V5.42829C19.0001 5.19307 18.8784 4.97459 18.6783 4.85086ZM12.2143 13.5711C12.2143 13.9459 11.9105 14.2497 11.5357 14.2497H2.03571C1.66093 14.2497 1.35713 13.9459 1.35713 13.5711V5.42829C1.35713 5.05351 1.66093 4.74971 2.03571 4.74971H11.5357C11.9105 4.74971 12.2143 5.05351 12.2143 5.42829V13.5711ZM17.6428 12.4732L13.5714 10.4375V8.56198L17.6428 6.52626V12.4732V12.4732Z" fill="#E9724D"/>
+														<path d="M6.78583 6.78516C5.28676 6.78516 4.07153 8.00038 4.07153 9.49945C4.07153 10.9985 5.28676 12.2137 6.78583 12.2137C8.2849 12.2137 9.50013 10.9985 9.50013 9.49945C9.50013 8.00038 8.28486 6.78516 6.78583 6.78516ZM6.78583 10.8566C6.03631 10.8566 5.4287 10.249 5.4287 9.49945C5.4287 8.74994 6.03631 8.14232 6.78583 8.14232C7.53535 8.14232 8.14296 8.74994 8.14296 9.49945C8.14296 10.249 7.53535 10.8566 6.78583 10.8566Z" fill="#E9724D"/>
+														</g>
+														<defs>
+														<clipPath id="clip0">
+														<rect width="19" height="19" fill="white"/>
+														</clipPath>
+														</defs>
+														</svg>
+
+													</a>
+													<a href="#." class="chat_icon" data-mdb-toggle="modal" data-mdb-target="#exampleModal">
+														<svg width="15" height="15" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+															<path d="M7.5 0C3.35495 0 0 3.35438 0 7.5C0 8.8155 0.343094 10.1003 0.994606 11.2335L0.0282669 14.2344C-0.0391388 14.4436 0.0162506 14.6729 0.171661 14.8283C0.325584 14.9823 0.554352 15.0397 0.76561 14.9717L3.76648 14.0054C4.89967 14.6569 6.1845 15 7.5 15C11.6451 15 15 11.6456 15 7.5C15 3.35495 11.6456 0 7.5 0ZM7.5 13.8281C6.31176 13.8281 5.1535 13.4966 4.15043 12.8693C4.00612 12.7792 3.8269 12.7548 3.66016 12.8085L1.49391 13.5061L2.19154 11.3398C2.24442 11.1755 2.2221 10.9961 2.13055 10.8496C1.50341 9.8465 1.17188 8.68824 1.17188 7.5C1.17188 4.0107 4.0107 1.17188 7.5 1.17188C10.9893 1.17188 13.8281 4.0107 13.8281 7.5C13.8281 10.9893 10.9893 13.8281 7.5 13.8281ZM8.23242 7.5C8.23242 7.90443 7.90455 8.23242 7.5 8.23242C7.09545 8.23242 6.76758 7.90443 6.76758 7.5C6.76758 7.09545 7.09545 6.76758 7.5 6.76758C7.90455 6.76758 8.23242 7.09545 8.23242 7.5ZM11.1621 7.5C11.1621 7.90443 10.8342 8.23242 10.4297 8.23242C10.0251 8.23242 9.69727 7.90443 9.69727 7.5C9.69727 7.09545 10.0251 6.76758 10.4297 6.76758C10.8342 6.76758 11.1621 7.09545 11.1621 7.5ZM5.30273 7.5C5.30273 7.90443 4.97486 8.23242 4.57031 8.23242C4.16588 8.23242 3.83789 7.90443 3.83789 7.5C3.83789 7.09545 4.16588 6.76758 4.57031 6.76758C4.97486 6.76758 5.30273 7.09545 5.30273 7.5Z" fill="#E9724D"/>
+														</svg>
+													</a>
+													<div class="dropdown">
+														<button class="dropdown-toggle" type="button" id="dropdownMenuButton" data-mdb-toggle="dropdown" aria-expanded="false"> 
+															<svg width="18" height="13" viewBox="0 0 18 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+																<path d="M16.0312 0.3125H1.96875C0.883195 0.3125 0 1.1957 0 2.28125V10.7188C0 11.8043 0.883195 12.6875 1.96875 12.6875H16.0312C17.1168 12.6875 18 11.8043 18 10.7188V2.28125C18 1.1957 17.1168 0.3125 16.0312 0.3125ZM1.96875 1.4375H16.0312C16.4965 1.4375 16.875 1.81603 16.875 2.28125V3.40625H1.125V2.28125C1.125 1.81603 1.50353 1.4375 1.96875 1.4375ZM16.0312 11.5625H1.96875C1.50353 11.5625 1.125 11.184 1.125 10.7188V4.53125H16.875V10.7188C16.875 11.184 16.4965 11.5625 16.0312 11.5625Z" fill="#E9724D"/>
+																<path d="M3.9375 9.875H3.375C3.06436 9.875 2.8125 9.62314 2.8125 9.3125V8.75C2.8125 8.43936 3.06436 8.1875 3.375 8.1875H3.9375C4.24814 8.1875 4.5 8.43936 4.5 8.75V9.3125C4.5 9.62314 4.24814 9.875 3.9375 9.875Z" fill="#E9724D"/>
+															</svg>
+														</button>
+														<ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+															<li><a class="dropdown-item" href="#">Pick</a></li>
+															<li><a class="dropdown-item" href="#">Drop</a></li>
+														</ul>
+													</div>
+												</div>
+											</div>
+										</div>
+										<div class="col-md-6">
+											<div class="speakers_box">
+												<a href="#." class="speakers_box_inr d-flex flex-wrap" data-mdb-toggle="modal" data-mdb-target="#exampleModal">
+													<div class="speakers_img">
+														<img src="img/speakers_zone5.png" alt="">
+													</div>
+													<div class="speakers_text_box">
+														<div class="speakers_title d-flex justify-content-between align-items-center">
+															<h3>Brooklyn Simmons</h3>
+															<div class="arrow_icon_speakers">
+																<svg width="8" height="11" viewBox="0 0 8 11" fill="none" xmlns="http://www.w3.org/2000/svg">
+																	<path d="M1 1L6 5.5L1 10" stroke="#DB604B" stroke-width="1.5"/>
+																</svg>
+															</div>
+														</div>
+														<small>Sr. Partner Systems</small>
+														<small>Dell Systmes</small>
+														<div class="city_social_media">
+															<p>New York City</p>
+														</div>	
+													</div>
+												</a>
+												<div class="social_menu d-flex align-items-center">
+													<a href="#." class="videos_call_icon" data-mdb-toggle="modal" data-mdb-target="#exampleModal">
+														<svg width="19" height="19" viewBox="0 0 19 19" fill="none" xmlns="http://www.w3.org/2000/svg">
+														<g clip-path="url(#clip0)">
+														<path d="M18.6783 4.85086C18.4783 4.72716 18.2285 4.71587 18.0181 4.821L13.5714 7.04466V5.42829C13.5714 4.304 12.66 3.39258 11.5357 3.39258H2.03571C0.911419 3.39258 0 4.304 0 5.42829V13.5711C0 14.6954 0.911419 15.6069 2.03571 15.6069H11.5357C12.66 15.6069 13.5714 14.6954 13.5714 13.5711V11.9548L18.0181 14.1819C18.3533 14.3494 18.7609 14.2134 18.9284 13.8782C18.9761 13.7829 19.0006 13.6777 19 13.5711V5.42829C19.0001 5.19307 18.8784 4.97459 18.6783 4.85086ZM12.2143 13.5711C12.2143 13.9459 11.9105 14.2497 11.5357 14.2497H2.03571C1.66093 14.2497 1.35713 13.9459 1.35713 13.5711V5.42829C1.35713 5.05351 1.66093 4.74971 2.03571 4.74971H11.5357C11.9105 4.74971 12.2143 5.05351 12.2143 5.42829V13.5711ZM17.6428 12.4732L13.5714 10.4375V8.56198L17.6428 6.52626V12.4732V12.4732Z" fill="#E9724D"/>
+														<path d="M6.78583 6.78516C5.28676 6.78516 4.07153 8.00038 4.07153 9.49945C4.07153 10.9985 5.28676 12.2137 6.78583 12.2137C8.2849 12.2137 9.50013 10.9985 9.50013 9.49945C9.50013 8.00038 8.28486 6.78516 6.78583 6.78516ZM6.78583 10.8566C6.03631 10.8566 5.4287 10.249 5.4287 9.49945C5.4287 8.74994 6.03631 8.14232 6.78583 8.14232C7.53535 8.14232 8.14296 8.74994 8.14296 9.49945C8.14296 10.249 7.53535 10.8566 6.78583 10.8566Z" fill="#E9724D"/>
+														</g>
+														<defs>
+														<clipPath id="clip0">
+														<rect width="19" height="19" fill="white"/>
+														</clipPath>
+														</defs>
+														</svg>
+
+													</a>
+													<a href="#." class="chat_icon" data-mdb-toggle="modal" data-mdb-target="#exampleModal">
+														<svg width="15" height="15" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+															<path d="M7.5 0C3.35495 0 0 3.35438 0 7.5C0 8.8155 0.343094 10.1003 0.994606 11.2335L0.0282669 14.2344C-0.0391388 14.4436 0.0162506 14.6729 0.171661 14.8283C0.325584 14.9823 0.554352 15.0397 0.76561 14.9717L3.76648 14.0054C4.89967 14.6569 6.1845 15 7.5 15C11.6451 15 15 11.6456 15 7.5C15 3.35495 11.6456 0 7.5 0ZM7.5 13.8281C6.31176 13.8281 5.1535 13.4966 4.15043 12.8693C4.00612 12.7792 3.8269 12.7548 3.66016 12.8085L1.49391 13.5061L2.19154 11.3398C2.24442 11.1755 2.2221 10.9961 2.13055 10.8496C1.50341 9.8465 1.17188 8.68824 1.17188 7.5C1.17188 4.0107 4.0107 1.17188 7.5 1.17188C10.9893 1.17188 13.8281 4.0107 13.8281 7.5C13.8281 10.9893 10.9893 13.8281 7.5 13.8281ZM8.23242 7.5C8.23242 7.90443 7.90455 8.23242 7.5 8.23242C7.09545 8.23242 6.76758 7.90443 6.76758 7.5C6.76758 7.09545 7.09545 6.76758 7.5 6.76758C7.90455 6.76758 8.23242 7.09545 8.23242 7.5ZM11.1621 7.5C11.1621 7.90443 10.8342 8.23242 10.4297 8.23242C10.0251 8.23242 9.69727 7.90443 9.69727 7.5C9.69727 7.09545 10.0251 6.76758 10.4297 6.76758C10.8342 6.76758 11.1621 7.09545 11.1621 7.5ZM5.30273 7.5C5.30273 7.90443 4.97486 8.23242 4.57031 8.23242C4.16588 8.23242 3.83789 7.90443 3.83789 7.5C3.83789 7.09545 4.16588 6.76758 4.57031 6.76758C4.97486 6.76758 5.30273 7.09545 5.30273 7.5Z" fill="#E9724D"/>
+														</svg>
+													</a>
+													<div class="dropdown">
+														<button class="dropdown-toggle" type="button" id="dropdownMenuButton" data-mdb-toggle="dropdown" aria-expanded="false"> 
+															<svg width="18" height="13" viewBox="0 0 18 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+																<path d="M16.0312 0.3125H1.96875C0.883195 0.3125 0 1.1957 0 2.28125V10.7188C0 11.8043 0.883195 12.6875 1.96875 12.6875H16.0312C17.1168 12.6875 18 11.8043 18 10.7188V2.28125C18 1.1957 17.1168 0.3125 16.0312 0.3125ZM1.96875 1.4375H16.0312C16.4965 1.4375 16.875 1.81603 16.875 2.28125V3.40625H1.125V2.28125C1.125 1.81603 1.50353 1.4375 1.96875 1.4375ZM16.0312 11.5625H1.96875C1.50353 11.5625 1.125 11.184 1.125 10.7188V4.53125H16.875V10.7188C16.875 11.184 16.4965 11.5625 16.0312 11.5625Z" fill="#E9724D"/>
+																<path d="M3.9375 9.875H3.375C3.06436 9.875 2.8125 9.62314 2.8125 9.3125V8.75C2.8125 8.43936 3.06436 8.1875 3.375 8.1875H3.9375C4.24814 8.1875 4.5 8.43936 4.5 8.75V9.3125C4.5 9.62314 4.24814 9.875 3.9375 9.875Z" fill="#E9724D"/>
+															</svg>
+														</button>
+														<ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+															<li><a class="dropdown-item" href="#">Pick</a></li>
+															<li><a class="dropdown-item" href="#">Drop</a></li>
+														</ul>
+													</div>
+												</div>
+											</div>
+										</div>
+										<div class="col-md-6">
+											<div class="speakers_box">
+												<a href="#." class="speakers_box_inr d-flex flex-wrap" data-mdb-toggle="modal" data-mdb-target="#exampleModal">
+													<div class="speakers_img">
+														<img src="img/speakers_zone6.png" alt="">
+													</div>
+													<div class="speakers_text_box">
+														<div class="speakers_title d-flex justify-content-between align-items-center">
+															<h3>Brooklyn Simmons</h3>
+															<div class="arrow_icon_speakers">
+																<svg width="8" height="11" viewBox="0 0 8 11" fill="none" xmlns="http://www.w3.org/2000/svg">
+																	<path d="M1 1L6 5.5L1 10" stroke="#DB604B" stroke-width="1.5"/>
+																</svg>
+															</div>
+														</div>
+														<small>Sr. Partner Systems</small>
+														<small>Dell Systmes</small>
+														<div class="city_social_media">
+															<p>New York City</p>
+														</div>	
+													</div>
+												</a>
+												<div class="social_menu d-flex align-items-center">
+													<a href="#." class="videos_call_icon" data-mdb-toggle="modal" data-mdb-target="#exampleModal">
+														<svg width="19" height="19" viewBox="0 0 19 19" fill="none" xmlns="http://www.w3.org/2000/svg">
+														<g clip-path="url(#clip0)">
+														<path d="M18.6783 4.85086C18.4783 4.72716 18.2285 4.71587 18.0181 4.821L13.5714 7.04466V5.42829C13.5714 4.304 12.66 3.39258 11.5357 3.39258H2.03571C0.911419 3.39258 0 4.304 0 5.42829V13.5711C0 14.6954 0.911419 15.6069 2.03571 15.6069H11.5357C12.66 15.6069 13.5714 14.6954 13.5714 13.5711V11.9548L18.0181 14.1819C18.3533 14.3494 18.7609 14.2134 18.9284 13.8782C18.9761 13.7829 19.0006 13.6777 19 13.5711V5.42829C19.0001 5.19307 18.8784 4.97459 18.6783 4.85086ZM12.2143 13.5711C12.2143 13.9459 11.9105 14.2497 11.5357 14.2497H2.03571C1.66093 14.2497 1.35713 13.9459 1.35713 13.5711V5.42829C1.35713 5.05351 1.66093 4.74971 2.03571 4.74971H11.5357C11.9105 4.74971 12.2143 5.05351 12.2143 5.42829V13.5711ZM17.6428 12.4732L13.5714 10.4375V8.56198L17.6428 6.52626V12.4732V12.4732Z" fill="#E9724D"/>
+														<path d="M6.78583 6.78516C5.28676 6.78516 4.07153 8.00038 4.07153 9.49945C4.07153 10.9985 5.28676 12.2137 6.78583 12.2137C8.2849 12.2137 9.50013 10.9985 9.50013 9.49945C9.50013 8.00038 8.28486 6.78516 6.78583 6.78516ZM6.78583 10.8566C6.03631 10.8566 5.4287 10.249 5.4287 9.49945C5.4287 8.74994 6.03631 8.14232 6.78583 8.14232C7.53535 8.14232 8.14296 8.74994 8.14296 9.49945C8.14296 10.249 7.53535 10.8566 6.78583 10.8566Z" fill="#E9724D"/>
+														</g>
+														<defs>
+														<clipPath id="clip0">
+														<rect width="19" height="19" fill="white"/>
+														</clipPath>
+														</defs>
+														</svg>
+
+													</a>
+													<a href="#." class="chat_icon" data-mdb-toggle="modal" data-mdb-target="#exampleModal">
+														<svg width="15" height="15" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+															<path d="M7.5 0C3.35495 0 0 3.35438 0 7.5C0 8.8155 0.343094 10.1003 0.994606 11.2335L0.0282669 14.2344C-0.0391388 14.4436 0.0162506 14.6729 0.171661 14.8283C0.325584 14.9823 0.554352 15.0397 0.76561 14.9717L3.76648 14.0054C4.89967 14.6569 6.1845 15 7.5 15C11.6451 15 15 11.6456 15 7.5C15 3.35495 11.6456 0 7.5 0ZM7.5 13.8281C6.31176 13.8281 5.1535 13.4966 4.15043 12.8693C4.00612 12.7792 3.8269 12.7548 3.66016 12.8085L1.49391 13.5061L2.19154 11.3398C2.24442 11.1755 2.2221 10.9961 2.13055 10.8496C1.50341 9.8465 1.17188 8.68824 1.17188 7.5C1.17188 4.0107 4.0107 1.17188 7.5 1.17188C10.9893 1.17188 13.8281 4.0107 13.8281 7.5C13.8281 10.9893 10.9893 13.8281 7.5 13.8281ZM8.23242 7.5C8.23242 7.90443 7.90455 8.23242 7.5 8.23242C7.09545 8.23242 6.76758 7.90443 6.76758 7.5C6.76758 7.09545 7.09545 6.76758 7.5 6.76758C7.90455 6.76758 8.23242 7.09545 8.23242 7.5ZM11.1621 7.5C11.1621 7.90443 10.8342 8.23242 10.4297 8.23242C10.0251 8.23242 9.69727 7.90443 9.69727 7.5C9.69727 7.09545 10.0251 6.76758 10.4297 6.76758C10.8342 6.76758 11.1621 7.09545 11.1621 7.5ZM5.30273 7.5C5.30273 7.90443 4.97486 8.23242 4.57031 8.23242C4.16588 8.23242 3.83789 7.90443 3.83789 7.5C3.83789 7.09545 4.16588 6.76758 4.57031 6.76758C4.97486 6.76758 5.30273 7.09545 5.30273 7.5Z" fill="#E9724D"/>
+														</svg>
+													</a>
+													<div class="dropdown">
+														<button class="dropdown-toggle" type="button" id="dropdownMenuButton" data-mdb-toggle="dropdown" aria-expanded="false"> 
+															<svg width="18" height="13" viewBox="0 0 18 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+																<path d="M16.0312 0.3125H1.96875C0.883195 0.3125 0 1.1957 0 2.28125V10.7188C0 11.8043 0.883195 12.6875 1.96875 12.6875H16.0312C17.1168 12.6875 18 11.8043 18 10.7188V2.28125C18 1.1957 17.1168 0.3125 16.0312 0.3125ZM1.96875 1.4375H16.0312C16.4965 1.4375 16.875 1.81603 16.875 2.28125V3.40625H1.125V2.28125C1.125 1.81603 1.50353 1.4375 1.96875 1.4375ZM16.0312 11.5625H1.96875C1.50353 11.5625 1.125 11.184 1.125 10.7188V4.53125H16.875V10.7188C16.875 11.184 16.4965 11.5625 16.0312 11.5625Z" fill="#E9724D"/>
+																<path d="M3.9375 9.875H3.375C3.06436 9.875 2.8125 9.62314 2.8125 9.3125V8.75C2.8125 8.43936 3.06436 8.1875 3.375 8.1875H3.9375C4.24814 8.1875 4.5 8.43936 4.5 8.75V9.3125C4.5 9.62314 4.24814 9.875 3.9375 9.875Z" fill="#E9724D"/>
+															</svg>
+														</button>
+														<ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+															<li><a class="dropdown-item" href="#">Pick</a></li>
+															<li><a class="dropdown-item" href="#">Drop</a></li>
+														</ul>
+													</div>
+												</div>
+											</div>
+										</div>
+										<div class="col-md-6">
+											<div class="speakers_box">
+												<a href="#." class="speakers_box_inr d-flex flex-wrap" data-mdb-toggle="modal" data-mdb-target="#exampleModal">
+													<div class="speakers_img">
+														<img src="img/speakers_zone1.png" alt="">
+													</div>
+													<div class="speakers_text_box">
+														<div class="speakers_title d-flex justify-content-between align-items-center">
+															<h3>Brooklyn Simmons</h3>
+															<div class="arrow_icon_speakers">
+																<svg width="8" height="11" viewBox="0 0 8 11" fill="none" xmlns="http://www.w3.org/2000/svg">
+																	<path d="M1 1L6 5.5L1 10" stroke="#DB604B" stroke-width="1.5"/>
+																</svg>
+															</div>
+														</div>
+														<small>Sr. Partner Systems</small>
+														<small>Dell Systmes</small>
+														<div class="city_social_media">
+															<p>New York City</p>
+														</div>	
+													</div>
+												</a>
+												<div class="social_menu d-flex align-items-center">
+													<a href="#." class="videos_call_icon" data-mdb-toggle="modal" data-mdb-target="#exampleModal">
+														<svg width="19" height="19" viewBox="0 0 19 19" fill="none" xmlns="http://www.w3.org/2000/svg">
+														<g clip-path="url(#clip0)">
+														<path d="M18.6783 4.85086C18.4783 4.72716 18.2285 4.71587 18.0181 4.821L13.5714 7.04466V5.42829C13.5714 4.304 12.66 3.39258 11.5357 3.39258H2.03571C0.911419 3.39258 0 4.304 0 5.42829V13.5711C0 14.6954 0.911419 15.6069 2.03571 15.6069H11.5357C12.66 15.6069 13.5714 14.6954 13.5714 13.5711V11.9548L18.0181 14.1819C18.3533 14.3494 18.7609 14.2134 18.9284 13.8782C18.9761 13.7829 19.0006 13.6777 19 13.5711V5.42829C19.0001 5.19307 18.8784 4.97459 18.6783 4.85086ZM12.2143 13.5711C12.2143 13.9459 11.9105 14.2497 11.5357 14.2497H2.03571C1.66093 14.2497 1.35713 13.9459 1.35713 13.5711V5.42829C1.35713 5.05351 1.66093 4.74971 2.03571 4.74971H11.5357C11.9105 4.74971 12.2143 5.05351 12.2143 5.42829V13.5711ZM17.6428 12.4732L13.5714 10.4375V8.56198L17.6428 6.52626V12.4732V12.4732Z" fill="#E9724D"/>
+														<path d="M6.78583 6.78516C5.28676 6.78516 4.07153 8.00038 4.07153 9.49945C4.07153 10.9985 5.28676 12.2137 6.78583 12.2137C8.2849 12.2137 9.50013 10.9985 9.50013 9.49945C9.50013 8.00038 8.28486 6.78516 6.78583 6.78516ZM6.78583 10.8566C6.03631 10.8566 5.4287 10.249 5.4287 9.49945C5.4287 8.74994 6.03631 8.14232 6.78583 8.14232C7.53535 8.14232 8.14296 8.74994 8.14296 9.49945C8.14296 10.249 7.53535 10.8566 6.78583 10.8566Z" fill="#E9724D"/>
+														</g>
+														<defs>
+														<clipPath id="clip0">
+														<rect width="19" height="19" fill="white"/>
+														</clipPath>
+														</defs>
+														</svg>
+
+													</a>
+													<a href="#." class="chat_icon" data-mdb-toggle="modal" data-mdb-target="#exampleModal">
+														<svg width="15" height="15" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+															<path d="M7.5 0C3.35495 0 0 3.35438 0 7.5C0 8.8155 0.343094 10.1003 0.994606 11.2335L0.0282669 14.2344C-0.0391388 14.4436 0.0162506 14.6729 0.171661 14.8283C0.325584 14.9823 0.554352 15.0397 0.76561 14.9717L3.76648 14.0054C4.89967 14.6569 6.1845 15 7.5 15C11.6451 15 15 11.6456 15 7.5C15 3.35495 11.6456 0 7.5 0ZM7.5 13.8281C6.31176 13.8281 5.1535 13.4966 4.15043 12.8693C4.00612 12.7792 3.8269 12.7548 3.66016 12.8085L1.49391 13.5061L2.19154 11.3398C2.24442 11.1755 2.2221 10.9961 2.13055 10.8496C1.50341 9.8465 1.17188 8.68824 1.17188 7.5C1.17188 4.0107 4.0107 1.17188 7.5 1.17188C10.9893 1.17188 13.8281 4.0107 13.8281 7.5C13.8281 10.9893 10.9893 13.8281 7.5 13.8281ZM8.23242 7.5C8.23242 7.90443 7.90455 8.23242 7.5 8.23242C7.09545 8.23242 6.76758 7.90443 6.76758 7.5C6.76758 7.09545 7.09545 6.76758 7.5 6.76758C7.90455 6.76758 8.23242 7.09545 8.23242 7.5ZM11.1621 7.5C11.1621 7.90443 10.8342 8.23242 10.4297 8.23242C10.0251 8.23242 9.69727 7.90443 9.69727 7.5C9.69727 7.09545 10.0251 6.76758 10.4297 6.76758C10.8342 6.76758 11.1621 7.09545 11.1621 7.5ZM5.30273 7.5C5.30273 7.90443 4.97486 8.23242 4.57031 8.23242C4.16588 8.23242 3.83789 7.90443 3.83789 7.5C3.83789 7.09545 4.16588 6.76758 4.57031 6.76758C4.97486 6.76758 5.30273 7.09545 5.30273 7.5Z" fill="#E9724D"/>
+														</svg>
+													</a>
+													<div class="dropdown">
+														<button class="dropdown-toggle" type="button" id="dropdownMenuButton" data-mdb-toggle="dropdown" aria-expanded="false"> 
+															<svg width="18" height="13" viewBox="0 0 18 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+																<path d="M16.0312 0.3125H1.96875C0.883195 0.3125 0 1.1957 0 2.28125V10.7188C0 11.8043 0.883195 12.6875 1.96875 12.6875H16.0312C17.1168 12.6875 18 11.8043 18 10.7188V2.28125C18 1.1957 17.1168 0.3125 16.0312 0.3125ZM1.96875 1.4375H16.0312C16.4965 1.4375 16.875 1.81603 16.875 2.28125V3.40625H1.125V2.28125C1.125 1.81603 1.50353 1.4375 1.96875 1.4375ZM16.0312 11.5625H1.96875C1.50353 11.5625 1.125 11.184 1.125 10.7188V4.53125H16.875V10.7188C16.875 11.184 16.4965 11.5625 16.0312 11.5625Z" fill="#E9724D"/>
+																<path d="M3.9375 9.875H3.375C3.06436 9.875 2.8125 9.62314 2.8125 9.3125V8.75C2.8125 8.43936 3.06436 8.1875 3.375 8.1875H3.9375C4.24814 8.1875 4.5 8.43936 4.5 8.75V9.3125C4.5 9.62314 4.24814 9.875 3.9375 9.875Z" fill="#E9724D"/>
+															</svg>
+														</button>
+														<ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+															<li><a class="dropdown-item" href="#">Pick</a></li>
+															<li><a class="dropdown-item" href="#">Drop</a></li>
+														</ul>
+													</div>
+												</div>
+											</div>
+										</div>
+										<div class="col-md-6">
+											<div class="speakers_box">
+												<a href="#." class="speakers_box_inr d-flex flex-wrap" data-mdb-toggle="modal" data-mdb-target="#exampleModal">
+													<div class="speakers_img">
+														<img src="img/speakers_zone2.jpg" alt="">
+													</div>
+													<div class="speakers_text_box">
+														<div class="speakers_title d-flex justify-content-between align-items-center">
+															<h3>Brooklyn Simmons</h3>
+															<div class="arrow_icon_speakers">
+																<svg width="8" height="11" viewBox="0 0 8 11" fill="none" xmlns="http://www.w3.org/2000/svg">
+																	<path d="M1 1L6 5.5L1 10" stroke="#DB604B" stroke-width="1.5"/>
+																</svg>
+															</div>
+														</div>
+														<small>Sr. Partner Systems</small>
+														<small>Dell Systmes</small>
+														<div class="city_social_media">
+															<p>New York City</p>
+														</div>	
+													</div>
+												</a>
+												<div class="social_menu d-flex align-items-center">
+													<a href="#." class="videos_call_icon" data-mdb-toggle="modal" data-mdb-target="#exampleModal">
+														<svg width="19" height="19" viewBox="0 0 19 19" fill="none" xmlns="http://www.w3.org/2000/svg">
+														<g clip-path="url(#clip0)">
+														<path d="M18.6783 4.85086C18.4783 4.72716 18.2285 4.71587 18.0181 4.821L13.5714 7.04466V5.42829C13.5714 4.304 12.66 3.39258 11.5357 3.39258H2.03571C0.911419 3.39258 0 4.304 0 5.42829V13.5711C0 14.6954 0.911419 15.6069 2.03571 15.6069H11.5357C12.66 15.6069 13.5714 14.6954 13.5714 13.5711V11.9548L18.0181 14.1819C18.3533 14.3494 18.7609 14.2134 18.9284 13.8782C18.9761 13.7829 19.0006 13.6777 19 13.5711V5.42829C19.0001 5.19307 18.8784 4.97459 18.6783 4.85086ZM12.2143 13.5711C12.2143 13.9459 11.9105 14.2497 11.5357 14.2497H2.03571C1.66093 14.2497 1.35713 13.9459 1.35713 13.5711V5.42829C1.35713 5.05351 1.66093 4.74971 2.03571 4.74971H11.5357C11.9105 4.74971 12.2143 5.05351 12.2143 5.42829V13.5711ZM17.6428 12.4732L13.5714 10.4375V8.56198L17.6428 6.52626V12.4732V12.4732Z" fill="#E9724D"/>
+														<path d="M6.78583 6.78516C5.28676 6.78516 4.07153 8.00038 4.07153 9.49945C4.07153 10.9985 5.28676 12.2137 6.78583 12.2137C8.2849 12.2137 9.50013 10.9985 9.50013 9.49945C9.50013 8.00038 8.28486 6.78516 6.78583 6.78516ZM6.78583 10.8566C6.03631 10.8566 5.4287 10.249 5.4287 9.49945C5.4287 8.74994 6.03631 8.14232 6.78583 8.14232C7.53535 8.14232 8.14296 8.74994 8.14296 9.49945C8.14296 10.249 7.53535 10.8566 6.78583 10.8566Z" fill="#E9724D"/>
+														</g>
+														<defs>
+														<clipPath id="clip0">
+														<rect width="19" height="19" fill="white"/>
+														</clipPath>
+														</defs>
+														</svg>
+
+													</a>
+													<a href="#." class="chat_icon" data-mdb-toggle="modal" data-mdb-target="#exampleModal">
+														<svg width="15" height="15" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+															<path d="M7.5 0C3.35495 0 0 3.35438 0 7.5C0 8.8155 0.343094 10.1003 0.994606 11.2335L0.0282669 14.2344C-0.0391388 14.4436 0.0162506 14.6729 0.171661 14.8283C0.325584 14.9823 0.554352 15.0397 0.76561 14.9717L3.76648 14.0054C4.89967 14.6569 6.1845 15 7.5 15C11.6451 15 15 11.6456 15 7.5C15 3.35495 11.6456 0 7.5 0ZM7.5 13.8281C6.31176 13.8281 5.1535 13.4966 4.15043 12.8693C4.00612 12.7792 3.8269 12.7548 3.66016 12.8085L1.49391 13.5061L2.19154 11.3398C2.24442 11.1755 2.2221 10.9961 2.13055 10.8496C1.50341 9.8465 1.17188 8.68824 1.17188 7.5C1.17188 4.0107 4.0107 1.17188 7.5 1.17188C10.9893 1.17188 13.8281 4.0107 13.8281 7.5C13.8281 10.9893 10.9893 13.8281 7.5 13.8281ZM8.23242 7.5C8.23242 7.90443 7.90455 8.23242 7.5 8.23242C7.09545 8.23242 6.76758 7.90443 6.76758 7.5C6.76758 7.09545 7.09545 6.76758 7.5 6.76758C7.90455 6.76758 8.23242 7.09545 8.23242 7.5ZM11.1621 7.5C11.1621 7.90443 10.8342 8.23242 10.4297 8.23242C10.0251 8.23242 9.69727 7.90443 9.69727 7.5C9.69727 7.09545 10.0251 6.76758 10.4297 6.76758C10.8342 6.76758 11.1621 7.09545 11.1621 7.5ZM5.30273 7.5C5.30273 7.90443 4.97486 8.23242 4.57031 8.23242C4.16588 8.23242 3.83789 7.90443 3.83789 7.5C3.83789 7.09545 4.16588 6.76758 4.57031 6.76758C4.97486 6.76758 5.30273 7.09545 5.30273 7.5Z" fill="#E9724D"/>
+														</svg>
+													</a>
+													<div class="dropdown">
+														<button class="dropdown-toggle" type="button" id="dropdownMenuButton" data-mdb-toggle="dropdown" aria-expanded="false"> 
+															<svg width="18" height="13" viewBox="0 0 18 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+																<path d="M16.0312 0.3125H1.96875C0.883195 0.3125 0 1.1957 0 2.28125V10.7188C0 11.8043 0.883195 12.6875 1.96875 12.6875H16.0312C17.1168 12.6875 18 11.8043 18 10.7188V2.28125C18 1.1957 17.1168 0.3125 16.0312 0.3125ZM1.96875 1.4375H16.0312C16.4965 1.4375 16.875 1.81603 16.875 2.28125V3.40625H1.125V2.28125C1.125 1.81603 1.50353 1.4375 1.96875 1.4375ZM16.0312 11.5625H1.96875C1.50353 11.5625 1.125 11.184 1.125 10.7188V4.53125H16.875V10.7188C16.875 11.184 16.4965 11.5625 16.0312 11.5625Z" fill="#E9724D"/>
+																<path d="M3.9375 9.875H3.375C3.06436 9.875 2.8125 9.62314 2.8125 9.3125V8.75C2.8125 8.43936 3.06436 8.1875 3.375 8.1875H3.9375C4.24814 8.1875 4.5 8.43936 4.5 8.75V9.3125C4.5 9.62314 4.24814 9.875 3.9375 9.875Z" fill="#E9724D"/>
+															</svg>
+														</button>
+														<ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+															<li>
+																<a class="dropdown-item" href="#">
+																	<div class="OpeNnotificationTextBox">
+																	<svg width="77" height="76" viewBox="0 0 77 76" fill="none" xmlns="http://www.w3.org/2000/svg">
+																		<circle opacity="0.3" cx="23.7501" cy="33.751" r="10.0147" stroke="#2DCA73"/>
+																		<circle opacity="0.1" cx="23.75" cy="33.75" r="13.25" stroke="#2DCA73"/>
+																		<g filter="url(#filter0_d)">
+																		<circle cx="23.75" cy="33.7505" r="8.49265" fill="#2DCA73"/>
+																		</g>
+																		<path d="M19.5037 34.1618L22.0661 36.783L27.9963 30.7168" stroke="white" stroke-width="2" stroke-linecap="round"/>
+																		<defs>
+																		<filter id="filter0_d" x="-28.7427" y="-18.7422" width="104.985" height="104.985" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+																		<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+																		<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"/>
+																		<feOffset/>
+																		<feGaussianBlur stdDeviation="22"/>
+																		<feColorMatrix type="matrix" values="0 0 0 0 0.720729 0 0 0 0 0.925 0 0 0 0 0.863719 0 0 0 1 0"/>
+																		<feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow"/>
+																		<feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow" result="shape"/>
+																		</filter>
+																		</defs>
+																	</svg>
+																	<span>
+																		You Picked <br>the Card
+																	</span>
+																</div>
+																</a>
+															</li>
+														</ul>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>	
+								</div>
+								<div class="tab-pane fade" id="ex1-tabs-2" role="tabpanel" aria-labelledby="ex1-tab-2">
+									<div class="row info_row">
+										<div class="col-md-6">
+											<div class="speakers_box">
+												<a href="#." class="speakers_box_inr d-flex flex-wrap" data-mdb-toggle="modal" data-mdb-target="#exampleModal">
+													<div class="speakers_img">
+														<img src="img/speakers_zone1.png" alt="">
+													</div>
+													<div class="speakers_text_box">
+														<div class="speakers_title d-flex justify-content-between align-items-center">
+															<h3>Brooklyn Simmons</h3>
+															<div class="arrow_icon_speakers">
+																<svg width="8" height="11" viewBox="0 0 8 11" fill="none" xmlns="http://www.w3.org/2000/svg">
+																	<path d="M1 1L6 5.5L1 10" stroke="#DB604B" stroke-width="1.5"/>
+																</svg>
+															</div>
+														</div>
+														<small>Sr. Partner Systems</small>
+														<small>Dell Systmes</small>
+														<div class="city_social_media">
+															<p>New York City</p>
+														</div>	
+													</div>
+												</a>
+												<div class="social_menu d-flex align-items-center">
+													<a href="#." class="videos_call_icon" data-mdb-toggle="modal" data-mdb-target="#exampleModal">
+														<svg width="19" height="19" viewBox="0 0 19 19" fill="none" xmlns="http://www.w3.org/2000/svg">
+														<g clip-path="url(#clip0)">
+														<path d="M18.6783 4.85086C18.4783 4.72716 18.2285 4.71587 18.0181 4.821L13.5714 7.04466V5.42829C13.5714 4.304 12.66 3.39258 11.5357 3.39258H2.03571C0.911419 3.39258 0 4.304 0 5.42829V13.5711C0 14.6954 0.911419 15.6069 2.03571 15.6069H11.5357C12.66 15.6069 13.5714 14.6954 13.5714 13.5711V11.9548L18.0181 14.1819C18.3533 14.3494 18.7609 14.2134 18.9284 13.8782C18.9761 13.7829 19.0006 13.6777 19 13.5711V5.42829C19.0001 5.19307 18.8784 4.97459 18.6783 4.85086ZM12.2143 13.5711C12.2143 13.9459 11.9105 14.2497 11.5357 14.2497H2.03571C1.66093 14.2497 1.35713 13.9459 1.35713 13.5711V5.42829C1.35713 5.05351 1.66093 4.74971 2.03571 4.74971H11.5357C11.9105 4.74971 12.2143 5.05351 12.2143 5.42829V13.5711ZM17.6428 12.4732L13.5714 10.4375V8.56198L17.6428 6.52626V12.4732V12.4732Z" fill="#E9724D"/>
+														<path d="M6.78583 6.78516C5.28676 6.78516 4.07153 8.00038 4.07153 9.49945C4.07153 10.9985 5.28676 12.2137 6.78583 12.2137C8.2849 12.2137 9.50013 10.9985 9.50013 9.49945C9.50013 8.00038 8.28486 6.78516 6.78583 6.78516ZM6.78583 10.8566C6.03631 10.8566 5.4287 10.249 5.4287 9.49945C5.4287 8.74994 6.03631 8.14232 6.78583 8.14232C7.53535 8.14232 8.14296 8.74994 8.14296 9.49945C8.14296 10.249 7.53535 10.8566 6.78583 10.8566Z" fill="#E9724D"/>
+														</g>
+														<defs>
+														<clipPath id="clip0">
+														<rect width="19" height="19" fill="white"/>
+														</clipPath>
+														</defs>
+														</svg>
+
+													</a>
+													<a href="#." class="chat_icon" data-mdb-toggle="modal" data-mdb-target="#exampleModal">
+														<svg width="15" height="15" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+															<path d="M7.5 0C3.35495 0 0 3.35438 0 7.5C0 8.8155 0.343094 10.1003 0.994606 11.2335L0.0282669 14.2344C-0.0391388 14.4436 0.0162506 14.6729 0.171661 14.8283C0.325584 14.9823 0.554352 15.0397 0.76561 14.9717L3.76648 14.0054C4.89967 14.6569 6.1845 15 7.5 15C11.6451 15 15 11.6456 15 7.5C15 3.35495 11.6456 0 7.5 0ZM7.5 13.8281C6.31176 13.8281 5.1535 13.4966 4.15043 12.8693C4.00612 12.7792 3.8269 12.7548 3.66016 12.8085L1.49391 13.5061L2.19154 11.3398C2.24442 11.1755 2.2221 10.9961 2.13055 10.8496C1.50341 9.8465 1.17188 8.68824 1.17188 7.5C1.17188 4.0107 4.0107 1.17188 7.5 1.17188C10.9893 1.17188 13.8281 4.0107 13.8281 7.5C13.8281 10.9893 10.9893 13.8281 7.5 13.8281ZM8.23242 7.5C8.23242 7.90443 7.90455 8.23242 7.5 8.23242C7.09545 8.23242 6.76758 7.90443 6.76758 7.5C6.76758 7.09545 7.09545 6.76758 7.5 6.76758C7.90455 6.76758 8.23242 7.09545 8.23242 7.5ZM11.1621 7.5C11.1621 7.90443 10.8342 8.23242 10.4297 8.23242C10.0251 8.23242 9.69727 7.90443 9.69727 7.5C9.69727 7.09545 10.0251 6.76758 10.4297 6.76758C10.8342 6.76758 11.1621 7.09545 11.1621 7.5ZM5.30273 7.5C5.30273 7.90443 4.97486 8.23242 4.57031 8.23242C4.16588 8.23242 3.83789 7.90443 3.83789 7.5C3.83789 7.09545 4.16588 6.76758 4.57031 6.76758C4.97486 6.76758 5.30273 7.09545 5.30273 7.5Z" fill="#E9724D"/>
+														</svg>
+													</a>
+													<div class="dropdown">
+														<button class="dropdown-toggle" type="button" id="dropdownMenuButton" data-mdb-toggle="dropdown" aria-expanded="false"> 
+															<svg width="18" height="13" viewBox="0 0 18 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+																<path d="M16.0312 0.3125H1.96875C0.883195 0.3125 0 1.1957 0 2.28125V10.7188C0 11.8043 0.883195 12.6875 1.96875 12.6875H16.0312C17.1168 12.6875 18 11.8043 18 10.7188V2.28125C18 1.1957 17.1168 0.3125 16.0312 0.3125ZM1.96875 1.4375H16.0312C16.4965 1.4375 16.875 1.81603 16.875 2.28125V3.40625H1.125V2.28125C1.125 1.81603 1.50353 1.4375 1.96875 1.4375ZM16.0312 11.5625H1.96875C1.50353 11.5625 1.125 11.184 1.125 10.7188V4.53125H16.875V10.7188C16.875 11.184 16.4965 11.5625 16.0312 11.5625Z" fill="#E9724D"/>
+																<path d="M3.9375 9.875H3.375C3.06436 9.875 2.8125 9.62314 2.8125 9.3125V8.75C2.8125 8.43936 3.06436 8.1875 3.375 8.1875H3.9375C4.24814 8.1875 4.5 8.43936 4.5 8.75V9.3125C4.5 9.62314 4.24814 9.875 3.9375 9.875Z" fill="#E9724D"/>
+															</svg>
+														</button>
+														<ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+															<li><a class="dropdown-item" href="#">Pick</a></li>
+															<li><a class="dropdown-item" href="#">Drop</a></li>
+														</ul>
+													</div>
+												</div>
+											</div>
+										</div>
+										<div class="col-md-6">
+											<div class="speakers_box">
+												<a href="#." class="speakers_box_inr d-flex flex-wrap" data-mdb-toggle="modal" data-mdb-target="#exampleModal">
+													<div class="speakers_img">
+														<img src="img/speakers_zone2.jpg" alt="">
+													</div>
+													<div class="speakers_text_box">
+														<div class="speakers_title d-flex justify-content-between align-items-center">
+															<h3>Brooklyn Simmons</h3>
+															<div class="arrow_icon_speakers">
+																<svg width="8" height="11" viewBox="0 0 8 11" fill="none" xmlns="http://www.w3.org/2000/svg">
+																	<path d="M1 1L6 5.5L1 10" stroke="#DB604B" stroke-width="1.5"/>
+																</svg>
+															</div>
+														</div>
+														<small>Sr. Partner Systems</small>
+														<small>Dell Systmes</small>
+														<div class="city_social_media">
+															<p>New York City</p>
+														</div>	
+													</div>
+												</a>
+												<div class="social_menu d-flex align-items-center">
+													<a href="#." class="videos_call_icon" data-mdb-toggle="modal" data-mdb-target="#exampleModal">
+														<svg width="19" height="19" viewBox="0 0 19 19" fill="none" xmlns="http://www.w3.org/2000/svg">
+														<g clip-path="url(#clip0)">
+														<path d="M18.6783 4.85086C18.4783 4.72716 18.2285 4.71587 18.0181 4.821L13.5714 7.04466V5.42829C13.5714 4.304 12.66 3.39258 11.5357 3.39258H2.03571C0.911419 3.39258 0 4.304 0 5.42829V13.5711C0 14.6954 0.911419 15.6069 2.03571 15.6069H11.5357C12.66 15.6069 13.5714 14.6954 13.5714 13.5711V11.9548L18.0181 14.1819C18.3533 14.3494 18.7609 14.2134 18.9284 13.8782C18.9761 13.7829 19.0006 13.6777 19 13.5711V5.42829C19.0001 5.19307 18.8784 4.97459 18.6783 4.85086ZM12.2143 13.5711C12.2143 13.9459 11.9105 14.2497 11.5357 14.2497H2.03571C1.66093 14.2497 1.35713 13.9459 1.35713 13.5711V5.42829C1.35713 5.05351 1.66093 4.74971 2.03571 4.74971H11.5357C11.9105 4.74971 12.2143 5.05351 12.2143 5.42829V13.5711ZM17.6428 12.4732L13.5714 10.4375V8.56198L17.6428 6.52626V12.4732V12.4732Z" fill="#E9724D"/>
+														<path d="M6.78583 6.78516C5.28676 6.78516 4.07153 8.00038 4.07153 9.49945C4.07153 10.9985 5.28676 12.2137 6.78583 12.2137C8.2849 12.2137 9.50013 10.9985 9.50013 9.49945C9.50013 8.00038 8.28486 6.78516 6.78583 6.78516ZM6.78583 10.8566C6.03631 10.8566 5.4287 10.249 5.4287 9.49945C5.4287 8.74994 6.03631 8.14232 6.78583 8.14232C7.53535 8.14232 8.14296 8.74994 8.14296 9.49945C8.14296 10.249 7.53535 10.8566 6.78583 10.8566Z" fill="#E9724D"/>
+														</g>
+														<defs>
+														<clipPath id="clip0">
+														<rect width="19" height="19" fill="white"/>
+														</clipPath>
+														</defs>
+														</svg>
+
+													</a>
+													<a href="#." class="chat_icon" data-mdb-toggle="modal" data-mdb-target="#exampleModal">
+														<svg width="15" height="15" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+															<path d="M7.5 0C3.35495 0 0 3.35438 0 7.5C0 8.8155 0.343094 10.1003 0.994606 11.2335L0.0282669 14.2344C-0.0391388 14.4436 0.0162506 14.6729 0.171661 14.8283C0.325584 14.9823 0.554352 15.0397 0.76561 14.9717L3.76648 14.0054C4.89967 14.6569 6.1845 15 7.5 15C11.6451 15 15 11.6456 15 7.5C15 3.35495 11.6456 0 7.5 0ZM7.5 13.8281C6.31176 13.8281 5.1535 13.4966 4.15043 12.8693C4.00612 12.7792 3.8269 12.7548 3.66016 12.8085L1.49391 13.5061L2.19154 11.3398C2.24442 11.1755 2.2221 10.9961 2.13055 10.8496C1.50341 9.8465 1.17188 8.68824 1.17188 7.5C1.17188 4.0107 4.0107 1.17188 7.5 1.17188C10.9893 1.17188 13.8281 4.0107 13.8281 7.5C13.8281 10.9893 10.9893 13.8281 7.5 13.8281ZM8.23242 7.5C8.23242 7.90443 7.90455 8.23242 7.5 8.23242C7.09545 8.23242 6.76758 7.90443 6.76758 7.5C6.76758 7.09545 7.09545 6.76758 7.5 6.76758C7.90455 6.76758 8.23242 7.09545 8.23242 7.5ZM11.1621 7.5C11.1621 7.90443 10.8342 8.23242 10.4297 8.23242C10.0251 8.23242 9.69727 7.90443 9.69727 7.5C9.69727 7.09545 10.0251 6.76758 10.4297 6.76758C10.8342 6.76758 11.1621 7.09545 11.1621 7.5ZM5.30273 7.5C5.30273 7.90443 4.97486 8.23242 4.57031 8.23242C4.16588 8.23242 3.83789 7.90443 3.83789 7.5C3.83789 7.09545 4.16588 6.76758 4.57031 6.76758C4.97486 6.76758 5.30273 7.09545 5.30273 7.5Z" fill="#E9724D"/>
+														</svg>
+													</a>
+													<div class="dropdown">
+														<button class="dropdown-toggle" type="button" id="dropdownMenuButton" data-mdb-toggle="dropdown" aria-expanded="false"> 
+															<svg width="18" height="13" viewBox="0 0 18 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+																<path d="M16.0312 0.3125H1.96875C0.883195 0.3125 0 1.1957 0 2.28125V10.7188C0 11.8043 0.883195 12.6875 1.96875 12.6875H16.0312C17.1168 12.6875 18 11.8043 18 10.7188V2.28125C18 1.1957 17.1168 0.3125 16.0312 0.3125ZM1.96875 1.4375H16.0312C16.4965 1.4375 16.875 1.81603 16.875 2.28125V3.40625H1.125V2.28125C1.125 1.81603 1.50353 1.4375 1.96875 1.4375ZM16.0312 11.5625H1.96875C1.50353 11.5625 1.125 11.184 1.125 10.7188V4.53125H16.875V10.7188C16.875 11.184 16.4965 11.5625 16.0312 11.5625Z" fill="#E9724D"/>
+																<path d="M3.9375 9.875H3.375C3.06436 9.875 2.8125 9.62314 2.8125 9.3125V8.75C2.8125 8.43936 3.06436 8.1875 3.375 8.1875H3.9375C4.24814 8.1875 4.5 8.43936 4.5 8.75V9.3125C4.5 9.62314 4.24814 9.875 3.9375 9.875Z" fill="#E9724D"/>
+															</svg>
+														</button>
+														<ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+															<li><a class="dropdown-item" href="#">Pick</a></li>
+															<li><a class="dropdown-item" href="#">Drop</a></li>
+														</ul>
+													</div>
+												</div>
+											</div>
+										</div>
+										<div class="col-md-6">
+											<div class="speakers_box">
+												<a href="#." class="speakers_box_inr d-flex flex-wrap" data-mdb-toggle="modal" data-mdb-target="#exampleModal">
+													<div class="speakers_img">
+														<img src="img/speakers_zone3.png" alt="">
+													</div>
+													<div class="speakers_text_box">
+														<div class="speakers_title d-flex justify-content-between align-items-center">
+															<h3>Brooklyn Simmons</h3>
+															<div class="arrow_icon_speakers">
+																<svg width="8" height="11" viewBox="0 0 8 11" fill="none" xmlns="http://www.w3.org/2000/svg">
+																	<path d="M1 1L6 5.5L1 10" stroke="#DB604B" stroke-width="1.5"/>
+																</svg>
+															</div>
+														</div>
+														<small>Sr. Partner Systems</small>
+														<small>Dell Systmes</small>
+														<div class="city_social_media">
+															<p>New York City</p>
+														</div>	
+													</div>
+												</a>
+												<div class="social_menu d-flex align-items-center">
+													<a href="#." class="videos_call_icon" data-mdb-toggle="modal" data-mdb-target="#exampleModal">
+														<svg width="19" height="19" viewBox="0 0 19 19" fill="none" xmlns="http://www.w3.org/2000/svg">
+														<g clip-path="url(#clip0)">
+														<path d="M18.6783 4.85086C18.4783 4.72716 18.2285 4.71587 18.0181 4.821L13.5714 7.04466V5.42829C13.5714 4.304 12.66 3.39258 11.5357 3.39258H2.03571C0.911419 3.39258 0 4.304 0 5.42829V13.5711C0 14.6954 0.911419 15.6069 2.03571 15.6069H11.5357C12.66 15.6069 13.5714 14.6954 13.5714 13.5711V11.9548L18.0181 14.1819C18.3533 14.3494 18.7609 14.2134 18.9284 13.8782C18.9761 13.7829 19.0006 13.6777 19 13.5711V5.42829C19.0001 5.19307 18.8784 4.97459 18.6783 4.85086ZM12.2143 13.5711C12.2143 13.9459 11.9105 14.2497 11.5357 14.2497H2.03571C1.66093 14.2497 1.35713 13.9459 1.35713 13.5711V5.42829C1.35713 5.05351 1.66093 4.74971 2.03571 4.74971H11.5357C11.9105 4.74971 12.2143 5.05351 12.2143 5.42829V13.5711ZM17.6428 12.4732L13.5714 10.4375V8.56198L17.6428 6.52626V12.4732V12.4732Z" fill="#E9724D"/>
+														<path d="M6.78583 6.78516C5.28676 6.78516 4.07153 8.00038 4.07153 9.49945C4.07153 10.9985 5.28676 12.2137 6.78583 12.2137C8.2849 12.2137 9.50013 10.9985 9.50013 9.49945C9.50013 8.00038 8.28486 6.78516 6.78583 6.78516ZM6.78583 10.8566C6.03631 10.8566 5.4287 10.249 5.4287 9.49945C5.4287 8.74994 6.03631 8.14232 6.78583 8.14232C7.53535 8.14232 8.14296 8.74994 8.14296 9.49945C8.14296 10.249 7.53535 10.8566 6.78583 10.8566Z" fill="#E9724D"/>
+														</g>
+														<defs>
+														<clipPath id="clip0">
+														<rect width="19" height="19" fill="white"/>
+														</clipPath>
+														</defs>
+														</svg>
+
+													</a>
+													<a href="#." class="chat_icon" data-mdb-toggle="modal" data-mdb-target="#exampleModal">
+														<svg width="15" height="15" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+															<path d="M7.5 0C3.35495 0 0 3.35438 0 7.5C0 8.8155 0.343094 10.1003 0.994606 11.2335L0.0282669 14.2344C-0.0391388 14.4436 0.0162506 14.6729 0.171661 14.8283C0.325584 14.9823 0.554352 15.0397 0.76561 14.9717L3.76648 14.0054C4.89967 14.6569 6.1845 15 7.5 15C11.6451 15 15 11.6456 15 7.5C15 3.35495 11.6456 0 7.5 0ZM7.5 13.8281C6.31176 13.8281 5.1535 13.4966 4.15043 12.8693C4.00612 12.7792 3.8269 12.7548 3.66016 12.8085L1.49391 13.5061L2.19154 11.3398C2.24442 11.1755 2.2221 10.9961 2.13055 10.8496C1.50341 9.8465 1.17188 8.68824 1.17188 7.5C1.17188 4.0107 4.0107 1.17188 7.5 1.17188C10.9893 1.17188 13.8281 4.0107 13.8281 7.5C13.8281 10.9893 10.9893 13.8281 7.5 13.8281ZM8.23242 7.5C8.23242 7.90443 7.90455 8.23242 7.5 8.23242C7.09545 8.23242 6.76758 7.90443 6.76758 7.5C6.76758 7.09545 7.09545 6.76758 7.5 6.76758C7.90455 6.76758 8.23242 7.09545 8.23242 7.5ZM11.1621 7.5C11.1621 7.90443 10.8342 8.23242 10.4297 8.23242C10.0251 8.23242 9.69727 7.90443 9.69727 7.5C9.69727 7.09545 10.0251 6.76758 10.4297 6.76758C10.8342 6.76758 11.1621 7.09545 11.1621 7.5ZM5.30273 7.5C5.30273 7.90443 4.97486 8.23242 4.57031 8.23242C4.16588 8.23242 3.83789 7.90443 3.83789 7.5C3.83789 7.09545 4.16588 6.76758 4.57031 6.76758C4.97486 6.76758 5.30273 7.09545 5.30273 7.5Z" fill="#E9724D"/>
+														</svg>
+													</a>
+													<div class="dropdown">
+														<button class="dropdown-toggle" type="button" id="dropdownMenuButton" data-mdb-toggle="dropdown" aria-expanded="false"> 
+															<svg width="18" height="13" viewBox="0 0 18 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+																<path d="M16.0312 0.3125H1.96875C0.883195 0.3125 0 1.1957 0 2.28125V10.7188C0 11.8043 0.883195 12.6875 1.96875 12.6875H16.0312C17.1168 12.6875 18 11.8043 18 10.7188V2.28125C18 1.1957 17.1168 0.3125 16.0312 0.3125ZM1.96875 1.4375H16.0312C16.4965 1.4375 16.875 1.81603 16.875 2.28125V3.40625H1.125V2.28125C1.125 1.81603 1.50353 1.4375 1.96875 1.4375ZM16.0312 11.5625H1.96875C1.50353 11.5625 1.125 11.184 1.125 10.7188V4.53125H16.875V10.7188C16.875 11.184 16.4965 11.5625 16.0312 11.5625Z" fill="#E9724D"/>
+																<path d="M3.9375 9.875H3.375C3.06436 9.875 2.8125 9.62314 2.8125 9.3125V8.75C2.8125 8.43936 3.06436 8.1875 3.375 8.1875H3.9375C4.24814 8.1875 4.5 8.43936 4.5 8.75V9.3125C4.5 9.62314 4.24814 9.875 3.9375 9.875Z" fill="#E9724D"/>
+															</svg>
+														</button>
+														<ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+															<li><a class="dropdown-item" href="#">Pick</a></li>
+															<li><a class="dropdown-item" href="#">Drop</a></li>
+														</ul>
+													</div>
+												</div>
+											</div>
+										</div>
+										<div class="col-md-6">
+											<div class="speakers_box">
+												<a href="#." class="speakers_box_inr d-flex flex-wrap" data-mdb-toggle="modal" data-mdb-target="#exampleModal">
+													<div class="speakers_img">
+														<img src="img/speakers_zone4.png" alt="">
+													</div>
+													<div class="speakers_text_box">
+														<div class="speakers_title d-flex justify-content-between align-items-center">
+															<h3>Brooklyn Simmons</h3>
+															<div class="arrow_icon_speakers">
+																<svg width="8" height="11" viewBox="0 0 8 11" fill="none" xmlns="http://www.w3.org/2000/svg">
+																	<path d="M1 1L6 5.5L1 10" stroke="#DB604B" stroke-width="1.5"/>
+																</svg>
+															</div>
+														</div>
+														<small>Sr. Partner Systems</small>
+														<small>Dell Systmes</small>
+														<div class="city_social_media">
+															<p>New York City</p>
+														</div>	
+													</div>
+												</a>
+												<div class="social_menu d-flex align-items-center">
+													<a href="#." class="videos_call_icon" data-mdb-toggle="modal" data-mdb-target="#exampleModal">
+														<svg width="19" height="19" viewBox="0 0 19 19" fill="none" xmlns="http://www.w3.org/2000/svg">
+														<g clip-path="url(#clip0)">
+														<path d="M18.6783 4.85086C18.4783 4.72716 18.2285 4.71587 18.0181 4.821L13.5714 7.04466V5.42829C13.5714 4.304 12.66 3.39258 11.5357 3.39258H2.03571C0.911419 3.39258 0 4.304 0 5.42829V13.5711C0 14.6954 0.911419 15.6069 2.03571 15.6069H11.5357C12.66 15.6069 13.5714 14.6954 13.5714 13.5711V11.9548L18.0181 14.1819C18.3533 14.3494 18.7609 14.2134 18.9284 13.8782C18.9761 13.7829 19.0006 13.6777 19 13.5711V5.42829C19.0001 5.19307 18.8784 4.97459 18.6783 4.85086ZM12.2143 13.5711C12.2143 13.9459 11.9105 14.2497 11.5357 14.2497H2.03571C1.66093 14.2497 1.35713 13.9459 1.35713 13.5711V5.42829C1.35713 5.05351 1.66093 4.74971 2.03571 4.74971H11.5357C11.9105 4.74971 12.2143 5.05351 12.2143 5.42829V13.5711ZM17.6428 12.4732L13.5714 10.4375V8.56198L17.6428 6.52626V12.4732V12.4732Z" fill="#E9724D"/>
+														<path d="M6.78583 6.78516C5.28676 6.78516 4.07153 8.00038 4.07153 9.49945C4.07153 10.9985 5.28676 12.2137 6.78583 12.2137C8.2849 12.2137 9.50013 10.9985 9.50013 9.49945C9.50013 8.00038 8.28486 6.78516 6.78583 6.78516ZM6.78583 10.8566C6.03631 10.8566 5.4287 10.249 5.4287 9.49945C5.4287 8.74994 6.03631 8.14232 6.78583 8.14232C7.53535 8.14232 8.14296 8.74994 8.14296 9.49945C8.14296 10.249 7.53535 10.8566 6.78583 10.8566Z" fill="#E9724D"/>
+														</g>
+														<defs>
+														<clipPath id="clip0">
+														<rect width="19" height="19" fill="white"/>
+														</clipPath>
+														</defs>
+														</svg>
+
+													</a>
+													<a href="#." class="chat_icon" data-mdb-toggle="modal" data-mdb-target="#exampleModal">
+														<svg width="15" height="15" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+															<path d="M7.5 0C3.35495 0 0 3.35438 0 7.5C0 8.8155 0.343094 10.1003 0.994606 11.2335L0.0282669 14.2344C-0.0391388 14.4436 0.0162506 14.6729 0.171661 14.8283C0.325584 14.9823 0.554352 15.0397 0.76561 14.9717L3.76648 14.0054C4.89967 14.6569 6.1845 15 7.5 15C11.6451 15 15 11.6456 15 7.5C15 3.35495 11.6456 0 7.5 0ZM7.5 13.8281C6.31176 13.8281 5.1535 13.4966 4.15043 12.8693C4.00612 12.7792 3.8269 12.7548 3.66016 12.8085L1.49391 13.5061L2.19154 11.3398C2.24442 11.1755 2.2221 10.9961 2.13055 10.8496C1.50341 9.8465 1.17188 8.68824 1.17188 7.5C1.17188 4.0107 4.0107 1.17188 7.5 1.17188C10.9893 1.17188 13.8281 4.0107 13.8281 7.5C13.8281 10.9893 10.9893 13.8281 7.5 13.8281ZM8.23242 7.5C8.23242 7.90443 7.90455 8.23242 7.5 8.23242C7.09545 8.23242 6.76758 7.90443 6.76758 7.5C6.76758 7.09545 7.09545 6.76758 7.5 6.76758C7.90455 6.76758 8.23242 7.09545 8.23242 7.5ZM11.1621 7.5C11.1621 7.90443 10.8342 8.23242 10.4297 8.23242C10.0251 8.23242 9.69727 7.90443 9.69727 7.5C9.69727 7.09545 10.0251 6.76758 10.4297 6.76758C10.8342 6.76758 11.1621 7.09545 11.1621 7.5ZM5.30273 7.5C5.30273 7.90443 4.97486 8.23242 4.57031 8.23242C4.16588 8.23242 3.83789 7.90443 3.83789 7.5C3.83789 7.09545 4.16588 6.76758 4.57031 6.76758C4.97486 6.76758 5.30273 7.09545 5.30273 7.5Z" fill="#E9724D"/>
+														</svg>
+													</a>
+													<div class="dropdown">
+														<button class="dropdown-toggle" type="button" id="dropdownMenuButton" data-mdb-toggle="dropdown" aria-expanded="false"> 
+															<svg width="18" height="13" viewBox="0 0 18 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+																<path d="M16.0312 0.3125H1.96875C0.883195 0.3125 0 1.1957 0 2.28125V10.7188C0 11.8043 0.883195 12.6875 1.96875 12.6875H16.0312C17.1168 12.6875 18 11.8043 18 10.7188V2.28125C18 1.1957 17.1168 0.3125 16.0312 0.3125ZM1.96875 1.4375H16.0312C16.4965 1.4375 16.875 1.81603 16.875 2.28125V3.40625H1.125V2.28125C1.125 1.81603 1.50353 1.4375 1.96875 1.4375ZM16.0312 11.5625H1.96875C1.50353 11.5625 1.125 11.184 1.125 10.7188V4.53125H16.875V10.7188C16.875 11.184 16.4965 11.5625 16.0312 11.5625Z" fill="#E9724D"/>
+																<path d="M3.9375 9.875H3.375C3.06436 9.875 2.8125 9.62314 2.8125 9.3125V8.75C2.8125 8.43936 3.06436 8.1875 3.375 8.1875H3.9375C4.24814 8.1875 4.5 8.43936 4.5 8.75V9.3125C4.5 9.62314 4.24814 9.875 3.9375 9.875Z" fill="#E9724D"/>
+															</svg>
+														</button>
+														<ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+															<li><a class="dropdown-item" href="#">Pick</a></li>
+															<li><a class="dropdown-item" href="#">Drop</a></li>
+														</ul>
+													</div>
+												</div>
+											</div>
+										</div>
+										<div class="col-md-6">
+											<div class="speakers_box">
+												<a href="#." class="speakers_box_inr d-flex flex-wrap" data-mdb-toggle="modal" data-mdb-target="#exampleModal">
+													<div class="speakers_img">
+														<img src="img/speakers_zone5.png" alt="">
+													</div>
+													<div class="speakers_text_box">
+														<div class="speakers_title d-flex justify-content-between align-items-center">
+															<h3>Brooklyn Simmons</h3>
+															<div class="arrow_icon_speakers">
+																<svg width="8" height="11" viewBox="0 0 8 11" fill="none" xmlns="http://www.w3.org/2000/svg">
+																	<path d="M1 1L6 5.5L1 10" stroke="#DB604B" stroke-width="1.5"/>
+																</svg>
+															</div>
+														</div>
+														<small>Sr. Partner Systems</small>
+														<small>Dell Systmes</small>
+														<div class="city_social_media">
+															<p>New York City</p>
+														</div>	
+													</div>
+												</a>
+												<div class="social_menu d-flex align-items-center">
+													<a href="#." class="videos_call_icon" data-mdb-toggle="modal" data-mdb-target="#exampleModal">
+														<svg width="19" height="19" viewBox="0 0 19 19" fill="none" xmlns="http://www.w3.org/2000/svg">
+														<g clip-path="url(#clip0)">
+														<path d="M18.6783 4.85086C18.4783 4.72716 18.2285 4.71587 18.0181 4.821L13.5714 7.04466V5.42829C13.5714 4.304 12.66 3.39258 11.5357 3.39258H2.03571C0.911419 3.39258 0 4.304 0 5.42829V13.5711C0 14.6954 0.911419 15.6069 2.03571 15.6069H11.5357C12.66 15.6069 13.5714 14.6954 13.5714 13.5711V11.9548L18.0181 14.1819C18.3533 14.3494 18.7609 14.2134 18.9284 13.8782C18.9761 13.7829 19.0006 13.6777 19 13.5711V5.42829C19.0001 5.19307 18.8784 4.97459 18.6783 4.85086ZM12.2143 13.5711C12.2143 13.9459 11.9105 14.2497 11.5357 14.2497H2.03571C1.66093 14.2497 1.35713 13.9459 1.35713 13.5711V5.42829C1.35713 5.05351 1.66093 4.74971 2.03571 4.74971H11.5357C11.9105 4.74971 12.2143 5.05351 12.2143 5.42829V13.5711ZM17.6428 12.4732L13.5714 10.4375V8.56198L17.6428 6.52626V12.4732V12.4732Z" fill="#E9724D"/>
+														<path d="M6.78583 6.78516C5.28676 6.78516 4.07153 8.00038 4.07153 9.49945C4.07153 10.9985 5.28676 12.2137 6.78583 12.2137C8.2849 12.2137 9.50013 10.9985 9.50013 9.49945C9.50013 8.00038 8.28486 6.78516 6.78583 6.78516ZM6.78583 10.8566C6.03631 10.8566 5.4287 10.249 5.4287 9.49945C5.4287 8.74994 6.03631 8.14232 6.78583 8.14232C7.53535 8.14232 8.14296 8.74994 8.14296 9.49945C8.14296 10.249 7.53535 10.8566 6.78583 10.8566Z" fill="#E9724D"/>
+														</g>
+														<defs>
+														<clipPath id="clip0">
+														<rect width="19" height="19" fill="white"/>
+														</clipPath>
+														</defs>
+														</svg>
+
+													</a>
+													<a href="#." class="chat_icon" data-mdb-toggle="modal" data-mdb-target="#exampleModal">
+														<svg width="15" height="15" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+															<path d="M7.5 0C3.35495 0 0 3.35438 0 7.5C0 8.8155 0.343094 10.1003 0.994606 11.2335L0.0282669 14.2344C-0.0391388 14.4436 0.0162506 14.6729 0.171661 14.8283C0.325584 14.9823 0.554352 15.0397 0.76561 14.9717L3.76648 14.0054C4.89967 14.6569 6.1845 15 7.5 15C11.6451 15 15 11.6456 15 7.5C15 3.35495 11.6456 0 7.5 0ZM7.5 13.8281C6.31176 13.8281 5.1535 13.4966 4.15043 12.8693C4.00612 12.7792 3.8269 12.7548 3.66016 12.8085L1.49391 13.5061L2.19154 11.3398C2.24442 11.1755 2.2221 10.9961 2.13055 10.8496C1.50341 9.8465 1.17188 8.68824 1.17188 7.5C1.17188 4.0107 4.0107 1.17188 7.5 1.17188C10.9893 1.17188 13.8281 4.0107 13.8281 7.5C13.8281 10.9893 10.9893 13.8281 7.5 13.8281ZM8.23242 7.5C8.23242 7.90443 7.90455 8.23242 7.5 8.23242C7.09545 8.23242 6.76758 7.90443 6.76758 7.5C6.76758 7.09545 7.09545 6.76758 7.5 6.76758C7.90455 6.76758 8.23242 7.09545 8.23242 7.5ZM11.1621 7.5C11.1621 7.90443 10.8342 8.23242 10.4297 8.23242C10.0251 8.23242 9.69727 7.90443 9.69727 7.5C9.69727 7.09545 10.0251 6.76758 10.4297 6.76758C10.8342 6.76758 11.1621 7.09545 11.1621 7.5ZM5.30273 7.5C5.30273 7.90443 4.97486 8.23242 4.57031 8.23242C4.16588 8.23242 3.83789 7.90443 3.83789 7.5C3.83789 7.09545 4.16588 6.76758 4.57031 6.76758C4.97486 6.76758 5.30273 7.09545 5.30273 7.5Z" fill="#E9724D"/>
+														</svg>
+													</a>
+													<div class="dropdown">
+														<button class="dropdown-toggle" type="button" id="dropdownMenuButton" data-mdb-toggle="dropdown" aria-expanded="false"> 
+															<svg width="18" height="13" viewBox="0 0 18 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+																<path d="M16.0312 0.3125H1.96875C0.883195 0.3125 0 1.1957 0 2.28125V10.7188C0 11.8043 0.883195 12.6875 1.96875 12.6875H16.0312C17.1168 12.6875 18 11.8043 18 10.7188V2.28125C18 1.1957 17.1168 0.3125 16.0312 0.3125ZM1.96875 1.4375H16.0312C16.4965 1.4375 16.875 1.81603 16.875 2.28125V3.40625H1.125V2.28125C1.125 1.81603 1.50353 1.4375 1.96875 1.4375ZM16.0312 11.5625H1.96875C1.50353 11.5625 1.125 11.184 1.125 10.7188V4.53125H16.875V10.7188C16.875 11.184 16.4965 11.5625 16.0312 11.5625Z" fill="#E9724D"/>
+																<path d="M3.9375 9.875H3.375C3.06436 9.875 2.8125 9.62314 2.8125 9.3125V8.75C2.8125 8.43936 3.06436 8.1875 3.375 8.1875H3.9375C4.24814 8.1875 4.5 8.43936 4.5 8.75V9.3125C4.5 9.62314 4.24814 9.875 3.9375 9.875Z" fill="#E9724D"/>
+															</svg>
+														</button>
+														<ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+															<li><a class="dropdown-item" href="#">Pick</a></li>
+															<li><a class="dropdown-item" href="#">Drop</a></li>
+														</ul>
+													</div>
+												</div>
+											</div>
+										</div>
+										<div class="col-md-6">
+											<div class="speakers_box">
+												<a href="#." class="speakers_box_inr d-flex flex-wrap" data-mdb-toggle="modal" data-mdb-target="#exampleModal">
+													<div class="speakers_img">
+														<img src="img/speakers_zone6.png" alt="">
+													</div>
+													<div class="speakers_text_box">
+														<div class="speakers_title d-flex justify-content-between align-items-center">
+															<h3>Brooklyn Simmons</h3>
+															<div class="arrow_icon_speakers">
+																<svg width="8" height="11" viewBox="0 0 8 11" fill="none" xmlns="http://www.w3.org/2000/svg">
+																	<path d="M1 1L6 5.5L1 10" stroke="#DB604B" stroke-width="1.5"/>
+																</svg>
+															</div>
+														</div>
+														<small>Sr. Partner Systems</small>
+														<small>Dell Systmes</small>
+														<div class="city_social_media">
+															<p>New York City</p>
+														</div>	
+													</div>
+												</a>
+												<div class="social_menu d-flex align-items-center">
+													<a href="#." class="videos_call_icon" data-mdb-toggle="modal" data-mdb-target="#exampleModal">
+														<svg width="19" height="19" viewBox="0 0 19 19" fill="none" xmlns="http://www.w3.org/2000/svg">
+														<g clip-path="url(#clip0)">
+														<path d="M18.6783 4.85086C18.4783 4.72716 18.2285 4.71587 18.0181 4.821L13.5714 7.04466V5.42829C13.5714 4.304 12.66 3.39258 11.5357 3.39258H2.03571C0.911419 3.39258 0 4.304 0 5.42829V13.5711C0 14.6954 0.911419 15.6069 2.03571 15.6069H11.5357C12.66 15.6069 13.5714 14.6954 13.5714 13.5711V11.9548L18.0181 14.1819C18.3533 14.3494 18.7609 14.2134 18.9284 13.8782C18.9761 13.7829 19.0006 13.6777 19 13.5711V5.42829C19.0001 5.19307 18.8784 4.97459 18.6783 4.85086ZM12.2143 13.5711C12.2143 13.9459 11.9105 14.2497 11.5357 14.2497H2.03571C1.66093 14.2497 1.35713 13.9459 1.35713 13.5711V5.42829C1.35713 5.05351 1.66093 4.74971 2.03571 4.74971H11.5357C11.9105 4.74971 12.2143 5.05351 12.2143 5.42829V13.5711ZM17.6428 12.4732L13.5714 10.4375V8.56198L17.6428 6.52626V12.4732V12.4732Z" fill="#E9724D"/>
+														<path d="M6.78583 6.78516C5.28676 6.78516 4.07153 8.00038 4.07153 9.49945C4.07153 10.9985 5.28676 12.2137 6.78583 12.2137C8.2849 12.2137 9.50013 10.9985 9.50013 9.49945C9.50013 8.00038 8.28486 6.78516 6.78583 6.78516ZM6.78583 10.8566C6.03631 10.8566 5.4287 10.249 5.4287 9.49945C5.4287 8.74994 6.03631 8.14232 6.78583 8.14232C7.53535 8.14232 8.14296 8.74994 8.14296 9.49945C8.14296 10.249 7.53535 10.8566 6.78583 10.8566Z" fill="#E9724D"/>
+														</g>
+														<defs>
+														<clipPath id="clip0">
+														<rect width="19" height="19" fill="white"/>
+														</clipPath>
+														</defs>
+														</svg>
+
+													</a>
+													<a href="#." class="chat_icon" data-mdb-toggle="modal" data-mdb-target="#exampleModal">
+														<svg width="15" height="15" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+															<path d="M7.5 0C3.35495 0 0 3.35438 0 7.5C0 8.8155 0.343094 10.1003 0.994606 11.2335L0.0282669 14.2344C-0.0391388 14.4436 0.0162506 14.6729 0.171661 14.8283C0.325584 14.9823 0.554352 15.0397 0.76561 14.9717L3.76648 14.0054C4.89967 14.6569 6.1845 15 7.5 15C11.6451 15 15 11.6456 15 7.5C15 3.35495 11.6456 0 7.5 0ZM7.5 13.8281C6.31176 13.8281 5.1535 13.4966 4.15043 12.8693C4.00612 12.7792 3.8269 12.7548 3.66016 12.8085L1.49391 13.5061L2.19154 11.3398C2.24442 11.1755 2.2221 10.9961 2.13055 10.8496C1.50341 9.8465 1.17188 8.68824 1.17188 7.5C1.17188 4.0107 4.0107 1.17188 7.5 1.17188C10.9893 1.17188 13.8281 4.0107 13.8281 7.5C13.8281 10.9893 10.9893 13.8281 7.5 13.8281ZM8.23242 7.5C8.23242 7.90443 7.90455 8.23242 7.5 8.23242C7.09545 8.23242 6.76758 7.90443 6.76758 7.5C6.76758 7.09545 7.09545 6.76758 7.5 6.76758C7.90455 6.76758 8.23242 7.09545 8.23242 7.5ZM11.1621 7.5C11.1621 7.90443 10.8342 8.23242 10.4297 8.23242C10.0251 8.23242 9.69727 7.90443 9.69727 7.5C9.69727 7.09545 10.0251 6.76758 10.4297 6.76758C10.8342 6.76758 11.1621 7.09545 11.1621 7.5ZM5.30273 7.5C5.30273 7.90443 4.97486 8.23242 4.57031 8.23242C4.16588 8.23242 3.83789 7.90443 3.83789 7.5C3.83789 7.09545 4.16588 6.76758 4.57031 6.76758C4.97486 6.76758 5.30273 7.09545 5.30273 7.5Z" fill="#E9724D"/>
+														</svg>
+													</a>
+													<div class="dropdown">
+														<button class="dropdown-toggle" type="button" id="dropdownMenuButton" data-mdb-toggle="dropdown" aria-expanded="false"> 
+															<svg width="18" height="13" viewBox="0 0 18 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+																<path d="M16.0312 0.3125H1.96875C0.883195 0.3125 0 1.1957 0 2.28125V10.7188C0 11.8043 0.883195 12.6875 1.96875 12.6875H16.0312C17.1168 12.6875 18 11.8043 18 10.7188V2.28125C18 1.1957 17.1168 0.3125 16.0312 0.3125ZM1.96875 1.4375H16.0312C16.4965 1.4375 16.875 1.81603 16.875 2.28125V3.40625H1.125V2.28125C1.125 1.81603 1.50353 1.4375 1.96875 1.4375ZM16.0312 11.5625H1.96875C1.50353 11.5625 1.125 11.184 1.125 10.7188V4.53125H16.875V10.7188C16.875 11.184 16.4965 11.5625 16.0312 11.5625Z" fill="#E9724D"/>
+																<path d="M3.9375 9.875H3.375C3.06436 9.875 2.8125 9.62314 2.8125 9.3125V8.75C2.8125 8.43936 3.06436 8.1875 3.375 8.1875H3.9375C4.24814 8.1875 4.5 8.43936 4.5 8.75V9.3125C4.5 9.62314 4.24814 9.875 3.9375 9.875Z" fill="#E9724D"/>
+															</svg>
+														</button>
+														<ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+															<li>
+																<a id="OpeNnotification" class="dropdown-item" href="#">
+																	Pick
+																</a>
+															</li>
+															<li><a class="dropdown-item" href="#">Drop</a></li>
+														</ul>
+													</div>
+												</div>
+											</div>
+										</div>
+										<div class="col-md-6">
+											<div class="speakers_box">
+												<a href="#." class="speakers_box_inr d-flex flex-wrap" data-mdb-toggle="modal" data-mdb-target="#exampleModal">
+													<div class="speakers_img">
+														<img src="img/speakers_zone1.png" alt="">
+													</div>
+													<div class="speakers_text_box">
+														<div class="speakers_title d-flex justify-content-between align-items-center">
+															<h3>Brooklyn Simmons</h3>
+															<div class="arrow_icon_speakers">
+																<svg width="8" height="11" viewBox="0 0 8 11" fill="none" xmlns="http://www.w3.org/2000/svg">
+																	<path d="M1 1L6 5.5L1 10" stroke="#DB604B" stroke-width="1.5"/>
+																</svg>
+															</div>
+														</div>
+														<small>Sr. Partner Systems</small>
+														<small>Dell Systmes</small>
+														<div class="city_social_media">
+															<p>New York City</p>
+														</div>	
+													</div>
+												</a>
+												<div class="social_menu d-flex align-items-center">
+													<a href="#." class="videos_call_icon" data-mdb-toggle="modal" data-mdb-target="#exampleModal">
+														<svg width="19" height="19" viewBox="0 0 19 19" fill="none" xmlns="http://www.w3.org/2000/svg">
+														<g clip-path="url(#clip0)">
+														<path d="M18.6783 4.85086C18.4783 4.72716 18.2285 4.71587 18.0181 4.821L13.5714 7.04466V5.42829C13.5714 4.304 12.66 3.39258 11.5357 3.39258H2.03571C0.911419 3.39258 0 4.304 0 5.42829V13.5711C0 14.6954 0.911419 15.6069 2.03571 15.6069H11.5357C12.66 15.6069 13.5714 14.6954 13.5714 13.5711V11.9548L18.0181 14.1819C18.3533 14.3494 18.7609 14.2134 18.9284 13.8782C18.9761 13.7829 19.0006 13.6777 19 13.5711V5.42829C19.0001 5.19307 18.8784 4.97459 18.6783 4.85086ZM12.2143 13.5711C12.2143 13.9459 11.9105 14.2497 11.5357 14.2497H2.03571C1.66093 14.2497 1.35713 13.9459 1.35713 13.5711V5.42829C1.35713 5.05351 1.66093 4.74971 2.03571 4.74971H11.5357C11.9105 4.74971 12.2143 5.05351 12.2143 5.42829V13.5711ZM17.6428 12.4732L13.5714 10.4375V8.56198L17.6428 6.52626V12.4732V12.4732Z" fill="#E9724D"/>
+														<path d="M6.78583 6.78516C5.28676 6.78516 4.07153 8.00038 4.07153 9.49945C4.07153 10.9985 5.28676 12.2137 6.78583 12.2137C8.2849 12.2137 9.50013 10.9985 9.50013 9.49945C9.50013 8.00038 8.28486 6.78516 6.78583 6.78516ZM6.78583 10.8566C6.03631 10.8566 5.4287 10.249 5.4287 9.49945C5.4287 8.74994 6.03631 8.14232 6.78583 8.14232C7.53535 8.14232 8.14296 8.74994 8.14296 9.49945C8.14296 10.249 7.53535 10.8566 6.78583 10.8566Z" fill="#E9724D"/>
+														</g>
+														<defs>
+														<clipPath id="clip0">
+														<rect width="19" height="19" fill="white"/>
+														</clipPath>
+														</defs>
+														</svg>
+
+													</a>
+													<a href="#." class="chat_icon" data-mdb-toggle="modal" data-mdb-target="#exampleModal">
+														<svg width="15" height="15" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+															<path d="M7.5 0C3.35495 0 0 3.35438 0 7.5C0 8.8155 0.343094 10.1003 0.994606 11.2335L0.0282669 14.2344C-0.0391388 14.4436 0.0162506 14.6729 0.171661 14.8283C0.325584 14.9823 0.554352 15.0397 0.76561 14.9717L3.76648 14.0054C4.89967 14.6569 6.1845 15 7.5 15C11.6451 15 15 11.6456 15 7.5C15 3.35495 11.6456 0 7.5 0ZM7.5 13.8281C6.31176 13.8281 5.1535 13.4966 4.15043 12.8693C4.00612 12.7792 3.8269 12.7548 3.66016 12.8085L1.49391 13.5061L2.19154 11.3398C2.24442 11.1755 2.2221 10.9961 2.13055 10.8496C1.50341 9.8465 1.17188 8.68824 1.17188 7.5C1.17188 4.0107 4.0107 1.17188 7.5 1.17188C10.9893 1.17188 13.8281 4.0107 13.8281 7.5C13.8281 10.9893 10.9893 13.8281 7.5 13.8281ZM8.23242 7.5C8.23242 7.90443 7.90455 8.23242 7.5 8.23242C7.09545 8.23242 6.76758 7.90443 6.76758 7.5C6.76758 7.09545 7.09545 6.76758 7.5 6.76758C7.90455 6.76758 8.23242 7.09545 8.23242 7.5ZM11.1621 7.5C11.1621 7.90443 10.8342 8.23242 10.4297 8.23242C10.0251 8.23242 9.69727 7.90443 9.69727 7.5C9.69727 7.09545 10.0251 6.76758 10.4297 6.76758C10.8342 6.76758 11.1621 7.09545 11.1621 7.5ZM5.30273 7.5C5.30273 7.90443 4.97486 8.23242 4.57031 8.23242C4.16588 8.23242 3.83789 7.90443 3.83789 7.5C3.83789 7.09545 4.16588 6.76758 4.57031 6.76758C4.97486 6.76758 5.30273 7.09545 5.30273 7.5Z" fill="#E9724D"/>
+														</svg>
+													</a>
+													<div class="dropdown">
+														<button class="dropdown-toggle" type="button" id="dropdownMenuButton" data-mdb-toggle="dropdown" aria-expanded="false"> 
+															<svg width="18" height="13" viewBox="0 0 18 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+																<path d="M16.0312 0.3125H1.96875C0.883195 0.3125 0 1.1957 0 2.28125V10.7188C0 11.8043 0.883195 12.6875 1.96875 12.6875H16.0312C17.1168 12.6875 18 11.8043 18 10.7188V2.28125C18 1.1957 17.1168 0.3125 16.0312 0.3125ZM1.96875 1.4375H16.0312C16.4965 1.4375 16.875 1.81603 16.875 2.28125V3.40625H1.125V2.28125C1.125 1.81603 1.50353 1.4375 1.96875 1.4375ZM16.0312 11.5625H1.96875C1.50353 11.5625 1.125 11.184 1.125 10.7188V4.53125H16.875V10.7188C16.875 11.184 16.4965 11.5625 16.0312 11.5625Z" fill="#E9724D"/>
+																<path d="M3.9375 9.875H3.375C3.06436 9.875 2.8125 9.62314 2.8125 9.3125V8.75C2.8125 8.43936 3.06436 8.1875 3.375 8.1875H3.9375C4.24814 8.1875 4.5 8.43936 4.5 8.75V9.3125C4.5 9.62314 4.24814 9.875 3.9375 9.875Z" fill="#E9724D"/>
+															</svg>
+														</button>
+														<ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+															<li><a class="dropdown-item" href="#">Pick</a></li>
+															<li><a class="dropdown-item" href="#">Drop</a></li>
+														</ul>
+													</div>
+												</div>
+											</div>
+										</div>
+										<div class="col-md-6">
+											<div class="speakers_box">
+												<a href="#." class="speakers_box_inr d-flex flex-wrap" data-mdb-toggle="modal" data-mdb-target="#exampleModal">
+													<div class="speakers_img">
+														<img src="img/speakers_zone2.jpg" alt="">
+													</div>
+													<div class="speakers_text_box">
+														<div class="speakers_title d-flex justify-content-between align-items-center">
+															<h3>Brooklyn Simmons</h3>
+															<div class="arrow_icon_speakers">
+																<svg width="8" height="11" viewBox="0 0 8 11" fill="none" xmlns="http://www.w3.org/2000/svg">
+																	<path d="M1 1L6 5.5L1 10" stroke="#DB604B" stroke-width="1.5"/>
+																</svg>
+															</div>
+														</div>
+														<small>Sr. Partner Systems</small>
+														<small>Dell Systmes</small>
+														<div class="city_social_media">
+															<p>New York City</p>
+														</div>	
+													</div>
+												</a>
+												<div class="social_menu d-flex align-items-center">
+													<a href="#." class="videos_call_icon" data-mdb-toggle="modal" data-mdb-target="#exampleModal">
+														<svg width="19" height="19" viewBox="0 0 19 19" fill="none" xmlns="http://www.w3.org/2000/svg">
+														<g clip-path="url(#clip0)">
+														<path d="M18.6783 4.85086C18.4783 4.72716 18.2285 4.71587 18.0181 4.821L13.5714 7.04466V5.42829C13.5714 4.304 12.66 3.39258 11.5357 3.39258H2.03571C0.911419 3.39258 0 4.304 0 5.42829V13.5711C0 14.6954 0.911419 15.6069 2.03571 15.6069H11.5357C12.66 15.6069 13.5714 14.6954 13.5714 13.5711V11.9548L18.0181 14.1819C18.3533 14.3494 18.7609 14.2134 18.9284 13.8782C18.9761 13.7829 19.0006 13.6777 19 13.5711V5.42829C19.0001 5.19307 18.8784 4.97459 18.6783 4.85086ZM12.2143 13.5711C12.2143 13.9459 11.9105 14.2497 11.5357 14.2497H2.03571C1.66093 14.2497 1.35713 13.9459 1.35713 13.5711V5.42829C1.35713 5.05351 1.66093 4.74971 2.03571 4.74971H11.5357C11.9105 4.74971 12.2143 5.05351 12.2143 5.42829V13.5711ZM17.6428 12.4732L13.5714 10.4375V8.56198L17.6428 6.52626V12.4732V12.4732Z" fill="#E9724D"/>
+														<path d="M6.78583 6.78516C5.28676 6.78516 4.07153 8.00038 4.07153 9.49945C4.07153 10.9985 5.28676 12.2137 6.78583 12.2137C8.2849 12.2137 9.50013 10.9985 9.50013 9.49945C9.50013 8.00038 8.28486 6.78516 6.78583 6.78516ZM6.78583 10.8566C6.03631 10.8566 5.4287 10.249 5.4287 9.49945C5.4287 8.74994 6.03631 8.14232 6.78583 8.14232C7.53535 8.14232 8.14296 8.74994 8.14296 9.49945C8.14296 10.249 7.53535 10.8566 6.78583 10.8566Z" fill="#E9724D"/>
+														</g>
+														<defs>
+														<clipPath id="clip0">
+														<rect width="19" height="19" fill="white"/>
+														</clipPath>
+														</defs>
+														</svg>
+
+													</a>
+													<a href="#." class="chat_icon" data-mdb-toggle="modal" data-mdb-target="#exampleModal">
+														<svg width="15" height="15" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+															<path d="M7.5 0C3.35495 0 0 3.35438 0 7.5C0 8.8155 0.343094 10.1003 0.994606 11.2335L0.0282669 14.2344C-0.0391388 14.4436 0.0162506 14.6729 0.171661 14.8283C0.325584 14.9823 0.554352 15.0397 0.76561 14.9717L3.76648 14.0054C4.89967 14.6569 6.1845 15 7.5 15C11.6451 15 15 11.6456 15 7.5C15 3.35495 11.6456 0 7.5 0ZM7.5 13.8281C6.31176 13.8281 5.1535 13.4966 4.15043 12.8693C4.00612 12.7792 3.8269 12.7548 3.66016 12.8085L1.49391 13.5061L2.19154 11.3398C2.24442 11.1755 2.2221 10.9961 2.13055 10.8496C1.50341 9.8465 1.17188 8.68824 1.17188 7.5C1.17188 4.0107 4.0107 1.17188 7.5 1.17188C10.9893 1.17188 13.8281 4.0107 13.8281 7.5C13.8281 10.9893 10.9893 13.8281 7.5 13.8281ZM8.23242 7.5C8.23242 7.90443 7.90455 8.23242 7.5 8.23242C7.09545 8.23242 6.76758 7.90443 6.76758 7.5C6.76758 7.09545 7.09545 6.76758 7.5 6.76758C7.90455 6.76758 8.23242 7.09545 8.23242 7.5ZM11.1621 7.5C11.1621 7.90443 10.8342 8.23242 10.4297 8.23242C10.0251 8.23242 9.69727 7.90443 9.69727 7.5C9.69727 7.09545 10.0251 6.76758 10.4297 6.76758C10.8342 6.76758 11.1621 7.09545 11.1621 7.5ZM5.30273 7.5C5.30273 7.90443 4.97486 8.23242 4.57031 8.23242C4.16588 8.23242 3.83789 7.90443 3.83789 7.5C3.83789 7.09545 4.16588 6.76758 4.57031 6.76758C4.97486 6.76758 5.30273 7.09545 5.30273 7.5Z" fill="#E9724D"/>
+														</svg>
+													</a>
+													<div class="dropdown">
+														<button class="dropdown-toggle" type="button" id="dropdownMenuButton" data-mdb-toggle="dropdown" aria-expanded="false"> 
+															<svg width="18" height="13" viewBox="0 0 18 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+																<path d="M16.0312 0.3125H1.96875C0.883195 0.3125 0 1.1957 0 2.28125V10.7188C0 11.8043 0.883195 12.6875 1.96875 12.6875H16.0312C17.1168 12.6875 18 11.8043 18 10.7188V2.28125C18 1.1957 17.1168 0.3125 16.0312 0.3125ZM1.96875 1.4375H16.0312C16.4965 1.4375 16.875 1.81603 16.875 2.28125V3.40625H1.125V2.28125C1.125 1.81603 1.50353 1.4375 1.96875 1.4375ZM16.0312 11.5625H1.96875C1.50353 11.5625 1.125 11.184 1.125 10.7188V4.53125H16.875V10.7188C16.875 11.184 16.4965 11.5625 16.0312 11.5625Z" fill="#E9724D"/>
+																<path d="M3.9375 9.875H3.375C3.06436 9.875 2.8125 9.62314 2.8125 9.3125V8.75C2.8125 8.43936 3.06436 8.1875 3.375 8.1875H3.9375C4.24814 8.1875 4.5 8.43936 4.5 8.75V9.3125C4.5 9.62314 4.24814 9.875 3.9375 9.875Z" fill="#E9724D"/>
+															</svg>
+														</button>
+														<ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+															<li>
+																<a class="dropdown-item" href="#">
+																	<div class="OpeNnotificationTextBox">
+																	<svg width="77" height="76" viewBox="0 0 77 76" fill="none" xmlns="http://www.w3.org/2000/svg">
+																		<circle opacity="0.3" cx="23.7501" cy="33.751" r="10.0147" stroke="#2DCA73"/>
+																		<circle opacity="0.1" cx="23.75" cy="33.75" r="13.25" stroke="#2DCA73"/>
+																		<g filter="url(#filter0_d)">
+																		<circle cx="23.75" cy="33.7505" r="8.49265" fill="#2DCA73"/>
+																		</g>
+																		<path d="M19.5037 34.1618L22.0661 36.783L27.9963 30.7168" stroke="white" stroke-width="2" stroke-linecap="round"/>
+																		<defs>
+																		<filter id="filter0_d" x="-28.7427" y="-18.7422" width="104.985" height="104.985" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+																		<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+																		<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"/>
+																		<feOffset/>
+																		<feGaussianBlur stdDeviation="22"/>
+																		<feColorMatrix type="matrix" values="0 0 0 0 0.720729 0 0 0 0 0.925 0 0 0 0 0.863719 0 0 0 1 0"/>
+																		<feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow"/>
+																		<feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow" result="shape"/>
+																		</filter>
+																		</defs>
+																	</svg>
+																	<span>
+																		You Picked <br>the Card
+																	</span>
+																</div>
+																</a>
+															</li>
+														</ul>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>	
+								</div>
+								<div class="tab-pane fade" id="ex1-tabs-3" role="tabpanel" aria-labelledby="ex1-tab-3">
+									<div class="row info_row">
+										<div class="col-md-6">
+											<div class="speakers_box">
+												<a href="#." class="speakers_box_inr d-flex flex-wrap" data-mdb-toggle="modal" data-mdb-target="#exampleModal">
+													<div class="speakers_img">
+														<img src="img/speakers_zone1.png" alt="">
+													</div>
+													<div class="speakers_text_box">
+														<div class="speakers_title d-flex justify-content-between align-items-center">
+															<h3>Brooklyn Simmons</h3>
+															<div class="arrow_icon_speakers">
+																<svg width="8" height="11" viewBox="0 0 8 11" fill="none" xmlns="http://www.w3.org/2000/svg">
+																	<path d="M1 1L6 5.5L1 10" stroke="#DB604B" stroke-width="1.5"/>
+																</svg>
+															</div>
+														</div>
+														<small>Sr. Partner Systems</small>
+														<small>Dell Systmes</small>
+														<div class="city_social_media">
+															<p>New York City</p>
+														</div>	
+													</div>
+												</a>
+												<div class="social_menu d-flex align-items-center">
+													<a href="#." class="videos_call_icon" data-mdb-toggle="modal" data-mdb-target="#exampleModal">
+														<svg width="19" height="19" viewBox="0 0 19 19" fill="none" xmlns="http://www.w3.org/2000/svg">
+														<g clip-path="url(#clip0)">
+														<path d="M18.6783 4.85086C18.4783 4.72716 18.2285 4.71587 18.0181 4.821L13.5714 7.04466V5.42829C13.5714 4.304 12.66 3.39258 11.5357 3.39258H2.03571C0.911419 3.39258 0 4.304 0 5.42829V13.5711C0 14.6954 0.911419 15.6069 2.03571 15.6069H11.5357C12.66 15.6069 13.5714 14.6954 13.5714 13.5711V11.9548L18.0181 14.1819C18.3533 14.3494 18.7609 14.2134 18.9284 13.8782C18.9761 13.7829 19.0006 13.6777 19 13.5711V5.42829C19.0001 5.19307 18.8784 4.97459 18.6783 4.85086ZM12.2143 13.5711C12.2143 13.9459 11.9105 14.2497 11.5357 14.2497H2.03571C1.66093 14.2497 1.35713 13.9459 1.35713 13.5711V5.42829C1.35713 5.05351 1.66093 4.74971 2.03571 4.74971H11.5357C11.9105 4.74971 12.2143 5.05351 12.2143 5.42829V13.5711ZM17.6428 12.4732L13.5714 10.4375V8.56198L17.6428 6.52626V12.4732V12.4732Z" fill="#E9724D"/>
+														<path d="M6.78583 6.78516C5.28676 6.78516 4.07153 8.00038 4.07153 9.49945C4.07153 10.9985 5.28676 12.2137 6.78583 12.2137C8.2849 12.2137 9.50013 10.9985 9.50013 9.49945C9.50013 8.00038 8.28486 6.78516 6.78583 6.78516ZM6.78583 10.8566C6.03631 10.8566 5.4287 10.249 5.4287 9.49945C5.4287 8.74994 6.03631 8.14232 6.78583 8.14232C7.53535 8.14232 8.14296 8.74994 8.14296 9.49945C8.14296 10.249 7.53535 10.8566 6.78583 10.8566Z" fill="#E9724D"/>
+														</g>
+														<defs>
+														<clipPath id="clip0">
+														<rect width="19" height="19" fill="white"/>
+														</clipPath>
+														</defs>
+														</svg>
+
+													</a>
+													<a href="#." class="chat_icon" data-mdb-toggle="modal" data-mdb-target="#exampleModal">
+														<svg width="15" height="15" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+															<path d="M7.5 0C3.35495 0 0 3.35438 0 7.5C0 8.8155 0.343094 10.1003 0.994606 11.2335L0.0282669 14.2344C-0.0391388 14.4436 0.0162506 14.6729 0.171661 14.8283C0.325584 14.9823 0.554352 15.0397 0.76561 14.9717L3.76648 14.0054C4.89967 14.6569 6.1845 15 7.5 15C11.6451 15 15 11.6456 15 7.5C15 3.35495 11.6456 0 7.5 0ZM7.5 13.8281C6.31176 13.8281 5.1535 13.4966 4.15043 12.8693C4.00612 12.7792 3.8269 12.7548 3.66016 12.8085L1.49391 13.5061L2.19154 11.3398C2.24442 11.1755 2.2221 10.9961 2.13055 10.8496C1.50341 9.8465 1.17188 8.68824 1.17188 7.5C1.17188 4.0107 4.0107 1.17188 7.5 1.17188C10.9893 1.17188 13.8281 4.0107 13.8281 7.5C13.8281 10.9893 10.9893 13.8281 7.5 13.8281ZM8.23242 7.5C8.23242 7.90443 7.90455 8.23242 7.5 8.23242C7.09545 8.23242 6.76758 7.90443 6.76758 7.5C6.76758 7.09545 7.09545 6.76758 7.5 6.76758C7.90455 6.76758 8.23242 7.09545 8.23242 7.5ZM11.1621 7.5C11.1621 7.90443 10.8342 8.23242 10.4297 8.23242C10.0251 8.23242 9.69727 7.90443 9.69727 7.5C9.69727 7.09545 10.0251 6.76758 10.4297 6.76758C10.8342 6.76758 11.1621 7.09545 11.1621 7.5ZM5.30273 7.5C5.30273 7.90443 4.97486 8.23242 4.57031 8.23242C4.16588 8.23242 3.83789 7.90443 3.83789 7.5C3.83789 7.09545 4.16588 6.76758 4.57031 6.76758C4.97486 6.76758 5.30273 7.09545 5.30273 7.5Z" fill="#E9724D"/>
+														</svg>
+													</a>
+													<div class="dropdown">
+														<button class="dropdown-toggle" type="button" id="dropdownMenuButton" data-mdb-toggle="dropdown" aria-expanded="false"> 
+															<svg width="18" height="13" viewBox="0 0 18 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+																<path d="M16.0312 0.3125H1.96875C0.883195 0.3125 0 1.1957 0 2.28125V10.7188C0 11.8043 0.883195 12.6875 1.96875 12.6875H16.0312C17.1168 12.6875 18 11.8043 18 10.7188V2.28125C18 1.1957 17.1168 0.3125 16.0312 0.3125ZM1.96875 1.4375H16.0312C16.4965 1.4375 16.875 1.81603 16.875 2.28125V3.40625H1.125V2.28125C1.125 1.81603 1.50353 1.4375 1.96875 1.4375ZM16.0312 11.5625H1.96875C1.50353 11.5625 1.125 11.184 1.125 10.7188V4.53125H16.875V10.7188C16.875 11.184 16.4965 11.5625 16.0312 11.5625Z" fill="#E9724D"/>
+																<path d="M3.9375 9.875H3.375C3.06436 9.875 2.8125 9.62314 2.8125 9.3125V8.75C2.8125 8.43936 3.06436 8.1875 3.375 8.1875H3.9375C4.24814 8.1875 4.5 8.43936 4.5 8.75V9.3125C4.5 9.62314 4.24814 9.875 3.9375 9.875Z" fill="#E9724D"/>
+															</svg>
+														</button>
+														<ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+															<li><a class="dropdown-item" href="#">Pick</a></li>
+															<li><a class="dropdown-item" href="#">Drop</a></li>
+														</ul>
+													</div>
+												</div>
+											</div>
+										</div>
+										<div class="col-md-6">
+											<div class="speakers_box">
+												<a href="#." class="speakers_box_inr d-flex flex-wrap" data-mdb-toggle="modal" data-mdb-target="#exampleModal">
+													<div class="speakers_img">
+														<img src="img/speakers_zone2.jpg" alt="">
+													</div>
+													<div class="speakers_text_box">
+														<div class="speakers_title d-flex justify-content-between align-items-center">
+															<h3>Brooklyn Simmons</h3>
+															<div class="arrow_icon_speakers">
+																<svg width="8" height="11" viewBox="0 0 8 11" fill="none" xmlns="http://www.w3.org/2000/svg">
+																	<path d="M1 1L6 5.5L1 10" stroke="#DB604B" stroke-width="1.5"/>
+																</svg>
+															</div>
+														</div>
+														<small>Sr. Partner Systems</small>
+														<small>Dell Systmes</small>
+														<div class="city_social_media">
+															<p>New York City</p>
+														</div>	
+													</div>
+												</a>
+												<div class="social_menu d-flex align-items-center">
+													<a href="#." class="videos_call_icon" data-mdb-toggle="modal" data-mdb-target="#exampleModal">
+														<svg width="19" height="19" viewBox="0 0 19 19" fill="none" xmlns="http://www.w3.org/2000/svg">
+														<g clip-path="url(#clip0)">
+														<path d="M18.6783 4.85086C18.4783 4.72716 18.2285 4.71587 18.0181 4.821L13.5714 7.04466V5.42829C13.5714 4.304 12.66 3.39258 11.5357 3.39258H2.03571C0.911419 3.39258 0 4.304 0 5.42829V13.5711C0 14.6954 0.911419 15.6069 2.03571 15.6069H11.5357C12.66 15.6069 13.5714 14.6954 13.5714 13.5711V11.9548L18.0181 14.1819C18.3533 14.3494 18.7609 14.2134 18.9284 13.8782C18.9761 13.7829 19.0006 13.6777 19 13.5711V5.42829C19.0001 5.19307 18.8784 4.97459 18.6783 4.85086ZM12.2143 13.5711C12.2143 13.9459 11.9105 14.2497 11.5357 14.2497H2.03571C1.66093 14.2497 1.35713 13.9459 1.35713 13.5711V5.42829C1.35713 5.05351 1.66093 4.74971 2.03571 4.74971H11.5357C11.9105 4.74971 12.2143 5.05351 12.2143 5.42829V13.5711ZM17.6428 12.4732L13.5714 10.4375V8.56198L17.6428 6.52626V12.4732V12.4732Z" fill="#E9724D"/>
+														<path d="M6.78583 6.78516C5.28676 6.78516 4.07153 8.00038 4.07153 9.49945C4.07153 10.9985 5.28676 12.2137 6.78583 12.2137C8.2849 12.2137 9.50013 10.9985 9.50013 9.49945C9.50013 8.00038 8.28486 6.78516 6.78583 6.78516ZM6.78583 10.8566C6.03631 10.8566 5.4287 10.249 5.4287 9.49945C5.4287 8.74994 6.03631 8.14232 6.78583 8.14232C7.53535 8.14232 8.14296 8.74994 8.14296 9.49945C8.14296 10.249 7.53535 10.8566 6.78583 10.8566Z" fill="#E9724D"/>
+														</g>
+														<defs>
+														<clipPath id="clip0">
+														<rect width="19" height="19" fill="white"/>
+														</clipPath>
+														</defs>
+														</svg>
+
+													</a>
+													<a href="#." class="chat_icon" data-mdb-toggle="modal" data-mdb-target="#exampleModal">
+														<svg width="15" height="15" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+															<path d="M7.5 0C3.35495 0 0 3.35438 0 7.5C0 8.8155 0.343094 10.1003 0.994606 11.2335L0.0282669 14.2344C-0.0391388 14.4436 0.0162506 14.6729 0.171661 14.8283C0.325584 14.9823 0.554352 15.0397 0.76561 14.9717L3.76648 14.0054C4.89967 14.6569 6.1845 15 7.5 15C11.6451 15 15 11.6456 15 7.5C15 3.35495 11.6456 0 7.5 0ZM7.5 13.8281C6.31176 13.8281 5.1535 13.4966 4.15043 12.8693C4.00612 12.7792 3.8269 12.7548 3.66016 12.8085L1.49391 13.5061L2.19154 11.3398C2.24442 11.1755 2.2221 10.9961 2.13055 10.8496C1.50341 9.8465 1.17188 8.68824 1.17188 7.5C1.17188 4.0107 4.0107 1.17188 7.5 1.17188C10.9893 1.17188 13.8281 4.0107 13.8281 7.5C13.8281 10.9893 10.9893 13.8281 7.5 13.8281ZM8.23242 7.5C8.23242 7.90443 7.90455 8.23242 7.5 8.23242C7.09545 8.23242 6.76758 7.90443 6.76758 7.5C6.76758 7.09545 7.09545 6.76758 7.5 6.76758C7.90455 6.76758 8.23242 7.09545 8.23242 7.5ZM11.1621 7.5C11.1621 7.90443 10.8342 8.23242 10.4297 8.23242C10.0251 8.23242 9.69727 7.90443 9.69727 7.5C9.69727 7.09545 10.0251 6.76758 10.4297 6.76758C10.8342 6.76758 11.1621 7.09545 11.1621 7.5ZM5.30273 7.5C5.30273 7.90443 4.97486 8.23242 4.57031 8.23242C4.16588 8.23242 3.83789 7.90443 3.83789 7.5C3.83789 7.09545 4.16588 6.76758 4.57031 6.76758C4.97486 6.76758 5.30273 7.09545 5.30273 7.5Z" fill="#E9724D"/>
+														</svg>
+													</a>
+													<div class="dropdown">
+														<button class="dropdown-toggle" type="button" id="dropdownMenuButton" data-mdb-toggle="dropdown" aria-expanded="false"> 
+															<svg width="18" height="13" viewBox="0 0 18 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+																<path d="M16.0312 0.3125H1.96875C0.883195 0.3125 0 1.1957 0 2.28125V10.7188C0 11.8043 0.883195 12.6875 1.96875 12.6875H16.0312C17.1168 12.6875 18 11.8043 18 10.7188V2.28125C18 1.1957 17.1168 0.3125 16.0312 0.3125ZM1.96875 1.4375H16.0312C16.4965 1.4375 16.875 1.81603 16.875 2.28125V3.40625H1.125V2.28125C1.125 1.81603 1.50353 1.4375 1.96875 1.4375ZM16.0312 11.5625H1.96875C1.50353 11.5625 1.125 11.184 1.125 10.7188V4.53125H16.875V10.7188C16.875 11.184 16.4965 11.5625 16.0312 11.5625Z" fill="#E9724D"/>
+																<path d="M3.9375 9.875H3.375C3.06436 9.875 2.8125 9.62314 2.8125 9.3125V8.75C2.8125 8.43936 3.06436 8.1875 3.375 8.1875H3.9375C4.24814 8.1875 4.5 8.43936 4.5 8.75V9.3125C4.5 9.62314 4.24814 9.875 3.9375 9.875Z" fill="#E9724D"/>
+															</svg>
+														</button>
+														<ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+															<li><a class="dropdown-item" href="#">Pick</a></li>
+															<li><a class="dropdown-item" href="#">Drop</a></li>
+														</ul>
+													</div>
+												</div>
+											</div>
+										</div>
+										<div class="col-md-6">
+											<div class="speakers_box">
+												<a href="#." class="speakers_box_inr d-flex flex-wrap" data-mdb-toggle="modal" data-mdb-target="#exampleModal">
+													<div class="speakers_img">
+														<img src="img/speakers_zone3.png" alt="">
+													</div>
+													<div class="speakers_text_box">
+														<div class="speakers_title d-flex justify-content-between align-items-center">
+															<h3>Brooklyn Simmons</h3>
+															<div class="arrow_icon_speakers">
+																<svg width="8" height="11" viewBox="0 0 8 11" fill="none" xmlns="http://www.w3.org/2000/svg">
+																	<path d="M1 1L6 5.5L1 10" stroke="#DB604B" stroke-width="1.5"/>
+																</svg>
+															</div>
+														</div>
+														<small>Sr. Partner Systems</small>
+														<small>Dell Systmes</small>
+														<div class="city_social_media">
+															<p>New York City</p>
+														</div>	
+													</div>
+												</a>
+												<div class="social_menu d-flex align-items-center">
+													<a href="#." class="videos_call_icon" data-mdb-toggle="modal" data-mdb-target="#exampleModal">
+														<svg width="19" height="19" viewBox="0 0 19 19" fill="none" xmlns="http://www.w3.org/2000/svg">
+														<g clip-path="url(#clip0)">
+														<path d="M18.6783 4.85086C18.4783 4.72716 18.2285 4.71587 18.0181 4.821L13.5714 7.04466V5.42829C13.5714 4.304 12.66 3.39258 11.5357 3.39258H2.03571C0.911419 3.39258 0 4.304 0 5.42829V13.5711C0 14.6954 0.911419 15.6069 2.03571 15.6069H11.5357C12.66 15.6069 13.5714 14.6954 13.5714 13.5711V11.9548L18.0181 14.1819C18.3533 14.3494 18.7609 14.2134 18.9284 13.8782C18.9761 13.7829 19.0006 13.6777 19 13.5711V5.42829C19.0001 5.19307 18.8784 4.97459 18.6783 4.85086ZM12.2143 13.5711C12.2143 13.9459 11.9105 14.2497 11.5357 14.2497H2.03571C1.66093 14.2497 1.35713 13.9459 1.35713 13.5711V5.42829C1.35713 5.05351 1.66093 4.74971 2.03571 4.74971H11.5357C11.9105 4.74971 12.2143 5.05351 12.2143 5.42829V13.5711ZM17.6428 12.4732L13.5714 10.4375V8.56198L17.6428 6.52626V12.4732V12.4732Z" fill="#E9724D"/>
+														<path d="M6.78583 6.78516C5.28676 6.78516 4.07153 8.00038 4.07153 9.49945C4.07153 10.9985 5.28676 12.2137 6.78583 12.2137C8.2849 12.2137 9.50013 10.9985 9.50013 9.49945C9.50013 8.00038 8.28486 6.78516 6.78583 6.78516ZM6.78583 10.8566C6.03631 10.8566 5.4287 10.249 5.4287 9.49945C5.4287 8.74994 6.03631 8.14232 6.78583 8.14232C7.53535 8.14232 8.14296 8.74994 8.14296 9.49945C8.14296 10.249 7.53535 10.8566 6.78583 10.8566Z" fill="#E9724D"/>
+														</g>
+														<defs>
+														<clipPath id="clip0">
+														<rect width="19" height="19" fill="white"/>
+														</clipPath>
+														</defs>
+														</svg>
+
+													</a>
+													<a href="#." class="chat_icon" data-mdb-toggle="modal" data-mdb-target="#exampleModal">
+														<svg width="15" height="15" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+															<path d="M7.5 0C3.35495 0 0 3.35438 0 7.5C0 8.8155 0.343094 10.1003 0.994606 11.2335L0.0282669 14.2344C-0.0391388 14.4436 0.0162506 14.6729 0.171661 14.8283C0.325584 14.9823 0.554352 15.0397 0.76561 14.9717L3.76648 14.0054C4.89967 14.6569 6.1845 15 7.5 15C11.6451 15 15 11.6456 15 7.5C15 3.35495 11.6456 0 7.5 0ZM7.5 13.8281C6.31176 13.8281 5.1535 13.4966 4.15043 12.8693C4.00612 12.7792 3.8269 12.7548 3.66016 12.8085L1.49391 13.5061L2.19154 11.3398C2.24442 11.1755 2.2221 10.9961 2.13055 10.8496C1.50341 9.8465 1.17188 8.68824 1.17188 7.5C1.17188 4.0107 4.0107 1.17188 7.5 1.17188C10.9893 1.17188 13.8281 4.0107 13.8281 7.5C13.8281 10.9893 10.9893 13.8281 7.5 13.8281ZM8.23242 7.5C8.23242 7.90443 7.90455 8.23242 7.5 8.23242C7.09545 8.23242 6.76758 7.90443 6.76758 7.5C6.76758 7.09545 7.09545 6.76758 7.5 6.76758C7.90455 6.76758 8.23242 7.09545 8.23242 7.5ZM11.1621 7.5C11.1621 7.90443 10.8342 8.23242 10.4297 8.23242C10.0251 8.23242 9.69727 7.90443 9.69727 7.5C9.69727 7.09545 10.0251 6.76758 10.4297 6.76758C10.8342 6.76758 11.1621 7.09545 11.1621 7.5ZM5.30273 7.5C5.30273 7.90443 4.97486 8.23242 4.57031 8.23242C4.16588 8.23242 3.83789 7.90443 3.83789 7.5C3.83789 7.09545 4.16588 6.76758 4.57031 6.76758C4.97486 6.76758 5.30273 7.09545 5.30273 7.5Z" fill="#E9724D"/>
+														</svg>
+													</a>
+													<div class="dropdown">
+														<button class="dropdown-toggle" type="button" id="dropdownMenuButton" data-mdb-toggle="dropdown" aria-expanded="false"> 
+															<svg width="18" height="13" viewBox="0 0 18 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+																<path d="M16.0312 0.3125H1.96875C0.883195 0.3125 0 1.1957 0 2.28125V10.7188C0 11.8043 0.883195 12.6875 1.96875 12.6875H16.0312C17.1168 12.6875 18 11.8043 18 10.7188V2.28125C18 1.1957 17.1168 0.3125 16.0312 0.3125ZM1.96875 1.4375H16.0312C16.4965 1.4375 16.875 1.81603 16.875 2.28125V3.40625H1.125V2.28125C1.125 1.81603 1.50353 1.4375 1.96875 1.4375ZM16.0312 11.5625H1.96875C1.50353 11.5625 1.125 11.184 1.125 10.7188V4.53125H16.875V10.7188C16.875 11.184 16.4965 11.5625 16.0312 11.5625Z" fill="#E9724D"/>
+																<path d="M3.9375 9.875H3.375C3.06436 9.875 2.8125 9.62314 2.8125 9.3125V8.75C2.8125 8.43936 3.06436 8.1875 3.375 8.1875H3.9375C4.24814 8.1875 4.5 8.43936 4.5 8.75V9.3125C4.5 9.62314 4.24814 9.875 3.9375 9.875Z" fill="#E9724D"/>
+															</svg>
+														</button>
+														<ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+															<li><a class="dropdown-item" href="#">Pick</a></li>
+															<li><a class="dropdown-item" href="#">Drop</a></li>
+														</ul>
+													</div>
+												</div>
+											</div>
+										</div>
+										<div class="col-md-6">
+											<div class="speakers_box">
+												<a href="#." class="speakers_box_inr d-flex flex-wrap" data-mdb-toggle="modal" data-mdb-target="#exampleModal">
+													<div class="speakers_img">
+														<img src="img/speakers_zone4.png" alt="">
+													</div>
+													<div class="speakers_text_box">
+														<div class="speakers_title d-flex justify-content-between align-items-center">
+															<h3>Brooklyn Simmons</h3>
+															<div class="arrow_icon_speakers">
+																<svg width="8" height="11" viewBox="0 0 8 11" fill="none" xmlns="http://www.w3.org/2000/svg">
+																	<path d="M1 1L6 5.5L1 10" stroke="#DB604B" stroke-width="1.5"/>
+																</svg>
+															</div>
+														</div>
+														<small>Sr. Partner Systems</small>
+														<small>Dell Systmes</small>
+														<div class="city_social_media">
+															<p>New York City</p>
+														</div>	
+													</div>
+												</a>
+												<div class="social_menu d-flex align-items-center">
+													<a href="#." class="videos_call_icon" data-mdb-toggle="modal" data-mdb-target="#exampleModal">
+														<svg width="19" height="19" viewBox="0 0 19 19" fill="none" xmlns="http://www.w3.org/2000/svg">
+														<g clip-path="url(#clip0)">
+														<path d="M18.6783 4.85086C18.4783 4.72716 18.2285 4.71587 18.0181 4.821L13.5714 7.04466V5.42829C13.5714 4.304 12.66 3.39258 11.5357 3.39258H2.03571C0.911419 3.39258 0 4.304 0 5.42829V13.5711C0 14.6954 0.911419 15.6069 2.03571 15.6069H11.5357C12.66 15.6069 13.5714 14.6954 13.5714 13.5711V11.9548L18.0181 14.1819C18.3533 14.3494 18.7609 14.2134 18.9284 13.8782C18.9761 13.7829 19.0006 13.6777 19 13.5711V5.42829C19.0001 5.19307 18.8784 4.97459 18.6783 4.85086ZM12.2143 13.5711C12.2143 13.9459 11.9105 14.2497 11.5357 14.2497H2.03571C1.66093 14.2497 1.35713 13.9459 1.35713 13.5711V5.42829C1.35713 5.05351 1.66093 4.74971 2.03571 4.74971H11.5357C11.9105 4.74971 12.2143 5.05351 12.2143 5.42829V13.5711ZM17.6428 12.4732L13.5714 10.4375V8.56198L17.6428 6.52626V12.4732V12.4732Z" fill="#E9724D"/>
+														<path d="M6.78583 6.78516C5.28676 6.78516 4.07153 8.00038 4.07153 9.49945C4.07153 10.9985 5.28676 12.2137 6.78583 12.2137C8.2849 12.2137 9.50013 10.9985 9.50013 9.49945C9.50013 8.00038 8.28486 6.78516 6.78583 6.78516ZM6.78583 10.8566C6.03631 10.8566 5.4287 10.249 5.4287 9.49945C5.4287 8.74994 6.03631 8.14232 6.78583 8.14232C7.53535 8.14232 8.14296 8.74994 8.14296 9.49945C8.14296 10.249 7.53535 10.8566 6.78583 10.8566Z" fill="#E9724D"/>
+														</g>
+														<defs>
+														<clipPath id="clip0">
+														<rect width="19" height="19" fill="white"/>
+														</clipPath>
+														</defs>
+														</svg>
+
+													</a>
+													<a href="#." class="chat_icon" data-mdb-toggle="modal" data-mdb-target="#exampleModal">
+														<svg width="15" height="15" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+															<path d="M7.5 0C3.35495 0 0 3.35438 0 7.5C0 8.8155 0.343094 10.1003 0.994606 11.2335L0.0282669 14.2344C-0.0391388 14.4436 0.0162506 14.6729 0.171661 14.8283C0.325584 14.9823 0.554352 15.0397 0.76561 14.9717L3.76648 14.0054C4.89967 14.6569 6.1845 15 7.5 15C11.6451 15 15 11.6456 15 7.5C15 3.35495 11.6456 0 7.5 0ZM7.5 13.8281C6.31176 13.8281 5.1535 13.4966 4.15043 12.8693C4.00612 12.7792 3.8269 12.7548 3.66016 12.8085L1.49391 13.5061L2.19154 11.3398C2.24442 11.1755 2.2221 10.9961 2.13055 10.8496C1.50341 9.8465 1.17188 8.68824 1.17188 7.5C1.17188 4.0107 4.0107 1.17188 7.5 1.17188C10.9893 1.17188 13.8281 4.0107 13.8281 7.5C13.8281 10.9893 10.9893 13.8281 7.5 13.8281ZM8.23242 7.5C8.23242 7.90443 7.90455 8.23242 7.5 8.23242C7.09545 8.23242 6.76758 7.90443 6.76758 7.5C6.76758 7.09545 7.09545 6.76758 7.5 6.76758C7.90455 6.76758 8.23242 7.09545 8.23242 7.5ZM11.1621 7.5C11.1621 7.90443 10.8342 8.23242 10.4297 8.23242C10.0251 8.23242 9.69727 7.90443 9.69727 7.5C9.69727 7.09545 10.0251 6.76758 10.4297 6.76758C10.8342 6.76758 11.1621 7.09545 11.1621 7.5ZM5.30273 7.5C5.30273 7.90443 4.97486 8.23242 4.57031 8.23242C4.16588 8.23242 3.83789 7.90443 3.83789 7.5C3.83789 7.09545 4.16588 6.76758 4.57031 6.76758C4.97486 6.76758 5.30273 7.09545 5.30273 7.5Z" fill="#E9724D"/>
+														</svg>
+													</a>
+													<div class="dropdown">
+														<button class="dropdown-toggle" type="button" id="dropdownMenuButton" data-mdb-toggle="dropdown" aria-expanded="false"> 
+															<svg width="18" height="13" viewBox="0 0 18 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+																<path d="M16.0312 0.3125H1.96875C0.883195 0.3125 0 1.1957 0 2.28125V10.7188C0 11.8043 0.883195 12.6875 1.96875 12.6875H16.0312C17.1168 12.6875 18 11.8043 18 10.7188V2.28125C18 1.1957 17.1168 0.3125 16.0312 0.3125ZM1.96875 1.4375H16.0312C16.4965 1.4375 16.875 1.81603 16.875 2.28125V3.40625H1.125V2.28125C1.125 1.81603 1.50353 1.4375 1.96875 1.4375ZM16.0312 11.5625H1.96875C1.50353 11.5625 1.125 11.184 1.125 10.7188V4.53125H16.875V10.7188C16.875 11.184 16.4965 11.5625 16.0312 11.5625Z" fill="#E9724D"/>
+																<path d="M3.9375 9.875H3.375C3.06436 9.875 2.8125 9.62314 2.8125 9.3125V8.75C2.8125 8.43936 3.06436 8.1875 3.375 8.1875H3.9375C4.24814 8.1875 4.5 8.43936 4.5 8.75V9.3125C4.5 9.62314 4.24814 9.875 3.9375 9.875Z" fill="#E9724D"/>
+															</svg>
+														</button>
+														<ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+															<li><a class="dropdown-item" href="#">Pick</a></li>
+															<li><a class="dropdown-item" href="#">Drop</a></li>
+														</ul>
+													</div>
+												</div>
+											</div>
+										</div>
+										<div class="col-md-6">
+											<div class="speakers_box">
+												<a href="#." class="speakers_box_inr d-flex flex-wrap" data-mdb-toggle="modal" data-mdb-target="#exampleModal">
+													<div class="speakers_img">
+														<img src="img/speakers_zone5.png" alt="">
+													</div>
+													<div class="speakers_text_box">
+														<div class="speakers_title d-flex justify-content-between align-items-center">
+															<h3>Brooklyn Simmons</h3>
+															<div class="arrow_icon_speakers">
+																<svg width="8" height="11" viewBox="0 0 8 11" fill="none" xmlns="http://www.w3.org/2000/svg">
+																	<path d="M1 1L6 5.5L1 10" stroke="#DB604B" stroke-width="1.5"/>
+																</svg>
+															</div>
+														</div>
+														<small>Sr. Partner Systems</small>
+														<small>Dell Systmes</small>
+														<div class="city_social_media">
+															<p>New York City</p>
+														</div>	
+													</div>
+												</a>
+												<div class="social_menu d-flex align-items-center">
+													<a href="#." class="videos_call_icon" data-mdb-toggle="modal" data-mdb-target="#exampleModal">
+														<svg width="19" height="19" viewBox="0 0 19 19" fill="none" xmlns="http://www.w3.org/2000/svg">
+														<g clip-path="url(#clip0)">
+														<path d="M18.6783 4.85086C18.4783 4.72716 18.2285 4.71587 18.0181 4.821L13.5714 7.04466V5.42829C13.5714 4.304 12.66 3.39258 11.5357 3.39258H2.03571C0.911419 3.39258 0 4.304 0 5.42829V13.5711C0 14.6954 0.911419 15.6069 2.03571 15.6069H11.5357C12.66 15.6069 13.5714 14.6954 13.5714 13.5711V11.9548L18.0181 14.1819C18.3533 14.3494 18.7609 14.2134 18.9284 13.8782C18.9761 13.7829 19.0006 13.6777 19 13.5711V5.42829C19.0001 5.19307 18.8784 4.97459 18.6783 4.85086ZM12.2143 13.5711C12.2143 13.9459 11.9105 14.2497 11.5357 14.2497H2.03571C1.66093 14.2497 1.35713 13.9459 1.35713 13.5711V5.42829C1.35713 5.05351 1.66093 4.74971 2.03571 4.74971H11.5357C11.9105 4.74971 12.2143 5.05351 12.2143 5.42829V13.5711ZM17.6428 12.4732L13.5714 10.4375V8.56198L17.6428 6.52626V12.4732V12.4732Z" fill="#E9724D"/>
+														<path d="M6.78583 6.78516C5.28676 6.78516 4.07153 8.00038 4.07153 9.49945C4.07153 10.9985 5.28676 12.2137 6.78583 12.2137C8.2849 12.2137 9.50013 10.9985 9.50013 9.49945C9.50013 8.00038 8.28486 6.78516 6.78583 6.78516ZM6.78583 10.8566C6.03631 10.8566 5.4287 10.249 5.4287 9.49945C5.4287 8.74994 6.03631 8.14232 6.78583 8.14232C7.53535 8.14232 8.14296 8.74994 8.14296 9.49945C8.14296 10.249 7.53535 10.8566 6.78583 10.8566Z" fill="#E9724D"/>
+														</g>
+														<defs>
+														<clipPath id="clip0">
+														<rect width="19" height="19" fill="white"/>
+														</clipPath>
+														</defs>
+														</svg>
+
+														</a>
+														<a href="#." class="chat_icon" data-mdb-toggle="modal" data-mdb-target="#exampleModal">
+															<svg width="15" height="15" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+																<path d="M7.5 0C3.35495 0 0 3.35438 0 7.5C0 8.8155 0.343094 10.1003 0.994606 11.2335L0.0282669 14.2344C-0.0391388 14.4436 0.0162506 14.6729 0.171661 14.8283C0.325584 14.9823 0.554352 15.0397 0.76561 14.9717L3.76648 14.0054C4.89967 14.6569 6.1845 15 7.5 15C11.6451 15 15 11.6456 15 7.5C15 3.35495 11.6456 0 7.5 0ZM7.5 13.8281C6.31176 13.8281 5.1535 13.4966 4.15043 12.8693C4.00612 12.7792 3.8269 12.7548 3.66016 12.8085L1.49391 13.5061L2.19154 11.3398C2.24442 11.1755 2.2221 10.9961 2.13055 10.8496C1.50341 9.8465 1.17188 8.68824 1.17188 7.5C1.17188 4.0107 4.0107 1.17188 7.5 1.17188C10.9893 1.17188 13.8281 4.0107 13.8281 7.5C13.8281 10.9893 10.9893 13.8281 7.5 13.8281ZM8.23242 7.5C8.23242 7.90443 7.90455 8.23242 7.5 8.23242C7.09545 8.23242 6.76758 7.90443 6.76758 7.5C6.76758 7.09545 7.09545 6.76758 7.5 6.76758C7.90455 6.76758 8.23242 7.09545 8.23242 7.5ZM11.1621 7.5C11.1621 7.90443 10.8342 8.23242 10.4297 8.23242C10.0251 8.23242 9.69727 7.90443 9.69727 7.5C9.69727 7.09545 10.0251 6.76758 10.4297 6.76758C10.8342 6.76758 11.1621 7.09545 11.1621 7.5ZM5.30273 7.5C5.30273 7.90443 4.97486 8.23242 4.57031 8.23242C4.16588 8.23242 3.83789 7.90443 3.83789 7.5C3.83789 7.09545 4.16588 6.76758 4.57031 6.76758C4.97486 6.76758 5.30273 7.09545 5.30273 7.5Z" fill="#E9724D"/>
+															</svg>
+														</a>
+														<div class="dropdown">
+															<button class="dropdown-toggle" type="button" id="dropdownMenuButton" data-mdb-toggle="dropdown" aria-expanded="false"> 
+																<svg width="18" height="13" viewBox="0 0 18 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+																	
+																</svg>
+															</button>
+															<ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+																<li><a class="dropdown-item" href="#">Pick</a></li>
+																<li><a class="dropdown-item" href="#">Drop</a></li>
+															</ul>
+														</div>
+													</div>
+												</div>
+											</div>
+											<div class="col-md-6">
+												<div class="speakers_box">
+													<a href="#." class="speakers_box_inr d-flex flex-wrap" data-mdb-toggle="modal" data-mdb-target="#exampleModal">
+														<div class="speakers_img">
+															<img src="img/speakers_zone6.png" alt="">
+														</div>
+														<div class="speakers_text_box">
+															<div class="speakers_title d-flex justify-content-between align-items-center">
+																<h3>Brooklyn Simmons</h3>
+																<div class="arrow_icon_speakers">
+																	<svg width="8" height="11" viewBox="0 0 8 11" fill="none" xmlns="http://www.w3.org/2000/svg">
+																		<path d="M1 1L6 5.5L1 10" stroke="#DB604B" stroke-width="1.5"/>
+																	</svg>
+																</div>
+															</div>
+															<small>Sr. Partner Systems</small>
+															<small>Dell Systmes</small>
+															<div class="city_social_media">
+																<p>New York City</p>
+															</div>	
+														</div>
+													</a>
+													<div class="social_menu d-flex align-items-center">
+														<a href="#." class="videos_call_icon" data-mdb-toggle="modal" data-mdb-target="#exampleModal">
+															<svg width="19" height="19" viewBox="0 0 19 19" fill="none" xmlns="http://www.w3.org/2000/svg">
+														<g clip-path="url(#clip0)">
+														<path d="M18.6783 4.85086C18.4783 4.72716 18.2285 4.71587 18.0181 4.821L13.5714 7.04466V5.42829C13.5714 4.304 12.66 3.39258 11.5357 3.39258H2.03571C0.911419 3.39258 0 4.304 0 5.42829V13.5711C0 14.6954 0.911419 15.6069 2.03571 15.6069H11.5357C12.66 15.6069 13.5714 14.6954 13.5714 13.5711V11.9548L18.0181 14.1819C18.3533 14.3494 18.7609 14.2134 18.9284 13.8782C18.9761 13.7829 19.0006 13.6777 19 13.5711V5.42829C19.0001 5.19307 18.8784 4.97459 18.6783 4.85086ZM12.2143 13.5711C12.2143 13.9459 11.9105 14.2497 11.5357 14.2497H2.03571C1.66093 14.2497 1.35713 13.9459 1.35713 13.5711V5.42829C1.35713 5.05351 1.66093 4.74971 2.03571 4.74971H11.5357C11.9105 4.74971 12.2143 5.05351 12.2143 5.42829V13.5711ZM17.6428 12.4732L13.5714 10.4375V8.56198L17.6428 6.52626V12.4732V12.4732Z" fill="#E9724D"/>
+														<path d="M6.78583 6.78516C5.28676 6.78516 4.07153 8.00038 4.07153 9.49945C4.07153 10.9985 5.28676 12.2137 6.78583 12.2137C8.2849 12.2137 9.50013 10.9985 9.50013 9.49945C9.50013 8.00038 8.28486 6.78516 6.78583 6.78516ZM6.78583 10.8566C6.03631 10.8566 5.4287 10.249 5.4287 9.49945C5.4287 8.74994 6.03631 8.14232 6.78583 8.14232C7.53535 8.14232 8.14296 8.74994 8.14296 9.49945C8.14296 10.249 7.53535 10.8566 6.78583 10.8566Z" fill="#E9724D"/>
+														</g>
+														<defs>
+														<clipPath id="clip0">
+														<rect width="19" height="19" fill="white"/>
+														</clipPath>
+														</defs>
+														</svg>
+
+													</a>
+													<a href="#." class="chat_icon" data-mdb-toggle="modal" data-mdb-target="#exampleModal">
+														<svg width="15" height="15" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+															<path d="M7.5 0C3.35495 0 0 3.35438 0 7.5C0 8.8155 0.343094 10.1003 0.994606 11.2335L0.0282669 14.2344C-0.0391388 14.4436 0.0162506 14.6729 0.171661 14.8283C0.325584 14.9823 0.554352 15.0397 0.76561 14.9717L3.76648 14.0054C4.89967 14.6569 6.1845 15 7.5 15C11.6451 15 15 11.6456 15 7.5C15 3.35495 11.6456 0 7.5 0ZM7.5 13.8281C6.31176 13.8281 5.1535 13.4966 4.15043 12.8693C4.00612 12.7792 3.8269 12.7548 3.66016 12.8085L1.49391 13.5061L2.19154 11.3398C2.24442 11.1755 2.2221 10.9961 2.13055 10.8496C1.50341 9.8465 1.17188 8.68824 1.17188 7.5C1.17188 4.0107 4.0107 1.17188 7.5 1.17188C10.9893 1.17188 13.8281 4.0107 13.8281 7.5C13.8281 10.9893 10.9893 13.8281 7.5 13.8281ZM8.23242 7.5C8.23242 7.90443 7.90455 8.23242 7.5 8.23242C7.09545 8.23242 6.76758 7.90443 6.76758 7.5C6.76758 7.09545 7.09545 6.76758 7.5 6.76758C7.90455 6.76758 8.23242 7.09545 8.23242 7.5ZM11.1621 7.5C11.1621 7.90443 10.8342 8.23242 10.4297 8.23242C10.0251 8.23242 9.69727 7.90443 9.69727 7.5C9.69727 7.09545 10.0251 6.76758 10.4297 6.76758C10.8342 6.76758 11.1621 7.09545 11.1621 7.5ZM5.30273 7.5C5.30273 7.90443 4.97486 8.23242 4.57031 8.23242C4.16588 8.23242 3.83789 7.90443 3.83789 7.5C3.83789 7.09545 4.16588 6.76758 4.57031 6.76758C4.97486 6.76758 5.30273 7.09545 5.30273 7.5Z" fill="#E9724D"/>
+														</svg>
+													</a>
+													<div class="dropdown">
+														<button class="dropdown-toggle" type="button" id="dropdownMenuButton" data-mdb-toggle="dropdown" aria-expanded="false"> 
+															<svg width="18" height="13" viewBox="0 0 18 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+																<path d="M16.0312 0.3125H1.96875C0.883195 0.3125 0 1.1957 0 2.28125V10.7188C0 11.8043 0.883195 12.6875 1.96875 12.6875H16.0312C17.1168 12.6875 18 11.8043 18 10.7188V2.28125C18 1.1957 17.1168 0.3125 16.0312 0.3125ZM1.96875 1.4375H16.0312C16.4965 1.4375 16.875 1.81603 16.875 2.28125V3.40625H1.125V2.28125C1.125 1.81603 1.50353 1.4375 1.96875 1.4375ZM16.0312 11.5625H1.96875C1.50353 11.5625 1.125 11.184 1.125 10.7188V4.53125H16.875V10.7188C16.875 11.184 16.4965 11.5625 16.0312 11.5625Z" fill="#E9724D"/>
+																<path d="M3.9375 9.875H3.375C3.06436 9.875 2.8125 9.62314 2.8125 9.3125V8.75C2.8125 8.43936 3.06436 8.1875 3.375 8.1875H3.9375C4.24814 8.1875 4.5 8.43936 4.5 8.75V9.3125C4.5 9.62314 4.24814 9.875 3.9375 9.875Z" fill="#E9724D"/>
+															</svg>
+														</button>
+														<ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+															<li><a class="dropdown-item" href="#">Pick</a></li>
+															<li><a class="dropdown-item" href="#">Drop</a></li>
+														</ul>
+													</div>
+												</div>
+											</div>
+										</div>
+										<div class="col-md-6">
+											<div class="speakers_box">
+												<a href="#." class="speakers_box_inr d-flex flex-wrap" data-mdb-toggle="modal" data-mdb-target="#exampleModal">
+													<div class="speakers_img">
+														<img src="img/speakers_zone1.png" alt="">
+													</div>
+													<div class="speakers_text_box">
+														<div class="speakers_title d-flex justify-content-between align-items-center">
+															<h3>Brooklyn Simmons</h3>
+															<div class="arrow_icon_speakers">
+																<svg width="8" height="11" viewBox="0 0 8 11" fill="none" xmlns="http://www.w3.org/2000/svg">
+																	<path d="M1 1L6 5.5L1 10" stroke="#DB604B" stroke-width="1.5"/>
+																</svg>
+															</div>
+														</div>
+														<small>Sr. Partner Systems</small>
+														<small>Dell Systmes</small>
+														<div class="city_social_media">
+															<p>New York City</p>
+														</div>	
+													</div>
+												</a>
+												<div class="social_menu d-flex align-items-center">
+													<a href="#." class="videos_call_icon" data-mdb-toggle="modal" data-mdb-target="#exampleModal">
+														<svg width="19" height="19" viewBox="0 0 19 19" fill="none" xmlns="http://www.w3.org/2000/svg">
+														<g clip-path="url(#clip0)">
+														<path d="M18.6783 4.85086C18.4783 4.72716 18.2285 4.71587 18.0181 4.821L13.5714 7.04466V5.42829C13.5714 4.304 12.66 3.39258 11.5357 3.39258H2.03571C0.911419 3.39258 0 4.304 0 5.42829V13.5711C0 14.6954 0.911419 15.6069 2.03571 15.6069H11.5357C12.66 15.6069 13.5714 14.6954 13.5714 13.5711V11.9548L18.0181 14.1819C18.3533 14.3494 18.7609 14.2134 18.9284 13.8782C18.9761 13.7829 19.0006 13.6777 19 13.5711V5.42829C19.0001 5.19307 18.8784 4.97459 18.6783 4.85086ZM12.2143 13.5711C12.2143 13.9459 11.9105 14.2497 11.5357 14.2497H2.03571C1.66093 14.2497 1.35713 13.9459 1.35713 13.5711V5.42829C1.35713 5.05351 1.66093 4.74971 2.03571 4.74971H11.5357C11.9105 4.74971 12.2143 5.05351 12.2143 5.42829V13.5711ZM17.6428 12.4732L13.5714 10.4375V8.56198L17.6428 6.52626V12.4732V12.4732Z" fill="#E9724D"/>
+														<path d="M6.78583 6.78516C5.28676 6.78516 4.07153 8.00038 4.07153 9.49945C4.07153 10.9985 5.28676 12.2137 6.78583 12.2137C8.2849 12.2137 9.50013 10.9985 9.50013 9.49945C9.50013 8.00038 8.28486 6.78516 6.78583 6.78516ZM6.78583 10.8566C6.03631 10.8566 5.4287 10.249 5.4287 9.49945C5.4287 8.74994 6.03631 8.14232 6.78583 8.14232C7.53535 8.14232 8.14296 8.74994 8.14296 9.49945C8.14296 10.249 7.53535 10.8566 6.78583 10.8566Z" fill="#E9724D"/>
+														</g>
+														<defs>
+														<clipPath id="clip0">
+														<rect width="19" height="19" fill="white"/>
+														</clipPath>
+														</defs>
+														</svg>
+
+													</a>
+													<a href="#." class="chat_icon" data-mdb-toggle="modal" data-mdb-target="#exampleModal">
+														<svg width="15" height="15" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+															<path d="M7.5 0C3.35495 0 0 3.35438 0 7.5C0 8.8155 0.343094 10.1003 0.994606 11.2335L0.0282669 14.2344C-0.0391388 14.4436 0.0162506 14.6729 0.171661 14.8283C0.325584 14.9823 0.554352 15.0397 0.76561 14.9717L3.76648 14.0054C4.89967 14.6569 6.1845 15 7.5 15C11.6451 15 15 11.6456 15 7.5C15 3.35495 11.6456 0 7.5 0ZM7.5 13.8281C6.31176 13.8281 5.1535 13.4966 4.15043 12.8693C4.00612 12.7792 3.8269 12.7548 3.66016 12.8085L1.49391 13.5061L2.19154 11.3398C2.24442 11.1755 2.2221 10.9961 2.13055 10.8496C1.50341 9.8465 1.17188 8.68824 1.17188 7.5C1.17188 4.0107 4.0107 1.17188 7.5 1.17188C10.9893 1.17188 13.8281 4.0107 13.8281 7.5C13.8281 10.9893 10.9893 13.8281 7.5 13.8281ZM8.23242 7.5C8.23242 7.90443 7.90455 8.23242 7.5 8.23242C7.09545 8.23242 6.76758 7.90443 6.76758 7.5C6.76758 7.09545 7.09545 6.76758 7.5 6.76758C7.90455 6.76758 8.23242 7.09545 8.23242 7.5ZM11.1621 7.5C11.1621 7.90443 10.8342 8.23242 10.4297 8.23242C10.0251 8.23242 9.69727 7.90443 9.69727 7.5C9.69727 7.09545 10.0251 6.76758 10.4297 6.76758C10.8342 6.76758 11.1621 7.09545 11.1621 7.5ZM5.30273 7.5C5.30273 7.90443 4.97486 8.23242 4.57031 8.23242C4.16588 8.23242 3.83789 7.90443 3.83789 7.5C3.83789 7.09545 4.16588 6.76758 4.57031 6.76758C4.97486 6.76758 5.30273 7.09545 5.30273 7.5Z" fill="#E9724D"/>
+														</svg>
+													</a>
+													<div class="dropdown">
+														<button class="dropdown-toggle" type="button" id="dropdownMenuButton" data-mdb-toggle="dropdown" aria-expanded="false"> 
+															<svg width="18" height="13" viewBox="0 0 18 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+																<path d="M16.0312 0.3125H1.96875C0.883195 0.3125 0 1.1957 0 2.28125V10.7188C0 11.8043 0.883195 12.6875 1.96875 12.6875H16.0312C17.1168 12.6875 18 11.8043 18 10.7188V2.28125C18 1.1957 17.1168 0.3125 16.0312 0.3125ZM1.96875 1.4375H16.0312C16.4965 1.4375 16.875 1.81603 16.875 2.28125V3.40625H1.125V2.28125C1.125 1.81603 1.50353 1.4375 1.96875 1.4375ZM16.0312 11.5625H1.96875C1.50353 11.5625 1.125 11.184 1.125 10.7188V4.53125H16.875V10.7188C16.875 11.184 16.4965 11.5625 16.0312 11.5625Z" fill="#E9724D"/>
+																<path d="M3.9375 9.875H3.375C3.06436 9.875 2.8125 9.62314 2.8125 9.3125V8.75C2.8125 8.43936 3.06436 8.1875 3.375 8.1875H3.9375C4.24814 8.1875 4.5 8.43936 4.5 8.75V9.3125C4.5 9.62314 4.24814 9.875 3.9375 9.875Z" fill="#E9724D"/>
+															</svg>
+														</button>
+														<ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+															<li><a class="dropdown-item" href="#">Pick</a></li>
+															<li><a class="dropdown-item" href="#">Drop</a></li>
+														</ul>
+													</div>
+												</div>
+											</div>
+										</div>
+										<div class="col-md-6">
+											<div class="speakers_box">
+												<a href="#." class="speakers_box_inr d-flex flex-wrap" data-mdb-toggle="modal" data-mdb-target="#exampleModal">
+													<div class="speakers_img">
+														<img src="img/speakers_zone2.jpg" alt="">
+													</div>
+													<div class="speakers_text_box">
+														<div class="speakers_title d-flex justify-content-between align-items-center">
+															<h3>Brooklyn Simmons</h3>
+															<div class="arrow_icon_speakers">
+																<svg width="8" height="11" viewBox="0 0 8 11" fill="none" xmlns="http://www.w3.org/2000/svg">
+																	<path d="M1 1L6 5.5L1 10" stroke="#DB604B" stroke-width="1.5"/>
+																</svg>
+															</div>
+														</div>
+														<small>Sr. Partner Systems</small>
+														<small>Dell Systmes</small>
+														<div class="city_social_media">
+															<p>New York City</p>
+														</div>	
+													</div>
+												</a>
+												<div class="social_menu d-flex align-items-center">
+													<a href="#." class="videos_call_icon" data-mdb-toggle="modal" data-mdb-target="#exampleModal">
+														<svg width="19" height="19" viewBox="0 0 19 19" fill="none" xmlns="http://www.w3.org/2000/svg">
+														<g clip-path="url(#clip0)">
+														<path d="M18.6783 4.85086C18.4783 4.72716 18.2285 4.71587 18.0181 4.821L13.5714 7.04466V5.42829C13.5714 4.304 12.66 3.39258 11.5357 3.39258H2.03571C0.911419 3.39258 0 4.304 0 5.42829V13.5711C0 14.6954 0.911419 15.6069 2.03571 15.6069H11.5357C12.66 15.6069 13.5714 14.6954 13.5714 13.5711V11.9548L18.0181 14.1819C18.3533 14.3494 18.7609 14.2134 18.9284 13.8782C18.9761 13.7829 19.0006 13.6777 19 13.5711V5.42829C19.0001 5.19307 18.8784 4.97459 18.6783 4.85086ZM12.2143 13.5711C12.2143 13.9459 11.9105 14.2497 11.5357 14.2497H2.03571C1.66093 14.2497 1.35713 13.9459 1.35713 13.5711V5.42829C1.35713 5.05351 1.66093 4.74971 2.03571 4.74971H11.5357C11.9105 4.74971 12.2143 5.05351 12.2143 5.42829V13.5711ZM17.6428 12.4732L13.5714 10.4375V8.56198L17.6428 6.52626V12.4732V12.4732Z" fill="#E9724D"/>
+														<path d="M6.78583 6.78516C5.28676 6.78516 4.07153 8.00038 4.07153 9.49945C4.07153 10.9985 5.28676 12.2137 6.78583 12.2137C8.2849 12.2137 9.50013 10.9985 9.50013 9.49945C9.50013 8.00038 8.28486 6.78516 6.78583 6.78516ZM6.78583 10.8566C6.03631 10.8566 5.4287 10.249 5.4287 9.49945C5.4287 8.74994 6.03631 8.14232 6.78583 8.14232C7.53535 8.14232 8.14296 8.74994 8.14296 9.49945C8.14296 10.249 7.53535 10.8566 6.78583 10.8566Z" fill="#E9724D"/>
+														</g>
+														<defs>
+														<clipPath id="clip0">
+														<rect width="19" height="19" fill="white"/>
+														</clipPath>
+														</defs>
+														</svg>
+
+													</a>
+													<a href="#." class="chat_icon" data-mdb-toggle="modal" data-mdb-target="#exampleModal">
+														<svg width="15" height="15" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+															<path d="M7.5 0C3.35495 0 0 3.35438 0 7.5C0 8.8155 0.343094 10.1003 0.994606 11.2335L0.0282669 14.2344C-0.0391388 14.4436 0.0162506 14.6729 0.171661 14.8283C0.325584 14.9823 0.554352 15.0397 0.76561 14.9717L3.76648 14.0054C4.89967 14.6569 6.1845 15 7.5 15C11.6451 15 15 11.6456 15 7.5C15 3.35495 11.6456 0 7.5 0ZM7.5 13.8281C6.31176 13.8281 5.1535 13.4966 4.15043 12.8693C4.00612 12.7792 3.8269 12.7548 3.66016 12.8085L1.49391 13.5061L2.19154 11.3398C2.24442 11.1755 2.2221 10.9961 2.13055 10.8496C1.50341 9.8465 1.17188 8.68824 1.17188 7.5C1.17188 4.0107 4.0107 1.17188 7.5 1.17188C10.9893 1.17188 13.8281 4.0107 13.8281 7.5C13.8281 10.9893 10.9893 13.8281 7.5 13.8281ZM8.23242 7.5C8.23242 7.90443 7.90455 8.23242 7.5 8.23242C7.09545 8.23242 6.76758 7.90443 6.76758 7.5C6.76758 7.09545 7.09545 6.76758 7.5 6.76758C7.90455 6.76758 8.23242 7.09545 8.23242 7.5ZM11.1621 7.5C11.1621 7.90443 10.8342 8.23242 10.4297 8.23242C10.0251 8.23242 9.69727 7.90443 9.69727 7.5C9.69727 7.09545 10.0251 6.76758 10.4297 6.76758C10.8342 6.76758 11.1621 7.09545 11.1621 7.5ZM5.30273 7.5C5.30273 7.90443 4.97486 8.23242 4.57031 8.23242C4.16588 8.23242 3.83789 7.90443 3.83789 7.5C3.83789 7.09545 4.16588 6.76758 4.57031 6.76758C4.97486 6.76758 5.30273 7.09545 5.30273 7.5Z" fill="#E9724D"/>
+														</svg>
+													</a>
+													<div class="dropdown">
+														<button class="dropdown-toggle" type="button" id="dropdownMenuButton" data-mdb-toggle="dropdown" aria-expanded="false"> 
+															<svg width="18" height="13" viewBox="0 0 18 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+																<path d="M16.0312 0.3125H1.96875C0.883195 0.3125 0 1.1957 0 2.28125V10.7188C0 11.8043 0.883195 12.6875 1.96875 12.6875H16.0312C17.1168 12.6875 18 11.8043 18 10.7188V2.28125C18 1.1957 17.1168 0.3125 16.0312 0.3125ZM1.96875 1.4375H16.0312C16.4965 1.4375 16.875 1.81603 16.875 2.28125V3.40625H1.125V2.28125C1.125 1.81603 1.50353 1.4375 1.96875 1.4375ZM16.0312 11.5625H1.96875C1.50353 11.5625 1.125 11.184 1.125 10.7188V4.53125H16.875V10.7188C16.875 11.184 16.4965 11.5625 16.0312 11.5625Z" fill="#E9724D"/>
+																<path d="M3.9375 9.875H3.375C3.06436 9.875 2.8125 9.62314 2.8125 9.3125V8.75C2.8125 8.43936 3.06436 8.1875 3.375 8.1875H3.9375C4.24814 8.1875 4.5 8.43936 4.5 8.75V9.3125C4.5 9.62314 4.24814 9.875 3.9375 9.875Z" fill="#E9724D"/>
+															</svg>
+														</button>
+														<ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+															<li>
+																<a class="dropdown-item" href="#">
+																	<div class="OpeNnotificationTextBox">
+																	<svg width="77" height="76" viewBox="0 0 77 76" fill="none" xmlns="http://www.w3.org/2000/svg">
+																		<circle opacity="0.3" cx="23.7501" cy="33.751" r="10.0147" stroke="#2DCA73"/>
+																		<circle opacity="0.1" cx="23.75" cy="33.75" r="13.25" stroke="#2DCA73"/>
+																		<g filter="url(#filter0_d)">
+																		<circle cx="23.75" cy="33.7505" r="8.49265" fill="#2DCA73"/>
+																		</g>
+																		<path d="M19.5037 34.1618L22.0661 36.783L27.9963 30.7168" stroke="white" stroke-width="2" stroke-linecap="round"/>
+																		<defs>
+																		<filter id="filter0_d" x="-28.7427" y="-18.7422" width="104.985" height="104.985" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+																		<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+																		<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"/>
+																		<feOffset/>
+																		<feGaussianBlur stdDeviation="22"/>
+																		<feColorMatrix type="matrix" values="0 0 0 0 0.720729 0 0 0 0 0.925 0 0 0 0 0.863719 0 0 0 1 0"/>
+																		<feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow"/>
+																		<feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow" result="shape"/>
+																		</filter>
+																		</defs>
+																	</svg>
+																	<span>
+																		You Picked <br>the Card
+																	</span>
+																</div>
+																</a>
+															</li>
+														</ul>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>	
+								</div>
+							</div>
 						</div>
 					</div>
-	            </div>
+					<div class="tab-pane fade" id="ex1-tabs-2-speakers" role="tabpanel" aria-labelledby="ex1-tab-2-speakers">
+						<div class="chats_popup Live_feeds_popup speaker_group_content_box">
+							<div class="popup_head_inr d-flex align-items-center justify-content-between">
+								<div class="title all_caps d-flex align-items-center">
+									<div class="caps_icon mr-10 d-flex">
+										<svg width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+											<path d="M10.4997 4.66634H9.91634V3.49968C9.91634 1.88967 8.60967 0.583008 6.99967 0.583008C5.38967 0.583008 4.08301 1.88967 4.08301 3.49968V4.66634H3.49967C2.85801 4.66634 2.33301 5.19134 2.33301 5.83301V11.6663C2.33301 12.308 2.85801 12.833 3.49967 12.833H10.4997C11.1413 12.833 11.6663 12.308 11.6663 11.6663V5.83301C11.6663 5.19134 11.1413 4.66634 10.4997 4.66634ZM6.99967 9.91634C6.35801 9.91634 5.83301 9.39134 5.83301 8.74968C5.83301 8.10801 6.35801 7.58301 6.99967 7.58301C7.64134 7.58301 8.16634 8.10801 8.16634 8.74968C8.16634 9.39134 7.64134 9.91634 6.99967 9.91634ZM8.80801 4.66634H5.19134V3.49968C5.19134 2.50217 6.00217 1.69134 6.99967 1.69134C7.99717 1.69134 8.80801 2.50217 8.80801 3.49968V4.66634Z" fill="#626571"></path>
+										</svg>
+									</div>
+									group chat
+									<small>12</small>
+								</div>
+							</div>
+							<div class="participants_content">
+								<div class="participants_list_otr speaker_group_box">
+									<a href="#." class="participants_list_box" data-mdb-toggle="modal" data-mdb-target="#speakers_chats_details" data-mdb-dismiss="modal" aria-label="Close">
+										<div class="participants_left_box">
+											<div class="participants_img">
+												<img src="img/hall_content_img.png" alt="">
+											</div>
+											<div class="group_right_popup_box d-flex justify-content-between">
+												<div class="participants_name_details">
+													<h4>Floyd Miles</h4>
+													<small>Lacus, lectus tincidunt orci ipsum. Dapibus libero aliquet enim imperdiet bibendum duis.</small>
+												</div>
+												<div class="time_box">
+													11:35 AM
+												</div>
+											</div>
+										</div>
+									</a>
+									<a href="#." class="participants_list_box" data-mdb-toggle="modal" data-mdb-target="#speakers_chats_details" data-mdb-dismiss="modal" aria-label="Close">
+										<div class="participants_left_box">
+											<div class="participants_img">
+												<img src="img/hall_content_img.png" alt="">
+											</div>
+											<div class="group_right_popup_box d-flex justify-content-between">
+												<div class="participants_name_details">
+													<h4>Floyd Miles</h4>
+													<small>Lacus, lectus tincidunt orci ipsum. Dapibus libero aliquet enim imperdiet bibendum duis.</small>
+												</div>
+												<div class="time_box">
+													11:35 AM
+												</div>
+											</div>
+										</div>
+									</a>
+									<a href="#." class="participants_list_box" data-mdb-toggle="modal" data-mdb-target="#speakers_chats_details" data-mdb-dismiss="modal" aria-label="Close">
+										<div class="participants_left_box">
+											<div class="participants_img">
+												<img src="img/hall_content_img.png" alt="">
+											</div>
+											<div class="group_right_popup_box d-flex justify-content-between">
+												<div class="participants_name_details">
+													<h4>Floyd Miles</h4>
+													<small>Lacus, lectus tincidunt orci ipsum. Dapibus libero aliquet enim imperdiet bibendum duis.</small>
+												</div>
+												<div class="time_box">
+													11:35 AM
+												</div>
+											</div>
+										</div>
+									</a>
+									<a href="#." class="participants_list_box" data-mdb-toggle="modal" data-mdb-target="#speakers_chats_details" data-mdb-dismiss="modal" aria-label="Close">
+										<div class="participants_left_box">
+											<div class="participants_img">
+												<img src="img/hall_content_img.png" alt="">
+											</div>
+											<div class="group_right_popup_box d-flex justify-content-between">
+												<div class="participants_name_details">
+													<h4>Floyd Miles</h4>
+													<small>Lacus, lectus tincidunt orci ipsum. Dapibus libero aliquet enim imperdiet bibendum duis.</small>
+												</div>
+												<div class="time_box">
+													11:35 AM
+												</div>
+											</div>
+										</div>
+									</a>
+									<a href="#." class="participants_list_box" data-mdb-toggle="modal" data-mdb-target="#speakers_chats_details" data-mdb-dismiss="modal" aria-label="Close">
+										<div class="participants_left_box">
+											<div class="participants_img">
+												<img src="img/hall_content_img.png" alt="">
+											</div>
+											<div class="group_right_popup_box d-flex justify-content-between">
+												<div class="participants_name_details">
+													<h4>Floyd Miles</h4>
+													<small>Lacus, lectus tincidunt orci ipsum. Dapibus libero aliquet enim imperdiet bibendum duis.</small>
+												</div>
+												<div class="time_box">
+													11:35 AM
+												</div>
+											</div>
+										</div>
+									</a>
+									<a href="#." class="participants_list_box" data-mdb-toggle="modal" data-mdb-target="#speakers_chats_details" data-mdb-dismiss="modal" aria-label="Close">
+										<div class="participants_left_box">
+											<div class="participants_img">
+												<img src="img/hall_content_img.png" alt="">
+											</div>
+											<div class="group_right_popup_box d-flex justify-content-between">
+												<div class="participants_name_details">
+													<h4>Floyd Miles</h4>
+													<small>Lacus, lectus tincidunt orci ipsum. Dapibus libero aliquet enim imperdiet bibendum duis.</small>
+												</div>
+												<div class="time_box">
+													11:35 AM
+												</div>
+											</div>
+										</div>
+									</a>
+									
+								</div>
+							</div>
+							<div class="live_feed_chats">
+								<div class="typing_msg_field">
+									<div class="input_box input_type_msg">
+										<input type="text" placeholder="Type Message">
+									</div>
+									<div class="send_img">
+										<a href="#.">
+											<svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+												<g clip-path="url(#clip0)">
+												<path d="M7.29199 14.6758V18.5408C7.29199 18.8108 7.46532 19.0499 7.72199 19.1349C7.78616 19.1558 7.85199 19.1658 7.91699 19.1658C8.11199 19.1658 8.30032 19.0741 8.42032 18.9108L10.6811 15.8341L7.29199 14.6758Z" fill="#4DD4F1"></path>
+												<path d="M19.7375 0.115907C19.5459 -0.0199262 19.2942 -0.0382595 19.0859 0.0709072L0.33587 9.86258C0.114204 9.97841 -0.0166296 10.2151 0.00170373 10.4642C0.0208704 10.7142 0.186704 10.9276 0.422537 11.0084L5.63504 12.7901L16.7359 3.29841L8.14587 13.6476L16.8817 16.6334C16.9467 16.6551 17.015 16.6667 17.0834 16.6667C17.1967 16.6667 17.3092 16.6359 17.4084 16.5759C17.5667 16.4792 17.6742 16.3167 17.7017 16.1342L19.9934 0.717574C20.0275 0.484241 19.9292 0.252574 19.7375 0.115907Z" fill="#4DD4F1"></path>
+												</g>
+												<defs>
+												<clipPath id="clip0">
+												<rect width="20" height="20" fill="white"></rect>
+												</clipPath>
+												</defs>
+											</svg>
+										</a>
+									</div>
+								</div>
+							</div>	
+						</div>
+					</div>
+				</div>
             </div>
         </div>
     </div> 
@@ -1548,7 +1710,7 @@
 	<div class="modal-dialog modal-dialog-centered modal_speakers_popup">
 		<div class="modal-content">
 			<div class="modal-header speakers_zone_popup d-flex flex-wrap align-items-start">
-				<svg width="9" height="14" viewBox="0 0 9 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+				<svg class="RotedIcon" data-mdb-dismiss="modal" width="9" height="14" viewBox="0 0 9 14" fill="none" xmlns="http://www.w3.org/2000/svg">
 					<path d="M8 1L2 7L8 13" stroke="#DB604B" stroke-width="1.5"/>
 				</svg>
 				<div class="details_pofile_speakers d-flex ">
@@ -1672,4 +1834,291 @@
 		</div>
 	</div>
 </div>
+
+<!-- Speakers Feeds Popup -->
+<div class="modal Menu_popup fade" id="speakers_group_popup" tabindex="-1" aria-labelledby="speakers_group_popupLabel" aria-hidden="true">
+	<div class="modal-dialog modal-dialog-centered modal_speakers_popup">
+		<div class="modal-content chats_popup Live_feeds_popup">
+			<div class="popup_header">
+				<div class="popup_head_inr d-flex align-items-center justify-content-between">
+					<div class="title all_caps d-flex align-items-center">
+							<div class="caps_icon mr-10 d-flex">
+								<svg width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+									<path d="M10.4997 4.66634H9.91634V3.49968C9.91634 1.88967 8.60967 0.583008 6.99967 0.583008C5.38967 0.583008 4.08301 1.88967 4.08301 3.49968V4.66634H3.49967C2.85801 4.66634 2.33301 5.19134 2.33301 5.83301V11.6663C2.33301 12.308 2.85801 12.833 3.49967 12.833H10.4997C11.1413 12.833 11.6663 12.308 11.6663 11.6663V5.83301C11.6663 5.19134 11.1413 4.66634 10.4997 4.66634ZM6.99967 9.91634C6.35801 9.91634 5.83301 9.39134 5.83301 8.74968C5.83301 8.10801 6.35801 7.58301 6.99967 7.58301C7.64134 7.58301 8.16634 8.10801 8.16634 8.74968C8.16634 9.39134 7.64134 9.91634 6.99967 9.91634ZM8.80801 4.66634H5.19134V3.49968C5.19134 2.50217 6.00217 1.69134 6.99967 1.69134C7.99717 1.69134 8.80801 2.50217 8.80801 3.49968V4.66634Z" fill="#626571"/>
+								</svg>
+							</div>
+							group chat
+							<small>12</small>
+					</div>
+					<div class="popup_right_head d-flex justify-content-end align-items-center">
+						<a href="#." class="ml-20" data-mdb-dismiss="modal" aria-label="Close">
+							<svg width="12" height="12" viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+								<path d="M11 1L1 11M1 1L11 11" stroke="#656185" stroke-width="1.5"/>
+							</svg>
+						</a>
+					</div>
+				</div>
+			</div>
+			<div class="participants_content">
+				<div class="participants_list_otr speaker_group_box">
+					<a href="#." class="participants_list_box" data-mdb-toggle="modal" data-mdb-target="#speakers_chats_details" data-mdb-dismiss="modal" aria-label="Close">
+						<div class="participants_left_box">
+							<div class="participants_img">
+								<img src="img/hall_content_img.png" alt="">
+							</div>
+							<div class="group_right_popup_box d-flex justify-content-between">
+								<div class="participants_name_details">
+									<h4>Floyd Miles</h4>
+									<small>Lacus, lectus tincidunt orci ipsum. Dapibus libero aliquet enim imperdiet bibendum duis.</small>
+								</div>
+								<div class="time_box">
+									11:35 AM
+								</div>
+							</div>
+						</div>
+					</a>
+					<a href="#." class="participants_list_box" data-mdb-toggle="modal" data-mdb-target="#speakers_chats_details" data-mdb-dismiss="modal" aria-label="Close">
+						<div class="participants_left_box">
+							<div class="participants_img">
+								<img src="img/hall_content_img.png" alt="">
+							</div>
+							<div class="group_right_popup_box d-flex justify-content-between">
+								<div class="participants_name_details">
+									<h4>Floyd Miles</h4>
+									<small>Lacus, lectus tincidunt orci ipsum. Dapibus libero aliquet enim imperdiet bibendum duis.</small>
+								</div>
+								<div class="time_box">
+									11:35 AM
+								</div>
+							</div>
+						</div>
+					</a>
+					<a href="#." class="participants_list_box" data-mdb-toggle="modal" data-mdb-target="#speakers_chats_details" data-mdb-dismiss="modal" aria-label="Close">
+						<div class="participants_left_box">
+							<div class="participants_img">
+								<img src="img/hall_content_img.png" alt="">
+							</div>
+							<div class="group_right_popup_box d-flex justify-content-between">
+								<div class="participants_name_details">
+									<h4>Floyd Miles</h4>
+									<small>Lacus, lectus tincidunt orci ipsum. Dapibus libero aliquet enim imperdiet bibendum duis.</small>
+								</div>
+								<div class="time_box">
+									11:35 AM
+								</div>
+							</div>
+						</div>
+					</a>
+					<a href="#." class="participants_list_box" data-mdb-toggle="modal" data-mdb-target="#speakers_chats_details" data-mdb-dismiss="modal" aria-label="Close">
+						<div class="participants_left_box">
+							<div class="participants_img">
+								<img src="img/hall_content_img.png" alt="">
+							</div>
+							<div class="group_right_popup_box d-flex justify-content-between">
+								<div class="participants_name_details">
+									<h4>Floyd Miles</h4>
+									<small>Lacus, lectus tincidunt orci ipsum. Dapibus libero aliquet enim imperdiet bibendum duis.</small>
+								</div>
+								<div class="time_box">
+									11:35 AM
+								</div>
+							</div>
+						</div>
+					</a>
+					<a href="#." class="participants_list_box" data-mdb-toggle="modal" data-mdb-target="#speakers_chats_details" data-mdb-dismiss="modal" aria-label="Close">
+						<div class="participants_left_box">
+							<div class="participants_img">
+								<img src="img/hall_content_img.png" alt="">
+							</div>
+							<div class="group_right_popup_box d-flex justify-content-between">
+								<div class="participants_name_details">
+									<h4>Floyd Miles</h4>
+									<small>Lacus, lectus tincidunt orci ipsum. Dapibus libero aliquet enim imperdiet bibendum duis.</small>
+								</div>
+								<div class="time_box">
+									11:35 AM
+								</div>
+							</div>
+						</div>
+					</a>
+					<a href="#." class="participants_list_box" data-mdb-toggle="modal" data-mdb-target="#speakers_chats_details" data-mdb-dismiss="modal" aria-label="Close">
+						<div class="participants_left_box">
+							<div class="participants_img">
+								<img src="img/hall_content_img.png" alt="">
+							</div>
+							<div class="group_right_popup_box d-flex justify-content-between">
+								<div class="participants_name_details">
+									<h4>Floyd Miles</h4>
+									<small>Lacus, lectus tincidunt orci ipsum. Dapibus libero aliquet enim imperdiet bibendum duis.</small>
+								</div>
+								<div class="time_box">
+									11:35 AM
+								</div>
+							</div>
+						</div>
+					</a>
+					
+				</div>
+			</div>
+			<div class="live_feed_chats">
+				<div class="typing_msg_field">
+	                <div class="input_box input_type_msg">
+	                	<input type="text" placeholder="Type Message">
+	                </div>
+					<div class="send_img">
+						<a href="#.">
+							<svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+								<g clip-path="url(#clip0)">
+								<path d="M7.29199 14.6758V18.5408C7.29199 18.8108 7.46532 19.0499 7.72199 19.1349C7.78616 19.1558 7.85199 19.1658 7.91699 19.1658C8.11199 19.1658 8.30032 19.0741 8.42032 18.9108L10.6811 15.8341L7.29199 14.6758Z" fill="#4DD4F1"/>
+								<path d="M19.7375 0.115907C19.5459 -0.0199262 19.2942 -0.0382595 19.0859 0.0709072L0.33587 9.86258C0.114204 9.97841 -0.0166296 10.2151 0.00170373 10.4642C0.0208704 10.7142 0.186704 10.9276 0.422537 11.0084L5.63504 12.7901L16.7359 3.29841L8.14587 13.6476L16.8817 16.6334C16.9467 16.6551 17.015 16.6667 17.0834 16.6667C17.1967 16.6667 17.3092 16.6359 17.4084 16.5759C17.5667 16.4792 17.6742 16.3167 17.7017 16.1342L19.9934 0.717574C20.0275 0.484241 19.9292 0.252574 19.7375 0.115907Z" fill="#4DD4F1"/>
+								</g>
+								<defs>
+								<clipPath id="clip0">
+								<rect width="20" height="20" fill="white"/>
+								</clipPath>
+								</defs>
+							</svg>
+						</a>
+					</div>
+	          	</div>
+          	</div>	
+		</div>
+	</div>
+</div>
+<!-- Speakers Feeds Popup -->
+
+<div class="modal fade" id="speakers_chats_details" tabindex="-1" aria-labelledby="speakers_chats_detailsLabel" aria-hidden="true">
+	<div class="modal-dialog modal-dialog-centered modal_speakers_popup chats_details_popup">
+		<div class="modal-content">
+			<div class="chats_details_inr_box">
+				<div class="pofile_details_mini_header">
+					<div class="modal-header speakers_zone_popup  d-flex flex-wrap align-items-start">
+						<div class="chats_pofile_box_details d-flex align-items-start">
+							<a href="#." data-mdb-dismiss="modal" aria-label="Close"  data-mdb-toggle="modal" data-mdb-target="#speakers_group_popup">
+								<svg class="RotedIcon" width="9" height="14" viewBox="0 0 9 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+									<path d="M8 1L2 7L8 13" stroke="#DB604B" stroke-width="1.5"/>
+								</svg>
+							</a>
+							<div class="details_pofile_speakers d-flex align-items-center ml-20">
+								<div class="details_pofile_speakers_img mr-10">
+									<img src="img/chats_img1.jpg" alt="">
+								</div>
+								<div class="Subtitleh4">
+									<h4>Floyd Miles</h4>
+								</div>	
+							</div>
+						</div>	
+						<a href="#." data-mdb-dismiss="modal" aria-label="Close">
+							<svg width="12" height="12" viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+								<path d="M11 1L1 11M1 1L11 11" stroke="#656185" stroke-width="1.5"/>
+							</svg>
+						</a>
+					</div>
+					<div class="chats_inr_calls_box">
+						<ul class="d-flex align-items-center">
+							<li>
+								<a href="#.">
+									<svg class="mr-10" width="21" height="14" viewBox="0 0 21 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+		 								<path d="M19.3333 2.83398L13.5 7.00065L19.3333 11.1673V2.83398Z" stroke="#4DC0F1" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+										<path d="M11.8333 1.16602H2.66667C1.74619 1.16602 1 1.91221 1 2.83268V11.166C1 12.0865 1.74619 12.8327 2.66667 12.8327H11.8333C12.7538 12.8327 13.5 12.0865 13.5 11.166V2.83268C13.5 1.91221 12.7538 1.16602 11.8333 1.16602Z" stroke="#4DC0F1" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+									</svg>
+									Invite for Video Call
+								</a>
+							</li>
+							<li>
+								<a href="#.">
+									<svg class="mr-10" width="26" height="16" viewBox="0 0 26 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+										<rect x="1.5" y="1" width="23" height="14" rx="1" stroke="#4DC0F1" stroke-width="2"/>
+										<circle cx="7.5" cy="6" r="1.5" stroke="#4DC0F1"/>
+										<path d="M7.07143 9.5H7.92857C9.04868 9.5 9.96115 10.3891 9.99879 11.5H5.00121C5.03885 10.3891 5.95132 9.5 7.07143 9.5Z" stroke="#4DC0F1"/>
+										<rect x="13.875" y="5.375" width="8.25" height="0.75" rx="0.375" fill="white" stroke="#4DC0F1" stroke-width="0.75"/>
+										<rect x="13.875" y="9.375" width="8.25" height="0.75" rx="0.375" fill="white" stroke="#4DC0F1" stroke-width="0.75"/>
+									</svg>
+									Drop Business Card
+								</a>
+							</li>
+							<li>
+								<a href="#.">
+										<svg  class="mr-10" width="20px" height="20px" version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+											 viewBox="0 0 39.861 39.861" style="enable-background:new 0 0 39.861 39.861;" xml:space="preserve">
+										<g>
+											<g>
+												<path style="fill:#4DC0F1;" d="M37.973,13.816L21.652,0.576c-0.947-0.768-2.495-0.768-3.442,0L1.887,13.816
+													c-0.151,0.123-0.282,0.26-0.395,0.406c-0.549,0.223-0.936,0.76-0.936,1.389v21.75c0,1.378,1.122,2.5,2.5,2.5h33.75
+													c1.378,0,2.5-1.122,2.5-2.5v-21.75c0-0.629-0.388-1.166-0.937-1.389C38.256,14.076,38.125,13.939,37.973,13.816z M28.396,28.494
+													c-0.203-0.188-0.519-0.176-0.707,0.027s-0.176,0.519,0.027,0.707l8.236,7.633H4.41l8.236-7.633
+													c0.203-0.188,0.214-0.504,0.027-0.707c-0.188-0.203-0.505-0.215-0.707-0.027l-8.41,7.795V18.344l14.725,9.37
+													c0.463,0.295,1.049,0.458,1.65,0.458c0.601,0,1.187-0.163,1.649-0.457l14.726-9.371v17.482L28.396,28.494z M19.931,3.043
+													l15.313,12.421l-15.234,9.698c-0.007,0.002-0.037,0.009-0.079,0.009l-0.039,0.012L4.617,15.464L19.931,3.043z"/>
+											</g>
+										</g>
+										</svg>
+									Drop Email
+								</a>
+							</li>
+						</ul>
+					</div>
+				</div>
+			    <div class="chats_box">
+			   		<div class="chats_tabs_msg">
+						<div class="messages_mn_otr">
+							<div class="send_msg_otr d-flex align-items-start justify-content-end">
+							    <div class="send_msg">
+							  		<p>Hello !</p>
+							  		<span class="time_chats_box">
+							  			11:45AM
+							  		</span>
+								</div>
+								<div class="chats_drop_down">
+									<div class="dropdown">
+										<button class="dropdown-toggle" type="button" id="dropdownMenuButton" data-mdb-toggle="dropdown" aria-expanded="false"> 
+											<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+												<path fill-rule="evenodd" clip-rule="evenodd" d="M14 6C14 7.10457 13.1046 8 12 8C10.8954 8 10 7.10457 10 6C10 4.89543 10.8954 4 12 4C13.1046 4 14 4.89543 14 6ZM14 12.2857C14 13.3903 13.1046 14.2857 12 14.2857C10.8954 14.2857 10 13.3903 10 12.2857C10 11.1811 10.8954 10.2857 12 10.2857C13.1046 10.2857 14 11.1811 14 12.2857ZM12 20.5714C13.1046 20.5714 14 19.676 14 18.5714C14 17.4669 13.1046 16.5714 12 16.5714C10.8954 16.5714 10 17.4669 10 18.5714C10 19.676 10.8954 20.5714 12 20.5714Z" fill="#C4C4C4"/>
+											</svg>
+										</button>
+										<ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+									    	<li><a class="dropdown-item" href="#">Report</a></li>
+									    	<li><a class="dropdown-item" href="#">Block</a></li>
+									    	<li><a class="dropdown-item" href="#"><span>Delete</span></a></li>
+										</ul>
+									</div>
+								</div>
+							</div>
+							<div class="received_msg_otr d-flex align-items-start justify-content-start">
+							    <div class="received_msg">
+							  		<p>Hi !</p>
+							  		<span class="time_chats_box">
+							  			11:45AM
+							  		</span>
+								</div>
+							</div>
+						</div>
+						<div class="typing_msg_field">
+		                    <div class="input_box input_type_msg">
+		                    	<input type="text" placeholder="Type Message">
+		                    </div>
+							<div class="send_img">
+								<a href="#.">
+									<svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+										<g clip-path="url(#clip0)">
+										<path d="M7.29199 14.6758V18.5408C7.29199 18.8108 7.46532 19.0499 7.72199 19.1349C7.78616 19.1558 7.85199 19.1658 7.91699 19.1658C8.11199 19.1658 8.30032 19.0741 8.42032 18.9108L10.6811 15.8341L7.29199 14.6758Z" fill="#4DD4F1"/>
+										<path d="M19.7375 0.115907C19.5459 -0.0199262 19.2942 -0.0382595 19.0859 0.0709072L0.33587 9.86258C0.114204 9.97841 -0.0166296 10.2151 0.00170373 10.4642C0.0208704 10.7142 0.186704 10.9276 0.422537 11.0084L5.63504 12.7901L16.7359 3.29841L8.14587 13.6476L16.8817 16.6334C16.9467 16.6551 17.015 16.6667 17.0834 16.6667C17.1967 16.6667 17.3092 16.6359 17.4084 16.5759C17.5667 16.4792 17.6742 16.3167 17.7017 16.1342L19.9934 0.717574C20.0275 0.484241 19.9292 0.252574 19.7375 0.115907Z" fill="#4DD4F1"/>
+										</g>
+										<defs>
+										<clipPath id="clip0">
+										<rect width="20" height="20" fill="white"/>
+										</clipPath>
+										</defs>
+									</svg>
+								</a>
+							</div>
+	                  </div>
+			   		</div>
+			    </div>
+			</div>
+		</div>
+	</div>
+</div>
+
+
 <?php include("footer.php") ?>

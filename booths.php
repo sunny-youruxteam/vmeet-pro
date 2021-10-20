@@ -11,7 +11,7 @@
 		<div class="conferene_zone booths_main_box">
 			<div class="booths_top_menu_bar d-flex align-items-center justify-content-between">
 				<a href="exhibition-zone.php" class="back_btn_arrow">
-					<svg width="16" height="21" viewBox="0 0 16 21" fill="none" xmlns="http://www.w3.org/2000/svg">
+					<svg width="16" height="21" viewBox="0 0 16 21" fill="none">
 						<g filter="url(#filter0_d)">
 						<path d="M12 2L5 8.5L12 15" stroke="white" stroke-width="2"></path>
 						</g>
@@ -46,7 +46,7 @@
 					</ul>
 					<div class="popup_filter_box ml-10">
 						<a href="#." id="FilterOpen" class="btn_filter"> 
-							<svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+							<svg width="20" height="20" viewBox="0 0 20 20" fill="none">
 								<path d="M17 5L3 5" stroke="#BEC5D8" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
 								<path d="M15 10H5" stroke="#BEC5D8" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
 								<path d="M12 15L8 15" stroke="#BEC5D8" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>

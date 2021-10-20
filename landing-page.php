@@ -21,16 +21,16 @@
 					</div>
 					<div class="landing_btn_section">
 						<a href="login.php" class="blue_btn">Login</a>
-						<a href="register.php." class="blue_border_btn">Get started with us</a>
+						<a href="register.php." class="blue_border_btn">Register</a>
 					</div>					
 				</div>
 			</div>
 			<div class="login_power_box d-flex align-items-center justify-content-between">
 				<div class="logo_power_inr_box d-flex justify-content-center align-items-center">
 					<span>Powered by</span>
-					<img src="img/powered_by.svg" alt="">
+					<img src="img/vmeets-logo-power.png" alt="">
 				</div>
-				<p>©2020 All Rights Reserved. VMeets®</p>
+				<p>©<?php echo date("Y"); ?>Vmeets™. All rights reserved.</p>
 			</div>
 		</div>
 	</div>

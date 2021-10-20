@@ -1,4 +1,187 @@
 
+
+$(document).ready(function(){
+  $('.profile_frame_slider').slick();
+  $('.profileBgSlider').slick({
+    dots: false,
+    infinite: false,
+    slidesToShow: 5,
+    sliderscroll:1,
+  });
+});
+
+
+$('.modal').on('shown.bs.modal', function (e) {
+  $('.profile_frame_slider').slick('setPosition');
+  $('.profileBgSlider').slick('setPosition');
+});
+
+
+
+
+$(document).ready(function(){  
+  $(".profile_frame_slider_img").click(function(){
+    var bg_img = $(this).children('img').attr('src');
+    $('.profile_frame_slider_img').removeClass('active_bg'); // remove all current selections
+    $(this).addClass('active_bg')  
+    // $('.selfie_profile_img span').css('background', bg_img);
+    $('#SelfieStationBgSelect .selfie_profile_img span').css("background", "url(" + bg_img + ")");
+  });
+});
+  
+$('.main_menu ul li a').on('click', function(e) {
+  $(this).toggleClass("SubMenuOpen").siblings().removeClass('SubMenuOpen');
+});
+
+$('.stat_conversation_box .dropdown-toggle').on('click', function(e) {
+  $(this).parent().parent().parent().parent().toggleClass("dropdown_open");
+});
+// Pofile Slider
+
+
+$('.nav_tabbing_why ul li:first-child').addClass('active');
+$('.content_why_img_otr').hide();
+$('.content_why_img_otr:first').show();
+$('.nav_tabbing_why ul li a').click(function(){
+  $('.nav_tabbing_why ul li a').removeClass('active');
+  $(this).addClass('active');
+  $('.content_why_img_otr').hide();
+  
+  var activeTab = $(this).attr('href');
+  $(activeTab).fadeIn(1000);
+  return false;
+});
+
+
+
+
+// conferene Zone slider 
+
+jQuery(document).ready(function() {
+  if($('html').hasClass('rtl')) {
+    $('.rtl .conferene_zone_slider').slick({
+      rtl: true,
+      slidesToShow: 3,
+      sliderscroll:1,
+      centerMode: true,
+      centerPadding: "0px",
+      speed: 500,
+      infinite:false,
+    });
+    $('.booths_slide').slick({
+      rtl: true,
+      slidesToShow: 2,
+      sliderscroll:1,
+      speed: 500,
+      infinite:false,
+    });
+    $('.single_booths_slider').slick({
+      rtl: true,
+      slidesToShow: 1,
+      sliderscroll:1,
+      speed: 500,
+      infinite:false,
+      arrows:true,
+      dots:false
+    });
+    $('.social_zone_slider').slick({
+      slidesToShow: 3,
+      sliderscroll:1,
+      speed: 500,
+      infinite:false,
+    }); 
+  }
+  else{
+    $('.conferene_zone_slider').slick({
+      slidesToShow: 3,
+      sliderscroll:1,
+      centerMode: true,
+      centerPadding: "0px",
+      speed: 500,
+      infinite:false,
+        responsive: [
+            {
+              breakpoint: 1024,
+              settings: {
+                slidesToShow: 2,
+                slidesToScroll: 2
+              }
+            },
+            {
+              breakpoint: 767,
+              settings: {
+                slidesToShow: 2,
+                centerMode: false,
+                slidesToScroll: 1
+              }
+            }
+          ]
+    }); 
+    $('.booths_slide').slick({
+      slidesToShow: 2,
+      sliderscroll:1,
+      speed: 500,
+      infinite:false,
+    });
+    $('.single_booths_slider').slick({
+      slidesToShow: 1,
+      sliderscroll:1,
+      speed: 500,
+      infinite:false,
+      arrows:true,
+      dots:false
+    });
+    $('.social_zone_slider').slick({
+      slidesToShow: 3,
+      sliderscroll:1,
+      speed: 500,
+      infinite:false,
+        responsive: [
+            {
+              breakpoint: 1024,
+              settings: {
+                slidesToShow: 2,
+                slidesToScroll: 2
+              }
+            },
+            {
+              breakpoint: 767,
+              settings: {
+                slidesToShow: 2,
+                centerMode: false,
+                slidesToScroll: 1
+              }
+            }
+          ]
+    }); 
+  }
+});
+
+  
+
+
+
+
+// venobox Popup 
+$(document).ready(function(){
+
+    /* default settings */
+    $('.venobox').venobox(); 
+
+
+    /* custom settings */
+    
+    $("#firstlink").venobox().trigger('click');
+
+
+});
+
+
+
+
+
+
+
 $(document).ready(function() {
     $('.toogle_switch_box').on('click', function(e) {
         $(this).parent().toggleClass("active");
@@ -8,6 +191,10 @@ $(document).ready(function() {
     });
 
 });
+$('#ToggleThis').on('click', function(e) {
+  $(this).toggleClass("active");
+});
+
 
 
 
@@ -16,6 +203,18 @@ $(document).ready(function() {
     $('#HeaderMenuToggle').on('click', function(e) {
         $("body").toggleClass("menu-open");
     });
+    
+    $('.single_notification .NotificationCloseBox').on('click', function(e) {
+      $(this).parent().parent().remove();
+    });
+
+    $('.NotificationCloseBox').on('click', function(e) {
+        $(this).parent().remove();
+    });
+
+    
+
+    
 });
 $(document).ready(function() {
     $('#BottomMenuToggle').on('click', function(e) {
@@ -37,7 +236,6 @@ $(document).ready(function() {
 });
 
 
-
 $(document).ready(function() {
     $('.bottom_menu ul li a').on('click', function(e) {
       // var bottom_menuID = $(this).attr('data-mdb-target');
@@ -56,6 +254,18 @@ $(document).ready(function() {
       $(this).toggleClass("NotifationActive")
         $(".notification_popup").slideToggle().css('opacity', '1');
     });
+    $('.open_feed_menu').on('click', function(e) {
+        $(".feed_menu_box_open").toggleClass('feed_menu_active');
+    });
+    $(".notification_popup .close_all_btn").on("click", function(a) {
+        $(this).parent().fadeOut();
+        $(".feed_menu_box_open").removeClass('feed_menu_active');
+    });
+    $(".close_all_btn").on("click", function(a) {
+      $(".feed_menu_box_open").removeClass('feed_menu_active');
+  });
+    
+    
 });
 
 $(document).ready(function() {
@@ -103,6 +313,10 @@ $(document).ready(function() {
         $(".tabs_box_side_notes li").removeClass("active");
         $(".content_sectin_side_notes_inr").removeClass("active");
     });
+
+    $('.rtl .Close_side_penal').on('click', function(e) {
+        $(this).parent().css({"left":"-290px" , "right":"unset"});
+    });
 });
 
 
@@ -116,51 +330,6 @@ $(document).ready( function(){
     });
 });
 
-$(document).ready(function(e) {
-    $('.maps_img img[usemap]').rwdImageMaps();
-});
-
-
-// conferene Zone slider 
-$('.conferene_zone_slider').slick({
-  slidesToShow: 3,
-  sliderscroll:1,
-  centerMode: true,
-  centerPadding: "0px",
-  speed: 500,
-  infinite:false,
-    responsive: [
-        {
-          breakpoint: 1024,
-          settings: {
-            slidesToShow: 2,
-            slidesToScroll: 2
-          }
-        },
-        {
-          breakpoint: 767,
-          settings: {
-            slidesToShow: 2,
-            centerMode: false,
-            slidesToScroll: 1
-          }
-        }
-      ]
-});
-
-$('.booths_slide').slick({
-  slidesToShow: 2,
-  sliderscroll:1,
-  speed: 500,
-  infinite:false,
-});
-
-$('.single_booths_slider').slick({
-  slidesToShow: 1,
-  sliderscroll:1,
-  speed: 500,
-  infinite:false,
-});
 
 
 
@@ -194,10 +363,17 @@ $(document).ready(function(e) {
         $(this).parent().parent().parent().css({"right": "0"})
         e.preventDefault();
     });
+    $('.rtl .tabs_box_side_notes li a').on('click', function(e) {
+        $(this).parent().parent().parent().css({"left": "0" , "right": "unset"})
+        e.preventDefault();
+    });
 });
 $(document).ready(function(e) {
     $('.Close_side_penal').on('click', function(e) {
       $(this).parent().css({"right": "-290px"});
+    });
+    $('.rtl .Close_side_penal').on('click', function(e) {
+      $(this).parent().css({"right": "unset" , "left": "-290px"});
     });
 });
 
@@ -310,7 +486,6 @@ $(document).ready(function() {
 });
 
 
-introJs().setOptions({'datepostion': 'right' });
 
 
 $(document).ready(function() {
@@ -346,38 +521,54 @@ $(document).ready(function() {
     
 });
 
-$(document).ready(function() {
-  $('.popup_right_head a, .speakers_zone_popup a').on('click', function(e) {
-    $(".modal-backdrop").remove();
-    setTimeout(
-        function(){
-          $(".modal-backdrop").remove();
-        }, 1000);
-  });
-});
+// $(document).ready(function() {
+//   $('.popup_right_head a, .speakers_zone_popup a').on('click', function(e) {
+//     $(".modal-backdrop").remove();
+//     setTimeout(
+//         function(){
+//           $(".modal-backdrop").remove();
+//         }, 1000);
+//   });
+// });
 
-$(document).ready(function() {
-  var ClosePopupId = $(this).attr('data-mdb-dismiss');
-   $(ClosePopupId).on('click', function() {
-      $(".modal-backdrop").remove();
-  });
-});
+// $(document).ready(function() {
+//   var ClosePopupId = $(this).attr('data-mdb-dismiss');
+//    $(ClosePopupId).on('click', function() {
+//       $(".modal-backdrop").remove();
+//   });
+// });
 
-$(document).ready(function() {
 
-  $('.bottom_menu ul li a').on('click', function() {
-    $(".modal-backdrop").remove();
-    $('body').append(
-      $('<div>').prop({
-        className: 'modal-backdrop fade show',
-      })
-    );
-  });
-  $('.modal-backdrop').on('click', function() {
-    $(this).remove();
-    $(".modal-backdrop").remove();
- }); 
-});
+
+// $(document).ready(function() {
+
+//   $('.bottom_menu ul li a:not(.nopopup)').on('click', function() {
+//     $(".modal-backdrop").remove();
+//     $('body').append(
+//       $('<div>').prop({
+//         className: 'modal-backdrop fade show',
+//       })
+//     );
+//   });
+//   $('.modal-backdrop').on('click', function() {
+//     $(this).remove();
+//     $(".modal-backdrop").remove();
+//  }); 
+ 
+//  });
+
+
+
+
+
+// $(document).ready(function() {
+//   $( ".modal:not(.bottom_menu)" ).click(function() {
+//     $(".modal-backdrop").remove();
+//   });
+// });
+
+
+
 // Menu Popup Js Close Modal Backdrop
 
 
@@ -463,7 +654,9 @@ $(document).ready(function() {
 
 
 
-
+// $('body').click(function () {
+//   $('.modal-backdrop').remove();
+// })
 
 
 
@@ -515,3 +708,197 @@ $(document).ready(function() {
       });
 
     })
+
+
+    
+
+
+function checkPosition() {
+  if (window.matchMedia('(max-width: 767px)').matches) {
+      $('.main_menu ul li a').on('click', function(e) {
+      $('alter')
+      });
+  } else {
+      //...
+  }
+}
+
+if($(window).width() <= 767){
+
+  $(document).ready(function() {
+      $(".chat_option_list a").on("click", function(a) {
+          $(".main_content_section").addClass( "side_pannel_open" );
+      });
+  });
+}
+
+$(document).ready(function() {
+  // var pageURL = $(location).attr("href");
+  // var pageURLSchedule = pageURL + '#favsessions_box';
+  // // alert(pageURLSchedule);
+  // if (pageURLSchedule == pageURL) {
+  //   $('.my_collections_tab_list li:nth-child(5) a').trigger('click');
+  //   alert(pageURL);
+  // } else {
+  //   $('.my_collections_tab_list li:nth-child(1) a').trigger('click');
+  // }
+  $(function() {
+    if ( document.location.href.indexOf('#favsessions_box') > -1 ) {
+          $('.my_collections_tab_list a').removeClass('active');
+          $('.my_collections_tab_list li:nth-child(5) a').addClass('active');
+          $('.tab-pane').removeClass('active show');
+          $('#favsessions_box').addClass('active show');
+          
+          // alert($(location).attr("href"));
+      }
+  });
+});
+  
+
+
+
+$(document).ready(function() {
+    $(".Open_content_arrow").on("click", function(a) {
+        $(this).parent().children(".ContentBox").siblings().slideDown(300);
+        $(this).siblings().addClass("active");
+        $(this).parent().children(".ContentBox").slideToggle(300);
+        $(this).toggleClass("active");
+    });
+});
+
+
+$(".ticket_radio_btn  .form-check").on("click", function(a) {
+  $(".ticket_radio_btn  .form-check").parent().removeClass('active');
+  $(this).parent().addClass('active');
+});
+// Input Jquery
+
+
+// $(document).ready(function(e) {
+//     $('.maps_img img[usemap]').rwdImageMaps();
+// });
+
+// $(document).ready(function() {
+//   $( ".modal" ).click(function() {
+//     $(".modal-backdrop").remove();
+//     $('#stall_iframe').get(0).pause();
+//   });
+// });
+
+
+
+
+// Take Pictures Javascript
+var videoCapture;
+    $(document).ready(function () {
+        videoCapture = document.getElementById('capturevideo');
+    });
+    $(document).on('click', '#btnActivateCamera', function () {
+        if (navigator.mediaDevices && navigator.mediaDevices.getUserMedia) {
+            // access video stream from webcam
+            navigator.mediaDevices.getUserMedia({ video: true }).then(function (stream) {
+                // on success, stream it in video tag 
+                window.localStream = stream;
+                videoCapture.srcObject = stream;
+                videoCapture.play();
+                activateCamera();
+            }).catch(e => {
+                // on failure/error, alert message. 
+                alert("Please Allow: Use Your Camera!");
+            });
+        }
+    });
+    $(document).on('click', '#btnDeactivateCamera', function () {
+        // stop video streaming if any
+        localStream.getTracks().forEach(function (track) {
+            if (track.readyState == 'live' && track.kind === 'video') {
+                track.stop();
+                deactivateCamera();
+            }
+        });
+    });
+
+    $(document).on('click', '#btnCapture', function () {
+        document.getElementById('capturecanvas').getContext('2d').drawImage(videoCapture, 0, 0, 200, 200);
+
+        document.getElementById('capturecanvas1').getContext('2d').drawImage(videoCapture, 0, 0, 200, 200);
+        document.getElementById('capturecanvas2').getContext('2d').drawImage(videoCapture, 0, 0, 200, 200);
+        document.getElementById('capturecanvas3').getContext('2d').drawImage(videoCapture, 0, 0, 200, 200);
+    });
+
+// Take Pictures Javascript
+
+
+// 3 Short GIF
+
+const DEFAULT_RECORD_TEXT = 'Record a 2 seconds animated gif';
+let globalStream;
+
+navigator.mediaDevices.getUserMedia({
+  video: true,
+}).then(async function(stream) {
+
+  var video = document.querySelector('.video_gif');
+
+  video.srcObject = globalStream = stream;
+  video.onloadedmetadata = function(e) {
+    video.play();
+    document.querySelector('button').innerText = DEFAULT_RECORD_TEXT;
+  };
+});
+
+let recording = false;
+
+function snap() {
+  var video = document.querySelector('.video_gif');
+  var canvas = document.createElement("canvas");
+  const coefficient = 360/video.videoWidth;
+  canvas.width = video.videoWidth*coefficient;
+  canvas.height = video.videoHeight*coefficient;
+
+  canvas.getContext('2d').drawImage(video, 0, 0, video.videoWidth, video.videoHeight, 0, 0, canvas.width, canvas.height);
+  return canvas.getContext('2d');
+}
+
+function record() {
+  if(!globalStream || recording) return;
+
+  recording = true;
+  document.querySelector('button').innerText = 'Get ready to record...';
+  
+  var encoder = new GIFEncoder();
+  encoder.setRepeat(0);
+  encoder.setDelay(100);
+  encoder.start();
+
+  document
+    .querySelector('button')
+    .innerText = 'Recording... (2 seconds left)';
+  setTimeout(() => {
+    document
+      .querySelector('button')
+      .innerText = 'Recording... (1 seconds left)';
+  }, 1000);
+
+  let frames = 20;
+  encoder.addFrame(snap());
+  frames--;
+  let inter = setInterval(() => {
+    encoder.addFrame(snap());
+    frames--;
+    if(frames<=0) {
+      clearInterval(inter);
+      encoder.finish();
+      document
+        .querySelector('button')
+        .innerText = DEFAULT_RECORD_TEXT;
+      recording = false;
+      var binary_gif = encoder.stream().getData();
+      var data_url = 'data:image/gif;base64,'+encode64(binary_gif);
+      document.querySelector('#preview').innerHTML = `<a href=${data_url} download="gifit.gif" titl="Click to download the gif!"><img src="${data_url}"/></a>`;
+      document.querySelector('#preview1').innerHTML = `<a href=${data_url} download="gifit.gif" titl="Click to download the gif!"><img src="${data_url}"/></a>`;
+      document.querySelector('#preview2').innerHTML = `<a href=${data_url} download="gifit.gif" titl="Click to download the gif!"><img src="${data_url}"/></a>`;
+    }
+  }, 100);
+}
+// 3 Short GIF

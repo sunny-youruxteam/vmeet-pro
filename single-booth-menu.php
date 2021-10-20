@@ -1,3 +1,18 @@
+<!-- <div class="help_menu_div">
+	<div class="help_status_now">
+		<svg width="24" height="22" viewBox="0 0 24 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+			<path d="M12 5.62195C13.4667 5.62195 14.6667 4.46951 14.6667 3.06098C14.6667 1.65244 13.4667 0.5 12 0.5C10.5333 0.5 9.33333 1.65244 9.33333 3.06098C9.33333 4.46951 10.5333 5.62195 12 5.62195ZM12 1.52439C12.88 1.52439 13.6 2.21585 13.6 3.06098C13.6 3.9061 12.88 4.59756 12 4.59756C11.12 4.59756 10.4 3.9061 10.4 3.06098C10.4 2.21585 11.12 1.52439 12 1.52439ZM21.8667 9.71951H17.6V8.95122C17.6 7.95244 16.7733 7.15854 15.7333 7.15854H8.26667C7.22667 7.15854 6.4 7.95244 6.4 8.95122V9.71951H2.13333C0.96 9.71951 0 10.6415 0 11.7683V20.9878C0 21.2695 0.24 21.5 0.533333 21.5H23.4667C23.76 21.5 24 21.2695 24 20.9878V11.7683C24 10.6415 23.04 9.71951 21.8667 9.71951ZM7.46667 8.95122C7.46667 8.51585 7.81333 8.18293 8.26667 8.18293H15.7333C16.1867 8.18293 16.5333 8.51585 16.5333 8.95122V9.71951H7.46667V8.95122ZM2.13333 10.7439H6.93333H17.0667H21.8667C22.4533 10.7439 22.9333 11.2049 22.9333 11.7683V12.2805H1.06667V11.7683C1.06667 11.2049 1.54667 10.7439 2.13333 10.7439ZM1.06667 20.4756V13.3049H22.9333V20.4756H1.06667Z" fill="white"/>
+		</svg>
+		<h5>How i can help you?</h5>
+	</div>
+	<a href="#." data-mdb-toggle="modal" data-mdb-target="#Group_chat">
+		<svg width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+			<circle cx="24" cy="24" r="24" fill="#4DD4F1"/>
+			<path d="M32 14H16C14.9 14 14 14.9 14 16V34L18 30H32C33.1 30 34 29.1 34 28V16C34 14.9 33.1 14 32 14Z" fill="white"/>
+		</svg>
+	</a>
+</div> -->
+
 <div class="fix_menu d-flex justify-content-center">
 	<div class="bottom_menu">
 		<ul>
@@ -90,6 +105,25 @@
 				</small>
 			</li>		
 			<li>
+				<a href="#." data-mdb-toggle="modal" data-mdb-target="#Group_chat">
+					<div class="help_status_now">
+						<div class="help_status_now_inr">
+							<svg width="24" height="22" viewBox="0 0 24 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+								<path d="M12 5.62195C13.4667 5.62195 14.6667 4.46951 14.6667 3.06098C14.6667 1.65244 13.4667 0.5 12 0.5C10.5333 0.5 9.33333 1.65244 9.33333 3.06098C9.33333 4.46951 10.5333 5.62195 12 5.62195ZM12 1.52439C12.88 1.52439 13.6 2.21585 13.6 3.06098C13.6 3.9061 12.88 4.59756 12 4.59756C11.12 4.59756 10.4 3.9061 10.4 3.06098C10.4 2.21585 11.12 1.52439 12 1.52439ZM21.8667 9.71951H17.6V8.95122C17.6 7.95244 16.7733 7.15854 15.7333 7.15854H8.26667C7.22667 7.15854 6.4 7.95244 6.4 8.95122V9.71951H2.13333C0.96 9.71951 0 10.6415 0 11.7683V20.9878C0 21.2695 0.24 21.5 0.533333 21.5H23.4667C23.76 21.5 24 21.2695 24 20.9878V11.7683C24 10.6415 23.04 9.71951 21.8667 9.71951ZM7.46667 8.95122C7.46667 8.51585 7.81333 8.18293 8.26667 8.18293H15.7333C16.1867 8.18293 16.5333 8.51585 16.5333 8.95122V9.71951H7.46667V8.95122ZM2.13333 10.7439H6.93333H17.0667H21.8667C22.4533 10.7439 22.9333 11.2049 22.9333 11.7683V12.2805H1.06667V11.7683C1.06667 11.2049 1.54667 10.7439 2.13333 10.7439ZM1.06667 20.4756V13.3049H22.9333V20.4756H1.06667Z" fill="white"/>
+							</svg>
+							<h5>How i can help you?</h5>
+						</div>
+					</div>
+					<svg class="normal_svg" width="20" height="21" viewBox="0 0 20 21" fill="none" xmlns="http://www.w3.org/2000/svg">
+						<path opacity="0.3" d="M17.5 13C17.5 13.442 17.3244 13.866 17.0118 14.1785C16.6993 14.4911 16.2754 14.6667 15.8333 14.6667H5.83333L2.5 18V4.66667C2.5 4.22464 2.67559 3.80072 2.98816 3.48816C3.30072 3.17559 3.72464 3 4.16667 3H15.8333C16.2754 3 16.6993 3.17559 17.0118 3.48816C17.3244 3.80072 17.5 4.22464 17.5 4.66667V13Z" stroke="#625A6A" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+					</svg>
+					<svg class="active_svg" width="20" height="21" viewBox="0 0 18 17" fill="none" xmlns="http://www.w3.org/2000/svg">
+						<path d="M16.3333 11C16.3333 11.442 16.1577 11.866 15.8451 12.1785C15.5325 12.4911 15.1086 12.6667 14.6666 12.6667H4.66659L1.33325 16V2.66667C1.33325 2.22464 1.50885 1.80072 1.82141 1.48816C2.13397 1.17559 2.55789 1 2.99992 1H14.6666C15.1086 1 15.5325 1.17559 15.8451 1.48816C16.1577 1.80072 16.3333 2.22464 16.3333 2.66667V11Z" stroke="#4DC0F1" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+					</svg>
+					Meet
+				</a>
+			</li>
+			<li>
 				<a href="#." >
 					<svg class="normal_svg" width="19" height="20" viewBox="0 0 19 20" fill="none" xmlns="http://www.w3.org/2000/svg">
 						<g opacity="0.3" clip-path="url(#clip0)">
@@ -111,23 +145,11 @@
 						<rect width="18.3333" height="20" fill="white"/>
 						</clipPath>
 						</defs>
-						</svg>
-
-
+					</svg>
 					WhatsApp
 				</a>
 			</li>
-			<li>
-				<a href="#." data-mdb-toggle="modal" data-mdb-target="#meet">
-					<svg class="normal_svg" width="20" height="21" viewBox="0 0 20 21" fill="none" xmlns="http://www.w3.org/2000/svg">
-						<path opacity="0.3" d="M17.5 13C17.5 13.442 17.3244 13.866 17.0118 14.1785C16.6993 14.4911 16.2754 14.6667 15.8333 14.6667H5.83333L2.5 18V4.66667C2.5 4.22464 2.67559 3.80072 2.98816 3.48816C3.30072 3.17559 3.72464 3 4.16667 3H15.8333C16.2754 3 16.6993 3.17559 17.0118 3.48816C17.3244 3.80072 17.5 4.22464 17.5 4.66667V13Z" stroke="#625A6A" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-					</svg>
-					<svg class="active_svg" width="20" height="21" viewBox="0 0 18 17" fill="none" xmlns="http://www.w3.org/2000/svg">
-						<path d="M16.3333 11C16.3333 11.442 16.1577 11.866 15.8451 12.1785C15.5325 12.4911 15.1086 12.6667 14.6666 12.6667H4.66659L1.33325 16V2.66667C1.33325 2.22464 1.50885 1.80072 1.82141 1.48816C2.13397 1.17559 2.55789 1 2.99992 1H14.6666C15.1086 1 15.5325 1.17559 15.8451 1.48816C16.1577 1.80072 16.3333 2.22464 16.3333 2.66667V11Z" stroke="#4DC0F1" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-					</svg>
-					Meet
-				</a>
-			</li>
+			
 			<li>
 				<div class="dropdown">
 					<a class="dropdown-toggle" type="button" id="dropdownMenuButton" data-mdb-toggle="dropdown" aria-expanded="false"> 
@@ -168,8 +190,8 @@
 			<div class="popup_header">
 				<div class="popup_head_inr single_popup_header d-flex align-items-center justify-content-between">
 					<div class="title all_caps d-flex align-items-center">
-						<a href="#.">
-							<svg width="9" height="14" viewBox="0 0 9 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+						<a href="#." data-mdb-dismiss="modal">
+							<svg class="RotedIcon" width="9" height="14" viewBox="0 0 9 14" fill="none" xmlns="http://www.w3.org/2000/svg">
 								<path d="M8 1L2 7L8 13" stroke="#DB604B" stroke-width="1.5"></path>
 							</svg>
 						</a>
@@ -269,8 +291,8 @@
 				<div class="pofile_details_mini_header">
 					<div class="modal-header speakers_zone_popup  d-flex flex-wrap align-items-start">
 						<div class="chats_pofile_box_details d-flex align-items-center">
-							<a href="#." data-mdb-dismiss="modal" aria-label="Close"  data-mdb-toggle="modal" data-mdb-target="#meet">
-								<svg width="9" height="14" viewBox="0 0 9 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+							<a href="#." data-mdb-dismiss="modal" aria-label="Close"  data-mdb-toggle="modal" data-mdb-target="#Group_chat">
+								<svg class="RotedIcon" width="9" height="14" viewBox="0 0 9 14" fill="none" xmlns="http://www.w3.org/2000/svg">
 									<path d="M8 1L2 7L8 13" stroke="#DB604B" stroke-width="1.5"/>
 								</svg>
 							</a>
@@ -782,3 +804,463 @@
 <!-- Products Popup -->
 <!-- Popup Start  -->
   
+
+
+
+
+<!-- Group_chat -->
+<div class="modal Menu_popup fade" id="Group_chat" tabindex="-1" aria-labelledby="Group_chatLabel" aria-hidden="true">
+	<div class="modal-dialog modal-dialog-centered modal_speakers_popup">
+		<div class="modal-content">
+			<div class="popup_header">
+				<div class="popup_head_inr d-flex align-items-center justify-content-between">
+					<div class="title all_caps d-flex align-items-center">
+						<a href="#." class="mr-10" data-mdb-dismiss="modal" aria-label="Close" data-mdb-toggle="modal" data-mdb-target="#Contests1">
+							<svg class="RotedIcon" width="9" height="14" viewBox="0 0 9 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+								<path d="M7.5 1L1.5 7L7.5 13" stroke="#DB604B" stroke-width="1.5"></path>
+							</svg>
+						</a>
+						Meet
+					</div>
+					<div class="popup_right_head d-flex justify-content-end align-items-center">
+						<a href="#." class="ml-20" data-mdb-dismiss="modal" aria-label="Close">
+							<svg width="12" height="12" viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+								<path d="M11 1L1 11M1 1L11 11" stroke="#656185" stroke-width="1.5"/>
+							</svg>
+						</a>
+					</div>
+				</div>
+				<div class="participants_tabs_box nav_tabbing_why ">
+					<ul class="tabs_nav_box nav p-0 d-flex">
+					    <li class="nav-item">
+							<a href="#why1" class="nav-link active">Representatives</a>
+						</li>
+						<li class="nav-item" role="presentation">
+							<a href="#why2" class="nav-link">Group Chat</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+			<div class="participants_content tab-content" id="tabs-content" >
+				<div class="content_why_img_otr active" id="why1">
+					<div class="meet_otr scroll_bar_box">
+						<div class="BoardroomTableBox">
+							<div class="boardroom_upper">
+								<div class="boardroom_inr_outer">
+									<div class="top_box_boardroom">
+										<div class="boardroom_halls_member_item">
+											<svg width="46" height="44" viewBox="0 0 46 44" fill="none" xmlns="http://www.w3.org/2000/svg">
+												<path d="M40.3691 11.8418L37.1342 14.2538" stroke="#8491AA" stroke-width="2"></path>
+												<path d="M8.31158 15.5215L5.10132 13.0767" stroke="#7D8D9E" stroke-width="2"></path>
+												<path fill-rule="evenodd" clip-rule="evenodd" d="M44.893 16.7458C43.9825 17.1776 42.8943 16.7895 42.4625 15.879C34.7296 -0.427262 11.5258 -0.427263 3.79291 15.879C3.36111 16.7895 2.27294 17.1776 1.36242 16.7458C0.451892 16.314 0.063804 15.2258 0.495597 14.3153C9.54718 -4.77176 36.7082 -4.77176 45.7598 14.3153C46.1916 15.2258 45.8035 16.314 44.893 16.7458Z" fill="url(#paint0_linear)"></path>
+												<path d="M4.42677 25.5638C4.93734 15.6076 13.1588 7.79688 23.1282 7.79688C33.0976 7.79688 41.3191 15.6076 41.8296 25.5638L42.6294 41.1596C42.6913 42.3657 41.73 43.3775 40.5224 43.3775H5.73404C4.52637 43.3775 3.56513 42.3657 3.62698 41.1596L4.42677 25.5638Z" fill="url(#paint1_linear)"></path>
+												<defs>
+												<linearGradient id="paint0_linear" x1="45.9362" y1="8.46109" x2="0.319183" y2="8.46109" gradientUnits="userSpaceOnUse">
+												<stop stop-color="#748098"></stop>
+												<stop offset="1" stop-color="#A8B4C1"></stop>
+												</linearGradient>
+												<linearGradient id="paint1_linear" x1="23.1282" y1="7.79688" x2="23.1282" y2="43.3775" gradientUnits="userSpaceOnUse">
+												<stop stop-color="white"></stop>
+												<stop offset="1" stop-color="#CBCED7"></stop>
+												</linearGradient>
+												</defs>
+											</svg>
+											<div class="boardroom_halls_member_item_img">
+												<img src="img/boardroom_halls_member_join.jpg" alt="">
+											</div>		
+										</div>
+									</div>
+									<div class="center_boardroom_box">
+										<div class="top_box_boardroom top_left_boardroom">
+											<div class="boardroom_halls_member_item">
+												<svg width="46" height="44" viewBox="0 0 46 44" fill="none" xmlns="http://www.w3.org/2000/svg">
+													<path d="M40.3691 11.8418L37.1342 14.2538" stroke="#8491AA" stroke-width="2"></path>
+													<path d="M8.31158 15.5215L5.10132 13.0767" stroke="#7D8D9E" stroke-width="2"></path>
+													<path fill-rule="evenodd" clip-rule="evenodd" d="M44.893 16.7458C43.9825 17.1776 42.8943 16.7895 42.4625 15.879C34.7296 -0.427262 11.5258 -0.427263 3.79291 15.879C3.36111 16.7895 2.27294 17.1776 1.36242 16.7458C0.451892 16.314 0.063804 15.2258 0.495597 14.3153C9.54718 -4.77176 36.7082 -4.77176 45.7598 14.3153C46.1916 15.2258 45.8035 16.314 44.893 16.7458Z" fill="url(#paint0_linear)"></path>
+													<path d="M4.42677 25.5638C4.93734 15.6076 13.1588 7.79688 23.1282 7.79688C33.0976 7.79688 41.3191 15.6076 41.8296 25.5638L42.6294 41.1596C42.6913 42.3657 41.73 43.3775 40.5224 43.3775H5.73404C4.52637 43.3775 3.56513 42.3657 3.62698 41.1596L4.42677 25.5638Z" fill="url(#paint1_linear)"></path>
+													<defs>
+													<linearGradient id="paint0_linear" x1="45.9362" y1="8.46109" x2="0.319183" y2="8.46109" gradientUnits="userSpaceOnUse">
+													<stop stop-color="#748098"></stop>
+													<stop offset="1" stop-color="#A8B4C1"></stop>
+													</linearGradient>
+													<linearGradient id="paint1_linear" x1="23.1282" y1="7.79688" x2="23.1282" y2="43.3775" gradientUnits="userSpaceOnUse">
+													<stop stop-color="white"></stop>
+													<stop offset="1" stop-color="#CBCED7"></stop>
+													</linearGradient>
+													</defs>
+												</svg>
+												<div class="boardroom_halls_member_item_img">
+													<img src="img/boardroom_halls_member_join.jpg " alt="">
+												</div>		
+											</div>
+										</div>
+										<div class="top_box_boardroom top_right_boardroom">
+											<div class="boardroom_halls_member_item">
+												<svg width="46" height="44" viewBox="0 0 46 44" fill="none" xmlns="http://www.w3.org/2000/svg">
+													<path d="M40.3691 11.8418L37.1342 14.2538" stroke="#8491AA" stroke-width="2"></path>
+													<path d="M8.31158 15.5215L5.10132 13.0767" stroke="#7D8D9E" stroke-width="2"></path>
+													<path fill-rule="evenodd" clip-rule="evenodd" d="M44.893 16.7458C43.9825 17.1776 42.8943 16.7895 42.4625 15.879C34.7296 -0.427262 11.5258 -0.427263 3.79291 15.879C3.36111 16.7895 2.27294 17.1776 1.36242 16.7458C0.451892 16.314 0.063804 15.2258 0.495597 14.3153C9.54718 -4.77176 36.7082 -4.77176 45.7598 14.3153C46.1916 15.2258 45.8035 16.314 44.893 16.7458Z" fill="url(#paint0_linear)"></path>
+													<path d="M4.42677 25.5638C4.93734 15.6076 13.1588 7.79688 23.1282 7.79688C33.0976 7.79688 41.3191 15.6076 41.8296 25.5638L42.6294 41.1596C42.6913 42.3657 41.73 43.3775 40.5224 43.3775H5.73404C4.52637 43.3775 3.56513 42.3657 3.62698 41.1596L4.42677 25.5638Z" fill="url(#paint1_linear)"></path>
+													<defs>
+													<linearGradient id="paint0_linear" x1="45.9362" y1="8.46109" x2="0.319183" y2="8.46109" gradientUnits="userSpaceOnUse">
+													<stop stop-color="#748098"></stop>
+													<stop offset="1" stop-color="#A8B4C1"></stop>
+													</linearGradient>
+													<linearGradient id="paint1_linear" x1="23.1282" y1="7.79688" x2="23.1282" y2="43.3775" gradientUnits="userSpaceOnUse">
+													<stop stop-color="white"></stop>
+													<stop offset="1" stop-color="#CBCED7"></stop>
+													</linearGradient>
+													</defs>
+												</svg>
+												<div class="<!-- boardroom_halls_member_item_img">
+													<img src="img/boardroom_halls_member_join.jpg" alt="">
+												</div>		
+											</div>
+										</div>
+									</div>
+									<div class="top_box_boardroom bottom_box_boardroom">
+										<div class="boardroom_halls_member_item">
+											<svg width="46" height="44" viewBox="0 0 46 44" fill="none" xmlns="http://www.w3.org/2000/svg">
+												<path d="M40.3691 11.8418L37.1342 14.2538" stroke="#8491AA" stroke-width="2"></path>
+												<path d="M8.31158 15.5215L5.10132 13.0767" stroke="#7D8D9E" stroke-width="2"></path>
+												<path fill-rule="evenodd" clip-rule="evenodd" d="M44.893 16.7458C43.9825 17.1776 42.8943 16.7895 42.4625 15.879C34.7296 -0.427262 11.5258 -0.427263 3.79291 15.879C3.36111 16.7895 2.27294 17.1776 1.36242 16.7458C0.451892 16.314 0.063804 15.2258 0.495597 14.3153C9.54718 -4.77176 36.7082 -4.77176 45.7598 14.3153C46.1916 15.2258 45.8035 16.314 44.893 16.7458Z" fill="url(#paint0_linear)"></path>
+												<path d="M4.42677 25.5638C4.93734 15.6076 13.1588 7.79688 23.1282 7.79688C33.0976 7.79688 41.3191 15.6076 41.8296 25.5638L42.6294 41.1596C42.6913 42.3657 41.73 43.3775 40.5224 43.3775H5.73404C4.52637 43.3775 3.56513 42.3657 3.62698 41.1596L4.42677 25.5638Z" fill="url(#paint1_linear)"></path>
+												<defs>
+												<linearGradient id="paint0_linear" x1="45.9362" y1="8.46109" x2="0.319183" y2="8.46109" gradientUnits="userSpaceOnUse">
+												<stop stop-color="#748098"></stop>
+												<stop offset="1" stop-color="#A8B4C1"></stop>
+												</linearGradient>
+												<linearGradient id="paint1_linear" x1="23.1282" y1="7.79688" x2="23.1282" y2="43.3775" gradientUnits="userSpaceOnUse">
+												<stop stop-color="white"></stop>
+												<stop offset="1" stop-color="#CBCED7"></stop>
+												</linearGradient>
+												</defs>
+											</svg>
+											<div class="boardroom_halls_member_item_img">
+												<img src="img/boardroom_halls_member_join.jpg" alt="">
+											</div>		
+										</div>
+									</div>
+									<div class="boardroom_bg_box">
+										<div class="boardroom_text_box">
+											<a href="#." class="blue_btn">Join</a>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="meet_available">
+							<div class="all_caps">
+								Available Representatives
+							</div>
+							<a href="#." class="meet_box" data-mdb-dismiss="modal" aria-label="Close" data-mdb-toggle="modal" data-mdb-target="#meet_chat">
+								<div class="meet_img">
+									<img src="img/representatives_img.png" alt="">
+								</div>
+								<div class="meet_text d-flex align-items-center justify-content-between pr-30">
+									<div class="MeetGroupLeft">
+										<h4>Arlene McCoy</h4>
+										<small>General Manager, Dell</small>
+									</div>
+									<div class="MeetGroupRight">
+										<div class="MeetGroupIconbox">
+											<span class="Video_icon ml-20">
+												<svg width="21" height="14" viewBox="0 0 21 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+													<path d="M19.3071 2.71558L13.5798 7.00129L19.3071 11.287V2.71558Z" stroke="#4DC0F1" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+													<path d="M11.9435 1H2.94349C2.03975 1 1.30713 1.76751 1.30713 2.71429V11.2857C1.30713 12.2325 2.03975 13 2.94349 13H11.9435C12.8472 13 13.5799 12.2325 13.5799 11.2857V2.71429C13.5799 1.76751 12.8472 1 11.9435 1Z" stroke="#4DC0F1" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+												</svg>
+											</span>
+											<span class="Card_name_Details_icon ml-20">
+												<svg width="21" height="14" viewBox="0 0 21 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+													<rect x="1.30713" y="1" width="18" height="12" rx="2" stroke="#4DC0F1" stroke-width="2"/>
+													<path d="M7.28723 5.5C7.28723 6.07172 6.84733 6.5 6.34723 6.5C5.84712 6.5 5.40723 6.07172 5.40723 5.5C5.40723 4.92828 5.84712 4.5 6.34723 4.5C6.84733 4.5 7.28723 4.92828 7.28723 5.5Z" stroke="#4DC0F1"/>
+													<path d="M6.11558 8.25H6.57844C7.30694 8.25 7.90808 8.7953 7.99596 9.5H4.69806C4.78594 8.7953 5.38708 8.25 6.11558 8.25Z" stroke="#4DC0F1"/>
+													<rect x="10.9485" y="5.03125" width="4.4375" height="0.5625" rx="0.28125" fill="white" stroke="#4DC0F1" stroke-width="0.5625"/>
+													<rect x="10.9485" y="8.03125" width="4.4375" height="0.5625" rx="0.28125" fill="white" stroke="#4DC0F1" stroke-width="0.5625"/>
+												</svg>
+											</span>
+										</div>
+									</div>
+								</div>	
+							</a>
+							<a href="#." class="meet_box" data-mdb-dismiss="modal" aria-label="Close" data-mdb-toggle="modal" data-mdb-target="#meet_chat">
+								<div class="meet_img">
+									<img src="img/representatives_img.png" alt="">
+								</div>
+								<div class="meet_text d-flex align-items-center justify-content-between pr-30">
+									<div class="MeetGroupLeft">
+										<h4>Arlene McCoy</h4>
+										<small>General Manager, Dell</small>
+									</div>
+									<div class="MeetGroupRight">
+										<div class="MeetGroupIconbox">
+											<span class="Video_icon ml-20">
+												<svg width="21" height="14" viewBox="0 0 21 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+													<path d="M19.3071 2.71558L13.5798 7.00129L19.3071 11.287V2.71558Z" stroke="#4DC0F1" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+													<path d="M11.9435 1H2.94349C2.03975 1 1.30713 1.76751 1.30713 2.71429V11.2857C1.30713 12.2325 2.03975 13 2.94349 13H11.9435C12.8472 13 13.5799 12.2325 13.5799 11.2857V2.71429C13.5799 1.76751 12.8472 1 11.9435 1Z" stroke="#4DC0F1" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+												</svg>
+											</span>
+											<span class="Card_name_Details_icon ml-20">
+												<svg width="21" height="14" viewBox="0 0 21 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+													<rect x="1.30713" y="1" width="18" height="12" rx="2" stroke="#4DC0F1" stroke-width="2"/>
+													<path d="M7.28723 5.5C7.28723 6.07172 6.84733 6.5 6.34723 6.5C5.84712 6.5 5.40723 6.07172 5.40723 5.5C5.40723 4.92828 5.84712 4.5 6.34723 4.5C6.84733 4.5 7.28723 4.92828 7.28723 5.5Z" stroke="#4DC0F1"/>
+													<path d="M6.11558 8.25H6.57844C7.30694 8.25 7.90808 8.7953 7.99596 9.5H4.69806C4.78594 8.7953 5.38708 8.25 6.11558 8.25Z" stroke="#4DC0F1"/>
+													<rect x="10.9485" y="5.03125" width="4.4375" height="0.5625" rx="0.28125" fill="white" stroke="#4DC0F1" stroke-width="0.5625"/>
+													<rect x="10.9485" y="8.03125" width="4.4375" height="0.5625" rx="0.28125" fill="white" stroke="#4DC0F1" stroke-width="0.5625"/>
+												</svg>
+											</span>
+										</div>
+									</div>
+								</div>	
+							</a>
+							<a href="#." class="meet_box" data-mdb-dismiss="modal" aria-label="Close" data-mdb-toggle="modal" data-mdb-target="#meet_chat">
+								<div class="meet_img">
+									<img src="img/representatives_img.png" alt="">
+								</div>
+								<div class="meet_text d-flex align-items-center justify-content-between pr-30">
+									<div class="MeetGroupLeft">
+										<h4>Arlene McCoy</h4>
+										<small>General Manager, Dell</small>
+									</div>
+									<div class="MeetGroupRight">
+										<div class="MeetGroupIconbox">
+											<span class="Video_icon ml-20">
+												<svg width="21" height="14" viewBox="0 0 21 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+													<path d="M19.3071 2.71558L13.5798 7.00129L19.3071 11.287V2.71558Z" stroke="#4DC0F1" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+													<path d="M11.9435 1H2.94349C2.03975 1 1.30713 1.76751 1.30713 2.71429V11.2857C1.30713 12.2325 2.03975 13 2.94349 13H11.9435C12.8472 13 13.5799 12.2325 13.5799 11.2857V2.71429C13.5799 1.76751 12.8472 1 11.9435 1Z" stroke="#4DC0F1" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+												</svg>
+											</span>
+											<span class="Card_name_Details_icon ml-20">
+												<svg width="21" height="14" viewBox="0 0 21 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+													<rect x="1.30713" y="1" width="18" height="12" rx="2" stroke="#4DC0F1" stroke-width="2"/>
+													<path d="M7.28723 5.5C7.28723 6.07172 6.84733 6.5 6.34723 6.5C5.84712 6.5 5.40723 6.07172 5.40723 5.5C5.40723 4.92828 5.84712 4.5 6.34723 4.5C6.84733 4.5 7.28723 4.92828 7.28723 5.5Z" stroke="#4DC0F1"/>
+													<path d="M6.11558 8.25H6.57844C7.30694 8.25 7.90808 8.7953 7.99596 9.5H4.69806C4.78594 8.7953 5.38708 8.25 6.11558 8.25Z" stroke="#4DC0F1"/>
+													<rect x="10.9485" y="5.03125" width="4.4375" height="0.5625" rx="0.28125" fill="white" stroke="#4DC0F1" stroke-width="0.5625"/>
+													<rect x="10.9485" y="8.03125" width="4.4375" height="0.5625" rx="0.28125" fill="white" stroke="#4DC0F1" stroke-width="0.5625"/>
+												</svg>
+											</span>
+										</div>
+									</div>
+								</div>	
+							</a>
+						</div>
+						<div class="meet_available">
+							<div class="all_caps">
+								Available Representatives
+							</div>
+							<a href="#." class="meet_box" data-mdb-dismiss="modal" aria-label="Close" data-mdb-toggle="modal" data-mdb-target="#meet_chat">
+								<div class="meet_img">
+									<img src="img/representatives_img.png" alt="">
+								</div>
+								<div class="meet_text d-flex align-items-center justify-content-between pr-30">
+									<div class="MeetGroupLeft">
+										<h4>Arlene McCoy</h4>
+										<small>General Manager, Dell</small>
+									</div>
+									<div class="MeetGroupRight">
+										<div class="MeetGroupIconbox">
+											<span class="Video_icon ml-20">
+												<svg width="21" height="14" viewBox="0 0 21 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+													<path d="M19.3071 2.71558L13.5798 7.00129L19.3071 11.287V2.71558Z" stroke="#4DC0F1" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+													<path d="M11.9435 1H2.94349C2.03975 1 1.30713 1.76751 1.30713 2.71429V11.2857C1.30713 12.2325 2.03975 13 2.94349 13H11.9435C12.8472 13 13.5799 12.2325 13.5799 11.2857V2.71429C13.5799 1.76751 12.8472 1 11.9435 1Z" stroke="#4DC0F1" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+												</svg>
+											</span>
+											<span class="Card_name_Details_icon ml-20">
+												<svg width="21" height="14" viewBox="0 0 21 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+													<rect x="1.30713" y="1" width="18" height="12" rx="2" stroke="#4DC0F1" stroke-width="2"/>
+													<path d="M7.28723 5.5C7.28723 6.07172 6.84733 6.5 6.34723 6.5C5.84712 6.5 5.40723 6.07172 5.40723 5.5C5.40723 4.92828 5.84712 4.5 6.34723 4.5C6.84733 4.5 7.28723 4.92828 7.28723 5.5Z" stroke="#4DC0F1"/>
+													<path d="M6.11558 8.25H6.57844C7.30694 8.25 7.90808 8.7953 7.99596 9.5H4.69806C4.78594 8.7953 5.38708 8.25 6.11558 8.25Z" stroke="#4DC0F1"/>
+													<rect x="10.9485" y="5.03125" width="4.4375" height="0.5625" rx="0.28125" fill="white" stroke="#4DC0F1" stroke-width="0.5625"/>
+													<rect x="10.9485" y="8.03125" width="4.4375" height="0.5625" rx="0.28125" fill="white" stroke="#4DC0F1" stroke-width="0.5625"/>
+												</svg>
+											</span>
+										</div>
+									</div>
+								</div>	
+							</a>
+							<a href="#." class="meet_box" data-mdb-dismiss="modal" aria-label="Close" data-mdb-toggle="modal" data-mdb-target="#meet_chat">
+								<div class="meet_img">
+									<img src="img/representatives_img.png" alt="">
+								</div>
+								<div class="meet_text d-flex align-items-center justify-content-between pr-30">
+									<div class="MeetGroupLeft">
+										<h4>Arlene McCoy</h4>
+										<small>General Manager, Dell</small>
+									</div>
+									<div class="MeetGroupRight">
+										<div class="MeetGroupIconbox">
+											<span class="Video_icon ml-20">
+												<svg width="21" height="14" viewBox="0 0 21 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+													<path d="M19.3071 2.71558L13.5798 7.00129L19.3071 11.287V2.71558Z" stroke="#4DC0F1" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+													<path d="M11.9435 1H2.94349C2.03975 1 1.30713 1.76751 1.30713 2.71429V11.2857C1.30713 12.2325 2.03975 13 2.94349 13H11.9435C12.8472 13 13.5799 12.2325 13.5799 11.2857V2.71429C13.5799 1.76751 12.8472 1 11.9435 1Z" stroke="#4DC0F1" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+												</svg>
+											</span>
+											<span class="Card_name_Details_icon ml-20">
+												<svg width="21" height="14" viewBox="0 0 21 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+													<rect x="1.30713" y="1" width="18" height="12" rx="2" stroke="#4DC0F1" stroke-width="2"/>
+													<path d="M7.28723 5.5C7.28723 6.07172 6.84733 6.5 6.34723 6.5C5.84712 6.5 5.40723 6.07172 5.40723 5.5C5.40723 4.92828 5.84712 4.5 6.34723 4.5C6.84733 4.5 7.28723 4.92828 7.28723 5.5Z" stroke="#4DC0F1"/>
+													<path d="M6.11558 8.25H6.57844C7.30694 8.25 7.90808 8.7953 7.99596 9.5H4.69806C4.78594 8.7953 5.38708 8.25 6.11558 8.25Z" stroke="#4DC0F1"/>
+													<rect x="10.9485" y="5.03125" width="4.4375" height="0.5625" rx="0.28125" fill="white" stroke="#4DC0F1" stroke-width="0.5625"/>
+													<rect x="10.9485" y="8.03125" width="4.4375" height="0.5625" rx="0.28125" fill="white" stroke="#4DC0F1" stroke-width="0.5625"/>
+												</svg>
+											</span>
+										</div>
+									</div>
+								</div>	
+							</a>
+							<a href="#." class="meet_box" data-mdb-dismiss="modal" aria-label="Close" data-mdb-toggle="modal" data-mdb-target="#meet_chat">
+								<div class="meet_img">
+									<img src="img/representatives_img.png" alt="">
+								</div>
+								<div class="meet_text d-flex align-items-center justify-content-between pr-30">
+									<div class="MeetGroupLeft">
+										<h4>Arlene McCoy</h4>
+										<small>General Manager, Dell</small>
+									</div>
+									<div class="MeetGroupRight">
+										<div class="MeetGroupIconbox">
+											<span class="Video_icon ml-20">
+												<svg width="21" height="14" viewBox="0 0 21 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+													<path d="M19.3071 2.71558L13.5798 7.00129L19.3071 11.287V2.71558Z" stroke="#4DC0F1" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+													<path d="M11.9435 1H2.94349C2.03975 1 1.30713 1.76751 1.30713 2.71429V11.2857C1.30713 12.2325 2.03975 13 2.94349 13H11.9435C12.8472 13 13.5799 12.2325 13.5799 11.2857V2.71429C13.5799 1.76751 12.8472 1 11.9435 1Z" stroke="#4DC0F1" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+												</svg>
+											</span>
+											<span class="Card_name_Details_icon ml-20">
+												<svg width="21" height="14" viewBox="0 0 21 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+													<rect x="1.30713" y="1" width="18" height="12" rx="2" stroke="#4DC0F1" stroke-width="2"/>
+													<path d="M7.28723 5.5C7.28723 6.07172 6.84733 6.5 6.34723 6.5C5.84712 6.5 5.40723 6.07172 5.40723 5.5C5.40723 4.92828 5.84712 4.5 6.34723 4.5C6.84733 4.5 7.28723 4.92828 7.28723 5.5Z" stroke="#4DC0F1"/>
+													<path d="M6.11558 8.25H6.57844C7.30694 8.25 7.90808 8.7953 7.99596 9.5H4.69806C4.78594 8.7953 5.38708 8.25 6.11558 8.25Z" stroke="#4DC0F1"/>
+													<rect x="10.9485" y="5.03125" width="4.4375" height="0.5625" rx="0.28125" fill="white" stroke="#4DC0F1" stroke-width="0.5625"/>
+													<rect x="10.9485" y="8.03125" width="4.4375" height="0.5625" rx="0.28125" fill="white" stroke="#4DC0F1" stroke-width="0.5625"/>
+												</svg>
+											</span>
+										</div>
+									</div>
+								</div>	
+							</a>
+						</div>
+					</div>
+				</div>
+				<div class="content_why_img_otr" id="why2">
+					<div class="participants_list_otr speaker_group_box">
+						<!-- <div class="title all_caps d-flex align-items-center">
+							<div class="caps_icon mr-10 d-flex">
+								<svg width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+									<path d="M10.4997 4.66634H9.91634V3.49968C9.91634 1.88967 8.60967 0.583008 6.99967 0.583008C5.38967 0.583008 4.08301 1.88967 4.08301 3.49968V4.66634H3.49967C2.85801 4.66634 2.33301 5.19134 2.33301 5.83301V11.6663C2.33301 12.308 2.85801 12.833 3.49967 12.833H10.4997C11.1413 12.833 11.6663 12.308 11.6663 11.6663V5.83301C11.6663 5.19134 11.1413 4.66634 10.4997 4.66634ZM6.99967 9.91634C6.35801 9.91634 5.83301 9.39134 5.83301 8.74968C5.83301 8.10801 6.35801 7.58301 6.99967 7.58301C7.64134 7.58301 8.16634 8.10801 8.16634 8.74968C8.16634 9.39134 7.64134 9.91634 6.99967 9.91634ZM8.80801 4.66634H5.19134V3.49968C5.19134 2.50217 6.00217 1.69134 6.99967 1.69134C7.99717 1.69134 8.80801 2.50217 8.80801 3.49968V4.66634Z" fill="#626571"></path>
+								</svg>
+							</div>
+							group chat
+							<small>12</small>
+						</div> -->
+						<a href="#." class="participants_list_box" data-mdb-toggle="modal" data-mdb-target="#meet_chat" data-mdb-dismiss="modal" aria-label="Close">
+							<div class="participants_left_box">
+								<div class="participants_img">
+									<img src="img/hall_content_img.png" alt="">
+								</div>
+								<div class="group_right_popup_box d-flex justify-content-between">
+									<div class="participants_name_details">
+										<h4>Floyd Miles</h4>
+										<small>Lacus, lectus tincidunt orci ipsum. Dapibus libero aliquet enim imperdiet bibendum duis.</small>
+									</div>
+									<div class="time_box">
+										11:35 AM
+									</div>
+								</div>
+							</div>
+						</a>
+						<a href="#." class="participants_list_box" data-mdb-toggle="modal" data-mdb-target="#meet_chat" data-mdb-dismiss="modal" aria-label="Close">
+							<div class="participants_left_box">
+								<div class="participants_img">
+									<img src="img/hall_content_img.png" alt="">
+								</div>
+								<div class="group_right_popup_box d-flex justify-content-between">
+									<div class="participants_name_details">
+										<h4>Floyd Miles</h4>
+										<small>Lacus, lectus tincidunt orci ipsum. Dapibus libero aliquet enim imperdiet bibendum duis.</small>
+									</div>
+									<div class="time_box">
+										11:35 AM
+									</div>
+								</div>
+							</div>
+						</a>
+						<a href="#." class="participants_list_box" data-mdb-toggle="modal" data-mdb-target="#meet_chat" data-mdb-dismiss="modal" aria-label="Close">
+							<div class="participants_left_box">
+								<div class="participants_img">
+									<img src="img/hall_content_img.png" alt="">
+								</div>
+								<div class="group_right_popup_box d-flex justify-content-between">
+									<div class="participants_name_details">
+										<h4>Floyd Miles</h4>
+										<small>Lacus, lectus tincidunt orci ipsum. Dapibus libero aliquet enim imperdiet bibendum duis.</small>
+									</div>
+									<div class="time_box">
+										11:35 AM
+									</div>
+								</div>
+							</div>
+						</a>
+						<a href="#." class="participants_list_box" data-mdb-toggle="modal" data-mdb-target="#meet_chat" data-mdb-dismiss="modal" aria-label="Close">
+							<div class="participants_left_box">
+								<div class="participants_img">
+									<img src="img/hall_content_img.png" alt="">
+								</div>
+								<div class="group_right_popup_box d-flex justify-content-between">
+									<div class="participants_name_details">
+										<h4>Floyd Miles</h4>
+										<small>Lacus, lectus tincidunt orci ipsum. Dapibus libero aliquet enim imperdiet bibendum duis.</small>
+									</div>
+									<div class="time_box">
+										11:35 AM
+									</div>
+								</div>
+							</div>
+						</a>
+						<a href="#." class="participants_list_box" data-mdb-toggle="modal" data-mdb-target="#meet_chat" data-mdb-dismiss="modal" aria-label="Close">
+							<div class="participants_left_box">
+								<div class="participants_img">
+									<img src="img/hall_content_img.png" alt="">
+								</div>
+								<div class="group_right_popup_box d-flex justify-content-between">
+									<div class="participants_name_details">
+										<h4>Floyd Miles</h4>
+										<small>Lacus, lectus tincidunt orci ipsum. Dapibus libero aliquet enim imperdiet bibendum duis.</small>
+									</div>
+									<div class="time_box">
+										11:35 AM
+									</div>
+								</div>
+							</div>
+						</a>
+					</div>
+					<div class="live_feed_chats">
+					<div class="typing_msg_field">
+						<div class="input_box input_type_msg">
+							<input type="text" placeholder="Type Message">
+						</div>
+						<div class="send_img">
+							<a href="#.">
+								<svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+									<g clip-path="url(#clip0)">
+										<path d="M7.29199 14.6758V18.5408C7.29199 18.8108 7.46532 19.0499 7.72199 19.1349C7.78616 19.1558 7.85199 19.1658 7.91699 19.1658C8.11199 19.1658 8.30032 19.0741 8.42032 18.9108L10.6811 15.8341L7.29199 14.6758Z" fill="#4DD4F1" />
+										<path d="M19.7375 0.115907C19.5459 -0.0199262 19.2942 -0.0382595 19.0859 0.0709072L0.33587 9.86258C0.114204 9.97841 -0.0166296 10.2151 0.00170373 10.4642C0.0208704 10.7142 0.186704 10.9276 0.422537 11.0084L5.63504 12.7901L16.7359 3.29841L8.14587 13.6476L16.8817 16.6334C16.9467 16.6551 17.015 16.6667 17.0834 16.6667C17.1967 16.6667 17.3092 16.6359 17.4084 16.5759C17.5667 16.4792 17.6742 16.3167 17.7017 16.1342L19.9934 0.717574C20.0275 0.484241 19.9292 0.252574 19.7375 0.115907Z" fill="#4DD4F1" />
+									</g>
+									<defs>
+										<clipPath id="clip0">
+											<rect width="20" height="20" fill="white" />
+										</clipPath>
+									</defs>
+								</svg>
+							</a>
+						</div>
+					</div>
+				</div>
+				</div>
+			</div>	
+		</div>
+	</div>
+</div>
+
+
+
+<!-- Group_chat -->

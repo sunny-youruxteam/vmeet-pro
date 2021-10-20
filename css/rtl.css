@@ -1,0 +1,448 @@
+
+.rtl { margin: 0; padding: 0; }
+.rtl .logo_power_inr_box img { margin: 0 10px 0 0; }
+.rtl .main_notification_box_inr { padding: 13px 16px 15px 38px; }
+.rtl a.main_notification_close { right: unset; left: 20px; }
+.rtl .landing_left { border-radius: 0; }
+.rtl .input_phone_number_country .input_phone_number { left: unset; right: 0; border: 0; border-left: 1px solid #dbe2f4; }
+.rtl .input_phone_number_country .input_phone_number select { background-position: center left; }
+.rtl .input_phone_number input { padding-left: 0; padding-right: 120px; }
+
+/* Home Index Html */
+.rtl .event_date_box { margin-left: 0; margin-right: 20px; }
+.rtl .event_details { padding: 0 150px 0 0; }
+.rtl .main_menu { margin: 0 auto 0 0; }
+.rtl .logo { left: unset; right: 30px; }
+.rtl .main_menu ul li a svg { margin-right: 0; margin-left: 7px; }
+.rtl .drop_down_arrow_head { margin: 0 7px 0 0 !important; }
+.rtl .bottom_menu ul li a svg { margin-right: 0; margin-left: 10px; }
+.rtl span.active_count { margin: 0 5px 0 0; }
+.rtl .pointer_feed { right: unset; left: -35px; }
+.rtl .pofile_box { margin: 0 23px 0 0; }
+.rtl .notification_popup { right: unset; left: -52px; }
+.rtl .notification_pofile:after { left: unset; right: 8px; }
+.rtl .NotificationCloseBox { margin-left: 0; margin-right: 15px; }
+.rtl .notification_pofile { margin-left: 0; margin-right: 10px; }
+.rtl .notification_content { padding: 0 20px 0 0; }
+.rtl .pofile_box .dropdown .dropdown-menu { margin: 15px 26px 0 0 !important; }
+/* Home Index Html */
+
+.rtl .dropdown .dropdown-item {
+	text-align: right;
+}
+.rtl .participants_img {
+    margin-right: 0;
+    margin-left: 12px;
+}
+.rtl .hall_videos_box {
+	left: 0;
+	right: 24%;
+}
+
+.rtl .back_btn_arrow {
+	left:calc(100% + 28px);
+	/* flex-direction: row-reverse; */
+}
+.rtl .single_booths_back_arrow a.back_btn_arrow {
+    left:calc(100% + 28px);
+    right:35px;
+}
+.rtl .back_btn_arrow .title_white {
+	padding: 0 10px 0 0;
+}
+.rtl .back_btn_arrow svg {
+    transform: rotate(180deg); margin: 0 0;}
+.rtl .participants_name_details .participants_status {
+	right: unset;
+	left: 6px;
+}
+
+.rtl .participants_tabs_box .tabs_nav_box li.nav-item a {
+	margin-right: 0;
+	margin-left: 16px;
+}
+/* Coman Space Class Changes Css */
+/* Ml */
+.rtl .ml-20 { margin-left: 0 !important; margin-right: 20px !important; }
+.rtl .ml-10 { margin-left:0 !important; margin-right: 10px !important;}
+
+/* Mr */
+.rtl .mr-10 { margin-right: 0 !important; margin-left: 10px !important;}
+
+
+
+/* Margin */
+.rtl .mr-30{ margin-right:0 !important; margin-left:30px !important;}
+.rtl .mr-20{ margin-right:0 !important; margin-left:20px !important;}
+.rtl .mr-10{ margin-right:0 !important; margin-left:10px !important;}
+.rtl .mr-5{  margin-right:0 !important; margin-left:5px !important;}
+
+.rtl .ml-30{ margin-left:0 !important; margin-right: 30px !important; }
+.rtl .ml-20{ margin-left:0 !important; margin-right: 20px !important; }
+.rtl .ml-10{ margin-left:0 !important; margin-right: 10px !important; }
+.rtl .ml-5 { margin-left:0 !important; margin-right: 5px !important; }
+/* Margin */
+
+/* Padding */
+.rtl .pr-30{ padding-right:0px !important; padding-left:30px !important;}
+.rtl .pr-20{ padding-right:0px !important; padding-left:20px !important;}
+.rtl .pr-10{ padding-right:0px !important; padding-left:10px !important;}
+.rtl .pr-15{ padding-right:0px !important; padding-left:15px !important}
+.rtl .pr-5 { padding-right:0px !important;  padding-left:5px !important;}
+
+.rtl .pl-30{ padding-left:0 !important; padding-left:30px !important;}
+.rtl .pl-20{ padding-left:0 !important; padding-left:20px !important;}
+.rtl .pl-10{ padding-left:0 !important; padding-left:10px !important;}
+.rtl .pl-5 { padding-left:0 !important; padding-left:5px !important;}
+.rtl .pl-15{ padding-left:0 !important; padding-left:15px !important;}
+/* Padding */
+
+
+
+
+/* Coman Space Class Changes Css */
+
+.rtl .text_box_info_popup {
+    padding-left: 0;
+    padding-right: 25px;
+}
+.rtl .textarea_pera{
+	padding:0 0 0 32px ;
+}
+.rtl .bottom_parts_box svg {
+    margin-right: 0;
+    margin-left: 17px !important;
+}
+.rtl .social_media a {
+	margin-left: 18px;	
+	margin-right: 0;	
+}
+
+.rtl .RotedIcon { transform: rotate(180deg);}
+.rtl .close_btn button.btn {
+	margin: 0 15px 0 0;
+}
+
+
+
+.rtl .content_filter_check_box .input_check_box input, .rtl .content_filter_check_box .input_check_box label::before  {
+	left: 0;
+	right: unset;
+}
+.rtl .content_filter_check_box .input_check_box label::after {
+    left: 3px;
+    right: unset;
+}
+
+
+.rtl .content_filter_check_box .input_check_box label {
+	padding-left: 30px;
+}
+.rtl .chats_inr_calls_box ul li a {
+	margin-right: 0;
+	margin-left: 15px;
+}
+
+.rtl .send_msg {
+	margin-right: 0;
+	margin-left: 8px;
+}
+
+.rtl .radio_btn .form-check-input {
+    margin: 0 0 0 17px !important;
+}
+.rtl .perc {
+	right: unset;
+	left: 0;
+}
+.rtl .contest_text_box {
+   padding: 0 16px 0 0;
+}
+
+.rtl .contests_box {
+    padding: 10px 23px 10px 43px;
+}
+
+.rtl .single_arrow {
+	right: unset;
+	left: 22px;
+	transform: rotate(180deg);
+}
+.rtl .next_previous_btn a, .rtl .next_previous_btn button {
+	margin-left: 0;
+	margin-right: 27px;
+}
+/* .rtl .conferene_zone .slick-track {
+    margin: 0 -10% 0 0;
+} */
+
+/*.rtl .conferene_zone_slider {
+	direction: rtl; 
+}
+.slick-slider .slick-track, .slick-slider .slick-list {
+    direction: rtl;
+}*/
+.rtl .conferene_zone .slick-track {
+    margin: 0 -10% 0 0%;
+}
+.rtl .open_accoudiuon svg {
+    margin-left: 0;
+    margin-right: 7px;
+} 
+
+.rtl .table_col:nth-child(5) {
+    text-align: left;
+}
+
+.rtl .hall_agenda_table_content_box, .rtl .top_hall_agenda_title {
+    padding-right: 56px;
+    padding-left: 20px;
+}
+.rtl .hall_list_content {
+    margin: 0 -56px 0 -20px;
+}
+.rtl .hall_list_content li {
+	padding-right:11px;
+	padding-left:unset;
+}
+.rtl .hall_list_content li:before {
+	left: unset;
+	right: 0;
+}
+
+.rtl .Close_pofile_details_open {
+	right: unset;
+	left: 14px;
+}
+
+.rtl .list_pofile_text {
+    padding: 0 16px 0 0;
+}
+
+.rtl .speakers_pofile_box .more_speakers_img span {
+    margin: 0 0 8px 8px !important;
+}
+
+.rtl .side_notes_sectin {
+    left: -290px;
+    right: unset;
+    }
+.rtl .tabs_box_side_notes {
+    right: -39px;
+    left: unset;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column-reverse;
+    bottom: 40px;
+}
+
+.rtl .tabs_box_side_notes li a {border-radius: 0 4px 4px 0;
+}
+
+
+.rtl .tabs_box_side_notes li.active a:after {
+    right: unset;
+    left: -2px;
+    transform: scaleX(-1);
+}
+.rtl .tabs_box_side_notes li.active a:before {
+    transform: scaleX(-1);
+    left: -2px;
+    right: unset;
+}
+
+.rtl .meet_box {
+    padding: 0 25px 0 0;
+}
+.rtl .meet_img {
+    margin-right: 0;
+    margin-left: 12px;
+}
+
+.rtl .brochure_popup .meet_img {
+    margin-right: 17px;
+}
+
+.rtl .brochure_popup {
+	margin-right: 0;
+	margin-left: 12px;
+}
+
+.rtl .brochure_popup .meet_box {
+    padding: 5px;
+}
+
+.rtl .videos_img {
+    margin-right: 0;
+    margin-left: 14px;
+}
+.rtl .videos_arrow_icon svg { transform: rotate(180deg);}
+.rtl .videos_popup span.ml-10 {
+    margin: 0 0 0 10px !important;
+}
+
+.rtl .top_right_boardroom svg {transform: rotate(-90deg);}
+.rtl .center_boardroom_box .top_right_boardroom .boardroom_halls_member_item_img {
+    left: -4px;
+    right: 0;
+}
+.rtl .top_left_boardroom svg  {transform: rotate(90deg);}
+.rtl .arrow_icon_speakers, .rtl .arrow_collection svg {transform: rotate(180deg);}
+.rtl .speakers_text_box {
+    padding: 17px 35px 7px 0;
+}
+.rtl .social_menu {
+	right: unset;
+	left: 32px;
+}
+
+
+.rtl .input_box.search_bar {
+    right: unset;
+    left: 100%;
+    margin-right: 0;
+    margin-left: -30px;
+}
+
+.rtl .boardroom_lowver_text_pofile a img {
+    margin-right: 0;
+    margin-left: 10px;
+}
+
+.rtl .gender_box h4 {margin-right: 0; margin-left: 64px;}
+.rtl .gender_box .form-check { margin: 0 0 0 36px;}
+
+.rtl .input_check_box label::before{
+	right: 0;
+	left: unset;
+}
+.rtl .input_check_box label::after{
+	right: 3px;
+	left: unset;
+}
+.rtl .custom_checkbox_list .input_check_box label::after {
+	left: unset;
+	right: 3px;
+}
+.rtl .input_check_box label {
+	padding: 0 30px 0 0;
+}
+
+.rtl .my_collection_search_bar .icon_search_box {
+	margin-right: 0;
+	margin-left: 24px;
+}
+.rtl .contact_details li svg {
+    margin-right: 0;
+    margin-left: 6px;
+}
+.rtl .download_icon {
+	right: unset;
+	left: 20px;
+}
+.rtl .pdf_icon {
+    margin-right: 0;
+    margin-left: 12px;
+}
+.rtl span.locatin_zone {
+	text-align: left;
+}
+
+
+
+.rtl .input_check_box label::before{
+	right: 0;
+	left: unset;
+}
+/*Add New css RTL*/
+.rtl .login_check_box .input_check_box label::after {
+	right: 3px;
+	left: unset;
+}
+.rtl .input_check_box label::after {
+    left: unset;
+    right: 3px;
+}
+.rtl .participants_list_box {
+     padding: 17px 39px 15px 25px;
+ }
+
+.rtl .icon_submitted {
+    margin-right: unset;
+    margin-left:23px;
+}
+
+.rtl .next_previous_btn .next_btn svg {
+    transform: scaleX(-1);
+}
+
+.rtl .icon_submitted {
+    margin-right: unset;
+    margin-left: 23px;
+}
+.rtl .result_box_inr {
+    padding-left: unset;
+    padding-right: 23px;
+}
+.rtl .result_box_inr:before {
+    left: unset;
+    right: 0;
+}
+.rtl .leaderboard_list h4 {
+    padding-left: 0;
+    padding-right: 12px;
+}
+.rtl .leaderboard_list {
+    padding: 8px 25px 8px 98px;
+}
+.rtl .leaderboard_titles {
+    padding: 22px 77px 15px 98px;
+}
+
+.rtl .view_leadderboard svg {
+    transform: scaleX(-1);
+}
+.rtl .input_box.search_bar input[type="text"] {
+    padding-left: 35px;
+    padding-right: 14px;
+}
+
+.rtl  .input_check_box input {
+    right: 0;
+    left: unset;
+}
+
+.rtl span.locatin_zone svg {
+    margin-right: 0;
+    margin-left: 8px;
+}
+
+
+/* 7-7-2021 */
+
+.rtl .favorite_sessions_halls {
+    margin-left: 20px;
+    margin-right: auto;
+}
+.rtl .hall_list_content_new {
+    margin: 0;
+    padding: 0 0 0 20px;
+}
+.rtl .event_join_link_box {
+    margin-left: unset;
+    margin-right: auto;
+}
+.rtl .live span:after {
+    right: unset;
+    left: -5px;
+}
+
+.rtl .halls_stage_listing_box_img {
+    margin-right: unset;
+    margin-left: 5px;
+}
+.rtl .live {
+    text-align: left;
+} 
+
+

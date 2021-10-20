@@ -6,7 +6,7 @@
 		<div class="wrapper account_wrapper">
 			<h2>My Collections</h2>
 			<div class="participants_tabs_box account_tabs_box hall_agenda_tabs_box">
-				<ul class="tabs_nav_box nav p-0 d-flex" id="ex1" role="tablist">
+				<ul class="tabs_nav_box nav p-0 d-flex my_collections_tab_list" id="ex1" role="tablist">
 				    <li class="nav-item" role="presentation">
 						<a class="nav-link active" id="Basic1" data-mdb-toggle="tab" href="#Basic" role="tab" aria-controls="Basic1" aria-selected="true">
 							Business Cards
@@ -1282,138 +1282,157 @@
 							</a>
 						</div>
 						<div class="my_collection_inr products_collection">		
-							<div class="row info_row">
-								<div class="col-lg-6 col-md-6">
-									<a href="#." class="my_collection_otr products_otr_collection  d-flex align-items-center"  data-mdb-toggle="modal" data-mdb-target="#my-collection-popup">
-										<div class="my_collection_img">
-											<img src="img/products_collection1.png" alt="">
-										</div>
-										<div class="my_collection_text">
-											<div class="my_collection_name d-flex align-self-start">
-												<div class="my_collection_left">
-													<h4>Netus mattis sit</h4>
-													<p>Diam nunc vitae urna leo et dolor, cum lectus netus. Ligula volutpat rhoncus morbi ut. Sit sodales ut natoque ornare nunc maecenas ut euismod magna.oque ornare nunc maecenas ut euismod magna.</p>
+							<div class="favsessions_ft">
+								<div class="favsessions_ft_inr">
+									<div class="favsessions_ft_left d-flex align-items-center">
+										<h4><span>Conference </span>Virtual Registration </h4>
+									</div>
+									<div class="speakers_pofile_box">
+										<div class="speakers_box_info">
+											<a href="#." class="speakers_box_info_col d-flex align-items-center ">
+												<span><img src="img/test_img.jpg" alt=""></span>
+												<span><img src="img/speakers_pofile_box2.png" alt=""></span>
+												<span><img src="img/speakers_pofile_box3.png" alt=""></span>
+												<small>+1</small>
+												<div class="speakers_open_pofile">
+													<h4>SPEAKERS</h4>
+													<div class="speakers_open_pofile_box d-flex flex-wrap justify-content-between">
+														<div class="speakers_open_pofile_box_inr">
+															<img src="img/speakers_open_pofile1.png" alt="">
+														</div>
+														<div class="speakers_open_pofile_box_inr">
+															<img src="img/speakers_open_pofile2.png" alt="">
+														</div>
+														<div class="speakers_open_pofile_box_inr">
+															<img src="img/speakers_open_pofile3.png" alt="">
+														</div>
+														<div class="speakers_open_pofile_box_inr">
+															<img src="img/speakers_open_pofile4.png" alt="">
+														</div>
+														<div class="open_speakers_pofile_list_details">
+																<div class="list_pofile_box d-flex align-items-start">
+																	<div class="list_pofile_img">
+																		<img src="img/list_pofile_img1.png" alt="">
+																	</div>
+																	<div class="list_pofile_text">
+																		<h4>Guy Hawkins</h4>
+																		<small>Sr. Partner Systems,</small>
+																		<small>Dell Systmes</small>
+																	</div>
+																	<div class="Close_pofile_details_open">
+																		<svg width="12" height="12" viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+																			<path d="M11 1L1 11M1 1L11 11" stroke="#656185" stroke-width="1.5"/>
+																		</svg>
+																	</div>
+																</div>
+																<div class="more_speakers_img d-flex align-items-center flex-wrap">
+																	<div class="more_speakers_title">
+																		MORE SPEAKERS
+																	</div>	
+																	<span><img src="img/speakers_open_pofile3.png" alt=""></span>
+																	<span><img src="img/speakers_open_pofile4.png" alt=""></span>
+																	<span><img src="img/speakers_open_pofile2.png" alt=""></span>
+																</div>
+															</div>
+													</div>
 												</div>
-												<span class="arrow_collection">
-													<svg width="9" height="14" viewBox="0 0 9 14" fill="none" xmlns="http://www.w3.org/2000/svg">
-														<path d="M1 1L7 7L1 13" stroke="#DB604B" stroke-width="1.5"/>
-													</svg>
-												</span>	
-											</div>
-											<div class="download_icon">
-												<svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
-													<g clip-path="url(#clip0)">
-													<path d="M16.6339 6.05068C16.69 5.75003 16.7184 5.44486 16.7188 5.13901C16.7153 2.29847 14.4099 -0.00147107 11.5693 0.00195695C9.40694 0.00455622 7.47716 1.35938 6.74017 3.39227C5.42061 2.86699 3.92505 3.51085 3.39973 4.83042C3.35427 4.94463 3.31705 5.06194 3.28838 5.18147C1.18139 5.49658 -0.271184 7.46008 0.04393 9.56707C0.326534 11.4567 1.94991 12.8548 3.86056 12.854H7.0751C7.43018 12.854 7.71802 12.5661 7.71802 12.2111C7.71802 11.856 7.43018 11.5681 7.0751 11.5681H3.86056C2.44027 11.5681 1.2889 10.4168 1.2889 8.99648C1.2889 7.57618 2.44027 6.42482 3.86056 6.42482C4.21564 6.42482 4.50348 6.13698 4.50348 5.7819C4.50465 5.07177 5.08127 4.49703 5.7914 4.4982C6.12723 4.49876 6.44954 4.63069 6.68935 4.86575C6.94223 5.11498 7.3493 5.112 7.59853 4.85912C7.6921 4.76415 7.75385 4.64248 7.77521 4.51086C8.12418 2.41136 10.109 0.992315 12.2085 1.3413C14.308 1.69028 15.7271 3.67514 15.3781 5.77463C15.3573 5.89981 15.3303 6.02389 15.2973 6.1464C15.2233 6.41476 15.3305 6.70019 15.5628 6.85359C16.7463 7.63883 17.0691 9.23482 16.2838 10.4183C15.8085 11.1346 15.0067 11.566 14.1471 11.5681H12.2184C11.8633 11.5681 11.5754 11.8559 11.5754 12.211C11.5754 12.5661 11.8633 12.8539 12.2184 12.8539H14.1471C16.2775 12.8519 18.0029 11.1232 18.0009 8.99278C17.9999 7.85886 17.4999 6.7828 16.6339 6.05068Z" fill="#DB604B"/>
-													<path d="M13.3001 13.6846C13.0509 13.444 12.6559 13.444 12.4068 13.6846L10.2884 15.8017V6.42417C10.2884 6.06909 10.0006 5.78125 9.64549 5.78125C9.2904 5.78125 9.00256 6.06909 9.00256 6.42417V15.8017L6.88544 13.6845C6.63004 13.4379 6.22304 13.4449 5.97638 13.7003C5.73574 13.9495 5.73574 14.3444 5.97638 14.5936L9.19092 17.8081C9.44165 18.0595 9.84876 18.06 10.1001 17.8093C10.1005 17.8089 10.1009 17.8085 10.1013 17.8081L13.3158 14.5936C13.5625 14.3382 13.5555 13.9312 13.3001 13.6846Z" fill="#DB604B"/>
-													</g>
-													<defs>
-													<clipPath id="clip0">
-													<rect width="18" height="18" fill="white"/>
-													</clipPath>
-													</defs>
-												</svg>
-											</div>			
+											</a>
 										</div>
-									</a>
+									</div>
+									<div class="favsessions_time_right">
+										<h5>08:30 am to 09:30am</h5>
+									</div>
 								</div>
-								<div class="col-lg-6 col-md-6">
-									<a href="#." class="my_collection_otr products_otr_collection  d-flex align-items-center"  data-mdb-toggle="modal" data-mdb-target="#my-collection-popup">
-										<div class="my_collection_img">
-											<img src="img/products_collection2.png" alt="">
-										</div>
-										<div class="my_collection_text">
-											<div class="my_collection_name d-flex align-self-start">
-												<div class="my_collection_left">
-													<h4>Aliquam morbi metus</h4>
-													<p>Diam nunc vitae urna leo et dolor, cum lectus netus. Ligula volutpat rhoncus morbi ut. Sit sodales ut natoque ornare nunc maecenas ut euismod magna.</p>
+								<div class="favsessions_ft_inr">
+									<div class="favsessions_ft_left d-flex align-items-center">
+										<h4><span>Panel Discussion: Driving Businesses to Reassess their Transformation Roadmap </span>Driving Businesses to Reassess their Transformation Roadmap</h4>
+									</div>
+									<div class="speakers_pofile_box">
+										<div class="speakers_box_info">
+											<a href="#." class="speakers_box_info_col d-flex align-items-center ">
+												<span><img src="img/test_img.jpg" alt=""></span>
+												<span><img src="img/speakers_pofile_box2.png" alt=""></span>
+												<span><img src="img/speakers_pofile_box3.png" alt=""></span>
+												<small>+1</small>
+												<div class="speakers_open_pofile">
+													<h4>SPEAKERS</h4>
+													<div class="speakers_open_pofile_box d-flex flex-wrap justify-content-between">
+														<div class="speakers_open_pofile_box_inr">
+															<img src="img/speakers_open_pofile1.png" alt="">
+														</div>
+														<div class="speakers_open_pofile_box_inr">
+															<img src="img/speakers_open_pofile2.png" alt="">
+														</div>
+														<div class="speakers_open_pofile_box_inr">
+															<img src="img/speakers_open_pofile3.png" alt="">
+														</div>
+														<div class="speakers_open_pofile_box_inr">
+															<img src="img/speakers_open_pofile4.png" alt="">
+														</div>
+														<div class="open_speakers_pofile_list_details">
+																<div class="list_pofile_box d-flex align-items-start">
+																	<div class="list_pofile_img">
+																		<img src="img/list_pofile_img1.png" alt="">
+																	</div>
+																	<div class="list_pofile_text">
+																		<h4>Guy Hawkins</h4>
+																		<small>Sr. Partner Systems,</small>
+																		<small>Dell Systmes</small>
+																	</div>
+																	<div class="Close_pofile_details_open">
+																		<svg width="12" height="12" viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+																			<path d="M11 1L1 11M1 1L11 11" stroke="#656185" stroke-width="1.5"/>
+																		</svg>
+																	</div>
+																</div>
+																<div class="more_speakers_img d-flex align-items-center flex-wrap">
+																	<div class="more_speakers_title">
+																		MORE SPEAKERS
+																	</div>	
+																	<span><img src="img/speakers_open_pofile3.png" alt=""></span>
+																	<span><img src="img/speakers_open_pofile4.png" alt=""></span>
+																	<span><img src="img/speakers_open_pofile2.png" alt=""></span>
+																</div>
+															</div>
+													</div>
 												</div>
-												<span class="arrow_collection">
-													<svg width="9" height="14" viewBox="0 0 9 14" fill="none" xmlns="http://www.w3.org/2000/svg">
-														<path d="M1 1L7 7L1 13" stroke="#DB604B" stroke-width="1.5"/>
-													</svg>
-												</span>	
-											</div>
-											<div class="download_icon">
-												<svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
-													<g clip-path="url(#clip0)">
-													<path d="M16.6339 6.05068C16.69 5.75003 16.7184 5.44486 16.7188 5.13901C16.7153 2.29847 14.4099 -0.00147107 11.5693 0.00195695C9.40694 0.00455622 7.47716 1.35938 6.74017 3.39227C5.42061 2.86699 3.92505 3.51085 3.39973 4.83042C3.35427 4.94463 3.31705 5.06194 3.28838 5.18147C1.18139 5.49658 -0.271184 7.46008 0.04393 9.56707C0.326534 11.4567 1.94991 12.8548 3.86056 12.854H7.0751C7.43018 12.854 7.71802 12.5661 7.71802 12.2111C7.71802 11.856 7.43018 11.5681 7.0751 11.5681H3.86056C2.44027 11.5681 1.2889 10.4168 1.2889 8.99648C1.2889 7.57618 2.44027 6.42482 3.86056 6.42482C4.21564 6.42482 4.50348 6.13698 4.50348 5.7819C4.50465 5.07177 5.08127 4.49703 5.7914 4.4982C6.12723 4.49876 6.44954 4.63069 6.68935 4.86575C6.94223 5.11498 7.3493 5.112 7.59853 4.85912C7.6921 4.76415 7.75385 4.64248 7.77521 4.51086C8.12418 2.41136 10.109 0.992315 12.2085 1.3413C14.308 1.69028 15.7271 3.67514 15.3781 5.77463C15.3573 5.89981 15.3303 6.02389 15.2973 6.1464C15.2233 6.41476 15.3305 6.70019 15.5628 6.85359C16.7463 7.63883 17.0691 9.23482 16.2838 10.4183C15.8085 11.1346 15.0067 11.566 14.1471 11.5681H12.2184C11.8633 11.5681 11.5754 11.8559 11.5754 12.211C11.5754 12.5661 11.8633 12.8539 12.2184 12.8539H14.1471C16.2775 12.8519 18.0029 11.1232 18.0009 8.99278C17.9999 7.85886 17.4999 6.7828 16.6339 6.05068Z" fill="#DB604B"/>
-													<path d="M13.3001 13.6846C13.0509 13.444 12.6559 13.444 12.4068 13.6846L10.2884 15.8017V6.42417C10.2884 6.06909 10.0006 5.78125 9.64549 5.78125C9.2904 5.78125 9.00256 6.06909 9.00256 6.42417V15.8017L6.88544 13.6845C6.63004 13.4379 6.22304 13.4449 5.97638 13.7003C5.73574 13.9495 5.73574 14.3444 5.97638 14.5936L9.19092 17.8081C9.44165 18.0595 9.84876 18.06 10.1001 17.8093C10.1005 17.8089 10.1009 17.8085 10.1013 17.8081L13.3158 14.5936C13.5625 14.3382 13.5555 13.9312 13.3001 13.6846Z" fill="#DB604B"/>
-													</g>
-													<defs>
-													<clipPath id="clip0">
-													<rect width="18" height="18" fill="white"/>
-													</clipPath>
-													</defs>
-												</svg>
-											</div>			
+											</a>
 										</div>
-									</a>
-								</div>
-								<div class="col-lg-6 col-md-6">
-									<a href="#." class="my_collection_otr products_otr_collection  d-flex align-items-center"  data-mdb-toggle="modal" data-mdb-target="#my-collection-popup">
-										<div class="my_collection_img">
-											<img src="img/products_collection3.png" alt="">
+									</div>
+									<div class="favsessions_time_right">
+										<h5>09:30 am to 09:45am</h5>
+									</div>
+									<div class="arrow_icon_box">
+										<div class="Open_content_arrow">
+											<svg width="14" height="9" viewBox="0 0 14 9" fill="none" xmlns="http://www.w3.org/2000/svg">
+												<path d="M13 1L7 7L0.999999 1" stroke="#DB604B" stroke-width="1.5"></path>
+											</svg>
 										</div>
-										<div class="my_collection_text">
-											<div class="my_collection_name d-flex align-self-start">
-												<div class="my_collection_left">
-													<h4>Molestie amet viverra</h4>
-													<p>Diam nunc vitae urna leo et dolor, cum lectus netus. Ligula volutpat rhoncus morbi ut. Sit sodales ut natoque ornare nunc maecenas ut euismod magna.</p>
-												</div>
-												<span class="arrow_collection">
-													<svg width="9" height="14" viewBox="0 0 9 14" fill="none" xmlns="http://www.w3.org/2000/svg">
-														<path d="M1 1L7 7L1 13" stroke="#DB604B" stroke-width="1.5"/>
-													</svg>
-												</span>	
-											</div>
-											<div class="download_icon">
-												<svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
-													<g clip-path="url(#clip0)">
-													<path d="M16.6339 6.05068C16.69 5.75003 16.7184 5.44486 16.7188 5.13901C16.7153 2.29847 14.4099 -0.00147107 11.5693 0.00195695C9.40694 0.00455622 7.47716 1.35938 6.74017 3.39227C5.42061 2.86699 3.92505 3.51085 3.39973 4.83042C3.35427 4.94463 3.31705 5.06194 3.28838 5.18147C1.18139 5.49658 -0.271184 7.46008 0.04393 9.56707C0.326534 11.4567 1.94991 12.8548 3.86056 12.854H7.0751C7.43018 12.854 7.71802 12.5661 7.71802 12.2111C7.71802 11.856 7.43018 11.5681 7.0751 11.5681H3.86056C2.44027 11.5681 1.2889 10.4168 1.2889 8.99648C1.2889 7.57618 2.44027 6.42482 3.86056 6.42482C4.21564 6.42482 4.50348 6.13698 4.50348 5.7819C4.50465 5.07177 5.08127 4.49703 5.7914 4.4982C6.12723 4.49876 6.44954 4.63069 6.68935 4.86575C6.94223 5.11498 7.3493 5.112 7.59853 4.85912C7.6921 4.76415 7.75385 4.64248 7.77521 4.51086C8.12418 2.41136 10.109 0.992315 12.2085 1.3413C14.308 1.69028 15.7271 3.67514 15.3781 5.77463C15.3573 5.89981 15.3303 6.02389 15.2973 6.1464C15.2233 6.41476 15.3305 6.70019 15.5628 6.85359C16.7463 7.63883 17.0691 9.23482 16.2838 10.4183C15.8085 11.1346 15.0067 11.566 14.1471 11.5681H12.2184C11.8633 11.5681 11.5754 11.8559 11.5754 12.211C11.5754 12.5661 11.8633 12.8539 12.2184 12.8539H14.1471C16.2775 12.8519 18.0029 11.1232 18.0009 8.99278C17.9999 7.85886 17.4999 6.7828 16.6339 6.05068Z" fill="#DB604B"/>
-													<path d="M13.3001 13.6846C13.0509 13.444 12.6559 13.444 12.4068 13.6846L10.2884 15.8017V6.42417C10.2884 6.06909 10.0006 5.78125 9.64549 5.78125C9.2904 5.78125 9.00256 6.06909 9.00256 6.42417V15.8017L6.88544 13.6845C6.63004 13.4379 6.22304 13.4449 5.97638 13.7003C5.73574 13.9495 5.73574 14.3444 5.97638 14.5936L9.19092 17.8081C9.44165 18.0595 9.84876 18.06 10.1001 17.8093C10.1005 17.8089 10.1009 17.8085 10.1013 17.8081L13.3158 14.5936C13.5625 14.3382 13.5555 13.9312 13.3001 13.6846Z" fill="#DB604B"/>
-													</g>
-													<defs>
-													<clipPath id="clip0">
-													<rect width="18" height="18" fill="white"/>
-													</clipPath>
-													</defs>
-												</svg>
-											</div>			
+										<div class="ContentBox">
+											<p>COVID-19 continues to change the working world as we know it. This next normal introduced—and for some, reinforced—the value of working from home, digital transformation and process automation</p>
+											<p> Create centres of excellence (COEs) for data/analytics, AI, machine learning (ML), and workflow and task automation</p>
+											<p>• Understanding the value of Customer Data Platforms</p>
+											<p>• Move from single architecture cloud to a multi-tenant, multi-architecture cloud and hybrid clouds</p>
+											<p>• Democratization of AI by improving access and encouraging adoption</p>
+											<p>• Use of IoT-based digital twins (digital replicas) in production and supply chains</p>
+											<p>• Plan for the evolution from directed digital workers to hybrid digital/human workers to self-governing digital workers</p>
+											<p>• Making the ‘Information Security’ a part of the overall design rather than a post facto check
+											<p>Panelists<br></p>
+											<p>Ganesh Ramachandran<br> </p>
+											<p>Global CIO, Alkem Lab Ltd<br>
+											<p>Sarath Kummamuru<br> </p>
+											<p>CIO, Airtel Payments Bank<br>
+											<p>Gautam Garg<br> </p>
+											<p>CIO &amp; Sr Director, PepsiCo<br></p>
+											<p>Atanu Roy<br> </p>
+											<p>Group CIO, Biocon Group<br></p>
+											<p>Sanjiv Mehta<br> </p>
+											<p>Country Manager, AMD<br></p>
+											<p>Moderator<br>
+											<p>Ninad Raje<br></p>
+											<p>Director &amp; CIO, Health Assure<br></p>
 										</div>
-									</a>
-								</div>
-								<div class="col-lg-6 col-md-6">
-									<a href="#." class="my_collection_otr products_otr_collection  d-flex align-items-center"  data-mdb-toggle="modal" data-mdb-target="#my-collection-popup">
-										<div class="my_collection_img">
-											<img src="img/products_collection4.png" alt="">
-										</div>
-										<div class="my_collection_text">
-											<div class="my_collection_name d-flex align-self-start">
-												<div class="my_collection_left">
-													<h4>Aliquam morbi metus</h4>
-													<p>Diam nunc vitae urna leo et dolor, cum lectus netus. Ligula volutpat rhoncus morbi ut. Sit sodales ut natoque ornare nunc maecenas ut euismod magna.</p>
-												</div>
-												<span class="arrow_collection">
-													<svg width="9" height="14" viewBox="0 0 9 14" fill="none" xmlns="http://www.w3.org/2000/svg">
-														<path d="M1 1L7 7L1 13" stroke="#DB604B" stroke-width="1.5"/>
-													</svg>
-												</span>	
-											</div>
-											<div class="download_icon">
-												<svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
-													<g clip-path="url(#clip0)">
-													<path d="M16.6339 6.05068C16.69 5.75003 16.7184 5.44486 16.7188 5.13901C16.7153 2.29847 14.4099 -0.00147107 11.5693 0.00195695C9.40694 0.00455622 7.47716 1.35938 6.74017 3.39227C5.42061 2.86699 3.92505 3.51085 3.39973 4.83042C3.35427 4.94463 3.31705 5.06194 3.28838 5.18147C1.18139 5.49658 -0.271184 7.46008 0.04393 9.56707C0.326534 11.4567 1.94991 12.8548 3.86056 12.854H7.0751C7.43018 12.854 7.71802 12.5661 7.71802 12.2111C7.71802 11.856 7.43018 11.5681 7.0751 11.5681H3.86056C2.44027 11.5681 1.2889 10.4168 1.2889 8.99648C1.2889 7.57618 2.44027 6.42482 3.86056 6.42482C4.21564 6.42482 4.50348 6.13698 4.50348 5.7819C4.50465 5.07177 5.08127 4.49703 5.7914 4.4982C6.12723 4.49876 6.44954 4.63069 6.68935 4.86575C6.94223 5.11498 7.3493 5.112 7.59853 4.85912C7.6921 4.76415 7.75385 4.64248 7.77521 4.51086C8.12418 2.41136 10.109 0.992315 12.2085 1.3413C14.308 1.69028 15.7271 3.67514 15.3781 5.77463C15.3573 5.89981 15.3303 6.02389 15.2973 6.1464C15.2233 6.41476 15.3305 6.70019 15.5628 6.85359C16.7463 7.63883 17.0691 9.23482 16.2838 10.4183C15.8085 11.1346 15.0067 11.566 14.1471 11.5681H12.2184C11.8633 11.5681 11.5754 11.8559 11.5754 12.211C11.5754 12.5661 11.8633 12.8539 12.2184 12.8539H14.1471C16.2775 12.8519 18.0029 11.1232 18.0009 8.99278C17.9999 7.85886 17.4999 6.7828 16.6339 6.05068Z" fill="#DB604B"/>
-													<path d="M13.3001 13.6846C13.0509 13.444 12.6559 13.444 12.4068 13.6846L10.2884 15.8017V6.42417C10.2884 6.06909 10.0006 5.78125 9.64549 5.78125C9.2904 5.78125 9.00256 6.06909 9.00256 6.42417V15.8017L6.88544 13.6845C6.63004 13.4379 6.22304 13.4449 5.97638 13.7003C5.73574 13.9495 5.73574 14.3444 5.97638 14.5936L9.19092 17.8081C9.44165 18.0595 9.84876 18.06 10.1001 17.8093C10.1005 17.8089 10.1009 17.8085 10.1013 17.8081L13.3158 14.5936C13.5625 14.3382 13.5555 13.9312 13.3001 13.6846Z" fill="#DB604B"/>
-													</g>
-													<defs>
-													<clipPath id="clip0">
-													<rect width="18" height="18" fill="white"/>
-													</clipPath>
-													</defs>
-												</svg>
-											</div>			
-										</div>
-									</a>
+									</div>
 								</div>
 							</div>
 						</div>
@@ -1431,7 +1450,7 @@
 	<div class="modal-dialog modal-dialog-centered modal_speakers_popup">
 		<div class="modal-content">
 			<div class="modal-header speakers_zone_popup d-flex flex-wrap align-items-start">
-				<svg width="9" height="14" viewBox="0 0 9 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+				<svg data-mdb-dismiss="modal" aria-label="Close" class="RotedIcon" width="9" height="14" viewBox="0 0 9 14" fill="none" xmlns="http://www.w3.org/2000/svg">
 					<path d="M8 1L2 7L8 13" stroke="#DB604B" stroke-width="1.5"></path>
 				</svg>
 				<div class="details_pofile_speakers d-flex ">

@@ -42,14 +42,17 @@
 						<div class="login_page_btn">
 							<a href="FlyIn-Video.php" class="blue_btn BtnWidth">Login</a>
 						</div>				
+						<div class="small_pera_login text-center">
+							<p>Are you a exhibitor? To access exhibitor admin panel, <a href="#."> Go here.</a> </p>
+						</div>
 					</div>
 				</div>
 				<div class="login_power_box d-flex align-items-center justify-content-between">
 					<div class="logo_power_inr_box d-flex justify-content-center align-items-center">
 						<span>Powered by</span>
-						<img src="img/powered_by.svg" alt="">
+						<img src="img/vmeets-logo-power.png" alt="">
 					</div>
-					<p>©2020 All Rights Reserved. VMeets®</p>
+					<p>©<?php echo date("Y"); ?> Vmeets™. All rights reserved.</p>
 				</div>
 			</div>
 		</div>

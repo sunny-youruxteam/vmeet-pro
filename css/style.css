@@ -459,7 +459,7 @@ a.main_notification_close {position: absolute; top: 11px; right: 20px;}
 /* Notification */
 .notification_box { position: relative; }
 .notification_popup { position: absolute; right: -52px; top: 52px; min-width: 505px; background: #FFFFFF; box-shadow: 0px 4px 34px rgb(0 0 0 / 45%); border-radius: 10px; display: none; opacity: 0;}
-.notification_title { padding: 20px 28px 20px 33px; border-bottom: 1px solid rgb(195 203 224 / 30%); }
+.notification_title { padding: 20px 28px 20px 33px; border-bottom: 1px solid rgb(195 203 224 / 30%); position: sticky; top: 0; background: #fff; z-index: 999;}
 .notification_text_box { padding:0 28px 0 !important; }
 .notification_inr { display: flex; align-items: center; justify-content: start; padding: 16px 0; border-bottom: 1px solid rgb(195 203 224 / 30%); }
 .notification_inr:last-child { border: 0; }
@@ -847,7 +847,7 @@ button.slick-arrow{font-size:0;padding:0;  position:absolute;top:50%;left:0;tran
     align-items: center;
 }
 .tabs_box_side_notes li { margin-top: 10px;}
-.content_sectin_side_notes { padding: 16px; display: flex; align-items: flex-end; flex-wrap: wrap;}
+.content_sectin_side_notes { padding: 16px; display: flex; align-items: flex-end; flex-wrap: wrap;background: #fff; z-index: 99;}
 .down_notes_box_inr p { color: #2F2B4B; font-size: 16px; line-height: 20px; }
 .down_notes_box { padding: 12px 10px; border-bottom: 1px solid #F5F4F8; }
 .down_time_box span { font-family: IBM Plex Sans; font-style: normal; font-weight: 500; font-size: 14px; line-height: 24px; color: #2F2B4B; }
@@ -856,7 +856,7 @@ button.slick-arrow{font-size:0;padding:0;  position:absolute;top:50%;left:0;tran
 
 .tabs_box_side_notes li.active a {color: #4DC0F1; font-weight: 500; background: #fff;}
 .hall_agenda_main .inner_top_section{overflow:hidden;}
-.Close_side_penal{background:#F5F4F8;padding:0;border-radius:100%;height:31px;width:31px;position:absolute;top:22px;right:22px;display:flex;justify-content:center;align-items:center;}
+.Close_side_penal{background:#F5F4F8;padding:0;border-radius:100%;height:31px;width:31px;position:absolute;top:22px;right:22px;display:flex;justify-content:center;align-items:center;z-index: 999;}
 /***********************  Halls Agenda  *********************/
 
 

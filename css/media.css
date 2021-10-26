@@ -876,6 +876,14 @@
 			padding: 6px 20px;
 			font-size: 13px;
 		}
+
+		.tabs_box_side_notes {
+			bottom: 60px;
+			min-width: 300px;
+		}
+		.halls_agenda {
+			bottom: 60px;
+		}
 	}
 
 	@media screen and (max-height:374px){

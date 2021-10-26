@@ -758,7 +758,7 @@ button.slick-arrow{font-size:0;padding:0;  position:absolute;top:50%;left:0;tran
 /***********************  Conferene Zone  *********************/
 
 /***********************  Halls Agenda  *********************/
-.halls_agenda { position: absolute;left: 50%; bottom: 126px; transform: translateX(-50%); z-index:999999999999;}
+.halls_agenda { position: fixed;left: 50%; bottom: 126px; transform: translateX(-50%); z-index:99999; }
 .halls_agenda .white_btn { display: inline-block; border-radius: 4px; background: rgba(255, 255, 255, 0.49); text-transform: capitalize; }
 .agenda_popup_box { max-width: 1124px !important; }
 .agenda-category-box { padding: 16px; border-top: 1px solid rgb(195 203 224 / 30%); margin: 0 -15px; }
@@ -832,7 +832,7 @@ button.slick-arrow{font-size:0;padding:0;  position:absolute;top:50%;left:0;tran
     transition: all ease 0.4s 0s;
     border-radius: 0 0 0 4px;
 }
-.modal { z-index: 99999; }
+.modal { z-index: 9999999;}
 /* .tabs_box_side_notes li a { writing-mode: tb-rl; padding: 0 8px; background: #F5F4F8; border-radius: 4px; font-family: IBM Plex Sans; font-style: normal; font-weight: normal; font-size: 14px; line-height: 24px; align-items: center; text-align: center; color: #706A92; min-height: 125px; border-radius: 4px 0 0 4px; position: relative;} */
 /* .tabs_box_side_notes { position: absolute; left: -39px; display: flex; flex-wrap: wrap; flex-direction: column-reverse; bottom: 40px; } */
 .tabs_box_side_notes {
@@ -1726,7 +1726,7 @@ div#About_popup .content_box_inr_popup {
 .input_phone_number select { border: 0; background: url('../img/select_arrow2.svg')no-repeat center right; appearance: none; }
 .input_phone_number_country .input_phone_number { width: auto; position: absolute; left: 0; top: 50%; background: transparent; border: 0; padding: 0 15px; border-right: 1px solid #dbe2f4; border-radius: 0; height: auto; appearance: none; transform: translateY(-50%); }
 .fix_menu { max-width: 1254px; margin: 0 auto; }
-.side_notes_sectin { z-index: 999999999999; }
+.side_notes_sectin { z-index: 9999999; }
 .boardroom_halls_member_item_img img { border-radius: 100%; }
 .custom_checkbox_list .input_check_box label::after { top: 5px;}
 
@@ -1975,7 +1975,7 @@ input[type="date" i]::-webkit-calendar-picker-indicator {
 .close_all_btn { font-style: normal; font-weight: 500; font-size: 14px; line-height: 18px; color: #F27B7B; padding: 5px 10px; background: #FFFFFF; border: 1px solid #fff; border-radius: 30px; transition: all ease 0.4s 0s; }
 .close_all_btn:hover { background: #F27B7B; border-color: #F27B7B; color: #fff; }
 .notification_popup .close_all_btn, .feed_menu_box_open .close_all_btn { position: absolute; top: 100%; margin: 10px 0; }
-.feed_menu { position: fixed; z-index: 999; right: 50px; bottom: 80px; }
+.feed_menu { position: fixed; z-index:999999999; right: 50px; bottom: 80px; }
 .feed_title ul li { display: inline-block; margin-right: 24px; }
 .feed_title ul li a { font-weight: 500; font-size: 14px; line-height: 18px; text-transform: capitalize; color: #626571; }
 .feed_title ul li a span { margin-left: 10px; }
@@ -3164,7 +3164,9 @@ div#Agenda {
 
 
 /*  */
-
+.side_notes_sectin {
+    z-index: 99999;
+}
 div#userprofileModal {
     z-index: 999999999;
 }

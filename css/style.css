@@ -3544,3 +3544,8 @@ div#SelfieStationBgSelect {
     width: 100%;
     height: 350px;
 }
+
+.select2-container {
+    display:block;
+    width: 100% !important;
+}

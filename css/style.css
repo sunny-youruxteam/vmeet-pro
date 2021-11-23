@@ -1842,7 +1842,7 @@ input[type="date" i]::-webkit-calendar-picker-indicator {
 }
 .halls_stage_listing_box {
     display: flex;
-    align-items: center;
+    align-items: flex-start;
     padding: 10px;
 }
 .halls_stage_listing_box_img {
@@ -1851,6 +1851,7 @@ input[type="date" i]::-webkit-calendar-picker-indicator {
 .halls_stage_listing_box_img img {
     border-radius: 5px;
     overflow: hidden;
+    max-width:40px;
 }
 .halls_stage_listing_box_right {
     flex: 1;
@@ -3549,3 +3550,17 @@ div#SelfieStationBgSelect {
     display:block;
     width: 100% !important;
 }
+
+
+
+
+
+
+
+
+
+
+
+/*  */
+
+
